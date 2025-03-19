@@ -1,8 +1,8 @@
 use raster::filter;
 use raster::Image;
-use std::time::{SystemTime};
+use std::time::SystemTime;
 
-use{
+use {
     futures::future::lazy,
     futures::sync::*,
     futures::{stream, Future, Stream},
@@ -21,6 +21,7 @@ macro_rules! spawn_return {
 }
 
 pub fn tokio(dir_name: &str, threads: usize) {
+    let start = SystemTime::now();
     let dir_entries = std::fs::read_dir(format!("{}", dir_name));
     let mut all_images: Vec<raster::Image> = Vec::new();
 
@@ -33,9 +34,6 @@ pub fn tokio(dir_name: &str, threads: usize) {
         }
         all_images.push(raster::open(path.to_str().unwrap()).unwrap());
     }
-    
-
-    let start = SystemTime::now();
 
     let processing_pipeline = stream::iter_ok(all_images)
         .map(move |mut image: Image| {

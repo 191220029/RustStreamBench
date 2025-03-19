@@ -6,6 +6,8 @@ use std::time::SystemTime;
 use bzip2_sys;
 
 pub fn sequential(file_action: &str, file_name: &str) {
+    let start = SystemTime::now();
+
     let mut file = File::open(file_name).expect("No file found.");
 
     if file_action == "compress" {
@@ -22,8 +24,6 @@ pub fn sequential(file_action: &str, file_name: &str) {
         let mut pos_init: usize;
         let mut pos_end = 0;
         let mut bytes_left = buffer_input.len();
-
-        let start = SystemTime::now();
 
         while bytes_left > 0 {
             pos_init = pos_end;
@@ -57,11 +57,6 @@ pub fn sequential(file_action: &str, file_name: &str) {
             }
         }
 
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
-
         // write compressed data to file
         buf_write.write_all(&buffer_output).unwrap();
         // std::fs::remove_file(file_name).unwrap();
@@ -110,8 +105,6 @@ pub fn sequential(file_action: &str, file_name: &str) {
             queue_blocks.push((pos_init, pos_end));
         }
 
-        let start = SystemTime::now();
-
         // Stream region
         for block in queue_blocks {
             let buffer_slice = &buffer_input[block.0..block.1];
@@ -143,16 +136,22 @@ pub fn sequential(file_action: &str, file_name: &str) {
 
         // write decompressed data to file
         buf_write.write_all(&buffer_output).unwrap();
-        // std::fs::remove_file(file_name).unwrap();
+        std::fs::remove_file(file_name).unwrap();
     }
+
+    let system_duration = start.elapsed().expect("Failed to get render time?");
+    let in_sec = system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
+    println!("Execution time: {} sec", in_sec);
 }
 
 pub fn sequential_io(file_action: &str, file_name: &str) {
+    let start = SystemTime::now();
+
     let mut file = File::open(file_name).expect("No file found.");
 
     if file_action == "compress" {
-        let compressed_file_name = file_name.to_owned() + &".bz2";
-        let mut buf_write = File::create(compressed_file_name).unwrap();
+        // let compressed_file_name = file_name.to_owned() + &".bz2";
+        // let mut buf_write = File::create(compressed_file_name).unwrap();
         //let mut buffer_input = vec![];
         //let mut buffer_output = vec![];
 
@@ -164,8 +163,6 @@ pub fn sequential_io(file_action: &str, file_name: &str) {
         let mut pos_init: usize;
         let mut pos_end = 0;
         let mut bytes_left: usize = file.metadata().unwrap().len() as usize;
-
-        let start = SystemTime::now();
 
         while bytes_left > 0 {
             pos_init = pos_end;
@@ -198,23 +195,16 @@ pub fn sequential_io(file_action: &str, file_name: &str) {
 
                 // write stage
                 //buffer_output.extend(&output[0..bz_buffer.total_out_lo32 as usize]);
-                buf_write
-                    .write(&output[0..bz_buffer.total_out_lo32 as usize])
-                    .unwrap();
+                // buf_write
+                //     .write(&output[0..bz_buffer.total_out_lo32 as usize])
+                //     .unwrap();
             }
         }
 
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
-
         // write compressed data to file
-        //buf_write.write_all(&buffer_output).unwrap();
+        // buf_write.write_all(&buffer_output).unwrap();
         // std::fs::remove_file(file_name).unwrap();
     } else if file_action == "decompress" {
-        let start = SystemTime::now();
-
         // creating the decompressed file
         let decompressed_file_name = &file_name.to_owned()[..file_name.len() - 4];
         let mut buf_write = File::create(decompressed_file_name).unwrap();
@@ -286,13 +276,12 @@ pub fn sequential_io(file_action: &str, file_name: &str) {
             }
         }
 
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
-
         // write decompressed data to file
-        //buf_write.write_all(&buffer_output).unwrap();
+        // buf_write.write_all(&buffer_output).unwrap();
         // std::fs::remove_file(file_name).unwrap();
     }
+
+    let system_duration = start.elapsed().expect("Failed to get render time?");
+    let in_sec = system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
+    println!("Execution time: {} sec", in_sec);
 }

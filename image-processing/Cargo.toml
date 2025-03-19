@@ -12,6 +12,9 @@ readme = "README.md"
 [dependencies]
 # Core
 raster = "0.2.0"
+dagrs = { path = "/home/xiaolongfu/dagrs-perf/dagrs-NJU-fxl" }
+env_logger = "0.11.7"
+log = "0.4.26"
 
 # Rust-SSP
 rust-spp = { path = "~/../../libs/rust-ssp" }

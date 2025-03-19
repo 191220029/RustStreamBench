@@ -9,7 +9,7 @@ for((a=0;a<1000;a++)) do
 	cp inputs/big.jpg input_big/big$a.jpg
 done;
 
-#Small input
+#Big input
 for((a=0;a<1000;a++)) do
 	cp inputs/small.jpg input_small/small$a.jpg
 done;

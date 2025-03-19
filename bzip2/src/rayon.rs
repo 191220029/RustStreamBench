@@ -108,6 +108,8 @@ impl Iterator for EmitterDecompress {
 }
 
 pub fn rayon(threads: usize, file_action: &str, file_name: &str) {
+    let start = SystemTime::now();
+
     let mut file = File::open(file_name).expect("No file found.");
 
     if file_action == "compress" {
@@ -118,8 +120,6 @@ pub fn rayon(threads: usize, file_action: &str, file_name: &str) {
 
         // read data to memory
         file.read_to_end(&mut buffer_input).unwrap();
-
-        let start = SystemTime::now();
 
         rayon::ThreadPoolBuilder::new()
             .num_threads(threads)
@@ -149,11 +149,6 @@ pub fn rayon(threads: usize, file_action: &str, file_name: &str) {
             .collect();
 
         collection.sort_by_key(|content| content.order);
-
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
 
         // write stage
         for content in collection {
@@ -208,8 +203,6 @@ pub fn rayon(threads: usize, file_action: &str, file_name: &str) {
             queue_blocks.push((pos_init, pos_end));
         }
 
-        let start = SystemTime::now();
-
         rayon::ThreadPoolBuilder::new()
             .num_threads(threads)
             .build_global()
@@ -239,11 +232,6 @@ pub fn rayon(threads: usize, file_action: &str, file_name: &str) {
 
         collection.sort_by_key(|content| content.order);
 
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
-
         // write stage
         for content in collection {
             buffer_output.extend(&content.buffer_output[0..content.output_size as usize]);
@@ -253,4 +241,8 @@ pub fn rayon(threads: usize, file_action: &str, file_name: &str) {
         buf_write.write_all(&buffer_output).unwrap();
         std::fs::remove_file(file_name).unwrap();
     }
+
+    let system_duration = start.elapsed().expect("Failed to get render time?");
+    let in_sec = system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
+    println!("Execution time: {} sec", in_sec);
 }

@@ -146,11 +146,6 @@ pub fn std_threads(threads: usize, file_action: &str, file_name: &str) {
         // write compressed data to file
         buf_write.write_all(&buffer_output).unwrap();
         std::fs::remove_file(file_name).unwrap();
-
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
     } else if file_action == "decompress" {
         // creating the decompressed file
         let decompressed_file_name = &file_name.to_owned()[..file_name.len() - 4];
@@ -264,16 +259,16 @@ pub fn std_threads(threads: usize, file_action: &str, file_name: &str) {
 
         // write decompressed data to file
         buf_write.write_all(&buffer_output).unwrap();
-        // std::fs::remove_file(file_name).unwrap();
-
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
+        std::fs::remove_file(file_name).unwrap();
     }
+
+    let system_duration = start.elapsed().expect("Failed to get render time?");
+    let in_sec = system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
+    println!("Execution time: {} sec", in_sec);
 }
 
 pub fn std_threads_io(threads: usize, file_action: &str, file_name: &str) {
+    let start = SystemTime::now();
     let mut file = File::open(file_name).expect("No file found.");
 
     if file_action == "compress" {
@@ -286,8 +281,6 @@ pub fn std_threads_io(threads: usize, file_action: &str, file_name: &str) {
         let mut pos_end = 0;
         let mut bytes_left: usize = file.metadata().unwrap().len() as usize;
         let mut order = 0;
-
-        let start = SystemTime::now();
 
         let (queue1_send, queue1_recv) = bounded(512);
         let (queue2_send, queue2_recv) = bounded(512);
@@ -402,11 +395,6 @@ pub fn std_threads_io(threads: usize, file_action: &str, file_name: &str) {
         }
         stage3_thread.join().unwrap();
 
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
-
         std::fs::remove_file(file_name).unwrap();
     } else if file_action == "decompress" {
         // creating the decompressed file
@@ -452,8 +440,6 @@ pub fn std_threads_io(threads: usize, file_action: &str, file_name: &str) {
             bytes_left -= pos_end - pos_init;
             queue_blocks.push((pos_init, pos_end));
         }
-
-        let start = SystemTime::now();
 
         let (queue1_send, queue1_recv) = bounded(512);
         let (queue2_send, queue2_recv) = bounded(512);
@@ -556,11 +542,10 @@ pub fn std_threads_io(threads: usize, file_action: &str, file_name: &str) {
         }
         stage3_thread.join().unwrap();
 
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
-
         std::fs::remove_file(file_name).unwrap();
     }
+
+    let system_duration = start.elapsed().expect("Failed to get render time?");
+    let in_sec = system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
+    println!("Execution time: {} sec", in_sec);
 }

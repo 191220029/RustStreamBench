@@ -1,8 +1,10 @@
 use raster::filter;
 use raster::Image;
-use std::time::{SystemTime};
+use std::time::SystemTime;
 
 pub fn sequential(dir_name: &str) {
+    let start = SystemTime::now();
+
     let dir_entries = std::fs::read_dir(format!("{}", dir_name));
     let mut all_images: Vec<Image> = Vec::new();
 
@@ -15,8 +17,6 @@ pub fn sequential(dir_name: &str) {
         }
         all_images.push(raster::open(path.to_str().unwrap()).unwrap());
     }
-    
-    let start = SystemTime::now();
 
     for mut image in all_images.into_iter() {
         filter::saturation(&mut image, 0.2).unwrap();

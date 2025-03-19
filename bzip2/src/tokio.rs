@@ -122,12 +122,7 @@ pub fn tokio(threads: usize, file_action: &str, file_name: &str) {
 
         // write compressed data to file
         buf_write.write_all(&buffer_output).unwrap();
-        // std::fs::remove_file(file_name).unwrap();
-
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
+        std::fs::remove_file(file_name).unwrap();
     } else if file_action == "decompress" {
         // creating the decompressed file
         let decompressed_file_name = &file_name.to_owned()[..file_name.len() - 4];
@@ -238,13 +233,12 @@ pub fn tokio(threads: usize, file_action: &str, file_name: &str) {
 
         // write decompressed data to file
         buf_write.write_all(&buffer_output).unwrap();
-        // std::fs::remove_file(file_name).unwrap();
-
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
+        std::fs::remove_file(file_name).unwrap();
     }
+
+    let system_duration = start.elapsed().expect("Failed to get render time?");
+    let in_sec = system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
+    println!("Execution time: {} sec", in_sec);
 }
 
 pub fn tokio_io(threads: usize, file_action: &str, file_name: &str) {

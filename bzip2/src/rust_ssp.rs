@@ -31,6 +31,8 @@ impl In<Tcontent> for WriteOutput {
 }
 
 pub fn rust_ssp(threads: usize, file_action: &str, file_name: &str) {
+    let start = SystemTime::now();
+
     let mut file = File::open(file_name).expect("No file found.");
 
     if file_action == "compress" {
@@ -47,8 +49,6 @@ pub fn rust_ssp(threads: usize, file_action: &str, file_name: &str) {
         let mut pos_init: usize;
         let mut pos_end = 0;
         let mut bytes_left = buffer_input.len();
-
-        let start = SystemTime::now();
 
         let pipeline = pipeline![
             parallel!(
@@ -100,11 +100,6 @@ pub fn rust_ssp(threads: usize, file_action: &str, file_name: &str) {
         }
 
         let collection = pipeline.collect();
-
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
 
         // write stage
         for content in collection {
@@ -159,8 +154,6 @@ pub fn rust_ssp(threads: usize, file_action: &str, file_name: &str) {
             queue_blocks.push((pos_init, pos_end));
         }
 
-        let start = SystemTime::now();
-
         let pipeline = pipeline![
             parallel!(
                 move |mut content: Tcontent| {
@@ -202,11 +195,6 @@ pub fn rust_ssp(threads: usize, file_action: &str, file_name: &str) {
 
         let collection = pipeline.collect();
 
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
-
         // write stage
         for content in collection {
             buffer_output.extend(&content.buffer_output[0..content.output_size as usize]);
@@ -216,9 +204,15 @@ pub fn rust_ssp(threads: usize, file_action: &str, file_name: &str) {
         buf_write.write_all(&buffer_output).unwrap();
         std::fs::remove_file(file_name).unwrap();
     }
+
+    let system_duration = start.elapsed().expect("Failed to get render time?");
+    let in_sec = system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
+    println!("Execution time: {} sec", in_sec);
 }
 
 pub fn rust_ssp_io(threads: usize, file_action: &str, file_name: &str) {
+    let start = SystemTime::now();
+
     let mut file = File::open(file_name).expect("No file found.");
 
     if file_action == "compress" {
@@ -229,8 +223,6 @@ pub fn rust_ssp_io(threads: usize, file_action: &str, file_name: &str) {
         let mut pos_init: usize;
         let mut pos_end = 0;
         let mut bytes_left: usize = file.metadata().unwrap().len() as usize;
-
-        let start = SystemTime::now();
 
         let mut pipeline = pipeline![
             parallel!(
@@ -284,11 +276,6 @@ pub fn rust_ssp_io(threads: usize, file_action: &str, file_name: &str) {
 
         pipeline.end_and_wait();
 
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
-
         std::fs::remove_file(file_name).unwrap();
     } else if file_action == "decompress" {
         // creating the decompressed file
@@ -333,8 +320,6 @@ pub fn rust_ssp_io(threads: usize, file_action: &str, file_name: &str) {
             queue_blocks.push((pos_init, pos_end));
         }
 
-        let start = SystemTime::now();
-
         let mut pipeline = pipeline![
             parallel!(
                 move |mut content: Tcontent| {
@@ -376,11 +361,10 @@ pub fn rust_ssp_io(threads: usize, file_action: &str, file_name: &str) {
 
         pipeline.end_and_wait();
 
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
-
         std::fs::remove_file(file_name).unwrap();
     }
+
+    let system_duration = start.elapsed().expect("Failed to get render time?");
+    let in_sec = system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
+    println!("Execution time: {} sec", in_sec);
 }
