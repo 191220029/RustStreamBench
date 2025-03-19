@@ -51,7 +51,6 @@ pub fn tokio(threads: usize, file_action: &str, file_name: &str) {
         let mut bytes_left = buffer_input.len();
         let mut order = 0;
 
-
         let processing_stream = stream::poll_fn(
             move || -> Poll<Option<Tcontent>, futures::sync::oneshot::Canceled> {
                 if bytes_left <= 0 {
@@ -124,7 +123,6 @@ pub fn tokio(threads: usize, file_action: &str, file_name: &str) {
         // write compressed data to file
         buf_write.write_all(&buffer_output).unwrap();
         // std::fs::remove_file(file_name).unwrap();
-        
 
         let system_duration = start.elapsed().expect("Failed to get render time?");
         let in_sec =
@@ -175,7 +173,6 @@ pub fn tokio(threads: usize, file_action: &str, file_name: &str) {
             bytes_left -= pos_end - pos_init;
             queue_blocks.push((pos_init, pos_end));
         }
-
 
         let processing_stream = stream::poll_fn(
             move || -> Poll<Option<Tcontent>, futures::sync::oneshot::Canceled> {
@@ -251,6 +248,7 @@ pub fn tokio(threads: usize, file_action: &str, file_name: &str) {
 }
 
 pub fn tokio_io(threads: usize, file_action: &str, file_name: &str) {
+    let start = SystemTime::now();
     let mut file = File::open(file_name).expect("No file found.");
 
     if file_action == "compress" {
@@ -263,8 +261,6 @@ pub fn tokio_io(threads: usize, file_action: &str, file_name: &str) {
         let mut pos_end = 0;
         let mut bytes_left: usize = file.metadata().unwrap().len() as usize;
         let mut order = 0;
-
-        let start = SystemTime::now();
 
         let processing_stream = stream::poll_fn(
             move || -> Poll<Option<Tcontent>, futures::sync::oneshot::Canceled> {
@@ -381,8 +377,6 @@ pub fn tokio_io(threads: usize, file_action: &str, file_name: &str) {
             bytes_left -= pos_end - pos_init;
             queue_blocks.push((pos_init, pos_end));
         }
-
-        let start = SystemTime::now();
 
         let processing_stream = stream::poll_fn(
             move || -> Poll<Option<Tcontent>, futures::sync::oneshot::Canceled> {

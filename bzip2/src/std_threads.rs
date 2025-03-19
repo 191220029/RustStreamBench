@@ -48,9 +48,8 @@ impl Reorder {
 }
 
 pub fn std_threads(threads: usize, file_action: &str, file_name: &str) {
-    
-    let start = SystemTime::now();    
-    
+    let start = SystemTime::now();
+
     let mut file = File::open(file_name).expect("No file found.");
 
     if file_action == "compress" {
@@ -148,7 +147,6 @@ pub fn std_threads(threads: usize, file_action: &str, file_name: &str) {
         buf_write.write_all(&buffer_output).unwrap();
         std::fs::remove_file(file_name).unwrap();
 
-        
         let system_duration = start.elapsed().expect("Failed to get render time?");
         let in_sec =
             system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
@@ -198,7 +196,6 @@ pub fn std_threads(threads: usize, file_action: &str, file_name: &str) {
             bytes_left -= pos_end - pos_init;
             queue_blocks.push((pos_init, pos_end));
         }
-
 
         let (queue1_send, queue1_recv) = bounded(512);
         let (queue2_send, queue2_recv) = bounded(512);
@@ -260,11 +257,6 @@ pub fn std_threads(threads: usize, file_action: &str, file_name: &str) {
         let mut collection: Vec<Tcontent> = queue2_recv.iter().collect();
         collection.sort_by_key(|content| content.order);
 
-        let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
-
         // write stage
         for content in collection {
             buffer_output.extend(&content.buffer_output[0..content.output_size as usize]);
@@ -272,7 +264,12 @@ pub fn std_threads(threads: usize, file_action: &str, file_name: &str) {
 
         // write decompressed data to file
         buf_write.write_all(&buffer_output).unwrap();
-        std::fs::remove_file(file_name).unwrap();
+        // std::fs::remove_file(file_name).unwrap();
+
+        let system_duration = start.elapsed().expect("Failed to get render time?");
+        let in_sec =
+            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
+        println!("Execution time: {} sec", in_sec);
     }
 }
 

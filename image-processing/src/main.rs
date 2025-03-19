@@ -6,6 +6,7 @@ mod pipeliner;
 mod tokio;
 mod rayon;
 mod std_threads;
+mod dagrs;
 
 fn main() -> std::io::Result<()>{
     let args: Vec<String> = env::args().collect();

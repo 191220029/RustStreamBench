@@ -3,7 +3,8 @@ use std::{
     fs::File,
     io::{Read, Write},
     mem,
-    sync::Arc, time::SystemTime,
+    sync::Arc,
+    time::SystemTime,
 };
 
 use dagrs::{
@@ -33,13 +34,13 @@ impl Buffer {
     }
 }
 
-struct Slicer {
+struct CompressSlicer {
     file_name: String,
     block_size: usize,
 }
 
 #[async_trait]
-impl Action for Slicer {
+impl Action for CompressSlicer {
     async fn run(
         &self,
         _: &mut InChannels,
@@ -57,7 +58,7 @@ impl Action for Slicer {
         let mut order: usize = 0;
 
         let workers: Vec<NodeId> = env.get(COMPRESS_WORKERS).unwrap();
-        log::info!("{:?}", workers);
+        log::info!("CompressSlicer detecting workers: {:?}", workers);
 
         while bytes_left > 0 {
             pos_init = pos_end;
@@ -75,6 +76,90 @@ impl Action for Slicer {
                 .send_to(
                     &workers[index],
                     Content::new(Buffer::new(buffer_slice, order, 0)),
+                )
+                .await
+                .unwrap();
+
+            index += 1;
+            order += 1;
+            if index >= workers.len() {
+                index = 0;
+            }
+        }
+
+        log::info!("slicer closing output channel...");
+        for id in workers {
+            out_channels.close(&id);
+        }
+
+        Output::empty()
+    }
+}
+
+struct DecompressSlicer {
+    file_name: String,
+    block_size: usize,
+}
+
+#[async_trait]
+impl Action for DecompressSlicer {
+    async fn run(
+        &self,
+        _: &mut InChannels,
+        out_channels: &mut OutChannels,
+        env: Arc<EnvVar>,
+    ) -> Output {
+        let mut file = File::open(&self.file_name).expect("No file found.");
+        let mut buffer_input = vec![];
+        file.read_to_end(&mut buffer_input).unwrap();
+
+        let mut pos_init: usize;
+        let mut pos_end = 0;
+        let mut bytes_left = buffer_input.len();
+        let mut order: usize = 0;
+
+        let workers: Vec<NodeId> = env.get(COMPRESS_WORKERS).unwrap();
+        log::info!("DecompressSlicer detecting workers: {:?}", workers);
+
+        let mut queue_blocks: Vec<(usize, usize)> = Vec::new();
+
+        while bytes_left > 0 {
+            pos_init = pos_end;
+            pos_end += {
+                // find the ending position by identifing the header of the next stream block
+                let buffer_slice;
+                if buffer_input.len() > self.block_size + 10000 {
+                    if (pos_init + self.block_size + 10000) > buffer_input.len() {
+                        buffer_slice = &buffer_input[pos_init + 10..];
+                    } else {
+                        buffer_slice =
+                            &buffer_input[pos_init + 10..pos_init + self.block_size + 10000];
+                    }
+                } else {
+                    buffer_slice = &buffer_input[pos_init + 10..];
+                }
+
+                let ret = buffer_slice
+                    .windows(10)
+                    .position(|window| window == b"BZh91AY&SY");
+                let pos = match ret {
+                    Some(i) => i + 10,
+                    None => buffer_input.len() - pos_init,
+                };
+                pos
+            };
+            bytes_left -= pos_end - pos_init;
+            queue_blocks.push((pos_init, pos_end));
+        }
+
+        let mut index = 0;
+        for block in queue_blocks {
+            let buffer_slice = &buffer_input[block.0..block.1];
+
+            out_channels
+                .send_to(
+                    &workers[index],
+                    Content::new(Buffer::new(buffer_slice.to_vec(), order, 0)),
                 )
                 .await
                 .unwrap();
@@ -181,6 +266,8 @@ impl Action for DeCompress {
                 buffer.size = bz_buffer.total_out_lo32 as usize;
                 buffer.buffer = buffer_output;
             }
+
+            log::info!("compress produce {} bytes.", buffer.size);
             out_channels
                 .send_to(&reducer_id, Content::new(buffer))
                 .await
@@ -208,8 +295,9 @@ impl Action for Reduce {
             while let Ok(content) = in_channel.recv_from(&slicer_id).await {
                 let buffer: Arc<Buffer> = content.into_inner().unwrap();
                 log::info!(
-                    "Reducer received order {} with {} bytes",
+                    "Reducer received order {} with {}/{} bytes",
                     buffer.order,
+                    buffer.size,
                     buffer.buffer.len()
                 );
                 outputs.push(buffer);
@@ -239,8 +327,8 @@ impl Action for Reduce {
 pub fn run_dagrs(threads: usize, file_action: &str, file_name: &str) {
     env::set_var("RUST_LOG", "INFO");
     env_logger::init();
-    
-    let start = SystemTime::now();  
+
+    let start = SystemTime::now();
 
     let mut node_table = NodeTable::new();
 
@@ -256,7 +344,7 @@ pub fn run_dagrs(threads: usize, file_action: &str, file_name: &str) {
         let mut worker_id = vec![];
         let slicer = DefaultNode::with_action(
             format!("Slicer"),
-            Slicer {
+            CompressSlicer {
                 file_name: file_name.to_owned(),
                 block_size: BLOCK_SIZE,
             },
@@ -289,7 +377,7 @@ pub fn run_dagrs(threads: usize, file_action: &str, file_name: &str) {
 
         let slicer = DefaultNode::with_action(
             "slicer".to_owned(),
-            Slicer {
+            DecompressSlicer {
                 file_name: file_name.to_owned(),
                 block_size: BLOCK_SIZE,
             },
@@ -298,7 +386,8 @@ pub fn run_dagrs(threads: usize, file_action: &str, file_name: &str) {
         let slicer_id = slicer.id();
         graph.add_node(slicer);
         for i in 0..threads {
-            let node = DefaultNode::with_action(format!("worker_{}", i), DeCompress, &mut node_table);
+            let node =
+                DefaultNode::with_action(format!("worker_{}", i), DeCompress, &mut node_table);
             let node_id = node.id();
             worker_id.push(node_id);
             graph.add_node(node);
@@ -317,7 +406,6 @@ pub fn run_dagrs(threads: usize, file_action: &str, file_name: &str) {
     }
 
     let system_duration = start.elapsed().expect("Failed to get render time?");
-        let in_sec =
-            system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-        println!("Execution time: {} sec", in_sec);
+    let in_sec = system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
+    println!("Execution time: {} sec", in_sec);
 }
