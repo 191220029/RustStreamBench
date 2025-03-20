@@ -1,15 +1,19 @@
-mod sequential;
+mod dagrs;
+mod pipeliner;
+mod rayon;
 mod rust_ssp;
+mod sequential;
 mod std_threads;
 mod tokio;
-mod rayon;
-mod pipeliner;
 
 fn main() {
     let args: Vec<String> = std::env::args().collect();
     if args.len() < 5 {
         println!();
-        panic!("Correct usage: $ ./{:?} <runtime> <img size> <nthreads> <iter size 1> <iter size 2>", args[0]);
+        panic!(
+            "Correct usage: $ ./{:?} <runtime> <img size> <nthreads> <iter size 1> <iter size 2>",
+            args[0]
+        );
     }
     let runtime = &args[1];
     let size = args[2].parse::<usize>().unwrap();
@@ -24,6 +28,7 @@ fn main() {
         "tokio" => tokio::tokio_pipeline(size, threads, iter_size1, iter_size2),
         "rayon" => rayon::rayon_pipeline(size, threads, iter_size1, iter_size2),
         "pipeliner" => pipeliner::pipeliner_pipeline(size, threads, iter_size1, iter_size2),
+        "dagrs" => dagrs::dagrs_pipeline(size, threads, iter_size1, iter_size2),
         _ => println!("Invalid run_mode, use: sequential | rust-ssp | std-threads | tokio | rayon | pipeliner"),
     }
 }

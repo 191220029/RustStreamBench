@@ -13,9 +13,6 @@ readme = "README.md"
 chrono = "0.4"
 libc = "0.2"
 bzip2-sys = { version = "0.1.7", path = "bzip2-sys" }
-dagrs = { path = "/home/xiaolongfu/dagrs-perf/dagrs-NJU-fxl" }
-env_logger = "0.11.7"
-log = "0.4.26"
 
 # Rust-SSP
 rust-spp = { path = "~/../../libs/rust-ssp" }
@@ -34,3 +31,8 @@ rayon = "1.5"
 
 # Pipeliner
 pipeliner = "1.0.1"
+
+# Dagrs
+dagrs = { path = "/home/xiaolongfu/dagrs-perf/dagrs-NJU-fxl" }
+env_logger = "0.11.7"
+log = "0.4.26"

@@ -11,7 +11,8 @@ readme = "README.md"
 
 [dependencies]
 # Core
-opencv = {version = "0.48", features = ["contrib"]}
+# opencv = {version = "0.48", features = ["contrib"]}
+opencv = {version = "0.94.2"}
 
 # Rust-SSP
 rust-spp = { path = "~/../../libs/rust-ssp" }
@@ -27,3 +28,8 @@ tokio-core = "0.1.17"
 
 # Pipeliner
 pipeliner = "1.0.1"
+
+# Dagrs
+dagrs = { path = "/home/xiaolongfu/dagrs-perf/dagrs-NJU-fxl" }
+env_logger = "0.11.7"
+log = "0.4.26"
