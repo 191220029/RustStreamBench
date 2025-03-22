@@ -3,10 +3,8 @@ use crate::blocks::*;
 use work_storage::{WorkItem, TimestampedWorkItem};
 use std::sync::Arc;
 use std::sync::atomic::{Ordering, AtomicUsize};
-use std::thread::JoinHandle;
-use std::thread;
 use work_storage::{BlockingQueue, BlockingOrderedSet};
-use parking_lot::{Mutex};
+use parking_lot::Mutex;
 
 //Public API: An output node, receives values and causes side effects
 pub trait In<TInput, TCollected=()> {

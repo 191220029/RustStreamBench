@@ -1,4 +1,4 @@
-use opencv::{boxed_ref::BoxedRef, core, imgproc, objdetect, prelude::*};
+use opencv::{core, imgproc, objdetect, prelude::*};
 
 pub fn prepare_frame(frame: &Mat) -> opencv::Result<Mat> {
     let mut gray = Mat::default();
