@@ -6,4 +6,6 @@ edition = "2024"
 [dependencies]
 env_logger = "0.11.7"
 log = "0.4.26"
-dagrs = { path = "/home/xiaolongfu/dagrs-perf/dagrs-NJU-fxl" }
+# dagrs = { path = "/home/xiaolongfu/dagrs-perf/dagrs-NJU-fxl" }
+futures = "0.3.31"
+tokio = { version = "1.28", features = ["rt", "sync", "rt-multi-thread"] }
