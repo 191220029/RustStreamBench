@@ -143,7 +143,7 @@ pub fn std_threads_pipeline(size: usize, threads: usize, iter_size1: i32, iter_s
 
     let system_duration = start.elapsed().expect("Failed to get render time?");
     let in_sec = system_duration.as_secs() as f64 + system_duration.subsec_nanos() as f64 * 1e-9;
-    println!("Execution time STDthreads: {} sec", in_sec);
+    println!("Execution time: {} sec", in_sec);
 
     let mut m = vec![];
 

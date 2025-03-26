@@ -28,13 +28,13 @@ fn main() {
     let start = SystemTime::now();
 
     match run_mode.as_str() {
-        "seq" => seq::seq_eye_tracker(input_video).unwrap(),
-        "rust-spp" => par_rust_spp::rust_spp_eye_tracker(input_video, nthreads).unwrap(),
+        "sequential" => seq::seq_eye_tracker(input_video).unwrap(),
+        "rust-ssp" => par_rust_spp::rust_spp_eye_tracker(input_video, nthreads).unwrap(),
         "tokio" => par_tokio::tokio_eye_tracker(input_video, nthreads).unwrap(),
         "std-threads" => par_std_threads::std_threads_eye_tracker(input_video, nthreads).unwrap(),
         "better" => par_better::better_eye_tracker(input_video, nthreads).unwrap(),
         "dagrs" => dagrs::dagrs_eye_tracker(input_video, nthreads).unwrap(),
-        _ => println!("Invalid run_mode, use (seq | rust-spp | tokio)"),
+        _ => println!("Invalid run_mode `{}`, use (seq | rust-spp | tokio)", run_mode),
     }
 
     let system_duration = start.elapsed().expect("Failed to get render time?");

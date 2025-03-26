@@ -1,5 +1,6 @@
 use std::{path::PathBuf, process::Command};
 
+use futures::StreamExt;
 use tokio::task::JoinHandle;
 
 pub struct TestGroup {
@@ -20,10 +21,20 @@ impl TestGroup {
         Self { pwd, scripts }
     }
 
-    pub fn handles(&self, iteration: usize) -> Vec<JoinHandle<()>> {
-        let mut handles = vec![];
+    pub fn pwd(&self) -> PathBuf {
+        self.pwd.clone()
+    }
+
+    pub fn run(&self, iteration: usize) {
+        // compile rust code
+        let mut cmd = Command::new("cargo");
+        cmd.args(["build", "--release"]);
+        cmd.current_dir(self.pwd());
+        cmd.output().unwrap();
+
         for i in 0..iteration {
             tokio::runtime::Runtime::new().unwrap().block_on(async {
+                let mut handles = vec![];
                 for script in &self.scripts {
                     let pwd = self.pwd.clone();
                     let script = script.clone();
@@ -41,9 +52,9 @@ impl TestGroup {
                     });
                     handles.push(task);
                 }
+                let stream = futures::stream::iter(handles).buffer_unordered(20);
+                let _ = stream.collect::<Vec<_>>().await;
             });
         }
-
-        handles
     }
 }
