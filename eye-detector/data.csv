@@ -1,1 +1,420 @@
 Framework,Workload,Iteration,ExecutionTime(s)
+dagrs,Mixed,0,107.882059
+dagrs,Mixed,1,108.182445
+dagrs,Mixed,2,108.257179
+dagrs,Mixed,3,108.004344
+dagrs,Mixed,4,107.494475
+dagrs,Mixed,5,107.721693
+dagrs,Mixed,6,108.114730
+dagrs,Mixed,7,107.994556
+dagrs,Mixed,8,107.580322
+dagrs,Mixed,9,107.478575
+dagrs,Mixed,10,107.640031
+dagrs,Mixed,11,107.625072
+dagrs,Mixed,12,107.864173
+dagrs,Mixed,13,107.845785
+dagrs,Mixed,15,107.604540
+dagrs,Mixed,16,107.696511
+dagrs,Mixed,17,108.031094
+dagrs,Mixed,18,108.078990
+dagrs,Mixed,19,108.385732
+dagrs,One Face,0,116.071079
+dagrs,One Face,1,116.078016
+dagrs,One Face,2,116.284294
+dagrs,One Face,3,115.983981
+dagrs,One Face,4,116.431086
+dagrs,One Face,5,116.247723
+dagrs,One Face,6,115.905804
+dagrs,One Face,7,116.242502
+dagrs,One Face,8,116.104622
+dagrs,One Face,9,116.326619
+dagrs,One Face,10,116.022953
+dagrs,One Face,11,116.008511
+dagrs,One Face,12,116.126878
+dagrs,One Face,13,116.109537
+dagrs,One Face,14,116.242602
+dagrs,One Face,15,116.435987
+dagrs,One Face,16,116.034441
+dagrs,One Face,17,116.285691
+dagrs,One Face,18,117.368579
+dagrs,One Face,19,116.273147
+dagrs,Several Faces,0,138.545658
+dagrs,Several Faces,1,138.682688
+dagrs,Several Faces,2,138.101158
+dagrs,Several Faces,3,138.055718
+dagrs,Several Faces,4,138.623569
+dagrs,Several Faces,5,138.467260
+dagrs,Several Faces,6,138.347040
+dagrs,Several Faces,7,138.346482
+dagrs,Several Faces,8,138.769584
+dagrs,Several Faces,9,138.400441
+dagrs,Several Faces,10,138.451113
+dagrs,Several Faces,11,138.211974
+dagrs,Several Faces,12,138.498629
+dagrs,Several Faces,13,137.962745
+dagrs,Several Faces,14,138.309592
+dagrs,Several Faces,15,138.267243
+dagrs,Several Faces,16,138.791222
+dagrs,Several Faces,17,138.134770
+dagrs,Several Faces,18,138.281591
+dagrs,Several Faces,19,138.190474
+pipeliner,Mixed,0,0.000025
+pipeliner,Mixed,1,0.000027
+pipeliner,Mixed,2,0.000023
+pipeliner,Mixed,3,0.000028
+pipeliner,Mixed,4,0.000025
+pipeliner,Mixed,5,0.000028
+pipeliner,Mixed,6,0.000026
+pipeliner,Mixed,7,0.000024
+pipeliner,Mixed,8,0.000034
+pipeliner,Mixed,9,0.000036
+pipeliner,Mixed,10,0.000024
+pipeliner,Mixed,11,0.000028
+pipeliner,Mixed,12,0.000023
+pipeliner,Mixed,13,0.000032
+pipeliner,Mixed,14,0.000029
+pipeliner,Mixed,15,0.000029
+pipeliner,Mixed,16,0.000026
+pipeliner,Mixed,17,0.000053
+pipeliner,Mixed,18,0.000030
+pipeliner,Mixed,19,0.000026
+pipeliner,One Face,0,0.000030
+pipeliner,One Face,1,0.000023
+pipeliner,One Face,2,0.000024
+pipeliner,One Face,3,0.000030
+pipeliner,One Face,4,0.000032
+pipeliner,One Face,5,0.000021
+pipeliner,One Face,6,0.000025
+pipeliner,One Face,7,0.000023
+pipeliner,One Face,8,0.000026
+pipeliner,One Face,9,0.000023
+pipeliner,One Face,10,0.000023
+pipeliner,One Face,11,0.000022
+pipeliner,One Face,12,0.000035
+pipeliner,One Face,13,0.000023
+pipeliner,One Face,14,0.000027
+pipeliner,One Face,15,0.000023
+pipeliner,One Face,16,0.000024
+pipeliner,One Face,17,0.000025
+pipeliner,One Face,18,0.000022
+pipeliner,One Face,19,0.000021
+pipeliner,Several Faces,0,0.000022
+pipeliner,Several Faces,1,0.000023
+pipeliner,Several Faces,2,0.000023
+pipeliner,Several Faces,3,0.000022
+pipeliner,Several Faces,4,0.000022
+pipeliner,Several Faces,5,0.000022
+pipeliner,Several Faces,6,0.000030
+pipeliner,Several Faces,7,0.000023
+pipeliner,Several Faces,8,0.000022
+pipeliner,Several Faces,9,0.000022
+pipeliner,Several Faces,10,0.000022
+pipeliner,Several Faces,11,0.000021
+pipeliner,Several Faces,12,0.000021
+pipeliner,Several Faces,13,0.000245
+pipeliner,Several Faces,14,0.000026
+pipeliner,Several Faces,15,0.000022
+pipeliner,Several Faces,16,0.000022
+pipeliner,Several Faces,17,0.000022
+pipeliner,Several Faces,18,0.000031
+pipeliner,Several Faces,19,0.000034
+rayon,Mixed,0,0.000036
+rayon,Mixed,1,0.000024
+rayon,Mixed,2,0.000026
+rayon,Mixed,3,0.000027
+rayon,Mixed,4,0.000030
+rayon,Mixed,5,0.000024
+rayon,Mixed,6,0.000025
+rayon,Mixed,7,0.000029
+rayon,Mixed,8,0.000025
+rayon,Mixed,9,0.000032
+rayon,Mixed,10,0.000035
+rayon,Mixed,11,0.000027
+rayon,Mixed,12,0.000025
+rayon,Mixed,13,0.000025
+rayon,Mixed,14,0.000030
+rayon,Mixed,15,0.000029
+rayon,Mixed,16,0.000024
+rayon,Mixed,17,0.000029
+rayon,Mixed,18,0.000026
+rayon,Mixed,19,0.000025
+rayon,One Face,0,0.000023
+rayon,One Face,1,0.000023
+rayon,One Face,2,0.000031
+rayon,One Face,3,0.000023
+rayon,One Face,4,0.000027
+rayon,One Face,5,0.000023
+rayon,One Face,6,0.000031
+rayon,One Face,7,0.000028
+rayon,One Face,8,0.000025
+rayon,One Face,9,0.000024
+rayon,One Face,10,0.000023
+rayon,One Face,11,0.000023
+rayon,One Face,12,0.000022
+rayon,One Face,13,0.000023
+rayon,One Face,14,0.000025
+rayon,One Face,15,0.000023
+rayon,One Face,16,0.000027
+rayon,One Face,17,0.000022
+rayon,One Face,18,0.000022
+rayon,One Face,19,0.000027
+rayon,Several Faces,0,0.000027
+rayon,Several Faces,1,0.000023
+rayon,Several Faces,2,0.000023
+rayon,Several Faces,3,0.000023
+rayon,Several Faces,4,0.000024
+rayon,Several Faces,5,0.000022
+rayon,Several Faces,6,0.000022
+rayon,Several Faces,7,0.000024
+rayon,Several Faces,8,0.000025
+rayon,Several Faces,9,0.000021
+rayon,Several Faces,10,0.000026
+rayon,Several Faces,11,0.000024
+rayon,Several Faces,12,0.000023
+rayon,Several Faces,13,0.000028
+rayon,Several Faces,14,0.000025
+rayon,Several Faces,15,0.000021
+rayon,Several Faces,16,0.000027
+rayon,Several Faces,17,0.000022
+rayon,Several Faces,18,0.000033
+rayon,Several Faces,19,0.000023
+rust-ssp,Mixed,0,104.701982
+rust-ssp,Mixed,1,105.110305
+rust-ssp,Mixed,2,104.630550
+rust-ssp,Mixed,3,104.931442
+rust-ssp,Mixed,4,104.738582
+rust-ssp,Mixed,5,104.694850
+rust-ssp,Mixed,6,104.849279
+rust-ssp,Mixed,7,104.613010
+rust-ssp,Mixed,8,105.264906
+rust-ssp,Mixed,9,104.704234
+rust-ssp,Mixed,10,104.978839
+rust-ssp,Mixed,11,104.962416
+rust-ssp,Mixed,12,104.794617
+rust-ssp,Mixed,13,104.770890
+rust-ssp,Mixed,14,104.834309
+rust-ssp,Mixed,15,104.876885
+rust-ssp,Mixed,16,104.894272
+rust-ssp,Mixed,17,104.811940
+rust-ssp,Mixed,18,104.898726
+rust-ssp,Mixed,19,104.775261
+rust-ssp,One Face,0,113.242862
+rust-ssp,One Face,1,113.390737
+rust-ssp,One Face,2,113.354106
+rust-ssp,One Face,3,113.292548
+rust-ssp,One Face,4,113.524230
+rust-ssp,One Face,5,113.341736
+rust-ssp,One Face,6,113.387251
+rust-ssp,One Face,7,113.417698
+rust-ssp,One Face,8,113.399033
+rust-ssp,One Face,9,113.428458
+rust-ssp,One Face,10,113.263050
+rust-ssp,One Face,11,113.871032
+rust-ssp,One Face,12,113.155117
+rust-ssp,One Face,13,113.469220
+rust-ssp,One Face,14,113.631053
+rust-ssp,One Face,15,113.193905
+rust-ssp,One Face,16,113.369453
+rust-ssp,One Face,17,113.364423
+rust-ssp,One Face,18,113.781517
+rust-ssp,One Face,19,113.484960
+rust-ssp,Several Faces,0,133.205314
+rust-ssp,Several Faces,1,133.903327
+rust-ssp,Several Faces,2,133.387543
+rust-ssp,Several Faces,3,133.724697
+rust-ssp,Several Faces,4,133.964891
+rust-ssp,Several Faces,5,133.988579
+rust-ssp,Several Faces,6,133.481895
+rust-ssp,Several Faces,7,133.567816
+rust-ssp,Several Faces,8,133.503113
+rust-ssp,Several Faces,9,133.597046
+rust-ssp,Several Faces,10,133.592887
+rust-ssp,Several Faces,11,133.755587
+rust-ssp,Several Faces,12,133.307845
+rust-ssp,Several Faces,13,133.774807
+rust-ssp,Several Faces,14,133.753941
+rust-ssp,Several Faces,15,133.877248
+rust-ssp,Several Faces,16,133.517514
+rust-ssp,Several Faces,17,133.555153
+rust-ssp,Several Faces,18,133.816936
+rust-ssp,Several Faces,19,133.639854
+sequential,Mixed,0,1054.158341
+sequential,Mixed,1,1052.856406
+sequential,Mixed,2,1053.962511
+sequential,Mixed,3,1056.438798
+sequential,Mixed,4,1054.569249
+sequential,Mixed,5,1052.702251
+sequential,Mixed,6,1053.020138
+sequential,Mixed,7,1053.171908
+sequential,Mixed,8,1053.576112
+sequential,Mixed,9,1054.152396
+sequential,Mixed,10,1053.452992
+sequential,Mixed,11,1053.214191
+sequential,Mixed,12,1053.052343
+sequential,Mixed,13,1053.527869
+sequential,Mixed,14,1053.326940
+sequential,Mixed,15,1053.043791
+sequential,Mixed,16,1053.629156
+sequential,Mixed,17,1053.942714
+sequential,Mixed,18,1056.343501
+sequential,Mixed,19,1053.133063
+sequential,One Face,0,1140.844278
+sequential,One Face,1,1140.193371
+sequential,One Face,2,1140.645837
+sequential,One Face,3,1140.822267
+sequential,One Face,4,1140.964050
+sequential,One Face,5,1140.062041
+sequential,One Face,6,1140.539203
+sequential,One Face,7,1141.064639
+sequential,One Face,8,1140.687073
+sequential,One Face,9,1141.015966
+sequential,One Face,10,1140.696436
+sequential,One Face,11,1140.823341
+sequential,One Face,12,1140.125843
+sequential,One Face,13,1140.611320
+sequential,One Face,14,1140.397579
+sequential,One Face,15,1140.978450
+sequential,One Face,16,1139.976516
+sequential,One Face,17,1142.092524
+sequential,One Face,18,1142.014055
+sequential,One Face,19,1140.242427
+sequential,Several Faces,0,1361.077810
+sequential,Several Faces,1,1360.054137
+sequential,Several Faces,2,1360.294086
+sequential,Several Faces,3,1359.799417
+sequential,Several Faces,4,1359.698272
+sequential,Several Faces,5,1360.194738
+sequential,Several Faces,6,1360.190500
+sequential,Several Faces,7,1359.569811
+sequential,Several Faces,8,1359.662572
+sequential,Several Faces,9,1360.313110
+sequential,Several Faces,10,1359.877450
+sequential,Several Faces,11,1359.766890
+sequential,Several Faces,12,1361.071331
+sequential,Several Faces,13,1360.058337
+sequential,Several Faces,14,1361.025588
+sequential,Several Faces,15,1360.827704
+sequential,Several Faces,16,1361.864349
+sequential,Several Faces,17,1361.630179
+sequential,Several Faces,18,1360.994671
+sequential,Several Faces,19,1359.547469
+std-threads,Mixed,0,107.028472
+std-threads,Mixed,1,107.196448
+std-threads,Mixed,2,107.073890
+std-threads,Mixed,3,107.306067
+std-threads,Mixed,4,107.292898
+std-threads,Mixed,5,107.020168
+std-threads,Mixed,6,106.915780
+std-threads,Mixed,7,107.035102
+std-threads,Mixed,8,107.120411
+std-threads,Mixed,9,107.002388
+std-threads,Mixed,10,107.018664
+std-threads,Mixed,11,107.216272
+std-threads,Mixed,12,107.180554
+std-threads,Mixed,13,107.198567
+std-threads,Mixed,14,107.075100
+std-threads,Mixed,15,107.033618
+std-threads,Mixed,16,107.043943
+std-threads,Mixed,17,107.020245
+std-threads,Mixed,18,107.113935
+std-threads,Mixed,19,106.966529
+std-threads,One Face,0,115.742295
+std-threads,One Face,1,115.682371
+std-threads,One Face,2,115.741729
+std-threads,One Face,3,115.762762
+std-threads,One Face,4,115.748223
+std-threads,One Face,5,115.767486
+std-threads,One Face,6,115.750454
+std-threads,One Face,7,115.897575
+std-threads,One Face,8,115.612710
+std-threads,One Face,9,115.695248
+std-threads,One Face,10,115.780820
+std-threads,One Face,11,115.703933
+std-threads,One Face,12,115.673174
+std-threads,One Face,13,115.813904
+std-threads,One Face,14,115.695396
+std-threads,One Face,15,115.811646
+std-threads,One Face,16,115.687198
+std-threads,One Face,17,115.645431
+std-threads,One Face,18,116.058766
+std-threads,One Face,19,115.672955
+std-threads,Several Faces,0,136.194347
+std-threads,Several Faces,1,136.008461
+std-threads,Several Faces,2,136.330688
+std-threads,Several Faces,3,135.981908
+std-threads,Several Faces,4,136.061504
+std-threads,Several Faces,5,136.114261
+std-threads,Several Faces,6,136.222326
+std-threads,Several Faces,7,136.231499
+std-threads,Several Faces,8,135.936179
+std-threads,Several Faces,9,136.487882
+std-threads,Several Faces,10,135.810955
+std-threads,Several Faces,11,135.922078
+std-threads,Several Faces,12,136.213493
+std-threads,Several Faces,13,136.083789
+std-threads,Several Faces,14,135.929614
+std-threads,Several Faces,15,136.132644
+std-threads,Several Faces,16,135.865041
+std-threads,Several Faces,17,136.200434
+std-threads,Several Faces,18,136.291914
+std-threads,Several Faces,19,136.392444
+tokio,Mixed,0,108.098692
+tokio,Mixed,1,108.126383
+tokio,Mixed,2,107.921530
+tokio,Mixed,3,108.659541
+tokio,Mixed,4,107.863745
+tokio,Mixed,5,107.888199
+tokio,Mixed,6,107.941304
+tokio,Mixed,7,107.878738
+tokio,Mixed,8,108.061362
+tokio,Mixed,9,107.745876
+tokio,Mixed,10,107.774321
+tokio,Mixed,11,108.161942
+tokio,Mixed,12,107.654166
+tokio,Mixed,13,107.864933
+tokio,Mixed,14,108.101135
+tokio,Mixed,15,108.235416
+tokio,Mixed,16,108.087299
+tokio,Mixed,17,107.852966
+tokio,Mixed,18,109.095797
+tokio,Mixed,19,107.930610
+tokio,One Face,0,116.590100
+tokio,One Face,1,116.534016
+tokio,One Face,2,116.542030
+tokio,One Face,3,116.777425
+tokio,One Face,4,116.898936
+tokio,One Face,5,116.680829
+tokio,One Face,6,116.582363
+tokio,One Face,7,116.931187
+tokio,One Face,8,116.925522
+tokio,One Face,9,116.974630
+tokio,One Face,10,116.594644
+tokio,One Face,11,116.731499
+tokio,One Face,12,116.744462
+tokio,One Face,13,116.864636
+tokio,One Face,14,116.848674
+tokio,One Face,15,116.766397
+tokio,One Face,16,116.669726
+tokio,One Face,17,116.704633
+tokio,One Face,18,117.501411
+tokio,One Face,19,116.534987
+tokio,Several Faces,0,137.818080
+tokio,Several Faces,1,136.797679
+tokio,Several Faces,2,137.020156
+tokio,Several Faces,3,136.859423
+tokio,Several Faces,4,137.081613
+tokio,Several Faces,5,137.356497
+tokio,Several Faces,6,136.841552
+tokio,Several Faces,7,137.182308
+tokio,Several Faces,8,137.413065
+tokio,Several Faces,9,137.228362
+tokio,Several Faces,10,136.611453
+tokio,Several Faces,11,137.069212
+tokio,Several Faces,12,137.640915
+tokio,Several Faces,13,137.055684
+tokio,Several Faces,14,136.544768
+tokio,Several Faces,15,136.928987
+tokio,Several Faces,16,136.627629
+tokio,Several Faces,17,136.684170
+tokio,Several Faces,18,137.579916
+tokio,Several Faces,19,136.556971
