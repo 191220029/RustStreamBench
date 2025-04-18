@@ -16,6 +16,9 @@ const FRAMES: [&str; 7] = [
     "dagrs",
 ];
 
+// const MINIST_FRAMES: [&str; 4] = ["dagrs", "go", "liugi", "joblib"];
+const MINIST_FRAMES: [&str; 1] = ["joblib"];
+
 const ITERATION_ARG: &str = "#!/bin/bash\n\niteration=\nwhile [[ $# -gt 0 ]]; do\n    case \"$1\" in\n\
                 --iteration)\n            \
                 iteration=\"$2\"\n        \
@@ -155,17 +158,50 @@ fn micro_bench(nthreads: usize) -> TestGroup {
     TestGroup::new(PathBuf::from(location), scripts)
 }
 
+fn minist() -> TestGroup {
+    let location = "../minist/minist-bench";
+
+    let mut scripts = vec![];
+    for frame in MINIST_FRAMES {
+        let script = format!("test_{}.sh", frame);
+        let pth = format!("{}/{}", location, script);
+        let f = File::create(&pth);
+        let mut writer = BufWriter::new(f.unwrap());
+
+        writer.write_all(ITERATION_ARG.as_bytes()).unwrap();
+
+        writer
+            .write_all(format!("rm logs/{0}_*_mnist_iter${{iteration}}*.log\n", frame).as_bytes())
+            .unwrap();
+
+        writer
+            .write_all(
+                format!(
+                    "./target/release/minist-bench {0} > logs/{0}_mnist_iter${{iteration}}.log 2>&1\n",
+                    frame
+                )
+                .as_bytes(),
+            )
+            .unwrap();
+
+        scripts.push(PathBuf::from(script));
+    }
+    TestGroup::new(PathBuf::from(location), scripts)
+}
+
 pub fn generate_test_script(nthreads: usize) -> Vec<TestGroup> {
     let mut res = vec![];
 
-    log::info!("Generating scripts for bzip2...");
-    res.push(bzip2(nthreads));
-    log::info!("Generating scripts for eye-detector...");
-    res.push(eye_detector(nthreads));
-    log::info!("Generating scripts for image-processing...");
-    res.push(image_processing(nthreads));
-    log::info!("Generating scripts for micro-bench...");
-    res.push(micro_bench(nthreads));
+    // log::info!("Generating scripts for bzip2...");
+    // res.push(bzip2(nthreads));
+    // log::info!("Generating scripts for eye-detector...");
+    // res.push(eye_detector(nthreads));
+    // log::info!("Generating scripts for image-processing...");
+    // res.push(image_processing(nthreads));
+    // log::info!("Generating scripts for micro-bench...");
+    // res.push(micro_bench(nthreads));
+    log::info!("Generating scripts for minist...");
+    res.push(minist());
 
     res
 }

@@ -1,0 +1,43 @@
+[2025-04-11T14:53:45Z INFO  minist_bench::go] Tricker Received sig John
+    Trainer Class= 9
+    Trainer Class= 6
+    Trainer Class= 1
+    Trainer Class= 2
+    Trainer Class= 0
+    Trainer Class= 8
+    Trainer Class= 3
+    Trainer Class= 4
+    Trainer Class= 7
+    Trainer Class= 5
+    Trainer Class 9 finished
+    
+    Trainer Class 6 finished
+    /home/xiaolongfu/dagrs-perf/dagrs-NJU-fxl/examples/dagrs-sklearn/examples/minist_i.py:35: RuntimeWarning: divide by zero encountered in log
+      cost=(-y*np.log(sigmoid(X@Theta)))-(1-y)*np.log(1-sigmoid((X@Theta)))
+    /home/xiaolongfu/dagrs-perf/dagrs-NJU-fxl/examples/dagrs-sklearn/examples/minist_i.py:35: RuntimeWarning: invalid value encountered in multiply
+      cost=(-y*np.log(sigmoid(X@Theta)))-(1-y)*np.log(1-sigmoid((X@Theta)))
+    
+    Trainer Class 5 finished
+    
+    Trainer Class 0 finished
+    
+    Trainer Class 2 finished
+    
+    Trainer Class 4 finished
+    
+    Trainer Class 1 finished
+    
+    Trainer Class 3 finished
+    
+    Trainer Class 8 finished
+    
+    Trainer Class 7 finished
+    
+    All train finished
+    Sending output train acc: 83.68%
+    
+    test acc: 82.38%
+    
+    
+    
+time cost 890s

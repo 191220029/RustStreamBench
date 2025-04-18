@@ -1,0 +1,88 @@
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(1) for "root"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(1) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(2) for "node0"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(2) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Adding edge from NodeId(2) to NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(3) for "node1"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(3) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Adding edge from NodeId(3) to NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(4) for "node2"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(4) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Adding edge from NodeId(4) to NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(5) for "node3"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(5) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Adding edge from NodeId(5) to NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(6) for "node4"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(6) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Adding edge from NodeId(6) to NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(7) for "node5"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(7) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Adding edge from NodeId(7) to NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(8) for "node6"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(8) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Adding edge from NodeId(8) to NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(9) for "node7"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(9) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Adding edge from NodeId(9) to NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(10) for "node8"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(10) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Adding edge from NodeId(10) to NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::node::node] alloc id NodeId(11) for "node9"
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Add node NodeId(11) to concrete & abstract graph
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Adding edge from NodeId(11) to NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(6)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(3)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(2)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(10)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(9)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(11)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(8)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(7)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(4)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(5)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visiting node: NodeId(1)
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::abstract_graph] Visited count: 11, Size: 11
+[2025-04-11T12:36:52Z INFO  dagrs::graph::graph] Split the graph into blocks: [{NodeId(3), NodeId(6), NodeId(1), NodeId(9), NodeId(11), NodeId(8), NodeId(2), NodeId(7), NodeId(4), NodeId(5), NodeId(10)}]
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running node1
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running node5
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running node4
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running node7
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running node6
+[2025-04-11T12:36:52Z DEBUG minist_bench::dagrs] Class 6 training...
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running node9
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running node0
+[2025-04-11T12:36:52Z DEBUG minist_bench::dagrs] Class 1 training...
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running node2
+[2025-04-11T12:36:52Z DEBUG minist_bench::dagrs] Class 2 training...
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running node8
+[2025-04-11T12:36:52Z DEBUG minist_bench::dagrs] Class 8 training...
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running node3
+[2025-04-11T12:36:52Z DEBUG dagrs::graph::graph] Running root
+[2025-04-11T12:36:52Z DEBUG minist_bench::dagrs] Class 5 training...
+[2025-04-11T12:36:52Z DEBUG minist_bench::dagrs] Class 4 training...
+[2025-04-11T12:36:52Z DEBUG minist_bench::dagrs] Class 7 training...
+[2025-04-11T12:36:52Z DEBUG minist_bench::dagrs] Class 9 training...
+[2025-04-11T12:36:52Z DEBUG minist_bench::dagrs] Class 0 training...
+[2025-04-11T12:36:52Z DEBUG minist_bench::dagrs] Class 3 training...
+[2025-04-11T12:37:24Z DEBUG dagrs::graph::graph] Execution succeed [name: node9, id: 11]
+[2025-04-11T12:42:45Z DEBUG dagrs::graph::graph] Execution succeed [name: node6, id: 8]
+[2025-04-11T12:48:23Z DEBUG dagrs::graph::graph] Execution succeed [name: node0, id: 2]
+[2025-04-11T12:48:30Z DEBUG dagrs::graph::graph] Execution succeed [name: node5, id: 7]
+[2025-04-11T12:48:53Z DEBUG dagrs::graph::graph] Execution succeed [name: node2, id: 4]
+[2025-04-11T12:49:35Z DEBUG dagrs::graph::graph] Execution succeed [name: node4, id: 6]
+[2025-04-11T12:49:40Z DEBUG dagrs::graph::graph] Execution succeed [name: node1, id: 3]
+[2025-04-11T12:50:08Z DEBUG dagrs::graph::graph] Execution succeed [name: node3, id: 5]
+[2025-04-11T12:50:12Z DEBUG dagrs::graph::graph] Execution succeed [name: node8, id: 10]
+[2025-04-11T12:51:53Z DEBUG dagrs::graph::graph] Execution succeed [name: node7, id: 9]
+[2025-04-11T12:51:55Z DEBUG dagrs::graph::graph] Execution succeed [name: root, id: 1]
+[2025-04-11T12:51:55Z INFO  minist_bench::dagrs] train acc: 83.68%
+    
+    test acc: 82.38%
+    
+    
+[2025-04-11T12:51:55Z INFO  minist_bench::dagrs] train acc: 83.68%
+    
+    test acc: 82.38%
+    
+    
+time cost 903s

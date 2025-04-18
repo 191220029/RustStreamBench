@@ -45,9 +45,10 @@ impl TestGroup {
                             i + 1,
                             iteration
                         );
-                        let mut cmd = Command::new(script.to_str().unwrap());
+                        let mut cmd = Command::new(format!("./{}", script.to_str().unwrap()));
                         cmd.current_dir(pwd);
                         cmd.args(["--iteration", format!("{}", i).as_str()]);
+                        log::info!("Command: {:?}", cmd);
                         cmd.output().unwrap();
                     });
                     handles.push(task);

@@ -1,0 +1,14 @@
+[2025-04-15T08:18:51Z INFO  minist_bench::python] train acc: 83.68%
+    
+    test acc: 82.38%
+    
+    
+    time cost 1097.2440378665924 s
+    Peak memory usage: 106.05753326416016 MB
+    
+[2025-04-15T08:18:51Z INFO  minist_bench::python] /home/xiaolongfu/dagrs-perf/dagrs-NJU-fxl/examples/dagrs-sklearn/examples/minist_i.py:35: RuntimeWarning: divide by zero encountered in log
+      cost=(-y*np.log(sigmoid(X@Theta)))-(1-y)*np.log(1-sigmoid((X@Theta)))
+    /home/xiaolongfu/dagrs-perf/dagrs-NJU-fxl/examples/dagrs-sklearn/examples/minist_i.py:35: RuntimeWarning: invalid value encountered in multiply
+      cost=(-y*np.log(sigmoid(X@Theta)))-(1-y)*np.log(1-sigmoid((X@Theta)))
+    
+time cost 1097s
