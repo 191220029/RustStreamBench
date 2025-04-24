@@ -24,4 +24,7 @@ echo "Error: --iteration must be a positive integer."
 exit 1
 fi
 rm logs/tokio_*_iter${iteration}*.log
-./target/release/micro-bench tokio 2048 10 3000 2000 > logs/tokio_iter${iteration}.log 2>&1
+./target/release/micro-bench tokio 2048 4 3000 2000 > logs/tokio_nthread4_iter${iteration}.log 2>&1
+./target/release/micro-bench tokio 2048 8 3000 2000 > logs/tokio_nthread8_iter${iteration}.log 2>&1
+./target/release/micro-bench tokio 2048 16 3000 2000 > logs/tokio_nthread16_iter${iteration}.log 2>&1
+./target/release/micro-bench tokio 2048 32 3000 2000 > logs/tokio_nthread32_iter${iteration}.log 2>&1

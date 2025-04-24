@@ -7,8 +7,7 @@ OUTPUT_CSV = "data.csv"
 
 filename_pattern = re.compile(
     r"^(?P<framework>[A-Za-z]+)_"
-    r"(?P<operation_workload>[\w\.-]+)"
-    r"_nthread(?P<nthread>\d+)"
+    r"nthread(?P<nthread>\d+)"
     r"_iter(?P<iteration>\d+)"
 )
 
@@ -24,13 +23,8 @@ for filename in os.listdir(LOG_DIR):
         continue
     
     framework = match.group('framework').upper()
-    operation_workload = match.group('operation_workload')
     nthread = int(match.group('nthread'))  # 提取nthread值
     iteration = int(match.group('iteration'))
-    
-    # 处理特殊文件名格式
-    if ".log_" in operation_workload:
-        operation_workload = operation_workload.replace(".log_", "_")
     
     # 读取执行时间
     with open(os.path.join(LOG_DIR, filename), 'r') as f:
@@ -50,7 +44,7 @@ for filename in os.listdir(LOG_DIR):
     # 收集数据（保持列顺序：Framework, Workload, NThread, Iteration, Time）
     rows.append((
         framework,
-        operation_workload.replace('_', ' ').title(),
+        "Micro Bench",  # 设置默认的workload
         nthread,
         iteration,
         f"{time:.6f}"
@@ -82,4 +76,4 @@ with open(OUTPUT_CSV, 'w', newline='') as csvfile:
         modified_row[3] = str(modified_row[3])  # 转换迭代次数为字符串
         writer.writerow(modified_row)
 
-print(f"saving data to {OUTPUT_CSV}")
+print(f"saving data to {OUTPUT_CSV}") 

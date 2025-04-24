@@ -1,420 +1,594 @@
-Framework,Workload,Iteration,ExecutionTime(s)
-dagrs,Mixed,0,107.882059
-dagrs,Mixed,1,108.182445
-dagrs,Mixed,2,108.257179
-dagrs,Mixed,3,108.004344
-dagrs,Mixed,4,107.494475
-dagrs,Mixed,5,107.721693
-dagrs,Mixed,6,108.114730
-dagrs,Mixed,7,107.994556
-dagrs,Mixed,8,107.580322
-dagrs,Mixed,9,107.478575
-dagrs,Mixed,10,107.640031
-dagrs,Mixed,11,107.625072
-dagrs,Mixed,12,107.864173
-dagrs,Mixed,13,107.845785
-dagrs,Mixed,15,107.604540
-dagrs,Mixed,16,107.696511
-dagrs,Mixed,17,108.031094
-dagrs,Mixed,18,108.078990
-dagrs,Mixed,19,108.385732
-dagrs,One Face,0,116.071079
-dagrs,One Face,1,116.078016
-dagrs,One Face,2,116.284294
-dagrs,One Face,3,115.983981
-dagrs,One Face,4,116.431086
-dagrs,One Face,5,116.247723
-dagrs,One Face,6,115.905804
-dagrs,One Face,7,116.242502
-dagrs,One Face,8,116.104622
-dagrs,One Face,9,116.326619
-dagrs,One Face,10,116.022953
-dagrs,One Face,11,116.008511
-dagrs,One Face,12,116.126878
-dagrs,One Face,13,116.109537
-dagrs,One Face,14,116.242602
-dagrs,One Face,15,116.435987
-dagrs,One Face,16,116.034441
-dagrs,One Face,17,116.285691
-dagrs,One Face,18,117.368579
-dagrs,One Face,19,116.273147
-dagrs,Several Faces,0,138.545658
-dagrs,Several Faces,1,138.682688
-dagrs,Several Faces,2,138.101158
-dagrs,Several Faces,3,138.055718
-dagrs,Several Faces,4,138.623569
-dagrs,Several Faces,5,138.467260
-dagrs,Several Faces,6,138.347040
-dagrs,Several Faces,7,138.346482
-dagrs,Several Faces,8,138.769584
-dagrs,Several Faces,9,138.400441
-dagrs,Several Faces,10,138.451113
-dagrs,Several Faces,11,138.211974
-dagrs,Several Faces,12,138.498629
-dagrs,Several Faces,13,137.962745
-dagrs,Several Faces,14,138.309592
-dagrs,Several Faces,15,138.267243
-dagrs,Several Faces,16,138.791222
-dagrs,Several Faces,17,138.134770
-dagrs,Several Faces,18,138.281591
-dagrs,Several Faces,19,138.190474
-pipeliner,Mixed,0,0.000025
-pipeliner,Mixed,1,0.000027
-pipeliner,Mixed,2,0.000023
-pipeliner,Mixed,3,0.000028
-pipeliner,Mixed,4,0.000025
-pipeliner,Mixed,5,0.000028
-pipeliner,Mixed,6,0.000026
-pipeliner,Mixed,7,0.000024
-pipeliner,Mixed,8,0.000034
-pipeliner,Mixed,9,0.000036
-pipeliner,Mixed,10,0.000024
-pipeliner,Mixed,11,0.000028
-pipeliner,Mixed,12,0.000023
-pipeliner,Mixed,13,0.000032
-pipeliner,Mixed,14,0.000029
-pipeliner,Mixed,15,0.000029
-pipeliner,Mixed,16,0.000026
-pipeliner,Mixed,17,0.000053
-pipeliner,Mixed,18,0.000030
-pipeliner,Mixed,19,0.000026
-pipeliner,One Face,0,0.000030
-pipeliner,One Face,1,0.000023
-pipeliner,One Face,2,0.000024
-pipeliner,One Face,3,0.000030
-pipeliner,One Face,4,0.000032
-pipeliner,One Face,5,0.000021
-pipeliner,One Face,6,0.000025
-pipeliner,One Face,7,0.000023
-pipeliner,One Face,8,0.000026
-pipeliner,One Face,9,0.000023
-pipeliner,One Face,10,0.000023
-pipeliner,One Face,11,0.000022
-pipeliner,One Face,12,0.000035
-pipeliner,One Face,13,0.000023
-pipeliner,One Face,14,0.000027
-pipeliner,One Face,15,0.000023
-pipeliner,One Face,16,0.000024
-pipeliner,One Face,17,0.000025
-pipeliner,One Face,18,0.000022
-pipeliner,One Face,19,0.000021
-pipeliner,Several Faces,0,0.000022
-pipeliner,Several Faces,1,0.000023
-pipeliner,Several Faces,2,0.000023
-pipeliner,Several Faces,3,0.000022
-pipeliner,Several Faces,4,0.000022
-pipeliner,Several Faces,5,0.000022
-pipeliner,Several Faces,6,0.000030
-pipeliner,Several Faces,7,0.000023
-pipeliner,Several Faces,8,0.000022
-pipeliner,Several Faces,9,0.000022
-pipeliner,Several Faces,10,0.000022
-pipeliner,Several Faces,11,0.000021
-pipeliner,Several Faces,12,0.000021
-pipeliner,Several Faces,13,0.000245
-pipeliner,Several Faces,14,0.000026
-pipeliner,Several Faces,15,0.000022
-pipeliner,Several Faces,16,0.000022
-pipeliner,Several Faces,17,0.000022
-pipeliner,Several Faces,18,0.000031
-pipeliner,Several Faces,19,0.000034
-rayon,Mixed,0,0.000036
-rayon,Mixed,1,0.000024
-rayon,Mixed,2,0.000026
-rayon,Mixed,3,0.000027
-rayon,Mixed,4,0.000030
-rayon,Mixed,5,0.000024
-rayon,Mixed,6,0.000025
-rayon,Mixed,7,0.000029
-rayon,Mixed,8,0.000025
-rayon,Mixed,9,0.000032
-rayon,Mixed,10,0.000035
-rayon,Mixed,11,0.000027
-rayon,Mixed,12,0.000025
-rayon,Mixed,13,0.000025
-rayon,Mixed,14,0.000030
-rayon,Mixed,15,0.000029
-rayon,Mixed,16,0.000024
-rayon,Mixed,17,0.000029
-rayon,Mixed,18,0.000026
-rayon,Mixed,19,0.000025
-rayon,One Face,0,0.000023
-rayon,One Face,1,0.000023
-rayon,One Face,2,0.000031
-rayon,One Face,3,0.000023
-rayon,One Face,4,0.000027
-rayon,One Face,5,0.000023
-rayon,One Face,6,0.000031
-rayon,One Face,7,0.000028
-rayon,One Face,8,0.000025
-rayon,One Face,9,0.000024
-rayon,One Face,10,0.000023
-rayon,One Face,11,0.000023
-rayon,One Face,12,0.000022
-rayon,One Face,13,0.000023
-rayon,One Face,14,0.000025
-rayon,One Face,15,0.000023
-rayon,One Face,16,0.000027
-rayon,One Face,17,0.000022
-rayon,One Face,18,0.000022
-rayon,One Face,19,0.000027
-rayon,Several Faces,0,0.000027
-rayon,Several Faces,1,0.000023
-rayon,Several Faces,2,0.000023
-rayon,Several Faces,3,0.000023
-rayon,Several Faces,4,0.000024
-rayon,Several Faces,5,0.000022
-rayon,Several Faces,6,0.000022
-rayon,Several Faces,7,0.000024
-rayon,Several Faces,8,0.000025
-rayon,Several Faces,9,0.000021
-rayon,Several Faces,10,0.000026
-rayon,Several Faces,11,0.000024
-rayon,Several Faces,12,0.000023
-rayon,Several Faces,13,0.000028
-rayon,Several Faces,14,0.000025
-rayon,Several Faces,15,0.000021
-rayon,Several Faces,16,0.000027
-rayon,Several Faces,17,0.000022
-rayon,Several Faces,18,0.000033
-rayon,Several Faces,19,0.000023
-rust-ssp,Mixed,0,104.701982
-rust-ssp,Mixed,1,105.110305
-rust-ssp,Mixed,2,104.630550
-rust-ssp,Mixed,3,104.931442
-rust-ssp,Mixed,4,104.738582
-rust-ssp,Mixed,5,104.694850
-rust-ssp,Mixed,6,104.849279
-rust-ssp,Mixed,7,104.613010
-rust-ssp,Mixed,8,105.264906
-rust-ssp,Mixed,9,104.704234
-rust-ssp,Mixed,10,104.978839
-rust-ssp,Mixed,11,104.962416
-rust-ssp,Mixed,12,104.794617
-rust-ssp,Mixed,13,104.770890
-rust-ssp,Mixed,14,104.834309
-rust-ssp,Mixed,15,104.876885
-rust-ssp,Mixed,16,104.894272
-rust-ssp,Mixed,17,104.811940
-rust-ssp,Mixed,18,104.898726
-rust-ssp,Mixed,19,104.775261
-rust-ssp,One Face,0,113.242862
-rust-ssp,One Face,1,113.390737
-rust-ssp,One Face,2,113.354106
-rust-ssp,One Face,3,113.292548
-rust-ssp,One Face,4,113.524230
-rust-ssp,One Face,5,113.341736
-rust-ssp,One Face,6,113.387251
-rust-ssp,One Face,7,113.417698
-rust-ssp,One Face,8,113.399033
-rust-ssp,One Face,9,113.428458
-rust-ssp,One Face,10,113.263050
-rust-ssp,One Face,11,113.871032
-rust-ssp,One Face,12,113.155117
-rust-ssp,One Face,13,113.469220
-rust-ssp,One Face,14,113.631053
-rust-ssp,One Face,15,113.193905
-rust-ssp,One Face,16,113.369453
-rust-ssp,One Face,17,113.364423
-rust-ssp,One Face,18,113.781517
-rust-ssp,One Face,19,113.484960
-rust-ssp,Several Faces,0,133.205314
-rust-ssp,Several Faces,1,133.903327
-rust-ssp,Several Faces,2,133.387543
-rust-ssp,Several Faces,3,133.724697
-rust-ssp,Several Faces,4,133.964891
-rust-ssp,Several Faces,5,133.988579
-rust-ssp,Several Faces,6,133.481895
-rust-ssp,Several Faces,7,133.567816
-rust-ssp,Several Faces,8,133.503113
-rust-ssp,Several Faces,9,133.597046
-rust-ssp,Several Faces,10,133.592887
-rust-ssp,Several Faces,11,133.755587
-rust-ssp,Several Faces,12,133.307845
-rust-ssp,Several Faces,13,133.774807
-rust-ssp,Several Faces,14,133.753941
-rust-ssp,Several Faces,15,133.877248
-rust-ssp,Several Faces,16,133.517514
-rust-ssp,Several Faces,17,133.555153
-rust-ssp,Several Faces,18,133.816936
-rust-ssp,Several Faces,19,133.639854
-sequential,Mixed,0,1054.158341
-sequential,Mixed,1,1052.856406
-sequential,Mixed,2,1053.962511
-sequential,Mixed,3,1056.438798
-sequential,Mixed,4,1054.569249
-sequential,Mixed,5,1052.702251
-sequential,Mixed,6,1053.020138
-sequential,Mixed,7,1053.171908
-sequential,Mixed,8,1053.576112
-sequential,Mixed,9,1054.152396
-sequential,Mixed,10,1053.452992
-sequential,Mixed,11,1053.214191
-sequential,Mixed,12,1053.052343
-sequential,Mixed,13,1053.527869
-sequential,Mixed,14,1053.326940
-sequential,Mixed,15,1053.043791
-sequential,Mixed,16,1053.629156
-sequential,Mixed,17,1053.942714
-sequential,Mixed,18,1056.343501
-sequential,Mixed,19,1053.133063
-sequential,One Face,0,1140.844278
-sequential,One Face,1,1140.193371
-sequential,One Face,2,1140.645837
-sequential,One Face,3,1140.822267
-sequential,One Face,4,1140.964050
-sequential,One Face,5,1140.062041
-sequential,One Face,6,1140.539203
-sequential,One Face,7,1141.064639
-sequential,One Face,8,1140.687073
-sequential,One Face,9,1141.015966
-sequential,One Face,10,1140.696436
-sequential,One Face,11,1140.823341
-sequential,One Face,12,1140.125843
-sequential,One Face,13,1140.611320
-sequential,One Face,14,1140.397579
-sequential,One Face,15,1140.978450
-sequential,One Face,16,1139.976516
-sequential,One Face,17,1142.092524
-sequential,One Face,18,1142.014055
-sequential,One Face,19,1140.242427
-sequential,Several Faces,0,1361.077810
-sequential,Several Faces,1,1360.054137
-sequential,Several Faces,2,1360.294086
-sequential,Several Faces,3,1359.799417
-sequential,Several Faces,4,1359.698272
-sequential,Several Faces,5,1360.194738
-sequential,Several Faces,6,1360.190500
-sequential,Several Faces,7,1359.569811
-sequential,Several Faces,8,1359.662572
-sequential,Several Faces,9,1360.313110
-sequential,Several Faces,10,1359.877450
-sequential,Several Faces,11,1359.766890
-sequential,Several Faces,12,1361.071331
-sequential,Several Faces,13,1360.058337
-sequential,Several Faces,14,1361.025588
-sequential,Several Faces,15,1360.827704
-sequential,Several Faces,16,1361.864349
-sequential,Several Faces,17,1361.630179
-sequential,Several Faces,18,1360.994671
-sequential,Several Faces,19,1359.547469
-std-threads,Mixed,0,107.028472
-std-threads,Mixed,1,107.196448
-std-threads,Mixed,2,107.073890
-std-threads,Mixed,3,107.306067
-std-threads,Mixed,4,107.292898
-std-threads,Mixed,5,107.020168
-std-threads,Mixed,6,106.915780
-std-threads,Mixed,7,107.035102
-std-threads,Mixed,8,107.120411
-std-threads,Mixed,9,107.002388
-std-threads,Mixed,10,107.018664
-std-threads,Mixed,11,107.216272
-std-threads,Mixed,12,107.180554
-std-threads,Mixed,13,107.198567
-std-threads,Mixed,14,107.075100
-std-threads,Mixed,15,107.033618
-std-threads,Mixed,16,107.043943
-std-threads,Mixed,17,107.020245
-std-threads,Mixed,18,107.113935
-std-threads,Mixed,19,106.966529
-std-threads,One Face,0,115.742295
-std-threads,One Face,1,115.682371
-std-threads,One Face,2,115.741729
-std-threads,One Face,3,115.762762
-std-threads,One Face,4,115.748223
-std-threads,One Face,5,115.767486
-std-threads,One Face,6,115.750454
-std-threads,One Face,7,115.897575
-std-threads,One Face,8,115.612710
-std-threads,One Face,9,115.695248
-std-threads,One Face,10,115.780820
-std-threads,One Face,11,115.703933
-std-threads,One Face,12,115.673174
-std-threads,One Face,13,115.813904
-std-threads,One Face,14,115.695396
-std-threads,One Face,15,115.811646
-std-threads,One Face,16,115.687198
-std-threads,One Face,17,115.645431
-std-threads,One Face,18,116.058766
-std-threads,One Face,19,115.672955
-std-threads,Several Faces,0,136.194347
-std-threads,Several Faces,1,136.008461
-std-threads,Several Faces,2,136.330688
-std-threads,Several Faces,3,135.981908
-std-threads,Several Faces,4,136.061504
-std-threads,Several Faces,5,136.114261
-std-threads,Several Faces,6,136.222326
-std-threads,Several Faces,7,136.231499
-std-threads,Several Faces,8,135.936179
-std-threads,Several Faces,9,136.487882
-std-threads,Several Faces,10,135.810955
-std-threads,Several Faces,11,135.922078
-std-threads,Several Faces,12,136.213493
-std-threads,Several Faces,13,136.083789
-std-threads,Several Faces,14,135.929614
-std-threads,Several Faces,15,136.132644
-std-threads,Several Faces,16,135.865041
-std-threads,Several Faces,17,136.200434
-std-threads,Several Faces,18,136.291914
-std-threads,Several Faces,19,136.392444
-tokio,Mixed,0,108.098692
-tokio,Mixed,1,108.126383
-tokio,Mixed,2,107.921530
-tokio,Mixed,3,108.659541
-tokio,Mixed,4,107.863745
-tokio,Mixed,5,107.888199
-tokio,Mixed,6,107.941304
-tokio,Mixed,7,107.878738
-tokio,Mixed,8,108.061362
-tokio,Mixed,9,107.745876
-tokio,Mixed,10,107.774321
-tokio,Mixed,11,108.161942
-tokio,Mixed,12,107.654166
-tokio,Mixed,13,107.864933
-tokio,Mixed,14,108.101135
-tokio,Mixed,15,108.235416
-tokio,Mixed,16,108.087299
-tokio,Mixed,17,107.852966
-tokio,Mixed,18,109.095797
-tokio,Mixed,19,107.930610
-tokio,One Face,0,116.590100
-tokio,One Face,1,116.534016
-tokio,One Face,2,116.542030
-tokio,One Face,3,116.777425
-tokio,One Face,4,116.898936
-tokio,One Face,5,116.680829
-tokio,One Face,6,116.582363
-tokio,One Face,7,116.931187
-tokio,One Face,8,116.925522
-tokio,One Face,9,116.974630
-tokio,One Face,10,116.594644
-tokio,One Face,11,116.731499
-tokio,One Face,12,116.744462
-tokio,One Face,13,116.864636
-tokio,One Face,14,116.848674
-tokio,One Face,15,116.766397
-tokio,One Face,16,116.669726
-tokio,One Face,17,116.704633
-tokio,One Face,18,117.501411
-tokio,One Face,19,116.534987
-tokio,Several Faces,0,137.818080
-tokio,Several Faces,1,136.797679
-tokio,Several Faces,2,137.020156
-tokio,Several Faces,3,136.859423
-tokio,Several Faces,4,137.081613
-tokio,Several Faces,5,137.356497
-tokio,Several Faces,6,136.841552
-tokio,Several Faces,7,137.182308
-tokio,Several Faces,8,137.413065
-tokio,Several Faces,9,137.228362
-tokio,Several Faces,10,136.611453
-tokio,Several Faces,11,137.069212
-tokio,Several Faces,12,137.640915
-tokio,Several Faces,13,137.055684
-tokio,Several Faces,14,136.544768
-tokio,Several Faces,15,136.928987
-tokio,Several Faces,16,136.627629
-tokio,Several Faces,17,136.684170
-tokio,Several Faces,18,137.579916
-tokio,Several Faces,19,136.556971
+Framework,Workload,NThread,Iteration,ExecutionTime(s)
+DAGRS,Mixed,4,0,265.462460
+DAGRS,Mixed,4,1,266.255471
+DAGRS,Mixed,4,2,265.385311
+DAGRS,Mixed,4,3,265.702855
+DAGRS,Mixed,4,4,265.948905
+DAGRS,Mixed,4,6,266.214409
+DAGRS,Mixed,4,7,266.383045
+DAGRS,Mixed,4,8,265.643287
+DAGRS,Mixed,4,9,266.179341
+DAGRS,Mixed,8,0,135.187619
+DAGRS,Mixed,8,1,135.863973
+DAGRS,Mixed,8,2,135.475283
+DAGRS,Mixed,8,3,135.934468
+DAGRS,Mixed,8,4,135.217296
+DAGRS,Mixed,8,5,134.860217
+DAGRS,Mixed,8,6,135.415818
+DAGRS,Mixed,8,7,134.696625
+DAGRS,Mixed,8,8,135.276159
+DAGRS,Mixed,8,9,135.237166
+DAGRS,Mixed,16,0,83.472251
+DAGRS,Mixed,16,2,87.050095
+DAGRS,Mixed,16,3,89.537485
+DAGRS,Mixed,16,4,91.606285
+DAGRS,Mixed,16,5,74.578470
+DAGRS,Mixed,16,6,85.621809
+DAGRS,Mixed,16,7,87.548584
+DAGRS,Mixed,16,8,85.803111
+DAGRS,Mixed,32,0,68.825633
+DAGRS,Mixed,32,1,62.967921
+DAGRS,Mixed,32,2,47.864471
+DAGRS,Mixed,32,3,67.958738
+DAGRS,Mixed,32,4,68.097540
+DAGRS,Mixed,32,5,45.770650
+DAGRS,Mixed,32,6,72.098000
+DAGRS,Mixed,32,7,47.327455
+DAGRS,Mixed,32,8,60.626751
+DAGRS,Mixed,32,9,47.589186
+DAGRS,One Face,4,0,288.649308
+DAGRS,One Face,4,1,288.165172
+DAGRS,One Face,4,2,293.926048
+DAGRS,One Face,4,3,288.180850
+DAGRS,One Face,4,4,287.440260
+DAGRS,One Face,4,5,289.321158
+DAGRS,One Face,4,6,288.404170
+DAGRS,One Face,4,7,288.359449
+DAGRS,One Face,4,8,287.993551
+DAGRS,One Face,4,9,287.366350
+DAGRS,One Face,8,0,146.542383
+DAGRS,One Face,8,1,145.929869
+DAGRS,One Face,8,2,147.078494
+DAGRS,One Face,8,3,146.188085
+DAGRS,One Face,8,4,146.532171
+DAGRS,One Face,8,5,146.106457
+DAGRS,One Face,8,6,146.318765
+DAGRS,One Face,8,7,146.230269
+DAGRS,One Face,8,8,146.618931
+DAGRS,One Face,8,9,146.583535
+DAGRS,One Face,16,0,93.849685
+DAGRS,One Face,16,1,93.514122
+DAGRS,One Face,16,3,93.131732
+DAGRS,One Face,16,4,94.711104
+DAGRS,One Face,16,5,78.730728
+DAGRS,One Face,16,6,93.014972
+DAGRS,One Face,16,8,94.906830
+DAGRS,One Face,16,9,91.784314
+DAGRS,One Face,32,0,62.641356
+DAGRS,One Face,32,1,64.472008
+DAGRS,One Face,32,2,64.512769
+DAGRS,One Face,32,3,63.026828
+DAGRS,One Face,32,4,62.647345
+DAGRS,One Face,32,6,65.557100
+DAGRS,One Face,32,7,62.452980
+DAGRS,One Face,32,9,68.807211
+DAGRS,Several Faces,4,0,343.452799
+DAGRS,Several Faces,4,1,342.895420
+DAGRS,Several Faces,4,2,343.189575
+DAGRS,Several Faces,4,3,342.882491
+DAGRS,Several Faces,4,4,343.089227
+DAGRS,Several Faces,4,5,344.192147
+DAGRS,Several Faces,4,6,343.282390
+DAGRS,Several Faces,4,7,343.933367
+DAGRS,Several Faces,4,8,343.953337
+DAGRS,Several Faces,4,9,342.952914
+DAGRS,Several Faces,8,0,176.440921
+DAGRS,Several Faces,8,1,176.254751
+DAGRS,Several Faces,8,2,173.367065
+DAGRS,Several Faces,8,3,176.006978
+DAGRS,Several Faces,8,4,174.966276
+DAGRS,Several Faces,8,5,174.608772
+DAGRS,Several Faces,8,6,175.999689
+DAGRS,Several Faces,8,7,176.256160
+DAGRS,Several Faces,8,8,175.520201
+DAGRS,Several Faces,8,9,177.824842
+DAGRS,Several Faces,16,0,116.698398
+DAGRS,Several Faces,16,1,115.024608
+DAGRS,Several Faces,16,2,113.374946
+DAGRS,Several Faces,16,3,120.297708
+DAGRS,Several Faces,16,4,120.327118
+DAGRS,Several Faces,16,5,92.813229
+DAGRS,Several Faces,16,6,117.233168
+DAGRS,Several Faces,16,7,112.426239
+DAGRS,Several Faces,16,8,114.471599
+DAGRS,Several Faces,16,9,110.411406
+DAGRS,Several Faces,32,0,53.832015
+DAGRS,Several Faces,32,1,56.654767
+DAGRS,Several Faces,32,2,89.224039
+DAGRS,Several Faces,32,3,52.125742
+DAGRS,Several Faces,32,4,52.154177
+DAGRS,Several Faces,32,5,58.438075
+DAGRS,Several Faces,32,6,53.801583
+DAGRS,Several Faces,32,7,85.893215
+DAGRS,Several Faces,32,8,70.697103
+DAGRS,Several Faces,32,9,88.581464
+PIPELINER,Mixed,4,0,0.000058
+PIPELINER,Mixed,4,1,0.000034
+PIPELINER,Mixed,4,2,0.000036
+PIPELINER,Mixed,4,3,0.000030
+PIPELINER,Mixed,4,4,0.000037
+PIPELINER,Mixed,4,5,0.000031
+PIPELINER,Mixed,4,6,0.000033
+PIPELINER,Mixed,4,7,0.000025
+PIPELINER,Mixed,4,8,0.000025
+PIPELINER,Mixed,4,9,0.000027
+PIPELINER,Mixed,8,0,0.000026
+PIPELINER,Mixed,8,1,0.000038
+PIPELINER,Mixed,8,2,0.000028
+PIPELINER,Mixed,8,3,0.000033
+PIPELINER,Mixed,8,4,0.000028
+PIPELINER,Mixed,8,5,0.000024
+PIPELINER,Mixed,8,6,0.000030
+PIPELINER,Mixed,8,7,0.000026
+PIPELINER,Mixed,8,8,0.000024
+PIPELINER,Mixed,8,9,0.000029
+PIPELINER,Mixed,16,0,0.000084
+PIPELINER,Mixed,16,1,0.000028
+PIPELINER,Mixed,16,2,0.000027
+PIPELINER,Mixed,16,3,0.000025
+PIPELINER,Mixed,16,4,0.000027
+PIPELINER,Mixed,16,5,0.000027
+PIPELINER,Mixed,16,6,0.000028
+PIPELINER,Mixed,16,7,0.000024
+PIPELINER,Mixed,16,8,0.000022
+PIPELINER,Mixed,16,9,0.000024
+PIPELINER,Mixed,32,0,0.000024
+PIPELINER,Mixed,32,1,0.000025
+PIPELINER,Mixed,32,2,0.000030
+PIPELINER,Mixed,32,3,0.000031
+PIPELINER,Mixed,32,4,0.000029
+PIPELINER,Mixed,32,5,0.000035
+PIPELINER,Mixed,32,6,0.000220
+PIPELINER,Mixed,32,7,0.000022
+PIPELINER,Mixed,32,8,0.000026
+PIPELINER,Mixed,32,9,0.000020
+PIPELINER,One Face,4,0,0.000025
+PIPELINER,One Face,4,1,0.000031
+PIPELINER,One Face,4,2,0.000033
+PIPELINER,One Face,4,3,0.000033
+PIPELINER,One Face,4,4,0.000033
+PIPELINER,One Face,4,5,0.000029
+PIPELINER,One Face,4,6,0.000028
+PIPELINER,One Face,4,7,0.000023
+PIPELINER,One Face,4,8,0.000021
+PIPELINER,One Face,4,9,0.000026
+PIPELINER,One Face,8,0,0.000023
+PIPELINER,One Face,8,1,0.000036
+PIPELINER,One Face,8,2,0.000030
+PIPELINER,One Face,8,3,0.000029
+PIPELINER,One Face,8,4,0.000035
+PIPELINER,One Face,8,5,0.000025
+PIPELINER,One Face,8,6,0.000025
+PIPELINER,One Face,8,7,0.000030
+PIPELINER,One Face,8,8,0.000022
+PIPELINER,One Face,8,9,0.000022
+PIPELINER,One Face,16,0,0.000030
+PIPELINER,One Face,16,1,0.000030
+PIPELINER,One Face,16,2,0.000025
+PIPELINER,One Face,16,3,0.000027
+PIPELINER,One Face,16,4,0.000035
+PIPELINER,One Face,16,5,0.000027
+PIPELINER,One Face,16,6,0.000033
+PIPELINER,One Face,16,7,0.000024
+PIPELINER,One Face,16,8,0.000026
+PIPELINER,One Face,16,9,0.000021
+PIPELINER,One Face,32,0,0.000081
+PIPELINER,One Face,32,1,0.000026
+PIPELINER,One Face,32,2,0.000033
+PIPELINER,One Face,32,3,0.000026
+PIPELINER,One Face,32,4,0.000030
+PIPELINER,One Face,32,5,0.000327
+PIPELINER,One Face,32,6,0.000027
+PIPELINER,One Face,32,7,0.000022
+PIPELINER,One Face,32,8,0.000032
+PIPELINER,One Face,32,9,0.000023
+PIPELINER,Several Faces,4,0,0.000075
+PIPELINER,Several Faces,4,1,0.000029
+PIPELINER,Several Faces,4,2,0.000038
+PIPELINER,Several Faces,4,3,0.000025
+PIPELINER,Several Faces,4,4,0.000028
+PIPELINER,Several Faces,4,5,0.000033
+PIPELINER,Several Faces,4,6,0.000028
+PIPELINER,Several Faces,4,7,0.000024
+PIPELINER,Several Faces,4,8,0.000021
+PIPELINER,Several Faces,4,9,0.000022
+PIPELINER,Several Faces,8,0,0.000033
+PIPELINER,Several Faces,8,1,0.000035
+PIPELINER,Several Faces,8,2,0.000025
+PIPELINER,Several Faces,8,3,0.000028
+PIPELINER,Several Faces,8,4,0.000031
+PIPELINER,Several Faces,8,5,0.000030
+PIPELINER,Several Faces,8,6,0.000028
+PIPELINER,Several Faces,8,7,0.000025
+PIPELINER,Several Faces,8,8,0.000021
+PIPELINER,Several Faces,8,9,0.000027
+PIPELINER,Several Faces,16,0,0.000026
+PIPELINER,Several Faces,16,1,0.000032
+PIPELINER,Several Faces,16,2,0.000027
+PIPELINER,Several Faces,16,3,0.000028
+PIPELINER,Several Faces,16,4,0.000025
+PIPELINER,Several Faces,16,5,0.000040
+PIPELINER,Several Faces,16,6,0.000029
+PIPELINER,Several Faces,16,7,0.000031
+PIPELINER,Several Faces,16,8,0.000022
+PIPELINER,Several Faces,16,9,0.000025
+PIPELINER,Several Faces,32,0,0.000089
+PIPELINER,Several Faces,32,1,0.000025
+PIPELINER,Several Faces,32,2,0.000034
+PIPELINER,Several Faces,32,3,0.000025
+PIPELINER,Several Faces,32,4,0.000029
+PIPELINER,Several Faces,32,5,0.000035
+PIPELINER,Several Faces,32,6,0.000028
+PIPELINER,Several Faces,32,7,0.000025
+PIPELINER,Several Faces,32,8,0.000031
+PIPELINER,Several Faces,32,9,0.000030
+RAYON,Mixed,4,0,0.000069
+RAYON,Mixed,4,1,0.000070
+RAYON,Mixed,4,2,0.000029
+RAYON,Mixed,4,3,0.000035
+RAYON,Mixed,4,4,0.000030
+RAYON,Mixed,4,5,0.000033
+RAYON,Mixed,4,6,0.000036
+RAYON,Mixed,4,7,0.000190
+RAYON,Mixed,4,8,0.000029
+RAYON,Mixed,4,9,0.000026
+RAYON,Mixed,8,0,0.000021
+RAYON,Mixed,8,1,0.000027
+RAYON,Mixed,8,2,0.000029
+RAYON,Mixed,8,3,0.000166
+RAYON,Mixed,8,4,0.000029
+RAYON,Mixed,8,5,0.000025
+RAYON,Mixed,8,6,0.000028
+RAYON,Mixed,8,7,0.000025
+RAYON,Mixed,8,8,0.000026
+RAYON,Mixed,8,9,0.000028
+RAYON,Mixed,16,0,0.000021
+RAYON,Mixed,16,1,0.000034
+RAYON,Mixed,16,2,0.000027
+RAYON,Mixed,16,3,0.000033
+RAYON,Mixed,16,4,0.000026
+RAYON,Mixed,16,5,0.000027
+RAYON,Mixed,16,6,0.000028
+RAYON,Mixed,16,7,0.000024
+RAYON,Mixed,16,8,0.000022
+RAYON,Mixed,16,9,0.000026
+RAYON,Mixed,32,0,0.000024
+RAYON,Mixed,32,1,0.000029
+RAYON,Mixed,32,2,0.000031
+RAYON,Mixed,32,3,0.000029
+RAYON,Mixed,32,4,0.000026
+RAYON,Mixed,32,5,0.000027
+RAYON,Mixed,32,6,0.000030
+RAYON,Mixed,32,7,0.000025
+RAYON,Mixed,32,8,0.000024
+RAYON,Mixed,32,9,0.000025
+RAYON,One Face,4,0,0.000133
+RAYON,One Face,4,1,0.000031
+RAYON,One Face,4,2,0.000029
+RAYON,One Face,4,3,0.000029
+RAYON,One Face,4,4,0.000030
+RAYON,One Face,4,5,0.000031
+RAYON,One Face,4,6,0.000031
+RAYON,One Face,4,7,0.000021
+RAYON,One Face,4,8,0.000022
+RAYON,One Face,4,9,0.000027
+RAYON,One Face,8,0,0.000024
+RAYON,One Face,8,1,0.000026
+RAYON,One Face,8,2,0.000026
+RAYON,One Face,8,3,0.000122
+RAYON,One Face,8,4,0.000032
+RAYON,One Face,8,5,0.000025
+RAYON,One Face,8,6,0.000031
+RAYON,One Face,8,7,0.000026
+RAYON,One Face,8,8,0.000023
+RAYON,One Face,8,9,0.000025
+RAYON,One Face,16,0,0.000021
+RAYON,One Face,16,1,0.000033
+RAYON,One Face,16,2,0.000029
+RAYON,One Face,16,3,0.000030
+RAYON,One Face,16,4,0.000025
+RAYON,One Face,16,5,0.000024
+RAYON,One Face,16,6,0.000030
+RAYON,One Face,16,7,0.000023
+RAYON,One Face,16,8,0.000022
+RAYON,One Face,16,9,0.000027
+RAYON,One Face,32,0,0.000024
+RAYON,One Face,32,1,0.000026
+RAYON,One Face,32,2,0.000028
+RAYON,One Face,32,3,0.000027
+RAYON,One Face,32,4,0.000027
+RAYON,One Face,32,5,0.000032
+RAYON,One Face,32,6,0.000028
+RAYON,One Face,32,7,0.000022
+RAYON,One Face,32,8,0.000026
+RAYON,One Face,32,9,0.000027
+RAYON,Several Faces,4,0,0.000021
+RAYON,Several Faces,4,1,0.000028
+RAYON,Several Faces,4,2,0.000038
+RAYON,Several Faces,4,3,0.000022
+RAYON,Several Faces,4,4,0.000030
+RAYON,Several Faces,4,5,0.000033
+RAYON,Several Faces,4,6,0.000033
+RAYON,Several Faces,4,7,0.000021
+RAYON,Several Faces,4,8,0.000027
+RAYON,Several Faces,4,9,0.000022
+RAYON,Several Faces,8,0,0.000024
+RAYON,Several Faces,8,1,0.000025
+RAYON,Several Faces,8,2,0.000028
+RAYON,Several Faces,8,3,0.000030
+RAYON,Several Faces,8,4,0.000028
+RAYON,Several Faces,8,5,0.000024
+RAYON,Several Faces,8,6,0.000032
+RAYON,Several Faces,8,7,0.000023
+RAYON,Several Faces,8,8,0.000025
+RAYON,Several Faces,8,9,0.000019
+RAYON,Several Faces,16,0,0.000024
+RAYON,Several Faces,16,1,0.000031
+RAYON,Several Faces,16,2,0.000029
+RAYON,Several Faces,16,3,0.000030
+RAYON,Several Faces,16,4,0.000025
+RAYON,Several Faces,16,5,0.000026
+RAYON,Several Faces,16,6,0.000036
+RAYON,Several Faces,16,7,0.000025
+RAYON,Several Faces,16,8,0.000020
+RAYON,Several Faces,16,9,0.000023
+RAYON,Several Faces,32,0,0.000031
+RAYON,Several Faces,32,1,0.000028
+RAYON,Several Faces,32,2,0.000029
+RAYON,Several Faces,32,3,0.000030
+RAYON,Several Faces,32,4,0.000026
+RAYON,Several Faces,32,5,0.000034
+RAYON,Several Faces,32,6,0.000030
+RAYON,Several Faces,32,7,0.000021
+RAYON,Several Faces,32,8,0.000023
+RAYON,Several Faces,32,9,0.000022
+SEQUENTIAL,Mixed,4,0,1054.327768
+SEQUENTIAL,Mixed,4,1,1053.457280
+SEQUENTIAL,Mixed,4,2,1061.252914
+SEQUENTIAL,Mixed,4,3,1053.788922
+SEQUENTIAL,Mixed,4,4,1052.070194
+SEQUENTIAL,Mixed,4,5,1054.972510
+SEQUENTIAL,Mixed,4,6,1054.417674
+SEQUENTIAL,Mixed,4,7,1054.530235
+SEQUENTIAL,Mixed,4,8,1054.196509
+SEQUENTIAL,Mixed,4,9,1054.122822
+SEQUENTIAL,Mixed,8,0,1054.183422
+SEQUENTIAL,Mixed,8,1,1052.579894
+SEQUENTIAL,Mixed,8,2,1052.736115
+SEQUENTIAL,Mixed,8,3,1051.923508
+SEQUENTIAL,Mixed,8,4,1052.589296
+SEQUENTIAL,Mixed,8,5,1050.757521
+SEQUENTIAL,Mixed,8,6,1056.760342
+SEQUENTIAL,Mixed,8,7,1052.682331
+SEQUENTIAL,Mixed,8,8,1052.180371
+SEQUENTIAL,Mixed,8,9,1053.201345
+SEQUENTIAL,Mixed,16,0,1054.756043
+SEQUENTIAL,Mixed,16,1,1051.317388
+SEQUENTIAL,Mixed,16,2,1051.251302
+SEQUENTIAL,Mixed,16,3,1052.053679
+SEQUENTIAL,Mixed,16,4,1051.353709
+SEQUENTIAL,Mixed,16,5,1051.712927
+SEQUENTIAL,Mixed,16,6,1055.682931
+SEQUENTIAL,Mixed,16,7,1051.071903
+SEQUENTIAL,Mixed,16,8,1052.532104
+SEQUENTIAL,Mixed,16,9,1051.835775
+SEQUENTIAL,Mixed,32,0,1055.128453
+SEQUENTIAL,Mixed,32,1,1052.692000
+SEQUENTIAL,Mixed,32,2,1051.080878
+SEQUENTIAL,Mixed,32,3,1052.226952
+SEQUENTIAL,Mixed,32,4,1057.968335
+SEQUENTIAL,Mixed,32,5,1051.477057
+SEQUENTIAL,Mixed,32,6,1052.991458
+SEQUENTIAL,Mixed,32,7,1052.239904
+SEQUENTIAL,Mixed,32,8,1054.775906
+SEQUENTIAL,Mixed,32,9,1052.088288
+SEQUENTIAL,One Face,4,0,1254.694099
+SEQUENTIAL,One Face,4,1,1242.393194
+SEQUENTIAL,One Face,4,2,1239.061011
+SEQUENTIAL,One Face,4,3,1238.032021
+SEQUENTIAL,One Face,4,4,1258.256758
+SEQUENTIAL,One Face,4,5,1213.768878
+SEQUENTIAL,One Face,4,6,1234.539275
+SEQUENTIAL,One Face,4,7,1242.690421
+SEQUENTIAL,One Face,4,8,1257.700021
+SEQUENTIAL,One Face,4,9,1259.487838
+SEQUENTIAL,One Face,8,0,1150.892328
+SEQUENTIAL,One Face,8,1,1138.398361
+SEQUENTIAL,One Face,8,2,1139.764340
+SEQUENTIAL,One Face,8,3,1139.051720
+SEQUENTIAL,One Face,8,4,1139.508095
+SEQUENTIAL,One Face,8,5,1139.687843
+SEQUENTIAL,One Face,8,6,1142.514103
+SEQUENTIAL,One Face,8,7,1139.663642
+SEQUENTIAL,One Face,8,8,1139.100986
+SEQUENTIAL,One Face,8,9,1140.036546
+SEQUENTIAL,One Face,16,0,1139.991495
+SEQUENTIAL,One Face,16,1,1138.806384
+SEQUENTIAL,One Face,16,2,1139.682453
+SEQUENTIAL,One Face,16,3,1141.857486
+SEQUENTIAL,One Face,16,4,1139.367868
+SEQUENTIAL,One Face,16,5,1140.361982
+SEQUENTIAL,One Face,16,6,1141.247235
+SEQUENTIAL,One Face,16,7,1139.928019
+SEQUENTIAL,One Face,16,8,1139.017123
+SEQUENTIAL,One Face,16,9,1139.231190
+SEQUENTIAL,One Face,32,0,1139.974188
+SEQUENTIAL,One Face,32,1,1139.870002
+SEQUENTIAL,One Face,32,2,1139.379079
+SEQUENTIAL,One Face,32,3,1139.475725
+SEQUENTIAL,One Face,32,4,1146.142961
+SEQUENTIAL,One Face,32,5,1139.789770
+SEQUENTIAL,One Face,32,6,1144.516796
+SEQUENTIAL,One Face,32,7,1140.779009
+SEQUENTIAL,One Face,32,8,1139.860868
+SEQUENTIAL,One Face,32,9,1139.583240
+SEQUENTIAL,Several Faces,4,0,1361.880711
+SEQUENTIAL,Several Faces,4,1,1360.373695
+SEQUENTIAL,Several Faces,4,2,1359.367460
+SEQUENTIAL,Several Faces,4,3,1359.291376
+SEQUENTIAL,Several Faces,4,4,1358.463633
+SEQUENTIAL,Several Faces,4,5,1359.503097
+SEQUENTIAL,Several Faces,4,6,1359.248502
+SEQUENTIAL,Several Faces,4,7,1359.561845
+SEQUENTIAL,Several Faces,4,8,1359.103057
+SEQUENTIAL,Several Faces,4,9,1359.288878
+SEQUENTIAL,Several Faces,8,0,1372.966604
+SEQUENTIAL,Several Faces,8,1,1358.857344
+SEQUENTIAL,Several Faces,8,2,1359.457959
+SEQUENTIAL,Several Faces,8,3,1359.926358
+SEQUENTIAL,Several Faces,8,4,1358.808552
+SEQUENTIAL,Several Faces,8,5,1359.013351
+SEQUENTIAL,Several Faces,8,6,1364.527882
+SEQUENTIAL,Several Faces,8,7,1359.833836
+SEQUENTIAL,Several Faces,8,8,1359.979098
+SEQUENTIAL,Several Faces,8,9,1358.869281
+SEQUENTIAL,Several Faces,16,0,1363.383714
+SEQUENTIAL,Several Faces,16,1,1359.401216
+SEQUENTIAL,Several Faces,16,2,1359.279100
+SEQUENTIAL,Several Faces,16,3,1359.478014
+SEQUENTIAL,Several Faces,16,4,1360.099051
+SEQUENTIAL,Several Faces,16,5,1359.070553
+SEQUENTIAL,Several Faces,16,6,1360.642767
+SEQUENTIAL,Several Faces,16,7,1358.647399
+SEQUENTIAL,Several Faces,16,8,1359.919278
+SEQUENTIAL,Several Faces,16,9,1363.044258
+SEQUENTIAL,Several Faces,32,0,1359.173290
+SEQUENTIAL,Several Faces,32,1,1360.267736
+SEQUENTIAL,Several Faces,32,2,1358.430930
+SEQUENTIAL,Several Faces,32,3,1358.855138
+SEQUENTIAL,Several Faces,32,4,1366.251951
+SEQUENTIAL,Several Faces,32,5,1359.528252
+SEQUENTIAL,Several Faces,32,6,1362.315484
+SEQUENTIAL,Several Faces,32,7,1359.080192
+SEQUENTIAL,Several Faces,32,8,1359.235313
+SEQUENTIAL,Several Faces,32,9,1358.381388
+TOKIO,Mixed,4,0,268.480406
+TOKIO,Mixed,4,1,267.473487
+TOKIO,Mixed,4,2,267.754884
+TOKIO,Mixed,4,3,267.452594
+TOKIO,Mixed,4,4,267.551134
+TOKIO,Mixed,4,5,269.971254
+TOKIO,Mixed,4,6,268.124954
+TOKIO,Mixed,4,7,267.491149
+TOKIO,Mixed,4,8,267.481235
+TOKIO,Mixed,4,9,267.813257
+TOKIO,Mixed,8,0,137.020382
+TOKIO,Mixed,8,1,138.264876
+TOKIO,Mixed,8,2,136.327605
+TOKIO,Mixed,8,3,136.919373
+TOKIO,Mixed,8,4,137.384486
+TOKIO,Mixed,8,5,136.869211
+TOKIO,Mixed,8,6,136.010374
+TOKIO,Mixed,8,7,136.063541
+TOKIO,Mixed,8,8,136.756767
+TOKIO,Mixed,8,9,136.871674
+TOKIO,Mixed,16,0,87.569987
+TOKIO,Mixed,16,1,87.235782
+TOKIO,Mixed,16,2,88.706031
+TOKIO,Mixed,16,3,87.409971
+TOKIO,Mixed,16,4,86.524689
+TOKIO,Mixed,16,5,87.690986
+TOKIO,Mixed,16,6,87.666795
+TOKIO,Mixed,16,7,88.135564
+TOKIO,Mixed,16,8,86.385413
+TOKIO,Mixed,16,9,89.092059
+TOKIO,Mixed,32,0,67.762000
+TOKIO,Mixed,32,1,67.194152
+TOKIO,Mixed,32,2,74.177659
+TOKIO,Mixed,32,3,76.814149
+TOKIO,Mixed,32,4,73.375981
+TOKIO,Mixed,32,5,54.628088
+TOKIO,Mixed,32,6,76.801675
+TOKIO,Mixed,32,7,70.089877
+TOKIO,Mixed,32,8,78.846874
+TOKIO,Mixed,32,9,72.515610
+TOKIO,One Face,4,0,289.645118
+TOKIO,One Face,4,1,289.665763
+TOKIO,One Face,4,2,296.401456
+TOKIO,One Face,4,3,289.556103
+TOKIO,One Face,4,4,289.275744
+TOKIO,One Face,4,5,290.222919
+TOKIO,One Face,4,6,289.879568
+TOKIO,One Face,4,7,289.968706
+TOKIO,One Face,4,8,289.958901
+TOKIO,One Face,4,9,290.024777
+TOKIO,One Face,8,0,147.006959
+TOKIO,One Face,8,1,148.154260
+TOKIO,One Face,8,2,147.747837
+TOKIO,One Face,8,3,147.978110
+TOKIO,One Face,8,4,147.491188
+TOKIO,One Face,8,5,157.574435
+TOKIO,One Face,8,6,146.849737
+TOKIO,One Face,8,7,147.041470
+TOKIO,One Face,8,8,147.754073
+TOKIO,One Face,8,9,147.668728
+TOKIO,One Face,16,0,94.463088
+TOKIO,One Face,16,1,94.913459
+TOKIO,One Face,16,2,95.776053
+TOKIO,One Face,16,3,94.836941
+TOKIO,One Face,16,4,94.439286
+TOKIO,One Face,16,5,91.233721
+TOKIO,One Face,16,6,94.411368
+TOKIO,One Face,16,7,94.362394
+TOKIO,One Face,16,8,93.059711
+TOKIO,One Face,16,9,94.684406
+TOKIO,One Face,32,0,66.314587
+TOKIO,One Face,32,1,65.904165
+TOKIO,One Face,32,2,48.039808
+TOKIO,One Face,32,3,58.437950
+TOKIO,One Face,32,4,64.448676
+TOKIO,One Face,32,5,43.226370
+TOKIO,One Face,32,6,65.906372
+TOKIO,One Face,32,7,51.433431
+TOKIO,One Face,32,8,59.532724
+TOKIO,One Face,32,9,51.323582
+TOKIO,Several Faces,4,0,341.070501
+TOKIO,Several Faces,4,1,339.996726
+TOKIO,Several Faces,4,2,341.119909
+TOKIO,Several Faces,4,3,340.321198
+TOKIO,Several Faces,4,4,339.307048
+TOKIO,Several Faces,4,5,340.599454
+TOKIO,Several Faces,4,6,340.130737
+TOKIO,Several Faces,4,7,341.054958
+TOKIO,Several Faces,4,8,340.234470
+TOKIO,Several Faces,4,9,340.505672
+TOKIO,Several Faces,8,0,177.892653
+TOKIO,Several Faces,8,1,178.578478
+TOKIO,Several Faces,8,2,181.363546
+TOKIO,Several Faces,8,3,179.000933
+TOKIO,Several Faces,8,4,177.283520
+TOKIO,Several Faces,8,5,198.901351
+TOKIO,Several Faces,8,6,175.678187
+TOKIO,Several Faces,8,7,179.774507
+TOKIO,Several Faces,8,8,176.501590
+TOKIO,Several Faces,8,9,176.222833
+TOKIO,Several Faces,16,0,121.213286
+TOKIO,Several Faces,16,1,120.641866
+TOKIO,Several Faces,16,2,132.715006
+TOKIO,Several Faces,16,3,120.164743
+TOKIO,Several Faces,16,4,117.887032
+TOKIO,Several Faces,16,5,115.291943
+TOKIO,Several Faces,16,6,121.156614
+TOKIO,Several Faces,16,7,126.636455
+TOKIO,Several Faces,16,8,123.093329
+TOKIO,Several Faces,16,9,130.521970
+TOKIO,Several Faces,32,0,51.222931
+TOKIO,Several Faces,32,1,51.338443
+TOKIO,Several Faces,32,2,46.331769
+TOKIO,Several Faces,32,3,52.805629
+TOKIO,Several Faces,32,4,53.544222
+TOKIO,Several Faces,32,5,46.878696
+TOKIO,Several Faces,32,6,51.601110
+TOKIO,Several Faces,32,7,46.794020
+TOKIO,Several Faces,32,8,46.829006
+TOKIO,Several Faces,32,9,46.357476

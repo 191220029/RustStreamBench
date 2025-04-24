@@ -1,781 +1,1081 @@
-Framework,Workload,Iteration,ExecutionTime(s)
-dagrs,Compress Avi Video,0,25.509312
-dagrs,Compress Avi Video,1,15.673598
-dagrs,Compress Avi Video,2,15.785996
-dagrs,Compress Avi Video,3,12.358727
-dagrs,Compress Avi Video,4,21.846367
-dagrs,Compress Avi Video,5,15.584565
-dagrs,Compress Avi Video,6,15.530893
-dagrs,Compress Avi Video,7,15.886528
-dagrs,Compress Avi Video,8,16.541550
-dagrs,Compress Avi Video,9,16.143193
-dagrs,Compress Avi Video,10,12.962167
-dagrs,Compress Avi Video,11,15.858559
-dagrs,Compress Avi Video,12,13.738100
-dagrs,Compress Avi Video,13,15.928526
-dagrs,Compress Avi Video,14,15.540692
-dagrs,Compress Avi Video,15,15.158292
-dagrs,Compress Avi Video,16,13.479190
-dagrs,Compress Avi Video,17,13.554549
-dagrs,Compress Avi Video,18,15.535163
-dagrs,Compress Avi Video,19,12.580595
-dagrs,Compress Iso File,0,23.802772
-dagrs,Compress Iso File,1,17.630823
-dagrs,Compress Iso File,2,16.139203
-dagrs,Compress Iso File,3,13.238994
-dagrs,Compress Iso File,4,25.907960
-dagrs,Compress Iso File,5,13.807221
-dagrs,Compress Iso File,6,13.101077
-dagrs,Compress Iso File,7,16.497718
-dagrs,Compress Iso File,8,13.450003
-dagrs,Compress Iso File,9,12.939552
-dagrs,Compress Iso File,10,13.381207
-dagrs,Compress Iso File,11,13.123797
-dagrs,Compress Iso File,12,13.679143
-dagrs,Compress Iso File,13,15.851815
-dagrs,Compress Iso File,14,12.887111
-dagrs,Compress Iso File,15,13.403797
-dagrs,Compress Iso File,16,16.801908
-dagrs,Compress Iso File,17,13.457863
-dagrs,Compress Iso File,18,14.698961
-dagrs,Compress Iso File,19,13.289643
-dagrs,Compress Jdk,0,3.854405
-dagrs,Compress Jdk,1,4.533440
-dagrs,Compress Jdk,2,3.212040
-dagrs,Compress Jdk,3,3.560238
-dagrs,Compress Jdk,4,7.244502
-dagrs,Compress Jdk,5,4.510456
-dagrs,Compress Jdk,6,4.206871
-dagrs,Compress Jdk,7,6.162322
-dagrs,Compress Jdk,8,4.012594
-dagrs,Compress Jdk,9,3.926231
-dagrs,Compress Jdk,10,4.296081
-dagrs,Compress Jdk,11,3.947752
-dagrs,Compress Jdk,12,3.986055
-dagrs,Compress Jdk,13,4.311280
-dagrs,Compress Jdk,14,6.016557
-dagrs,Compress Jdk,15,5.846754
-dagrs,Compress Jdk,16,3.790575
-dagrs,Compress Jdk,17,3.545589
-dagrs,Compress Jdk,18,3.090434
-dagrs,Compress Jdk,19,3.574997
-dagrs,Decompress Avi Video,0,8.152304
-dagrs,Decompress Avi Video,1,7.515443
-dagrs,Decompress Avi Video,2,7.565438
-dagrs,Decompress Avi Video,3,7.427967
-dagrs,Decompress Avi Video,4,8.269731
-dagrs,Decompress Avi Video,5,7.793090
-dagrs,Decompress Avi Video,6,10.159409
-dagrs,Decompress Avi Video,7,9.583467
-dagrs,Decompress Avi Video,8,7.692481
-dagrs,Decompress Avi Video,9,7.804519
-dagrs,Decompress Avi Video,10,8.032417
-dagrs,Decompress Avi Video,11,8.669737
-dagrs,Decompress Avi Video,12,8.852803
-dagrs,Decompress Avi Video,13,12.512690
-dagrs,Decompress Avi Video,14,8.695476
-dagrs,Decompress Avi Video,15,7.972225
-dagrs,Decompress Avi Video,16,7.632454
-dagrs,Decompress Avi Video,17,7.698618
-dagrs,Decompress Avi Video,18,7.461970
-dagrs,Decompress Avi Video,19,7.614894
-dagrs,Decompress Iso File,0,7.464147
-dagrs,Decompress Iso File,1,7.257036
-dagrs,Decompress Iso File,2,11.318435
-dagrs,Decompress Iso File,3,7.698015
-dagrs,Decompress Iso File,4,10.652929
-dagrs,Decompress Iso File,5,7.246396
-dagrs,Decompress Iso File,6,7.211409
-dagrs,Decompress Iso File,7,7.450955
-dagrs,Decompress Iso File,8,8.273927
-dagrs,Decompress Iso File,9,7.720456
-dagrs,Decompress Iso File,10,7.438520
-dagrs,Decompress Iso File,11,7.450356
-dagrs,Decompress Iso File,12,7.761171
-dagrs,Decompress Iso File,13,11.007802
-dagrs,Decompress Iso File,14,7.590561
-dagrs,Decompress Iso File,15,7.311563
-dagrs,Decompress Iso File,16,7.272835
-dagrs,Decompress Iso File,17,7.654717
-dagrs,Decompress Iso File,18,7.463391
-dagrs,Decompress Iso File,19,7.528104
-dagrs,Decompress Jdk,0,1.993903
-dagrs,Decompress Jdk,1,2.045794
-dagrs,Decompress Jdk,2,2.478979
-dagrs,Decompress Jdk,3,2.011885
-dagrs,Decompress Jdk,4,3.276654
-dagrs,Decompress Jdk,5,2.043306
-dagrs,Decompress Jdk,6,2.052183
-dagrs,Decompress Jdk,7,2.082190
-dagrs,Decompress Jdk,8,2.037195
-dagrs,Decompress Jdk,9,2.055975
-dagrs,Decompress Jdk,10,2.040667
-dagrs,Decompress Jdk,11,2.040598
-dagrs,Decompress Jdk,12,2.070721
-dagrs,Decompress Jdk,13,2.959232
-dagrs,Decompress Jdk,14,2.067527
-dagrs,Decompress Jdk,15,2.012092
-dagrs,Decompress Jdk,16,2.706457
-dagrs,Decompress Jdk,17,2.146796
-dagrs,Decompress Jdk,18,2.053149
-dagrs,Decompress Jdk,19,1.987878
-pipeliner,Decompress Avi Video,0,6.940756
-pipeliner,Decompress Avi Video,1,6.825500
-pipeliner,Decompress Avi Video,2,7.076501
-pipeliner,Decompress Avi Video,3,6.837296
-pipeliner,Decompress Avi Video,4,6.950005
-pipeliner,Decompress Avi Video,5,7.474074
-pipeliner,Decompress Avi Video,6,7.119962
-pipeliner,Decompress Avi Video,7,7.204265
-pipeliner,Decompress Avi Video,8,7.367849
-pipeliner,Decompress Avi Video,9,7.121825
-pipeliner,Decompress Avi Video,10,6.978150
-pipeliner,Decompress Avi Video,11,7.140984
-pipeliner,Decompress Avi Video,12,6.923342
-pipeliner,Decompress Avi Video,13,6.935029
-pipeliner,Decompress Avi Video,14,7.071783
-pipeliner,Decompress Avi Video,15,7.173455
-pipeliner,Decompress Avi Video,16,7.260618
-pipeliner,Decompress Avi Video,17,6.790146
-pipeliner,Decompress Avi Video,18,7.299454
-pipeliner,Decompress Avi Video,19,7.168009
-pipeliner,Decompress Iso File,0,6.819090
-pipeliner,Decompress Iso File,1,6.755876
-pipeliner,Decompress Iso File,2,6.907751
-pipeliner,Decompress Iso File,3,6.879593
-pipeliner,Decompress Iso File,4,6.827240
-pipeliner,Decompress Iso File,5,6.904301
-pipeliner,Decompress Iso File,6,6.912477
-pipeliner,Decompress Iso File,7,7.573477
-pipeliner,Decompress Iso File,8,6.860760
-pipeliner,Decompress Iso File,9,6.938441
-pipeliner,Decompress Iso File,10,7.086358
-pipeliner,Decompress Iso File,11,7.153710
-pipeliner,Decompress Iso File,12,6.980417
-pipeliner,Decompress Iso File,13,6.940798
-pipeliner,Decompress Iso File,14,7.337314
-pipeliner,Decompress Iso File,15,6.994661
-pipeliner,Decompress Iso File,16,6.857547
-pipeliner,Decompress Iso File,17,6.897669
-pipeliner,Decompress Iso File,18,6.782568
-pipeliner,Decompress Iso File,19,6.681299
-pipeliner,Decompress Jdk,0,1.938094
-pipeliner,Decompress Jdk,1,1.952939
-pipeliner,Decompress Jdk,2,2.005290
-pipeliner,Decompress Jdk,3,1.940676
-pipeliner,Decompress Jdk,4,1.938362
-pipeliner,Decompress Jdk,5,1.945464
-pipeliner,Decompress Jdk,6,1.942193
-pipeliner,Decompress Jdk,7,1.964117
-pipeliner,Decompress Jdk,8,2.013652
-pipeliner,Decompress Jdk,9,1.951348
-pipeliner,Decompress Jdk,10,1.956374
-pipeliner,Decompress Jdk,11,1.977220
-pipeliner,Decompress Jdk,12,1.940184
-pipeliner,Decompress Jdk,13,2.011442
-pipeliner,Decompress Jdk,14,1.949591
-pipeliner,Decompress Jdk,15,1.952111
-pipeliner,Decompress Jdk,16,1.945896
-pipeliner,Decompress Jdk,17,1.912190
-pipeliner,Decompress Jdk,18,1.950403
-pipeliner,Decompress Jdk,19,2.003840
-rayon,Compress Avi Video,0,23.586355
-rayon,Compress Avi Video,1,10.163489
-rayon,Compress Avi Video,2,10.135921
-rayon,Compress Avi Video,3,9.973225
-rayon,Compress Avi Video,4,23.156552
-rayon,Compress Avi Video,5,10.065931
-rayon,Compress Avi Video,6,10.894563
-rayon,Compress Avi Video,7,10.049950
-rayon,Compress Avi Video,8,10.177791
-rayon,Compress Avi Video,9,10.009788
-rayon,Compress Avi Video,10,10.083053
-rayon,Compress Avi Video,11,10.472391
-rayon,Compress Avi Video,12,12.075089
-rayon,Compress Avi Video,13,9.989533
-rayon,Compress Avi Video,14,10.095155
-rayon,Compress Avi Video,15,10.138382
-rayon,Compress Avi Video,16,9.923683
-rayon,Compress Avi Video,17,12.365230
-rayon,Compress Avi Video,18,14.406634
-rayon,Compress Avi Video,19,10.075316
-rayon,Compress Iso File,0,22.916033
-rayon,Compress Iso File,1,12.117543
-rayon,Compress Iso File,2,12.134126
-rayon,Compress Iso File,3,12.276578
-rayon,Compress Iso File,4,23.640553
-rayon,Compress Iso File,5,12.060720
-rayon,Compress Iso File,6,12.074811
-rayon,Compress Iso File,7,12.112017
-rayon,Compress Iso File,8,11.895449
-rayon,Compress Iso File,9,12.033575
-rayon,Compress Iso File,10,12.164839
-rayon,Compress Iso File,11,12.074029
-rayon,Compress Iso File,12,13.005532
-rayon,Compress Iso File,13,12.128965
-rayon,Compress Iso File,14,12.078829
-rayon,Compress Iso File,15,11.955648
-rayon,Compress Iso File,16,14.116564
-rayon,Compress Iso File,17,12.191127
-rayon,Compress Iso File,18,12.452271
-rayon,Compress Iso File,19,12.180269
-rayon,Compress Jdk,0,3.573034
-rayon,Compress Jdk,1,5.440143
-rayon,Compress Jdk,2,3.652139
-rayon,Compress Jdk,3,3.869384
-rayon,Compress Jdk,4,5.713625
-rayon,Compress Jdk,5,5.095315
-rayon,Compress Jdk,6,4.316312
-rayon,Compress Jdk,7,4.360778
-rayon,Compress Jdk,8,2.900291
-rayon,Compress Jdk,9,4.837405
-rayon,Compress Jdk,10,4.281835
-rayon,Compress Jdk,11,2.882819
-rayon,Compress Jdk,12,4.148279
-rayon,Compress Jdk,13,3.833831
-rayon,Compress Jdk,14,5.400433
-rayon,Compress Jdk,15,4.308667
-rayon,Compress Jdk,16,3.986723
-rayon,Compress Jdk,17,3.780908
-rayon,Compress Jdk,18,2.980011
-rayon,Compress Jdk,19,3.760697
-rayon,Decompress Avi Video,0,7.023900
-rayon,Decompress Avi Video,1,7.032780
-rayon,Decompress Avi Video,2,7.198111
-rayon,Decompress Avi Video,3,7.139400
-rayon,Decompress Avi Video,4,7.394662
-rayon,Decompress Avi Video,5,7.175553
-rayon,Decompress Avi Video,6,6.861708
-rayon,Decompress Avi Video,7,7.024788
-rayon,Decompress Avi Video,8,6.928962
-rayon,Decompress Avi Video,9,7.297373
-rayon,Decompress Avi Video,10,7.160733
-rayon,Decompress Avi Video,11,7.042913
-rayon,Decompress Avi Video,12,7.362567
-rayon,Decompress Avi Video,13,7.209358
-rayon,Decompress Avi Video,14,7.036650
-rayon,Decompress Avi Video,15,7.368862
-rayon,Decompress Avi Video,16,7.151105
-rayon,Decompress Avi Video,17,6.990282
-rayon,Decompress Avi Video,18,6.997770
-rayon,Decompress Avi Video,19,6.854668
-rayon,Decompress Iso File,0,6.815838
-rayon,Decompress Iso File,1,6.802342
-rayon,Decompress Iso File,2,6.999292
-rayon,Decompress Iso File,3,6.909754
-rayon,Decompress Iso File,4,7.134641
-rayon,Decompress Iso File,5,6.909442
-rayon,Decompress Iso File,6,7.073518
-rayon,Decompress Iso File,7,6.913151
-rayon,Decompress Iso File,8,7.259749
-rayon,Decompress Iso File,9,6.999636
-rayon,Decompress Iso File,10,6.708001
-rayon,Decompress Iso File,11,6.892362
-rayon,Decompress Iso File,12,6.871237
-rayon,Decompress Iso File,13,8.077462
-rayon,Decompress Iso File,14,6.992556
-rayon,Decompress Iso File,15,7.122404
-rayon,Decompress Iso File,16,6.861807
-rayon,Decompress Iso File,17,7.084436
-rayon,Decompress Iso File,18,6.739130
-rayon,Decompress Iso File,19,6.846920
-rayon,Decompress Jdk,0,1.887204
-rayon,Decompress Jdk,1,1.924256
-rayon,Decompress Jdk,2,1.913247
-rayon,Decompress Jdk,3,1.881939
-rayon,Decompress Jdk,4,1.937220
-rayon,Decompress Jdk,5,2.015672
-rayon,Decompress Jdk,6,1.889042
-rayon,Decompress Jdk,7,3.477359
-rayon,Decompress Jdk,8,2.699138
-rayon,Decompress Jdk,9,1.938143
-rayon,Decompress Jdk,10,1.938635
-rayon,Decompress Jdk,11,1.950635
-rayon,Decompress Jdk,12,1.917435
-rayon,Decompress Jdk,13,1.925319
-rayon,Decompress Jdk,14,1.988898
-rayon,Decompress Jdk,15,1.873997
-rayon,Decompress Jdk,16,1.900873
-rayon,Decompress Jdk,17,1.931191
-rayon,Decompress Jdk,18,1.899676
-rayon,Decompress Jdk,19,1.950860
-rust-ssp,Compress Avi Video,0,21.137788
-rust-ssp,Compress Avi Video,1,12.960772
-rust-ssp,Compress Avi Video,2,14.503480
-rust-ssp,Compress Avi Video,3,10.078702
-rust-ssp,Compress Avi Video,4,23.539674
-rust-ssp,Compress Avi Video,5,10.068849
-rust-ssp,Compress Avi Video,6,10.022620
-rust-ssp,Compress Avi Video,7,10.750810
-rust-ssp,Compress Avi Video,8,16.763354
-rust-ssp,Compress Avi Video,9,10.019697
-rust-ssp,Compress Avi Video,10,12.774487
-rust-ssp,Compress Avi Video,11,11.928546
-rust-ssp,Compress Avi Video,12,11.112677
-rust-ssp,Compress Avi Video,13,10.069986
-rust-ssp,Compress Avi Video,14,14.461931
-rust-ssp,Compress Avi Video,15,15.115447
-rust-ssp,Compress Avi Video,16,15.536220
-rust-ssp,Compress Avi Video,17,11.607864
-rust-ssp,Compress Avi Video,18,15.059508
-rust-ssp,Compress Avi Video,19,12.159802
-rust-ssp,Compress Iso File,0,18.177072
-rust-ssp,Compress Iso File,1,12.442024
-rust-ssp,Compress Iso File,2,12.336417
-rust-ssp,Compress Iso File,3,12.413804
-rust-ssp,Compress Iso File,4,25.126986
-rust-ssp,Compress Iso File,5,12.252995
-rust-ssp,Compress Iso File,6,12.239734
-rust-ssp,Compress Iso File,7,12.290520
-rust-ssp,Compress Iso File,8,12.638937
-rust-ssp,Compress Iso File,9,12.408204
-rust-ssp,Compress Iso File,10,12.426010
-rust-ssp,Compress Iso File,11,12.223754
-rust-ssp,Compress Iso File,12,12.614112
-rust-ssp,Compress Iso File,13,12.228865
-rust-ssp,Compress Iso File,14,12.412841
-rust-ssp,Compress Iso File,15,12.471330
-rust-ssp,Compress Iso File,16,12.314386
-rust-ssp,Compress Iso File,17,12.728997
-rust-ssp,Compress Iso File,18,12.919823
-rust-ssp,Compress Iso File,19,12.602070
-rust-ssp,Compress Jdk,0,3.982936
-rust-ssp,Compress Jdk,1,3.849462
-rust-ssp,Compress Jdk,2,3.561125
-rust-ssp,Compress Jdk,3,3.916897
-rust-ssp,Compress Jdk,4,3.893490
-rust-ssp,Compress Jdk,5,4.383295
-rust-ssp,Compress Jdk,6,4.678111
-rust-ssp,Compress Jdk,7,5.009244
-rust-ssp,Compress Jdk,8,4.522576
-rust-ssp,Compress Jdk,9,4.847892
-rust-ssp,Compress Jdk,10,3.913784
-rust-ssp,Compress Jdk,11,4.212006
-rust-ssp,Compress Jdk,12,3.874634
-rust-ssp,Compress Jdk,13,4.174567
-rust-ssp,Compress Jdk,14,4.712271
-rust-ssp,Compress Jdk,15,3.360668
-rust-ssp,Compress Jdk,16,4.613397
-rust-ssp,Compress Jdk,17,4.152593
-rust-ssp,Compress Jdk,18,2.890822
-rust-ssp,Compress Jdk,19,3.324130
-rust-ssp,Decompress Avi Video,0,7.186810
-rust-ssp,Decompress Avi Video,1,7.063216
-rust-ssp,Decompress Avi Video,2,7.046127
-rust-ssp,Decompress Avi Video,3,7.209148
-rust-ssp,Decompress Avi Video,4,6.938403
-rust-ssp,Decompress Avi Video,5,7.166372
-rust-ssp,Decompress Avi Video,6,7.149819
-rust-ssp,Decompress Avi Video,7,7.428302
-rust-ssp,Decompress Avi Video,8,7.262841
-rust-ssp,Decompress Avi Video,9,7.021603
-rust-ssp,Decompress Avi Video,10,7.113324
-rust-ssp,Decompress Avi Video,11,7.233392
-rust-ssp,Decompress Avi Video,12,7.102254
-rust-ssp,Decompress Avi Video,13,6.948569
-rust-ssp,Decompress Avi Video,14,7.367827
-rust-ssp,Decompress Avi Video,15,7.196394
-rust-ssp,Decompress Avi Video,16,7.051854
-rust-ssp,Decompress Avi Video,17,7.143568
-rust-ssp,Decompress Avi Video,18,7.025203
-rust-ssp,Decompress Avi Video,19,7.201753
-rust-ssp,Decompress Iso File,0,7.187139
-rust-ssp,Decompress Iso File,1,6.989427
-rust-ssp,Decompress Iso File,2,7.329085
-rust-ssp,Decompress Iso File,3,7.185236
-rust-ssp,Decompress Iso File,4,7.216524
-rust-ssp,Decompress Iso File,5,7.233680
-rust-ssp,Decompress Iso File,6,7.064306
-rust-ssp,Decompress Iso File,7,7.013332
-rust-ssp,Decompress Iso File,8,7.006613
-rust-ssp,Decompress Iso File,9,7.346574
-rust-ssp,Decompress Iso File,10,7.239315
-rust-ssp,Decompress Iso File,11,7.040105
-rust-ssp,Decompress Iso File,12,6.979959
-rust-ssp,Decompress Iso File,13,8.096321
-rust-ssp,Decompress Iso File,14,7.082326
-rust-ssp,Decompress Iso File,15,7.423207
-rust-ssp,Decompress Iso File,16,7.281203
-rust-ssp,Decompress Iso File,17,7.110789
-rust-ssp,Decompress Iso File,18,7.002741
-rust-ssp,Decompress Iso File,19,7.268658
-rust-ssp,Decompress Jdk,0,1.913045
-rust-ssp,Decompress Jdk,1,1.907273
-rust-ssp,Decompress Jdk,2,2.021347
-rust-ssp,Decompress Jdk,3,1.951219
-rust-ssp,Decompress Jdk,4,1.957151
-rust-ssp,Decompress Jdk,5,1.905486
-rust-ssp,Decompress Jdk,6,1.942055
-rust-ssp,Decompress Jdk,7,1.937214
-rust-ssp,Decompress Jdk,8,1.961722
-rust-ssp,Decompress Jdk,9,1.891538
-rust-ssp,Decompress Jdk,10,1.915244
-rust-ssp,Decompress Jdk,11,1.903676
-rust-ssp,Decompress Jdk,12,1.905743
-rust-ssp,Decompress Jdk,13,2.020348
-rust-ssp,Decompress Jdk,14,1.950503
-rust-ssp,Decompress Jdk,15,1.935149
-rust-ssp,Decompress Jdk,16,1.913409
-rust-ssp,Decompress Jdk,17,1.935379
-rust-ssp,Decompress Jdk,18,1.888010
-rust-ssp,Decompress Jdk,19,1.912396
-sequential,Compress Avi Video,0,82.418697
-sequential,Compress Avi Video,1,86.389267
-sequential,Compress Avi Video,2,81.795542
-sequential,Compress Avi Video,3,84.076597
-sequential,Compress Avi Video,4,84.641919
-sequential,Compress Avi Video,5,82.766283
-sequential,Compress Avi Video,6,85.883120
-sequential,Compress Avi Video,7,81.733712
-sequential,Compress Avi Video,8,84.511767
-sequential,Compress Avi Video,9,81.809348
-sequential,Compress Avi Video,10,86.041985
-sequential,Compress Avi Video,11,82.597574
-sequential,Compress Avi Video,12,84.902981
-sequential,Compress Avi Video,13,85.789223
-sequential,Compress Avi Video,14,86.189459
-sequential,Compress Avi Video,15,84.501570
-sequential,Compress Avi Video,16,83.851119
-sequential,Compress Avi Video,17,85.290396
-sequential,Compress Avi Video,18,82.367270
-sequential,Compress Avi Video,19,86.021774
-sequential,Compress Iso File,0,103.937116
-sequential,Compress Iso File,1,103.040282
-sequential,Compress Iso File,2,103.710932
-sequential,Compress Iso File,3,103.836826
-sequential,Compress Iso File,4,102.989664
-sequential,Compress Iso File,5,103.532072
-sequential,Compress Iso File,6,102.767965
-sequential,Compress Iso File,7,103.197484
-sequential,Compress Iso File,8,103.361123
-sequential,Compress Iso File,9,103.474902
-sequential,Compress Iso File,10,103.071050
-sequential,Compress Iso File,11,104.148567
-sequential,Compress Iso File,12,103.380856
-sequential,Compress Iso File,13,103.050066
-sequential,Compress Iso File,14,102.556448
-sequential,Compress Iso File,15,103.994756
-sequential,Compress Iso File,16,102.931386
-sequential,Compress Iso File,17,104.295087
-sequential,Compress Iso File,18,103.947864
-sequential,Compress Iso File,19,102.428953
-sequential,Compress Jdk,0,23.496911
-sequential,Compress Jdk,1,23.384986
-sequential,Compress Jdk,2,23.394989
-sequential,Compress Jdk,3,23.315023
-sequential,Compress Jdk,4,23.472842
-sequential,Compress Jdk,5,23.300662
-sequential,Compress Jdk,6,23.267950
-sequential,Compress Jdk,7,23.204156
-sequential,Compress Jdk,8,23.406173
-sequential,Compress Jdk,9,23.449459
-sequential,Compress Jdk,10,23.431603
-sequential,Compress Jdk,11,23.333693
-sequential,Compress Jdk,12,23.264412
-sequential,Compress Jdk,13,23.421811
-sequential,Compress Jdk,14,23.315280
-sequential,Compress Jdk,15,23.343828
-sequential,Compress Jdk,16,23.933790
-sequential,Compress Jdk,17,23.385086
-sequential,Compress Jdk,18,23.341878
-sequential,Compress Jdk,19,23.172116
-sequential,Decompress Avi Video,0,49.488744
-sequential,Decompress Avi Video,1,49.056287
-sequential,Decompress Avi Video,2,49.843877
-sequential,Decompress Avi Video,3,49.844196
-sequential,Decompress Avi Video,4,48.530844
-sequential,Decompress Avi Video,5,48.808674
-sequential,Decompress Avi Video,6,50.953987
-sequential,Decompress Avi Video,7,49.116254
-sequential,Decompress Avi Video,8,49.712065
-sequential,Decompress Avi Video,9,49.772154
-sequential,Decompress Avi Video,10,49.570303
-sequential,Decompress Avi Video,11,49.560842
-sequential,Decompress Avi Video,12,49.117021
-sequential,Decompress Avi Video,13,48.890431
-sequential,Decompress Avi Video,14,50.279871
-sequential,Decompress Avi Video,15,49.819838
-sequential,Decompress Avi Video,16,49.818756
-sequential,Decompress Avi Video,17,48.205996
-sequential,Decompress Avi Video,18,49.448246
-sequential,Decompress Avi Video,19,48.321917
-sequential,Decompress Iso File,0,49.192494
-sequential,Decompress Iso File,1,49.273709
-sequential,Decompress Iso File,2,49.277862
-sequential,Decompress Iso File,3,48.331357
-sequential,Decompress Iso File,4,47.959272
-sequential,Decompress Iso File,5,49.536932
-sequential,Decompress Iso File,6,47.917355
-sequential,Decompress Iso File,7,48.396050
-sequential,Decompress Iso File,8,48.444519
-sequential,Decompress Iso File,9,49.128834
-sequential,Decompress Iso File,10,47.864348
-sequential,Decompress Iso File,11,48.948513
-sequential,Decompress Iso File,12,48.584573
-sequential,Decompress Iso File,13,48.366601
-sequential,Decompress Iso File,14,49.080346
-sequential,Decompress Iso File,15,48.930867
-sequential,Decompress Iso File,16,49.097558
-sequential,Decompress Iso File,17,48.462432
-sequential,Decompress Iso File,18,48.887791
-sequential,Decompress Iso File,19,49.057532
-sequential,Decompress Jdk,0,13.278256
-sequential,Decompress Jdk,1,13.340222
-sequential,Decompress Jdk,2,13.424317
-sequential,Decompress Jdk,3,13.268710
-sequential,Decompress Jdk,4,13.186304
-sequential,Decompress Jdk,5,13.059305
-sequential,Decompress Jdk,6,13.238456
-sequential,Decompress Jdk,7,13.078889
-sequential,Decompress Jdk,8,13.264506
-sequential,Decompress Jdk,9,13.541031
-sequential,Decompress Jdk,10,13.389120
-sequential,Decompress Jdk,11,13.312076
-sequential,Decompress Jdk,12,13.354403
-sequential,Decompress Jdk,13,13.144328
-sequential,Decompress Jdk,14,13.141195
-sequential,Decompress Jdk,15,13.455486
-sequential,Decompress Jdk,16,13.184379
-sequential,Decompress Jdk,17,13.163030
-sequential,Decompress Jdk,18,13.172074
-sequential,Decompress Jdk,19,13.302825
-std-threads,Compress Avi Video,0,24.494137
-std-threads,Compress Avi Video,1,10.158112
-std-threads,Compress Avi Video,2,11.232640
-std-threads,Compress Avi Video,3,11.886629
-std-threads,Compress Avi Video,4,23.393206
-std-threads,Compress Avi Video,5,10.143954
-std-threads,Compress Avi Video,6,14.154612
-std-threads,Compress Avi Video,7,10.062152
-std-threads,Compress Avi Video,8,10.243057
-std-threads,Compress Avi Video,9,10.047871
-std-threads,Compress Avi Video,10,10.053801
-std-threads,Compress Avi Video,11,13.423761
-std-threads,Compress Avi Video,12,13.244825
-std-threads,Compress Avi Video,13,11.362336
-std-threads,Compress Avi Video,14,9.921013
-std-threads,Compress Avi Video,15,9.975829
-std-threads,Compress Avi Video,16,10.094521
-std-threads,Compress Avi Video,17,10.111316
-std-threads,Compress Avi Video,18,15.377139
-std-threads,Compress Avi Video,19,10.814574
-std-threads,Compress Iso File,0,23.444620
-std-threads,Compress Iso File,1,12.139482
-std-threads,Compress Iso File,2,12.421782
-std-threads,Compress Iso File,3,12.466785
-std-threads,Compress Iso File,4,25.351925
-std-threads,Compress Iso File,5,12.345272
-std-threads,Compress Iso File,6,12.143248
-std-threads,Compress Iso File,7,12.339165
-std-threads,Compress Iso File,8,12.136690
-std-threads,Compress Iso File,9,12.247967
-std-threads,Compress Iso File,10,12.487406
-std-threads,Compress Iso File,11,12.186116
-std-threads,Compress Iso File,12,12.204870
-std-threads,Compress Iso File,13,12.640935
-std-threads,Compress Iso File,14,12.336297
-std-threads,Compress Iso File,15,12.126052
-std-threads,Compress Iso File,16,14.382752
-std-threads,Compress Iso File,17,12.282784
-std-threads,Compress Iso File,18,14.075346
-std-threads,Compress Iso File,19,12.252876
-std-threads,Compress Jdk,0,3.665113
-std-threads,Compress Jdk,1,4.388613
-std-threads,Compress Jdk,2,3.497051
-std-threads,Compress Jdk,3,3.379374
-std-threads,Compress Jdk,4,4.472288
-std-threads,Compress Jdk,5,4.679000
-std-threads,Compress Jdk,6,3.887118
-std-threads,Compress Jdk,7,5.065154
-std-threads,Compress Jdk,8,3.137291
-std-threads,Compress Jdk,9,4.843352
-std-threads,Compress Jdk,10,4.137340
-std-threads,Compress Jdk,11,3.584703
-std-threads,Compress Jdk,12,3.930044
-std-threads,Compress Jdk,13,3.975531
-std-threads,Compress Jdk,14,5.425857
-std-threads,Compress Jdk,15,2.907115
-std-threads,Compress Jdk,16,4.689481
-std-threads,Compress Jdk,17,3.726956
-std-threads,Compress Jdk,18,2.871562
-std-threads,Compress Jdk,19,3.465116
-std-threads,Decompress Avi Video,0,7.263045
-std-threads,Decompress Avi Video,1,7.194705
-std-threads,Decompress Avi Video,2,7.045954
-std-threads,Decompress Avi Video,3,6.969555
-std-threads,Decompress Avi Video,4,6.907836
-std-threads,Decompress Avi Video,5,7.079173
-std-threads,Decompress Avi Video,6,6.936509
-std-threads,Decompress Avi Video,7,7.261697
-std-threads,Decompress Avi Video,8,7.044534
-std-threads,Decompress Avi Video,9,7.070778
-std-threads,Decompress Avi Video,10,7.261282
-std-threads,Decompress Avi Video,11,7.627712
-std-threads,Decompress Avi Video,12,7.372959
-std-threads,Decompress Avi Video,13,6.902295
-std-threads,Decompress Avi Video,14,7.314621
-std-threads,Decompress Avi Video,15,7.582412
-std-threads,Decompress Avi Video,16,6.977626
-std-threads,Decompress Avi Video,17,7.042452
-std-threads,Decompress Avi Video,18,6.857892
-std-threads,Decompress Avi Video,19,7.352213
-std-threads,Decompress Iso File,0,6.843209
-std-threads,Decompress Iso File,1,7.030841
-std-threads,Decompress Iso File,2,6.971459
-std-threads,Decompress Iso File,3,6.926880
-std-threads,Decompress Iso File,4,6.858443
-std-threads,Decompress Iso File,5,6.853784
-std-threads,Decompress Iso File,6,7.099710
-std-threads,Decompress Iso File,7,7.079882
-std-threads,Decompress Iso File,8,6.890970
-std-threads,Decompress Iso File,9,7.067550
-std-threads,Decompress Iso File,10,7.009590
-std-threads,Decompress Iso File,11,6.740318
-std-threads,Decompress Iso File,12,6.880562
-std-threads,Decompress Iso File,13,6.835070
-std-threads,Decompress Iso File,14,6.884878
-std-threads,Decompress Iso File,15,7.144249
-std-threads,Decompress Iso File,16,6.898755
-std-threads,Decompress Iso File,17,6.894158
-std-threads,Decompress Iso File,18,6.925779
-std-threads,Decompress Iso File,19,6.963333
-std-threads,Decompress Jdk,0,1.924517
-std-threads,Decompress Jdk,1,1.925389
-std-threads,Decompress Jdk,2,1.897423
-std-threads,Decompress Jdk,3,1.924655
-std-threads,Decompress Jdk,4,1.937347
-std-threads,Decompress Jdk,5,1.978732
-std-threads,Decompress Jdk,6,1.924664
-std-threads,Decompress Jdk,7,2.148632
-std-threads,Decompress Jdk,8,2.511915
-std-threads,Decompress Jdk,9,1.930118
-std-threads,Decompress Jdk,10,1.909620
-std-threads,Decompress Jdk,11,1.918215
-std-threads,Decompress Jdk,12,1.935574
-std-threads,Decompress Jdk,13,1.954830
-std-threads,Decompress Jdk,14,1.929590
-std-threads,Decompress Jdk,15,1.920557
-std-threads,Decompress Jdk,16,1.949664
-std-threads,Decompress Jdk,17,1.937460
-std-threads,Decompress Jdk,18,1.916969
-std-threads,Decompress Jdk,19,1.942386
-tokio,Compress Avi Video,0,25.080245
-tokio,Compress Avi Video,1,14.261667
-tokio,Compress Avi Video,2,15.869540
-tokio,Compress Avi Video,3,12.500071
-tokio,Compress Avi Video,4,22.785819
-tokio,Compress Avi Video,5,15.844046
-tokio,Compress Avi Video,6,15.738401
-tokio,Compress Avi Video,7,16.002061
-tokio,Compress Avi Video,8,16.330983
-tokio,Compress Avi Video,9,15.976538
-tokio,Compress Avi Video,10,13.754918
-tokio,Compress Avi Video,11,16.246092
-tokio,Compress Avi Video,12,13.881762
-tokio,Compress Avi Video,13,16.166926
-tokio,Compress Avi Video,14,15.647842
-tokio,Compress Avi Video,15,15.651915
-tokio,Compress Avi Video,16,14.961942
-tokio,Compress Avi Video,17,13.617216
-tokio,Compress Avi Video,18,15.456297
-tokio,Compress Avi Video,19,12.471466
-tokio,Compress Iso File,0,23.195636
-tokio,Compress Iso File,1,12.496404
-tokio,Compress Iso File,2,12.516056
-tokio,Compress Iso File,3,12.727551
-tokio,Compress Iso File,4,25.591202
-tokio,Compress Iso File,5,12.690717
-tokio,Compress Iso File,6,12.521909
-tokio,Compress Iso File,7,12.526010
-tokio,Compress Iso File,8,12.540247
-tokio,Compress Iso File,9,12.870334
-tokio,Compress Iso File,10,12.439136
-tokio,Compress Iso File,11,12.591523
-tokio,Compress Iso File,12,12.813257
-tokio,Compress Iso File,13,13.586419
-tokio,Compress Iso File,14,12.839811
-tokio,Compress Iso File,15,12.523389
-tokio,Compress Iso File,16,12.683047
-tokio,Compress Iso File,17,12.826703
-tokio,Compress Iso File,18,14.230298
-tokio,Compress Iso File,19,12.582318
-tokio,Compress Jdk,0,3.507832
-tokio,Compress Jdk,1,3.922419
-tokio,Compress Jdk,2,3.586285
-tokio,Compress Jdk,3,3.311561
-tokio,Compress Jdk,4,4.793561
-tokio,Compress Jdk,5,3.812072
-tokio,Compress Jdk,6,3.773450
-tokio,Compress Jdk,7,4.619546
-tokio,Compress Jdk,8,4.796364
-tokio,Compress Jdk,9,3.867240
-tokio,Compress Jdk,10,4.303314
-tokio,Compress Jdk,11,3.499888
-tokio,Compress Jdk,12,3.889713
-tokio,Compress Jdk,13,3.999634
-tokio,Compress Jdk,14,3.560822
-tokio,Compress Jdk,15,4.065306
-tokio,Compress Jdk,16,4.954560
-tokio,Compress Jdk,17,3.587986
-tokio,Compress Jdk,18,2.954991
-tokio,Compress Jdk,19,3.411450
-tokio,Decompress Avi Video,0,7.279070
-tokio,Decompress Avi Video,1,7.063165
-tokio,Decompress Avi Video,2,7.094671
-tokio,Decompress Avi Video,3,7.182872
-tokio,Decompress Avi Video,4,7.002638
-tokio,Decompress Avi Video,5,7.429137
-tokio,Decompress Avi Video,6,7.130715
-tokio,Decompress Avi Video,7,7.346196
-tokio,Decompress Avi Video,8,7.153897
-tokio,Decompress Avi Video,9,7.157218
-tokio,Decompress Avi Video,10,7.153650
-tokio,Decompress Avi Video,11,6.991575
-tokio,Decompress Avi Video,12,7.135365
-tokio,Decompress Avi Video,13,7.970012
-tokio,Decompress Avi Video,14,7.187609
-tokio,Decompress Avi Video,15,7.206901
-tokio,Decompress Avi Video,16,7.117269
-tokio,Decompress Avi Video,17,7.661516
-tokio,Decompress Avi Video,18,7.124990
-tokio,Decompress Avi Video,19,7.231016
-tokio,Decompress Iso File,0,7.111526
-tokio,Decompress Iso File,1,6.972839
-tokio,Decompress Iso File,2,7.066161
-tokio,Decompress Iso File,3,7.074995
-tokio,Decompress Iso File,4,7.172152
-tokio,Decompress Iso File,5,6.886216
-tokio,Decompress Iso File,6,7.045873
-tokio,Decompress Iso File,7,6.945485
-tokio,Decompress Iso File,8,7.089594
-tokio,Decompress Iso File,9,7.078154
-tokio,Decompress Iso File,10,6.923813
-tokio,Decompress Iso File,11,7.004644
-tokio,Decompress Iso File,12,6.981699
-tokio,Decompress Iso File,13,6.984334
-tokio,Decompress Iso File,14,6.993959
-tokio,Decompress Iso File,15,6.989483
-tokio,Decompress Iso File,16,7.211566
-tokio,Decompress Iso File,17,7.021973
-tokio,Decompress Iso File,18,7.165080
-tokio,Decompress Iso File,19,7.209249
-tokio,Decompress Jdk,0,1.909449
-tokio,Decompress Jdk,1,1.896391
-tokio,Decompress Jdk,2,1.938945
-tokio,Decompress Jdk,3,1.923727
-tokio,Decompress Jdk,4,1.986055
-tokio,Decompress Jdk,5,1.923187
-tokio,Decompress Jdk,6,1.934423
-tokio,Decompress Jdk,7,1.909310
-tokio,Decompress Jdk,8,1.936244
-tokio,Decompress Jdk,9,1.915033
-tokio,Decompress Jdk,10,2.074402
-tokio,Decompress Jdk,11,1.883993
-tokio,Decompress Jdk,12,1.912770
-tokio,Decompress Jdk,13,1.909256
-tokio,Decompress Jdk,14,1.944216
-tokio,Decompress Jdk,15,1.867190
-tokio,Decompress Jdk,16,1.891626
-tokio,Decompress Jdk,17,1.916029
-tokio,Decompress Jdk,18,1.917369
-tokio,Decompress Jdk,19,1.915723
+Framework,Workload,NThread,Iteration,ExecutionTime(s)
+DAGRS,Compress Avi Video,4,0,25.886680
+DAGRS,Compress Avi Video,4,1,30.937607
+DAGRS,Compress Avi Video,4,2,36.347990
+DAGRS,Compress Avi Video,4,3,33.554271
+DAGRS,Compress Avi Video,4,4,28.561425
+DAGRS,Compress Avi Video,4,5,27.840940
+DAGRS,Compress Avi Video,4,6,30.176275
+DAGRS,Compress Avi Video,4,7,28.260116
+DAGRS,Compress Avi Video,4,8,31.421623
+DAGRS,Compress Avi Video,4,9,31.960643
+DAGRS,Compress Avi Video,8,0,14.219616
+DAGRS,Compress Avi Video,8,1,13.527780
+DAGRS,Compress Avi Video,8,2,13.265013
+DAGRS,Compress Avi Video,8,3,13.994986
+DAGRS,Compress Avi Video,8,4,13.594959
+DAGRS,Compress Avi Video,8,5,13.505867
+DAGRS,Compress Avi Video,8,6,14.399337
+DAGRS,Compress Avi Video,8,7,12.820684
+DAGRS,Compress Avi Video,8,8,13.686979
+DAGRS,Compress Avi Video,8,9,13.174152
+DAGRS,Compress Avi Video,16,0,12.262436
+DAGRS,Compress Avi Video,16,1,10.527595
+DAGRS,Compress Avi Video,16,2,10.022132
+DAGRS,Compress Avi Video,16,3,9.673705
+DAGRS,Compress Avi Video,16,4,10.276373
+DAGRS,Compress Avi Video,16,5,9.466246
+DAGRS,Compress Avi Video,16,6,9.828107
+DAGRS,Compress Avi Video,16,7,10.435050
+DAGRS,Compress Avi Video,16,8,14.141450
+DAGRS,Compress Avi Video,16,9,9.291816
+DAGRS,Compress Avi Video,32,0,11.982618
+DAGRS,Compress Avi Video,32,1,5.696360
+DAGRS,Compress Avi Video,32,2,7.099956
+DAGRS,Compress Avi Video,32,3,10.524582
+DAGRS,Compress Avi Video,32,4,7.458752
+DAGRS,Compress Avi Video,32,5,7.436226
+DAGRS,Compress Avi Video,32,6,6.424476
+DAGRS,Compress Avi Video,32,7,7.341263
+DAGRS,Compress Avi Video,32,8,4.525392
+DAGRS,Compress Avi Video,32,9,6.773902
+DAGRS,Compress Iso File,4,0,28.190058
+DAGRS,Compress Iso File,4,1,31.030841
+DAGRS,Compress Iso File,4,2,30.698732
+DAGRS,Compress Iso File,4,3,31.440664
+DAGRS,Compress Iso File,4,4,30.182386
+DAGRS,Compress Iso File,4,5,29.511460
+DAGRS,Compress Iso File,4,6,30.854012
+DAGRS,Compress Iso File,4,7,30.662721
+DAGRS,Compress Iso File,4,8,32.213672
+DAGRS,Compress Iso File,4,9,33.825013
+DAGRS,Compress Iso File,8,0,16.278227
+DAGRS,Compress Iso File,8,1,19.305942
+DAGRS,Compress Iso File,8,2,18.797535
+DAGRS,Compress Iso File,8,3,16.435796
+DAGRS,Compress Iso File,8,4,17.963202
+DAGRS,Compress Iso File,8,5,17.015657
+DAGRS,Compress Iso File,8,6,21.277300
+DAGRS,Compress Iso File,8,7,16.084873
+DAGRS,Compress Iso File,8,8,16.487393
+DAGRS,Compress Iso File,8,9,17.234704
+DAGRS,Compress Iso File,16,0,14.938882
+DAGRS,Compress Iso File,16,1,11.427294
+DAGRS,Compress Iso File,16,2,11.244881
+DAGRS,Compress Iso File,16,3,13.003538
+DAGRS,Compress Iso File,16,4,11.094848
+DAGRS,Compress Iso File,16,5,12.460896
+DAGRS,Compress Iso File,16,6,11.040084
+DAGRS,Compress Iso File,16,7,11.639598
+DAGRS,Compress Iso File,16,8,17.818228
+DAGRS,Compress Iso File,16,9,13.178166
+DAGRS,Compress Iso File,32,0,8.551928
+DAGRS,Compress Iso File,32,1,6.001206
+DAGRS,Compress Iso File,32,2,6.407755
+DAGRS,Compress Iso File,32,3,9.379315
+DAGRS,Compress Iso File,32,4,6.884660
+DAGRS,Compress Iso File,32,5,7.887085
+DAGRS,Compress Iso File,32,6,6.409780
+DAGRS,Compress Iso File,32,7,6.629499
+DAGRS,Compress Iso File,32,8,5.485558
+DAGRS,Compress Iso File,32,9,5.759670
+DAGRS,Compress Jdk,4,0,6.335966
+DAGRS,Compress Jdk,4,1,7.540372
+DAGRS,Compress Jdk,4,2,7.336521
+DAGRS,Compress Jdk,4,3,6.545482
+DAGRS,Compress Jdk,4,4,6.450203
+DAGRS,Compress Jdk,4,5,6.448020
+DAGRS,Compress Jdk,4,6,6.853662
+DAGRS,Compress Jdk,4,7,6.383597
+DAGRS,Compress Jdk,4,8,6.317185
+DAGRS,Compress Jdk,4,9,6.394651
+DAGRS,Compress Jdk,8,0,3.906534
+DAGRS,Compress Jdk,8,1,3.720385
+DAGRS,Compress Jdk,8,2,3.520781
+DAGRS,Compress Jdk,8,3,3.608132
+DAGRS,Compress Jdk,8,4,4.063581
+DAGRS,Compress Jdk,8,5,3.599867
+DAGRS,Compress Jdk,8,6,3.854210
+DAGRS,Compress Jdk,8,7,3.614043
+DAGRS,Compress Jdk,8,8,4.684601
+DAGRS,Compress Jdk,8,9,4.177529
+DAGRS,Compress Jdk,16,0,5.430645
+DAGRS,Compress Jdk,16,1,3.933600
+DAGRS,Compress Jdk,16,2,3.173624
+DAGRS,Compress Jdk,16,3,5.166854
+DAGRS,Compress Jdk,16,4,2.861948
+DAGRS,Compress Jdk,16,5,2.586380
+DAGRS,Compress Jdk,16,6,3.285368
+DAGRS,Compress Jdk,16,7,2.661457
+DAGRS,Compress Jdk,16,8,3.638617
+DAGRS,Compress Jdk,16,9,5.992523
+DAGRS,Compress Jdk,32,0,1.805249
+DAGRS,Compress Jdk,32,1,1.334763
+DAGRS,Compress Jdk,32,2,1.349382
+DAGRS,Compress Jdk,32,3,2.485520
+DAGRS,Compress Jdk,32,4,1.399730
+DAGRS,Compress Jdk,32,5,1.785726
+DAGRS,Compress Jdk,32,6,1.581654
+DAGRS,Compress Jdk,32,7,1.413270
+DAGRS,Compress Jdk,32,8,1.889848
+DAGRS,Compress Jdk,32,9,2.391966
+DAGRS,Decompress Avi Video,4,0,15.439142
+DAGRS,Decompress Avi Video,4,1,15.387572
+DAGRS,Decompress Avi Video,4,2,14.384062
+DAGRS,Decompress Avi Video,4,3,15.220990
+DAGRS,Decompress Avi Video,4,4,14.732603
+DAGRS,Decompress Avi Video,4,5,14.464524
+DAGRS,Decompress Avi Video,4,6,14.568839
+DAGRS,Decompress Avi Video,4,7,14.958301
+DAGRS,Decompress Avi Video,4,8,14.653375
+DAGRS,Decompress Avi Video,4,9,14.644257
+DAGRS,Decompress Avi Video,8,0,9.323467
+DAGRS,Decompress Avi Video,8,1,8.658297
+DAGRS,Decompress Avi Video,8,2,9.211216
+DAGRS,Decompress Avi Video,8,3,8.545720
+DAGRS,Decompress Avi Video,8,4,8.908066
+DAGRS,Decompress Avi Video,8,5,8.861029
+DAGRS,Decompress Avi Video,8,6,8.912769
+DAGRS,Decompress Avi Video,8,7,8.908653
+DAGRS,Decompress Avi Video,8,8,14.250903
+DAGRS,Decompress Avi Video,8,9,10.450468
+DAGRS,Decompress Avi Video,16,0,16.554830
+DAGRS,Decompress Avi Video,16,1,10.492929
+DAGRS,Decompress Avi Video,16,2,9.670755
+DAGRS,Decompress Avi Video,16,3,14.542824
+DAGRS,Decompress Avi Video,16,4,9.276734
+DAGRS,Decompress Avi Video,16,5,8.345245
+DAGRS,Decompress Avi Video,16,6,10.242926
+DAGRS,Decompress Avi Video,16,7,9.489562
+DAGRS,Decompress Avi Video,16,8,6.241723
+DAGRS,Decompress Avi Video,16,9,11.504562
+DAGRS,Decompress Avi Video,32,0,4.237661
+DAGRS,Decompress Avi Video,32,1,4.206177
+DAGRS,Decompress Avi Video,32,2,3.878626
+DAGRS,Decompress Avi Video,32,3,6.489259
+DAGRS,Decompress Avi Video,32,4,3.845567
+DAGRS,Decompress Avi Video,32,5,4.147598
+DAGRS,Decompress Avi Video,32,6,4.188990
+DAGRS,Decompress Avi Video,32,7,4.091262
+DAGRS,Decompress Avi Video,32,8,6.342051
+DAGRS,Decompress Avi Video,32,9,6.288069
+DAGRS,Decompress Iso File,4,0,14.471144
+DAGRS,Decompress Iso File,4,1,15.157733
+DAGRS,Decompress Iso File,4,2,14.847862
+DAGRS,Decompress Iso File,4,3,14.845117
+DAGRS,Decompress Iso File,4,4,14.761810
+DAGRS,Decompress Iso File,4,5,14.973688
+DAGRS,Decompress Iso File,4,6,14.319284
+DAGRS,Decompress Iso File,4,7,14.732530
+DAGRS,Decompress Iso File,4,8,14.420730
+DAGRS,Decompress Iso File,4,9,15.366074
+DAGRS,Decompress Iso File,8,0,10.603874
+DAGRS,Decompress Iso File,8,1,11.506740
+DAGRS,Decompress Iso File,8,2,10.169229
+DAGRS,Decompress Iso File,8,3,9.579031
+DAGRS,Decompress Iso File,8,4,11.107477
+DAGRS,Decompress Iso File,8,5,9.763632
+DAGRS,Decompress Iso File,8,6,12.075601
+DAGRS,Decompress Iso File,8,7,9.870730
+DAGRS,Decompress Iso File,8,8,18.251268
+DAGRS,Decompress Iso File,8,9,11.719495
+DAGRS,Decompress Iso File,16,0,13.245580
+DAGRS,Decompress Iso File,16,1,10.153338
+DAGRS,Decompress Iso File,16,2,10.458314
+DAGRS,Decompress Iso File,16,3,12.316046
+DAGRS,Decompress Iso File,16,4,10.712521
+DAGRS,Decompress Iso File,16,5,9.845058
+DAGRS,Decompress Iso File,16,6,9.169576
+DAGRS,Decompress Iso File,16,7,10.983457
+DAGRS,Decompress Iso File,16,8,5.949472
+DAGRS,Decompress Iso File,16,9,8.455785
+DAGRS,Decompress Iso File,32,0,3.816694
+DAGRS,Decompress Iso File,32,1,4.351955
+DAGRS,Decompress Iso File,32,2,3.892391
+DAGRS,Decompress Iso File,32,3,4.458563
+DAGRS,Decompress Iso File,32,4,4.276109
+DAGRS,Decompress Iso File,32,5,4.122592
+DAGRS,Decompress Iso File,32,6,5.888404
+DAGRS,Decompress Iso File,32,7,4.129872
+DAGRS,Decompress Iso File,32,8,6.289717
+DAGRS,Decompress Iso File,32,9,6.683741
+DAGRS,Decompress Jdk,4,0,4.681604
+DAGRS,Decompress Jdk,4,1,4.284833
+DAGRS,Decompress Jdk,4,2,4.066326
+DAGRS,Decompress Jdk,4,3,4.285971
+DAGRS,Decompress Jdk,4,4,3.956264
+DAGRS,Decompress Jdk,4,5,4.209973
+DAGRS,Decompress Jdk,4,6,4.110786
+DAGRS,Decompress Jdk,4,7,3.896268
+DAGRS,Decompress Jdk,4,8,4.925285
+DAGRS,Decompress Jdk,4,9,4.145102
+DAGRS,Decompress Jdk,8,0,3.680122
+DAGRS,Decompress Jdk,8,1,3.106283
+DAGRS,Decompress Jdk,8,2,3.364359
+DAGRS,Decompress Jdk,8,3,3.218544
+DAGRS,Decompress Jdk,8,4,3.241993
+DAGRS,Decompress Jdk,8,5,3.230953
+DAGRS,Decompress Jdk,8,6,3.217513
+DAGRS,Decompress Jdk,8,7,3.082470
+DAGRS,Decompress Jdk,8,8,6.513357
+DAGRS,Decompress Jdk,8,9,2.979666
+DAGRS,Decompress Jdk,16,0,2.264243
+DAGRS,Decompress Jdk,16,1,2.095784
+DAGRS,Decompress Jdk,16,2,2.065394
+DAGRS,Decompress Jdk,16,3,2.532998
+DAGRS,Decompress Jdk,16,4,2.105914
+DAGRS,Decompress Jdk,16,5,1.943817
+DAGRS,Decompress Jdk,16,6,2.332138
+DAGRS,Decompress Jdk,16,7,1.848839
+DAGRS,Decompress Jdk,16,8,1.495129
+DAGRS,Decompress Jdk,16,9,2.931132
+DAGRS,Decompress Jdk,32,0,1.228763
+DAGRS,Decompress Jdk,32,1,2.384868
+DAGRS,Decompress Jdk,32,2,1.341081
+DAGRS,Decompress Jdk,32,3,1.226202
+DAGRS,Decompress Jdk,32,4,1.101666
+DAGRS,Decompress Jdk,32,5,1.189688
+DAGRS,Decompress Jdk,32,6,1.813933
+DAGRS,Decompress Jdk,32,7,1.145694
+DAGRS,Decompress Jdk,32,8,1.206018
+DAGRS,Decompress Jdk,32,9,1.187118
+PIPELINER,Decompress Avi Video,4,0,14.352916
+PIPELINER,Decompress Avi Video,4,1,14.299924
+PIPELINER,Decompress Avi Video,4,2,14.311399
+PIPELINER,Decompress Avi Video,4,3,14.159614
+PIPELINER,Decompress Avi Video,4,4,14.217563
+PIPELINER,Decompress Avi Video,4,5,14.094773
+PIPELINER,Decompress Avi Video,4,6,14.097165
+PIPELINER,Decompress Avi Video,4,7,14.270504
+PIPELINER,Decompress Avi Video,4,8,14.173350
+PIPELINER,Decompress Avi Video,4,9,14.288493
+PIPELINER,Decompress Avi Video,8,0,8.007065
+PIPELINER,Decompress Avi Video,8,1,8.478213
+PIPELINER,Decompress Avi Video,8,2,8.374834
+PIPELINER,Decompress Avi Video,8,3,8.294360
+PIPELINER,Decompress Avi Video,8,4,8.432353
+PIPELINER,Decompress Avi Video,8,5,8.323549
+PIPELINER,Decompress Avi Video,8,6,8.565359
+PIPELINER,Decompress Avi Video,8,7,8.539306
+PIPELINER,Decompress Avi Video,8,8,8.076456
+PIPELINER,Decompress Avi Video,8,9,8.389488
+PIPELINER,Decompress Avi Video,16,0,6.025763
+PIPELINER,Decompress Avi Video,16,1,5.727173
+PIPELINER,Decompress Avi Video,16,2,5.879703
+PIPELINER,Decompress Avi Video,16,3,5.957053
+PIPELINER,Decompress Avi Video,16,4,6.691823
+PIPELINER,Decompress Avi Video,16,5,6.114324
+PIPELINER,Decompress Avi Video,16,6,5.983841
+PIPELINER,Decompress Avi Video,16,7,5.435178
+PIPELINER,Decompress Avi Video,16,8,5.760871
+PIPELINER,Decompress Avi Video,16,9,5.919065
+PIPELINER,Decompress Avi Video,32,0,6.328250
+PIPELINER,Decompress Avi Video,32,1,4.755744
+PIPELINER,Decompress Avi Video,32,2,4.959116
+PIPELINER,Decompress Avi Video,32,3,5.758882
+PIPELINER,Decompress Avi Video,32,4,4.355774
+PIPELINER,Decompress Avi Video,32,5,5.195749
+PIPELINER,Decompress Avi Video,32,6,4.793593
+PIPELINER,Decompress Avi Video,32,7,5.275890
+PIPELINER,Decompress Avi Video,32,8,5.190617
+PIPELINER,Decompress Avi Video,32,9,5.318289
+PIPELINER,Decompress Iso File,4,0,14.114999
+PIPELINER,Decompress Iso File,4,1,13.929539
+PIPELINER,Decompress Iso File,4,2,14.265318
+PIPELINER,Decompress Iso File,4,3,13.983483
+PIPELINER,Decompress Iso File,4,4,13.892065
+PIPELINER,Decompress Iso File,4,5,14.151749
+PIPELINER,Decompress Iso File,4,6,14.013956
+PIPELINER,Decompress Iso File,4,7,14.357412
+PIPELINER,Decompress Iso File,4,8,14.056333
+PIPELINER,Decompress Iso File,4,9,14.117647
+PIPELINER,Decompress Iso File,8,0,8.030553
+PIPELINER,Decompress Iso File,8,1,8.101959
+PIPELINER,Decompress Iso File,8,2,8.179725
+PIPELINER,Decompress Iso File,8,3,8.312569
+PIPELINER,Decompress Iso File,8,4,8.239862
+PIPELINER,Decompress Iso File,8,5,8.500613
+PIPELINER,Decompress Iso File,8,6,8.201110
+PIPELINER,Decompress Iso File,8,7,8.155306
+PIPELINER,Decompress Iso File,8,8,8.241214
+PIPELINER,Decompress Iso File,8,9,8.318007
+PIPELINER,Decompress Iso File,16,0,7.513640
+PIPELINER,Decompress Iso File,16,1,5.957099
+PIPELINER,Decompress Iso File,16,2,5.690839
+PIPELINER,Decompress Iso File,16,3,5.831619
+PIPELINER,Decompress Iso File,16,4,5.690350
+PIPELINER,Decompress Iso File,16,5,6.181920
+PIPELINER,Decompress Iso File,16,6,5.748184
+PIPELINER,Decompress Iso File,16,7,5.685982
+PIPELINER,Decompress Iso File,16,8,5.768875
+PIPELINER,Decompress Iso File,16,9,6.093156
+PIPELINER,Decompress Iso File,32,0,6.027814
+PIPELINER,Decompress Iso File,32,1,4.271459
+PIPELINER,Decompress Iso File,32,2,4.786694
+PIPELINER,Decompress Iso File,32,3,4.216072
+PIPELINER,Decompress Iso File,32,4,5.018716
+PIPELINER,Decompress Iso File,32,5,5.196831
+PIPELINER,Decompress Iso File,32,6,4.576156
+PIPELINER,Decompress Iso File,32,7,4.473380
+PIPELINER,Decompress Iso File,32,8,4.568849
+PIPELINER,Decompress Iso File,32,9,4.857664
+PIPELINER,Decompress Jdk,4,0,3.891124
+PIPELINER,Decompress Jdk,4,1,4.007443
+PIPELINER,Decompress Jdk,4,2,3.973921
+PIPELINER,Decompress Jdk,4,3,3.915563
+PIPELINER,Decompress Jdk,4,4,3.848170
+PIPELINER,Decompress Jdk,4,5,4.000179
+PIPELINER,Decompress Jdk,4,6,3.873271
+PIPELINER,Decompress Jdk,4,7,3.870323
+PIPELINER,Decompress Jdk,4,8,3.915341
+PIPELINER,Decompress Jdk,4,9,3.963436
+PIPELINER,Decompress Jdk,8,0,2.293173
+PIPELINER,Decompress Jdk,8,1,2.685518
+PIPELINER,Decompress Jdk,8,2,2.240528
+PIPELINER,Decompress Jdk,8,3,2.454814
+PIPELINER,Decompress Jdk,8,4,2.316816
+PIPELINER,Decompress Jdk,8,5,2.219624
+PIPELINER,Decompress Jdk,8,6,2.410541
+PIPELINER,Decompress Jdk,8,7,2.457657
+PIPELINER,Decompress Jdk,8,8,2.339347
+PIPELINER,Decompress Jdk,8,9,2.252079
+PIPELINER,Decompress Jdk,16,0,1.732156
+PIPELINER,Decompress Jdk,16,1,2.173589
+PIPELINER,Decompress Jdk,16,2,1.768403
+PIPELINER,Decompress Jdk,16,3,2.208500
+PIPELINER,Decompress Jdk,16,4,1.801903
+PIPELINER,Decompress Jdk,16,5,1.691521
+PIPELINER,Decompress Jdk,16,6,2.079916
+PIPELINER,Decompress Jdk,16,7,1.884707
+PIPELINER,Decompress Jdk,16,8,1.935719
+PIPELINER,Decompress Jdk,16,9,1.857132
+PIPELINER,Decompress Jdk,32,0,1.253837
+PIPELINER,Decompress Jdk,32,1,1.118394
+PIPELINER,Decompress Jdk,32,2,1.354390
+PIPELINER,Decompress Jdk,32,3,1.070520
+PIPELINER,Decompress Jdk,32,4,1.197083
+PIPELINER,Decompress Jdk,32,5,1.543830
+PIPELINER,Decompress Jdk,32,6,1.165657
+PIPELINER,Decompress Jdk,32,7,1.137023
+PIPELINER,Decompress Jdk,32,8,1.120545
+PIPELINER,Decompress Jdk,32,9,1.068439
+RAYON,Compress Avi Video,4,0,23.111082
+RAYON,Compress Avi Video,4,1,30.125629
+RAYON,Compress Avi Video,4,2,35.364667
+RAYON,Compress Avi Video,4,3,32.235798
+RAYON,Compress Avi Video,4,4,29.722267
+RAYON,Compress Avi Video,4,5,26.912521
+RAYON,Compress Avi Video,4,6,29.491399
+RAYON,Compress Avi Video,4,7,26.354846
+RAYON,Compress Avi Video,4,8,29.778137
+RAYON,Compress Avi Video,4,9,31.202275
+RAYON,Compress Avi Video,8,0,11.771731
+RAYON,Compress Avi Video,8,1,11.708574
+RAYON,Compress Avi Video,8,2,11.582725
+RAYON,Compress Avi Video,8,3,11.894266
+RAYON,Compress Avi Video,8,4,12.176382
+RAYON,Compress Avi Video,8,5,11.657261
+RAYON,Compress Avi Video,8,6,11.906580
+RAYON,Compress Avi Video,8,7,11.894161
+RAYON,Compress Avi Video,8,8,11.889171
+RAYON,Compress Avi Video,8,9,11.811742
+RAYON,Compress Avi Video,16,0,8.104372
+RAYON,Compress Avi Video,16,1,7.988767
+RAYON,Compress Avi Video,16,2,8.406875
+RAYON,Compress Avi Video,16,3,8.207251
+RAYON,Compress Avi Video,16,4,7.922546
+RAYON,Compress Avi Video,16,5,7.789900
+RAYON,Compress Avi Video,16,6,8.084091
+RAYON,Compress Avi Video,16,7,7.831781
+RAYON,Compress Avi Video,16,8,8.111959
+RAYON,Compress Avi Video,16,9,7.845268
+RAYON,Compress Avi Video,32,0,7.021769
+RAYON,Compress Avi Video,32,1,6.015046
+RAYON,Compress Avi Video,32,2,6.625334
+RAYON,Compress Avi Video,32,3,6.050450
+RAYON,Compress Avi Video,32,4,6.415666
+RAYON,Compress Avi Video,32,5,6.500668
+RAYON,Compress Avi Video,32,6,6.967037
+RAYON,Compress Avi Video,32,7,6.786186
+RAYON,Compress Avi Video,32,8,6.134408
+RAYON,Compress Avi Video,32,9,6.861826
+RAYON,Compress Iso File,4,0,27.355799
+RAYON,Compress Iso File,4,1,27.786068
+RAYON,Compress Iso File,4,2,27.283155
+RAYON,Compress Iso File,4,3,27.210634
+RAYON,Compress Iso File,4,4,29.601774
+RAYON,Compress Iso File,4,5,27.490993
+RAYON,Compress Iso File,4,6,28.765725
+RAYON,Compress Iso File,4,7,27.423149
+RAYON,Compress Iso File,4,8,27.667270
+RAYON,Compress Iso File,4,9,27.591592
+RAYON,Compress Iso File,8,0,14.788854
+RAYON,Compress Iso File,8,1,15.081033
+RAYON,Compress Iso File,8,2,14.774542
+RAYON,Compress Iso File,8,3,14.576618
+RAYON,Compress Iso File,8,4,14.975293
+RAYON,Compress Iso File,8,5,14.753782
+RAYON,Compress Iso File,8,6,14.858462
+RAYON,Compress Iso File,8,7,15.018829
+RAYON,Compress Iso File,8,8,14.753638
+RAYON,Compress Iso File,8,9,14.877882
+RAYON,Compress Iso File,16,0,10.393088
+RAYON,Compress Iso File,16,1,10.265128
+RAYON,Compress Iso File,16,2,10.622983
+RAYON,Compress Iso File,16,3,10.493664
+RAYON,Compress Iso File,16,4,10.858170
+RAYON,Compress Iso File,16,5,10.538438
+RAYON,Compress Iso File,16,6,10.063798
+RAYON,Compress Iso File,16,7,10.812272
+RAYON,Compress Iso File,16,8,10.719031
+RAYON,Compress Iso File,16,9,10.816601
+RAYON,Compress Iso File,32,0,8.879807
+RAYON,Compress Iso File,32,1,8.323332
+RAYON,Compress Iso File,32,2,8.579982
+RAYON,Compress Iso File,32,3,7.905612
+RAYON,Compress Iso File,32,4,8.274724
+RAYON,Compress Iso File,32,5,8.313702
+RAYON,Compress Iso File,32,6,8.622636
+RAYON,Compress Iso File,32,7,7.878329
+RAYON,Compress Iso File,32,8,9.425233
+RAYON,Compress Iso File,32,9,8.488586
+RAYON,Compress Jdk,4,0,6.346384
+RAYON,Compress Jdk,4,1,6.327294
+RAYON,Compress Jdk,4,2,6.358972
+RAYON,Compress Jdk,4,3,6.291438
+RAYON,Compress Jdk,4,4,6.362737
+RAYON,Compress Jdk,4,5,6.316124
+RAYON,Compress Jdk,4,6,6.677678
+RAYON,Compress Jdk,4,7,6.288495
+RAYON,Compress Jdk,4,8,6.320711
+RAYON,Compress Jdk,4,9,6.350804
+RAYON,Compress Jdk,8,0,3.557985
+RAYON,Compress Jdk,8,1,3.475959
+RAYON,Compress Jdk,8,2,3.474434
+RAYON,Compress Jdk,8,3,3.513102
+RAYON,Compress Jdk,8,4,3.422004
+RAYON,Compress Jdk,8,5,3.586677
+RAYON,Compress Jdk,8,6,3.583437
+RAYON,Compress Jdk,8,7,3.484769
+RAYON,Compress Jdk,8,8,3.860470
+RAYON,Compress Jdk,8,9,3.533383
+RAYON,Compress Jdk,16,0,2.106974
+RAYON,Compress Jdk,16,1,2.231033
+RAYON,Compress Jdk,16,2,2.729242
+RAYON,Compress Jdk,16,3,2.709438
+RAYON,Compress Jdk,16,4,2.529617
+RAYON,Compress Jdk,16,5,2.659203
+RAYON,Compress Jdk,16,6,2.323528
+RAYON,Compress Jdk,16,7,2.683148
+RAYON,Compress Jdk,16,8,2.773687
+RAYON,Compress Jdk,16,9,2.692702
+RAYON,Compress Jdk,32,0,1.846615
+RAYON,Compress Jdk,32,1,2.265846
+RAYON,Compress Jdk,32,2,1.922085
+RAYON,Compress Jdk,32,3,1.818208
+RAYON,Compress Jdk,32,4,1.470520
+RAYON,Compress Jdk,32,5,2.196793
+RAYON,Compress Jdk,32,6,1.538988
+RAYON,Compress Jdk,32,7,2.567253
+RAYON,Compress Jdk,32,8,1.702256
+RAYON,Compress Jdk,32,9,2.062747
+RAYON,Decompress Avi Video,4,0,14.152971
+RAYON,Decompress Avi Video,4,1,14.154032
+RAYON,Decompress Avi Video,4,2,14.290371
+RAYON,Decompress Avi Video,4,3,14.259498
+RAYON,Decompress Avi Video,4,4,14.099232
+RAYON,Decompress Avi Video,4,5,14.382713
+RAYON,Decompress Avi Video,4,6,14.067431
+RAYON,Decompress Avi Video,4,7,14.174848
+RAYON,Decompress Avi Video,4,8,14.191218
+RAYON,Decompress Avi Video,4,9,14.179120
+RAYON,Decompress Avi Video,8,0,8.557647
+RAYON,Decompress Avi Video,8,1,8.478552
+RAYON,Decompress Avi Video,8,2,8.521727
+RAYON,Decompress Avi Video,8,3,8.220381
+RAYON,Decompress Avi Video,8,4,8.421829
+RAYON,Decompress Avi Video,8,5,8.514509
+RAYON,Decompress Avi Video,8,6,8.280889
+RAYON,Decompress Avi Video,8,7,8.545314
+RAYON,Decompress Avi Video,8,8,8.382862
+RAYON,Decompress Avi Video,8,9,8.433853
+RAYON,Decompress Avi Video,16,0,6.927482
+RAYON,Decompress Avi Video,16,1,5.642877
+RAYON,Decompress Avi Video,16,2,5.993681
+RAYON,Decompress Avi Video,16,3,6.327021
+RAYON,Decompress Avi Video,16,4,5.641663
+RAYON,Decompress Avi Video,16,5,6.355820
+RAYON,Decompress Avi Video,16,6,5.911222
+RAYON,Decompress Avi Video,16,7,6.123531
+RAYON,Decompress Avi Video,16,8,6.448220
+RAYON,Decompress Avi Video,16,9,6.034483
+RAYON,Decompress Avi Video,32,0,5.748141
+RAYON,Decompress Avi Video,32,1,5.179339
+RAYON,Decompress Avi Video,32,2,4.141208
+RAYON,Decompress Avi Video,32,3,5.026518
+RAYON,Decompress Avi Video,32,4,5.505019
+RAYON,Decompress Avi Video,32,5,5.135861
+RAYON,Decompress Avi Video,32,6,5.099001
+RAYON,Decompress Avi Video,32,7,4.759672
+RAYON,Decompress Avi Video,32,8,5.086028
+RAYON,Decompress Avi Video,32,9,4.936830
+RAYON,Decompress Iso File,4,0,14.269651
+RAYON,Decompress Iso File,4,1,14.029549
+RAYON,Decompress Iso File,4,2,14.256993
+RAYON,Decompress Iso File,4,3,14.049169
+RAYON,Decompress Iso File,4,4,14.309511
+RAYON,Decompress Iso File,4,5,14.288932
+RAYON,Decompress Iso File,4,6,14.118416
+RAYON,Decompress Iso File,4,7,14.063211
+RAYON,Decompress Iso File,4,8,14.183492
+RAYON,Decompress Iso File,4,9,14.191028
+RAYON,Decompress Iso File,8,0,8.388698
+RAYON,Decompress Iso File,8,1,8.361232
+RAYON,Decompress Iso File,8,2,8.471376
+RAYON,Decompress Iso File,8,3,8.123923
+RAYON,Decompress Iso File,8,4,8.194780
+RAYON,Decompress Iso File,8,5,8.325998
+RAYON,Decompress Iso File,8,6,8.277936
+RAYON,Decompress Iso File,8,7,8.382052
+RAYON,Decompress Iso File,8,8,8.507666
+RAYON,Decompress Iso File,8,9,8.355553
+RAYON,Decompress Iso File,16,0,6.048511
+RAYON,Decompress Iso File,16,1,6.062146
+RAYON,Decompress Iso File,16,2,6.041458
+RAYON,Decompress Iso File,16,3,5.582736
+RAYON,Decompress Iso File,16,4,5.736663
+RAYON,Decompress Iso File,16,5,5.709776
+RAYON,Decompress Iso File,16,6,6.320840
+RAYON,Decompress Iso File,16,7,5.797283
+RAYON,Decompress Iso File,16,8,5.680740
+RAYON,Decompress Iso File,16,9,6.083855
+RAYON,Decompress Iso File,32,0,5.872720
+RAYON,Decompress Iso File,32,1,4.929742
+RAYON,Decompress Iso File,32,2,5.283749
+RAYON,Decompress Iso File,32,3,5.863656
+RAYON,Decompress Iso File,32,4,4.481069
+RAYON,Decompress Iso File,32,5,5.271907
+RAYON,Decompress Iso File,32,6,4.484331
+RAYON,Decompress Iso File,32,7,5.141919
+RAYON,Decompress Iso File,32,8,4.902614
+RAYON,Decompress Iso File,32,9,4.857138
+RAYON,Decompress Jdk,4,0,3.800489
+RAYON,Decompress Jdk,4,1,3.877529
+RAYON,Decompress Jdk,4,2,3.906101
+RAYON,Decompress Jdk,4,3,3.889813
+RAYON,Decompress Jdk,4,4,3.952357
+RAYON,Decompress Jdk,4,5,3.956634
+RAYON,Decompress Jdk,4,6,3.875241
+RAYON,Decompress Jdk,4,7,3.848182
+RAYON,Decompress Jdk,4,8,3.881674
+RAYON,Decompress Jdk,4,9,3.951266
+RAYON,Decompress Jdk,8,0,2.291853
+RAYON,Decompress Jdk,8,1,2.350484
+RAYON,Decompress Jdk,8,2,2.266614
+RAYON,Decompress Jdk,8,3,2.243816
+RAYON,Decompress Jdk,8,4,2.984222
+RAYON,Decompress Jdk,8,5,2.229189
+RAYON,Decompress Jdk,8,6,2.256044
+RAYON,Decompress Jdk,8,7,2.345623
+RAYON,Decompress Jdk,8,8,2.277840
+RAYON,Decompress Jdk,8,9,2.286407
+RAYON,Decompress Jdk,16,0,1.704851
+RAYON,Decompress Jdk,16,1,1.645674
+RAYON,Decompress Jdk,16,2,1.794858
+RAYON,Decompress Jdk,16,3,1.472594
+RAYON,Decompress Jdk,16,4,1.953786
+RAYON,Decompress Jdk,16,5,1.612021
+RAYON,Decompress Jdk,16,6,2.037334
+RAYON,Decompress Jdk,16,7,1.794335
+RAYON,Decompress Jdk,16,8,1.551641
+RAYON,Decompress Jdk,16,9,1.537081
+RAYON,Decompress Jdk,32,0,1.273057
+RAYON,Decompress Jdk,32,1,1.005207
+RAYON,Decompress Jdk,32,2,1.158494
+RAYON,Decompress Jdk,32,3,1.341573
+RAYON,Decompress Jdk,32,4,1.139690
+RAYON,Decompress Jdk,32,5,1.422919
+RAYON,Decompress Jdk,32,6,1.425647
+RAYON,Decompress Jdk,32,7,1.174127
+RAYON,Decompress Jdk,32,8,1.272187
+RAYON,Decompress Jdk,32,9,1.287158
+SEQUENTIAL,Compress Avi Video,4,0,81.808176
+SEQUENTIAL,Compress Avi Video,4,1,82.811443
+SEQUENTIAL,Compress Avi Video,4,2,81.878872
+SEQUENTIAL,Compress Avi Video,4,3,81.880812
+SEQUENTIAL,Compress Avi Video,4,4,81.659967
+SEQUENTIAL,Compress Avi Video,4,5,81.776049
+SEQUENTIAL,Compress Avi Video,4,6,81.986468
+SEQUENTIAL,Compress Avi Video,4,7,81.737242
+SEQUENTIAL,Compress Avi Video,4,8,81.740067
+SEQUENTIAL,Compress Avi Video,4,9,81.755963
+SEQUENTIAL,Compress Avi Video,8,0,80.906420
+SEQUENTIAL,Compress Avi Video,8,1,80.542796
+SEQUENTIAL,Compress Avi Video,8,2,80.397865
+SEQUENTIAL,Compress Avi Video,8,3,80.083335
+SEQUENTIAL,Compress Avi Video,8,4,80.702991
+SEQUENTIAL,Compress Avi Video,8,5,80.439606
+SEQUENTIAL,Compress Avi Video,8,6,80.959152
+SEQUENTIAL,Compress Avi Video,8,7,80.891931
+SEQUENTIAL,Compress Avi Video,8,8,80.929870
+SEQUENTIAL,Compress Avi Video,8,9,80.749323
+SEQUENTIAL,Compress Avi Video,16,0,80.699032
+SEQUENTIAL,Compress Avi Video,16,1,80.740915
+SEQUENTIAL,Compress Avi Video,16,2,80.585716
+SEQUENTIAL,Compress Avi Video,16,3,80.252009
+SEQUENTIAL,Compress Avi Video,16,4,80.898222
+SEQUENTIAL,Compress Avi Video,16,5,80.538719
+SEQUENTIAL,Compress Avi Video,16,6,80.304765
+SEQUENTIAL,Compress Avi Video,16,7,80.003192
+SEQUENTIAL,Compress Avi Video,16,8,80.687057
+SEQUENTIAL,Compress Avi Video,16,9,80.897562
+SEQUENTIAL,Compress Avi Video,32,0,80.729158
+SEQUENTIAL,Compress Avi Video,32,1,80.028768
+SEQUENTIAL,Compress Avi Video,32,2,79.933513
+SEQUENTIAL,Compress Avi Video,32,3,80.623638
+SEQUENTIAL,Compress Avi Video,32,4,80.482348
+SEQUENTIAL,Compress Avi Video,32,5,81.205886
+SEQUENTIAL,Compress Avi Video,32,6,80.628417
+SEQUENTIAL,Compress Avi Video,32,7,81.053790
+SEQUENTIAL,Compress Avi Video,32,8,80.374080
+SEQUENTIAL,Compress Avi Video,32,9,81.618668
+SEQUENTIAL,Compress Iso File,4,0,112.931067
+SEQUENTIAL,Compress Iso File,4,1,107.245465
+SEQUENTIAL,Compress Iso File,4,2,106.218002
+SEQUENTIAL,Compress Iso File,4,3,106.033690
+SEQUENTIAL,Compress Iso File,4,4,104.802874
+SEQUENTIAL,Compress Iso File,4,5,105.991817
+SEQUENTIAL,Compress Iso File,4,6,106.674600
+SEQUENTIAL,Compress Iso File,4,7,108.977850
+SEQUENTIAL,Compress Iso File,4,8,111.485395
+SEQUENTIAL,Compress Iso File,4,9,108.635467
+SEQUENTIAL,Compress Iso File,8,0,110.146594
+SEQUENTIAL,Compress Iso File,8,1,103.752853
+SEQUENTIAL,Compress Iso File,8,2,102.504966
+SEQUENTIAL,Compress Iso File,8,3,102.621553
+SEQUENTIAL,Compress Iso File,8,4,103.635265
+SEQUENTIAL,Compress Iso File,8,5,103.011752
+SEQUENTIAL,Compress Iso File,8,6,103.030057
+SEQUENTIAL,Compress Iso File,8,7,103.030978
+SEQUENTIAL,Compress Iso File,8,8,103.293623
+SEQUENTIAL,Compress Iso File,8,9,103.125278
+SEQUENTIAL,Compress Iso File,16,0,103.155452
+SEQUENTIAL,Compress Iso File,16,1,103.877344
+SEQUENTIAL,Compress Iso File,16,2,102.040951
+SEQUENTIAL,Compress Iso File,16,3,102.805330
+SEQUENTIAL,Compress Iso File,16,4,103.000034
+SEQUENTIAL,Compress Iso File,16,5,102.164788
+SEQUENTIAL,Compress Iso File,16,6,103.054499
+SEQUENTIAL,Compress Iso File,16,7,102.861430
+SEQUENTIAL,Compress Iso File,16,8,103.924715
+SEQUENTIAL,Compress Iso File,16,9,105.694649
+SEQUENTIAL,Compress Iso File,32,0,103.105230
+SEQUENTIAL,Compress Iso File,32,1,103.751645
+SEQUENTIAL,Compress Iso File,32,2,102.614171
+SEQUENTIAL,Compress Iso File,32,3,102.768222
+SEQUENTIAL,Compress Iso File,32,4,103.080825
+SEQUENTIAL,Compress Iso File,32,5,102.295583
+SEQUENTIAL,Compress Iso File,32,6,103.099703
+SEQUENTIAL,Compress Iso File,32,7,103.347031
+SEQUENTIAL,Compress Iso File,32,8,103.160280
+SEQUENTIAL,Compress Iso File,32,9,104.186299
+SEQUENTIAL,Compress Jdk,4,0,24.516551
+SEQUENTIAL,Compress Jdk,4,1,24.200860
+SEQUENTIAL,Compress Jdk,4,2,23.936867
+SEQUENTIAL,Compress Jdk,4,3,24.580049
+SEQUENTIAL,Compress Jdk,4,4,24.530827
+SEQUENTIAL,Compress Jdk,4,5,23.815449
+SEQUENTIAL,Compress Jdk,4,6,24.086978
+SEQUENTIAL,Compress Jdk,4,7,23.869560
+SEQUENTIAL,Compress Jdk,4,8,24.512378
+SEQUENTIAL,Compress Jdk,4,9,24.518359
+SEQUENTIAL,Compress Jdk,8,0,23.963725
+SEQUENTIAL,Compress Jdk,8,1,23.146981
+SEQUENTIAL,Compress Jdk,8,2,23.330719
+SEQUENTIAL,Compress Jdk,8,3,23.226433
+SEQUENTIAL,Compress Jdk,8,4,23.389046
+SEQUENTIAL,Compress Jdk,8,5,23.204573
+SEQUENTIAL,Compress Jdk,8,6,23.256911
+SEQUENTIAL,Compress Jdk,8,7,23.328146
+SEQUENTIAL,Compress Jdk,8,8,23.301412
+SEQUENTIAL,Compress Jdk,8,9,23.492241
+SEQUENTIAL,Compress Jdk,16,0,23.289634
+SEQUENTIAL,Compress Jdk,16,1,23.129130
+SEQUENTIAL,Compress Jdk,16,2,23.239782
+SEQUENTIAL,Compress Jdk,16,3,23.276232
+SEQUENTIAL,Compress Jdk,16,4,23.246678
+SEQUENTIAL,Compress Jdk,16,5,23.255554
+SEQUENTIAL,Compress Jdk,16,6,23.275392
+SEQUENTIAL,Compress Jdk,16,7,23.492292
+SEQUENTIAL,Compress Jdk,16,8,23.187378
+SEQUENTIAL,Compress Jdk,16,9,23.470951
+SEQUENTIAL,Compress Jdk,32,0,23.358085
+SEQUENTIAL,Compress Jdk,32,1,23.426096
+SEQUENTIAL,Compress Jdk,32,2,23.216347
+SEQUENTIAL,Compress Jdk,32,3,23.403730
+SEQUENTIAL,Compress Jdk,32,4,23.311145
+SEQUENTIAL,Compress Jdk,32,5,23.093244
+SEQUENTIAL,Compress Jdk,32,6,23.257108
+SEQUENTIAL,Compress Jdk,32,7,23.578742
+SEQUENTIAL,Compress Jdk,32,8,23.394265
+SEQUENTIAL,Compress Jdk,32,9,23.389428
+SEQUENTIAL,Decompress Avi Video,4,0,49.527599
+SEQUENTIAL,Decompress Avi Video,4,1,49.834469
+SEQUENTIAL,Decompress Avi Video,4,2,49.851115
+SEQUENTIAL,Decompress Avi Video,4,3,49.280778
+SEQUENTIAL,Decompress Avi Video,4,4,50.168534
+SEQUENTIAL,Decompress Avi Video,4,5,49.083371
+SEQUENTIAL,Decompress Avi Video,4,6,49.371904
+SEQUENTIAL,Decompress Avi Video,4,7,49.429587
+SEQUENTIAL,Decompress Avi Video,4,8,48.603713
+SEQUENTIAL,Decompress Avi Video,4,9,49.041764
+SEQUENTIAL,Decompress Avi Video,8,0,49.705872
+SEQUENTIAL,Decompress Avi Video,8,1,49.011245
+SEQUENTIAL,Decompress Avi Video,8,2,49.243061
+SEQUENTIAL,Decompress Avi Video,8,3,48.354061
+SEQUENTIAL,Decompress Avi Video,8,4,49.494954
+SEQUENTIAL,Decompress Avi Video,8,5,49.116437
+SEQUENTIAL,Decompress Avi Video,8,6,49.488966
+SEQUENTIAL,Decompress Avi Video,8,7,49.508130
+SEQUENTIAL,Decompress Avi Video,8,8,48.474987
+SEQUENTIAL,Decompress Avi Video,8,9,49.625021
+SEQUENTIAL,Decompress Avi Video,16,0,48.475723
+SEQUENTIAL,Decompress Avi Video,16,1,48.589497
+SEQUENTIAL,Decompress Avi Video,16,2,50.358987
+SEQUENTIAL,Decompress Avi Video,16,3,49.957874
+SEQUENTIAL,Decompress Avi Video,16,4,49.087974
+SEQUENTIAL,Decompress Avi Video,16,5,49.944818
+SEQUENTIAL,Decompress Avi Video,16,6,49.161477
+SEQUENTIAL,Decompress Avi Video,16,7,48.965885
+SEQUENTIAL,Decompress Avi Video,16,8,49.724097
+SEQUENTIAL,Decompress Avi Video,16,9,49.308611
+SEQUENTIAL,Decompress Avi Video,32,0,50.664790
+SEQUENTIAL,Decompress Avi Video,32,1,49.221063
+SEQUENTIAL,Decompress Avi Video,32,2,49.481936
+SEQUENTIAL,Decompress Avi Video,32,3,48.468628
+SEQUENTIAL,Decompress Avi Video,32,4,48.740346
+SEQUENTIAL,Decompress Avi Video,32,5,48.643430
+SEQUENTIAL,Decompress Avi Video,32,6,49.022935
+SEQUENTIAL,Decompress Avi Video,32,7,48.760494
+SEQUENTIAL,Decompress Avi Video,32,8,49.758983
+SEQUENTIAL,Decompress Avi Video,32,9,49.284907
+SEQUENTIAL,Decompress Iso File,4,0,49.181771
+SEQUENTIAL,Decompress Iso File,4,1,48.559719
+SEQUENTIAL,Decompress Iso File,4,2,48.769604
+SEQUENTIAL,Decompress Iso File,4,3,47.910413
+SEQUENTIAL,Decompress Iso File,4,4,48.904511
+SEQUENTIAL,Decompress Iso File,4,5,48.142661
+SEQUENTIAL,Decompress Iso File,4,6,49.122459
+SEQUENTIAL,Decompress Iso File,4,7,48.028022
+SEQUENTIAL,Decompress Iso File,4,8,48.623278
+SEQUENTIAL,Decompress Iso File,4,9,48.973389
+SEQUENTIAL,Decompress Iso File,8,0,48.594301
+SEQUENTIAL,Decompress Iso File,8,1,48.251588
+SEQUENTIAL,Decompress Iso File,8,2,49.105357
+SEQUENTIAL,Decompress Iso File,8,3,48.719204
+SEQUENTIAL,Decompress Iso File,8,4,48.605209
+SEQUENTIAL,Decompress Iso File,8,5,48.115050
+SEQUENTIAL,Decompress Iso File,8,6,48.487769
+SEQUENTIAL,Decompress Iso File,8,7,48.382075
+SEQUENTIAL,Decompress Iso File,8,8,48.999223
+SEQUENTIAL,Decompress Iso File,8,9,49.036572
+SEQUENTIAL,Decompress Iso File,16,0,47.753167
+SEQUENTIAL,Decompress Iso File,16,1,49.205437
+SEQUENTIAL,Decompress Iso File,16,2,47.984653
+SEQUENTIAL,Decompress Iso File,16,3,48.439355
+SEQUENTIAL,Decompress Iso File,16,4,48.342154
+SEQUENTIAL,Decompress Iso File,16,5,49.805465
+SEQUENTIAL,Decompress Iso File,16,6,48.646437
+SEQUENTIAL,Decompress Iso File,16,7,48.361238
+SEQUENTIAL,Decompress Iso File,16,8,49.253185
+SEQUENTIAL,Decompress Iso File,16,9,49.619444
+SEQUENTIAL,Decompress Iso File,32,0,48.711404
+SEQUENTIAL,Decompress Iso File,32,1,50.394651
+SEQUENTIAL,Decompress Iso File,32,2,48.678138
+SEQUENTIAL,Decompress Iso File,32,3,47.834019
+SEQUENTIAL,Decompress Iso File,32,4,48.174335
+SEQUENTIAL,Decompress Iso File,32,5,49.069016
+SEQUENTIAL,Decompress Iso File,32,6,49.349915
+SEQUENTIAL,Decompress Iso File,32,7,48.229590
+SEQUENTIAL,Decompress Iso File,32,8,49.099316
+SEQUENTIAL,Decompress Iso File,32,9,49.209383
+SEQUENTIAL,Decompress Jdk,4,0,15.438257
+SEQUENTIAL,Decompress Jdk,4,1,13.394793
+SEQUENTIAL,Decompress Jdk,4,2,13.350609
+SEQUENTIAL,Decompress Jdk,4,3,13.283680
+SEQUENTIAL,Decompress Jdk,4,4,13.312295
+SEQUENTIAL,Decompress Jdk,4,5,13.318425
+SEQUENTIAL,Decompress Jdk,4,6,13.339568
+SEQUENTIAL,Decompress Jdk,4,7,13.145532
+SEQUENTIAL,Decompress Jdk,4,8,14.247915
+SEQUENTIAL,Decompress Jdk,4,9,13.150311
+SEQUENTIAL,Decompress Jdk,8,0,13.564082
+SEQUENTIAL,Decompress Jdk,8,1,13.037054
+SEQUENTIAL,Decompress Jdk,8,2,13.277654
+SEQUENTIAL,Decompress Jdk,8,3,13.278522
+SEQUENTIAL,Decompress Jdk,8,4,13.507085
+SEQUENTIAL,Decompress Jdk,8,5,13.170633
+SEQUENTIAL,Decompress Jdk,8,6,13.274023
+SEQUENTIAL,Decompress Jdk,8,7,13.186497
+SEQUENTIAL,Decompress Jdk,8,8,13.180935
+SEQUENTIAL,Decompress Jdk,8,9,13.423915
+SEQUENTIAL,Decompress Jdk,16,0,13.493826
+SEQUENTIAL,Decompress Jdk,16,1,13.344838
+SEQUENTIAL,Decompress Jdk,16,2,13.197199
+SEQUENTIAL,Decompress Jdk,16,3,13.099443
+SEQUENTIAL,Decompress Jdk,16,4,13.368844
+SEQUENTIAL,Decompress Jdk,16,5,13.402033
+SEQUENTIAL,Decompress Jdk,16,6,13.229557
+SEQUENTIAL,Decompress Jdk,16,7,13.129797
+SEQUENTIAL,Decompress Jdk,16,8,13.402948
+SEQUENTIAL,Decompress Jdk,16,9,13.394622
+SEQUENTIAL,Decompress Jdk,32,0,13.310079
+SEQUENTIAL,Decompress Jdk,32,1,13.862800
+SEQUENTIAL,Decompress Jdk,32,2,13.479216
+SEQUENTIAL,Decompress Jdk,32,3,13.007326
+SEQUENTIAL,Decompress Jdk,32,4,13.371055
+SEQUENTIAL,Decompress Jdk,32,5,13.339395
+SEQUENTIAL,Decompress Jdk,32,6,13.410479
+SEQUENTIAL,Decompress Jdk,32,7,13.138969
+SEQUENTIAL,Decompress Jdk,32,8,13.143828
+SEQUENTIAL,Decompress Jdk,32,9,13.341953
+TOKIO,Compress Avi Video,4,0,23.615653
+TOKIO,Compress Avi Video,4,1,30.879194
+TOKIO,Compress Avi Video,4,2,36.888627
+TOKIO,Compress Avi Video,4,3,33.215934
+TOKIO,Compress Avi Video,4,4,28.996078
+TOKIO,Compress Avi Video,4,5,28.413510
+TOKIO,Compress Avi Video,4,6,29.874224
+TOKIO,Compress Avi Video,4,7,26.743495
+TOKIO,Compress Avi Video,4,8,31.087175
+TOKIO,Compress Avi Video,4,9,31.612209
+TOKIO,Compress Avi Video,8,0,12.578318
+TOKIO,Compress Avi Video,8,1,12.437634
+TOKIO,Compress Avi Video,8,2,12.359674
+TOKIO,Compress Avi Video,8,3,12.145023
+TOKIO,Compress Avi Video,8,4,12.280254
+TOKIO,Compress Avi Video,8,5,12.776089
+TOKIO,Compress Avi Video,8,6,12.244368
+TOKIO,Compress Avi Video,8,7,12.381430
+TOKIO,Compress Avi Video,8,8,12.394015
+TOKIO,Compress Avi Video,8,9,12.346572
+TOKIO,Compress Avi Video,16,0,8.902710
+TOKIO,Compress Avi Video,16,1,9.060896
+TOKIO,Compress Avi Video,16,2,8.203892
+TOKIO,Compress Avi Video,16,3,8.469268
+TOKIO,Compress Avi Video,16,4,8.487613
+TOKIO,Compress Avi Video,16,5,8.859110
+TOKIO,Compress Avi Video,16,6,9.110117
+TOKIO,Compress Avi Video,16,7,8.477330
+TOKIO,Compress Avi Video,16,8,8.547106
+TOKIO,Compress Avi Video,16,9,8.527172
+TOKIO,Compress Avi Video,32,0,7.689456
+TOKIO,Compress Avi Video,32,1,7.309799
+TOKIO,Compress Avi Video,32,2,8.267491
+TOKIO,Compress Avi Video,32,3,7.016197
+TOKIO,Compress Avi Video,32,4,7.730223
+TOKIO,Compress Avi Video,32,5,7.161061
+TOKIO,Compress Avi Video,32,6,6.338804
+TOKIO,Compress Avi Video,32,7,8.141340
+TOKIO,Compress Avi Video,32,8,8.515541
+TOKIO,Compress Avi Video,32,9,8.329826
+TOKIO,Compress Iso File,4,0,27.767357
+TOKIO,Compress Iso File,4,1,30.357466
+TOKIO,Compress Iso File,4,2,27.760495
+TOKIO,Compress Iso File,4,3,28.905973
+TOKIO,Compress Iso File,4,4,29.012444
+TOKIO,Compress Iso File,4,5,29.284145
+TOKIO,Compress Iso File,4,6,29.958146
+TOKIO,Compress Iso File,4,7,28.177612
+TOKIO,Compress Iso File,4,8,29.718052
+TOKIO,Compress Iso File,4,9,28.845066
+TOKIO,Compress Iso File,8,0,15.943868
+TOKIO,Compress Iso File,8,1,15.506700
+TOKIO,Compress Iso File,8,2,15.772913
+TOKIO,Compress Iso File,8,3,15.574195
+TOKIO,Compress Iso File,8,4,15.689871
+TOKIO,Compress Iso File,8,5,15.765243
+TOKIO,Compress Iso File,8,6,15.568715
+TOKIO,Compress Iso File,8,7,16.100598
+TOKIO,Compress Iso File,8,8,16.015667
+TOKIO,Compress Iso File,8,9,15.920675
+TOKIO,Compress Iso File,16,0,11.378621
+TOKIO,Compress Iso File,16,1,11.085114
+TOKIO,Compress Iso File,16,2,10.862696
+TOKIO,Compress Iso File,16,3,10.749455
+TOKIO,Compress Iso File,16,4,11.117252
+TOKIO,Compress Iso File,16,5,10.868521
+TOKIO,Compress Iso File,16,6,10.531415
+TOKIO,Compress Iso File,16,7,10.724346
+TOKIO,Compress Iso File,16,8,10.495573
+TOKIO,Compress Iso File,16,9,10.906730
+TOKIO,Compress Iso File,32,0,8.634788
+TOKIO,Compress Iso File,32,1,7.983774
+TOKIO,Compress Iso File,32,2,8.330957
+TOKIO,Compress Iso File,32,3,7.918073
+TOKIO,Compress Iso File,32,4,8.379948
+TOKIO,Compress Iso File,32,5,8.102385
+TOKIO,Compress Iso File,32,6,7.446765
+TOKIO,Compress Iso File,32,7,8.046459
+TOKIO,Compress Iso File,32,8,8.175799
+TOKIO,Compress Iso File,32,9,8.551700
+TOKIO,Compress Jdk,4,0,6.327239
+TOKIO,Compress Jdk,4,1,6.464361
+TOKIO,Compress Jdk,4,2,6.410486
+TOKIO,Compress Jdk,4,3,6.492399
+TOKIO,Compress Jdk,4,4,6.560815
+TOKIO,Compress Jdk,4,5,6.339667
+TOKIO,Compress Jdk,4,6,6.542558
+TOKIO,Compress Jdk,4,7,6.411576
+TOKIO,Compress Jdk,4,8,6.403390
+TOKIO,Compress Jdk,4,9,6.418071
+TOKIO,Compress Jdk,8,0,3.782676
+TOKIO,Compress Jdk,8,1,3.629251
+TOKIO,Compress Jdk,8,2,3.827560
+TOKIO,Compress Jdk,8,3,3.610708
+TOKIO,Compress Jdk,8,4,3.563510
+TOKIO,Compress Jdk,8,5,3.713033
+TOKIO,Compress Jdk,8,6,4.389699
+TOKIO,Compress Jdk,8,7,3.652477
+TOKIO,Compress Jdk,8,8,3.674733
+TOKIO,Compress Jdk,8,9,3.611087
+TOKIO,Compress Jdk,16,0,2.815715
+TOKIO,Compress Jdk,16,1,2.691484
+TOKIO,Compress Jdk,16,2,2.609167
+TOKIO,Compress Jdk,16,3,2.693778
+TOKIO,Compress Jdk,16,4,2.629731
+TOKIO,Compress Jdk,16,5,2.168950
+TOKIO,Compress Jdk,16,6,2.769302
+TOKIO,Compress Jdk,16,7,2.500745
+TOKIO,Compress Jdk,16,8,2.326654
+TOKIO,Compress Jdk,16,9,2.583379
+TOKIO,Compress Jdk,32,0,1.459958
+TOKIO,Compress Jdk,32,1,1.871118
+TOKIO,Compress Jdk,32,2,2.025815
+TOKIO,Compress Jdk,32,3,1.478981
+TOKIO,Compress Jdk,32,4,1.786048
+TOKIO,Compress Jdk,32,5,1.968619
+TOKIO,Compress Jdk,32,6,1.733838
+TOKIO,Compress Jdk,32,7,2.012053
+TOKIO,Compress Jdk,32,8,1.605734
+TOKIO,Compress Jdk,32,9,1.910305
+TOKIO,Decompress Avi Video,4,0,14.407238
+TOKIO,Decompress Avi Video,4,1,14.430222
+TOKIO,Decompress Avi Video,4,2,14.048982
+TOKIO,Decompress Avi Video,4,3,14.333434
+TOKIO,Decompress Avi Video,4,4,14.286727
+TOKIO,Decompress Avi Video,4,5,14.382063
+TOKIO,Decompress Avi Video,4,6,14.557191
+TOKIO,Decompress Avi Video,4,7,14.135156
+TOKIO,Decompress Avi Video,4,8,14.217597
+TOKIO,Decompress Avi Video,4,9,14.319258
+TOKIO,Decompress Avi Video,8,0,8.677153
+TOKIO,Decompress Avi Video,8,1,8.491096
+TOKIO,Decompress Avi Video,8,2,8.695122
+TOKIO,Decompress Avi Video,8,3,8.377779
+TOKIO,Decompress Avi Video,8,4,8.809157
+TOKIO,Decompress Avi Video,8,5,8.622406
+TOKIO,Decompress Avi Video,8,6,8.610144
+TOKIO,Decompress Avi Video,8,7,8.443204
+TOKIO,Decompress Avi Video,8,8,8.492110
+TOKIO,Decompress Avi Video,8,9,8.767459
+TOKIO,Decompress Avi Video,16,0,6.293372
+TOKIO,Decompress Avi Video,16,1,6.067471
+TOKIO,Decompress Avi Video,16,2,5.881392
+TOKIO,Decompress Avi Video,16,3,7.747588
+TOKIO,Decompress Avi Video,16,4,5.857562
+TOKIO,Decompress Avi Video,16,5,6.069806
+TOKIO,Decompress Avi Video,16,6,6.039582
+TOKIO,Decompress Avi Video,16,7,5.851747
+TOKIO,Decompress Avi Video,16,8,5.674568
+TOKIO,Decompress Avi Video,16,9,6.332784
+TOKIO,Decompress Avi Video,32,0,3.920541
+TOKIO,Decompress Avi Video,32,1,4.400971
+TOKIO,Decompress Avi Video,32,2,4.394310
+TOKIO,Decompress Avi Video,32,3,4.138176
+TOKIO,Decompress Avi Video,32,4,4.818085
+TOKIO,Decompress Avi Video,32,5,4.373971
+TOKIO,Decompress Avi Video,32,6,4.590072
+TOKIO,Decompress Avi Video,32,7,4.332673
+TOKIO,Decompress Avi Video,32,8,5.246343
+TOKIO,Decompress Avi Video,32,9,4.589257
+TOKIO,Decompress Iso File,4,0,14.263801
+TOKIO,Decompress Iso File,4,1,14.498830
+TOKIO,Decompress Iso File,4,2,14.355650
+TOKIO,Decompress Iso File,4,3,13.978224
+TOKIO,Decompress Iso File,4,4,14.305899
+TOKIO,Decompress Iso File,4,5,14.230988
+TOKIO,Decompress Iso File,4,6,14.057176
+TOKIO,Decompress Iso File,4,7,14.352038
+TOKIO,Decompress Iso File,4,8,14.208823
+TOKIO,Decompress Iso File,4,9,14.281381
+TOKIO,Decompress Iso File,8,0,8.650068
+TOKIO,Decompress Iso File,8,1,8.343554
+TOKIO,Decompress Iso File,8,2,8.591594
+TOKIO,Decompress Iso File,8,3,8.480494
+TOKIO,Decompress Iso File,8,4,8.479646
+TOKIO,Decompress Iso File,8,5,8.576159
+TOKIO,Decompress Iso File,8,6,8.358576
+TOKIO,Decompress Iso File,8,7,8.364839
+TOKIO,Decompress Iso File,8,8,8.301227
+TOKIO,Decompress Iso File,8,9,8.509337
+TOKIO,Decompress Iso File,16,0,6.316833
+TOKIO,Decompress Iso File,16,1,7.258750
+TOKIO,Decompress Iso File,16,2,6.543170
+TOKIO,Decompress Iso File,16,3,7.139725
+TOKIO,Decompress Iso File,16,4,6.272259
+TOKIO,Decompress Iso File,16,5,7.882396
+TOKIO,Decompress Iso File,16,6,9.088585
+TOKIO,Decompress Iso File,16,7,6.368626
+TOKIO,Decompress Iso File,16,8,6.038259
+TOKIO,Decompress Iso File,16,9,6.190909
+TOKIO,Decompress Iso File,32,0,3.487298
+TOKIO,Decompress Iso File,32,1,3.627450
+TOKIO,Decompress Iso File,32,2,4.149532
+TOKIO,Decompress Iso File,32,3,3.577063
+TOKIO,Decompress Iso File,32,4,3.957865
+TOKIO,Decompress Iso File,32,5,3.940429
+TOKIO,Decompress Iso File,32,6,3.789858
+TOKIO,Decompress Iso File,32,7,3.875716
+TOKIO,Decompress Iso File,32,8,4.149405
+TOKIO,Decompress Iso File,32,9,5.027681
+TOKIO,Decompress Jdk,4,0,3.889437
+TOKIO,Decompress Jdk,4,1,4.092506
+TOKIO,Decompress Jdk,4,2,3.959611
+TOKIO,Decompress Jdk,4,3,4.040780
+TOKIO,Decompress Jdk,4,4,3.887445
+TOKIO,Decompress Jdk,4,5,3.939699
+TOKIO,Decompress Jdk,4,6,3.993889
+TOKIO,Decompress Jdk,4,7,3.985646
+TOKIO,Decompress Jdk,4,8,4.003463
+TOKIO,Decompress Jdk,4,9,4.095834
+TOKIO,Decompress Jdk,8,0,3.047637
+TOKIO,Decompress Jdk,8,1,2.894592
+TOKIO,Decompress Jdk,8,2,3.001509
+TOKIO,Decompress Jdk,8,3,3.129975
+TOKIO,Decompress Jdk,8,4,2.911760
+TOKIO,Decompress Jdk,8,5,2.873492
+TOKIO,Decompress Jdk,8,6,2.617496
+TOKIO,Decompress Jdk,8,7,2.777498
+TOKIO,Decompress Jdk,8,8,2.858804
+TOKIO,Decompress Jdk,8,9,3.008382
+TOKIO,Decompress Jdk,16,0,2.463245
+TOKIO,Decompress Jdk,16,1,2.548953
+TOKIO,Decompress Jdk,16,2,2.134205
+TOKIO,Decompress Jdk,16,3,2.719730
+TOKIO,Decompress Jdk,16,4,2.928211
+TOKIO,Decompress Jdk,16,5,3.652095
+TOKIO,Decompress Jdk,16,6,3.265300
+TOKIO,Decompress Jdk,16,7,1.921889
+TOKIO,Decompress Jdk,16,8,2.273271
+TOKIO,Decompress Jdk,16,9,1.792865
+TOKIO,Decompress Jdk,32,0,1.752613
+TOKIO,Decompress Jdk,32,1,1.059524
+TOKIO,Decompress Jdk,32,2,1.122422
+TOKIO,Decompress Jdk,32,3,2.354423
+TOKIO,Decompress Jdk,32,4,1.085542
+TOKIO,Decompress Jdk,32,5,0.969365
+TOKIO,Decompress Jdk,32,6,0.988412
+TOKIO,Decompress Jdk,32,7,1.081912
+TOKIO,Decompress Jdk,32,8,1.001468
+TOKIO,Decompress Jdk,32,9,1.034724

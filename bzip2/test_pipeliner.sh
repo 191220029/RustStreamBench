@@ -26,12 +26,39 @@ fi
 rm -r workload/inputs/pipeliner
 cp -r workload/backup workload/inputs/pipeliner
 rm logs/pipeliner_*_iter${iteration}*.log
-./target/release/bzip2 pipeliner 10 compress workload/inputs/pipeliner/avi_video.avi > "logs/pipeliner_compress_avi_video_iter${iteration}.log" 2>&1
-./target/release/bzip2 pipeliner 10 compress workload/inputs/pipeliner/iso_file.iso > "logs/pipeliner_compress_iso_file_iter${iteration}.log" 2>&1 
-./target/release/bzip2 pipeliner 10 compress workload/inputs/pipeliner/wiki_data > "logs/pipeliner_compress_iter${iteration}.log_wiki_data" 2>&1 
-./target/release/bzip2 pipeliner 10 compress workload/inputs/pipeliner/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/pipeliner_compress_jdk_iter${iteration}.log" 2>&1 
+./target/release/bzip2 pipeliner 4 compress workload/inputs/pipeliner/avi_video.avi > "logs/pipeliner_compress_avi_video_nthread4_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 4 compress workload/inputs/pipeliner/iso_file.iso > "logs/pipeliner_compress_iso_file_nthread4_iter${iteration}.log" 2>&1 
+./target/release/bzip2 pipeliner 4 compress workload/inputs/pipeliner/wiki_data > "logs/pipeliner_compress_nthread4_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 pipeliner 4 compress workload/inputs/pipeliner/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/pipeliner_compress_jdk_nthread4_iter${iteration}.log" 2>&1 
 
-./target/release/bzip2 pipeliner 10 decompress workload/inputs/pipeliner/avi_video.avi.bz2 > "logs/pipeliner_decompress_avi_video_iter${iteration}.log" 2>&1
-./target/release/bzip2 pipeliner 10 decompress workload/inputs/pipeliner/iso_file.iso.bz2 > "logs/pipeliner_decompress_iso_file_iter${iteration}.log" 2>&1 
-./target/release/bzip2 pipeliner 10 decompress workload/inputs/pipeliner/wiki_data.bz2 > "logs/pipeliner_decompress_iter${iteration}.log_wiki_data" 2>&1 
-./target/release/bzip2 pipeliner 10 decompress workload/inputs/pipeliner/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/pipeliner_decompress_jdk_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 4 decompress workload/inputs/pipeliner/avi_video.avi.bz2 > "logs/pipeliner_decompress_avi_video_nthread4_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 4 decompress workload/inputs/pipeliner/iso_file.iso.bz2 > "logs/pipeliner_decompress_iso_file_nthread4_iter${iteration}.log" 2>&1 
+./target/release/bzip2 pipeliner 4 decompress workload/inputs/pipeliner/wiki_data.bz2 > "logs/pipeliner_decompress_nthread4_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 pipeliner 4 decompress workload/inputs/pipeliner/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/pipeliner_decompress_jdk_nthread4_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 8 compress workload/inputs/pipeliner/avi_video.avi > "logs/pipeliner_compress_avi_video_nthread8_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 8 compress workload/inputs/pipeliner/iso_file.iso > "logs/pipeliner_compress_iso_file_nthread8_iter${iteration}.log" 2>&1 
+./target/release/bzip2 pipeliner 8 compress workload/inputs/pipeliner/wiki_data > "logs/pipeliner_compress_nthread8_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 pipeliner 8 compress workload/inputs/pipeliner/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/pipeliner_compress_jdk_nthread8_iter${iteration}.log" 2>&1 
+
+./target/release/bzip2 pipeliner 8 decompress workload/inputs/pipeliner/avi_video.avi.bz2 > "logs/pipeliner_decompress_avi_video_nthread8_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 8 decompress workload/inputs/pipeliner/iso_file.iso.bz2 > "logs/pipeliner_decompress_iso_file_nthread8_iter${iteration}.log" 2>&1 
+./target/release/bzip2 pipeliner 8 decompress workload/inputs/pipeliner/wiki_data.bz2 > "logs/pipeliner_decompress_nthread8_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 pipeliner 8 decompress workload/inputs/pipeliner/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/pipeliner_decompress_jdk_nthread8_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 16 compress workload/inputs/pipeliner/avi_video.avi > "logs/pipeliner_compress_avi_video_nthread16_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 16 compress workload/inputs/pipeliner/iso_file.iso > "logs/pipeliner_compress_iso_file_nthread16_iter${iteration}.log" 2>&1 
+./target/release/bzip2 pipeliner 16 compress workload/inputs/pipeliner/wiki_data > "logs/pipeliner_compress_nthread16_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 pipeliner 16 compress workload/inputs/pipeliner/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/pipeliner_compress_jdk_nthread16_iter${iteration}.log" 2>&1 
+
+./target/release/bzip2 pipeliner 16 decompress workload/inputs/pipeliner/avi_video.avi.bz2 > "logs/pipeliner_decompress_avi_video_nthread16_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 16 decompress workload/inputs/pipeliner/iso_file.iso.bz2 > "logs/pipeliner_decompress_iso_file_nthread16_iter${iteration}.log" 2>&1 
+./target/release/bzip2 pipeliner 16 decompress workload/inputs/pipeliner/wiki_data.bz2 > "logs/pipeliner_decompress_nthread16_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 pipeliner 16 decompress workload/inputs/pipeliner/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/pipeliner_decompress_jdk_nthread16_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 32 compress workload/inputs/pipeliner/avi_video.avi > "logs/pipeliner_compress_avi_video_nthread32_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 32 compress workload/inputs/pipeliner/iso_file.iso > "logs/pipeliner_compress_iso_file_nthread32_iter${iteration}.log" 2>&1 
+./target/release/bzip2 pipeliner 32 compress workload/inputs/pipeliner/wiki_data > "logs/pipeliner_compress_nthread32_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 pipeliner 32 compress workload/inputs/pipeliner/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/pipeliner_compress_jdk_nthread32_iter${iteration}.log" 2>&1 
+
+./target/release/bzip2 pipeliner 32 decompress workload/inputs/pipeliner/avi_video.avi.bz2 > "logs/pipeliner_decompress_avi_video_nthread32_iter${iteration}.log" 2>&1
+./target/release/bzip2 pipeliner 32 decompress workload/inputs/pipeliner/iso_file.iso.bz2 > "logs/pipeliner_decompress_iso_file_nthread32_iter${iteration}.log" 2>&1 
+./target/release/bzip2 pipeliner 32 decompress workload/inputs/pipeliner/wiki_data.bz2 > "logs/pipeliner_decompress_nthread32_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 pipeliner 32 decompress workload/inputs/pipeliner/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/pipeliner_decompress_jdk_nthread32_iter${iteration}.log" 2>&1

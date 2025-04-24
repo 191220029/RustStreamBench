@@ -25,6 +25,15 @@ exit 1
 fi
 rm logs/tokio_*_iter${iteration}*.log
 rm output_tokio.avi
-./target/release/eye-detector tokio 10 ./inputs/mixed_15s.mp4 > logs/tokio_mixed_iter${iteration}.log 2>&1
-./target/release/eye-detector tokio 10 ./inputs/one_face_15s.mp4 > logs/tokio_one_face_iter${iteration}.log 2>&1
-./target/release/eye-detector tokio 10 ./inputs/several_faces_15s.mp4 > logs/tokio_several_faces_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 4 ./inputs/mixed_15s.mp4 > logs/tokio_mixed_nthread4_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 4 ./inputs/one_face_15s.mp4 > logs/tokio_one_face_nthread4_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 4 ./inputs/several_faces_15s.mp4 > logs/tokio_several_faces_nthread4_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 8 ./inputs/mixed_15s.mp4 > logs/tokio_mixed_nthread8_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 8 ./inputs/one_face_15s.mp4 > logs/tokio_one_face_nthread8_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 8 ./inputs/several_faces_15s.mp4 > logs/tokio_several_faces_nthread8_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 16 ./inputs/mixed_15s.mp4 > logs/tokio_mixed_nthread16_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 16 ./inputs/one_face_15s.mp4 > logs/tokio_one_face_nthread16_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 16 ./inputs/several_faces_15s.mp4 > logs/tokio_several_faces_nthread16_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 32 ./inputs/mixed_15s.mp4 > logs/tokio_mixed_nthread32_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 32 ./inputs/one_face_15s.mp4 > logs/tokio_one_face_nthread32_iter${iteration}.log 2>&1
+./target/release/eye-detector tokio 32 ./inputs/several_faces_15s.mp4 > logs/tokio_several_faces_nthread32_iter${iteration}.log 2>&1

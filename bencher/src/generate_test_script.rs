@@ -41,7 +41,7 @@ const ITERATION_ARG: &str = "#!/bin/bash\n\niteration=\nwhile [[ $# -gt 0 ]]; do
         exit 1\n\
         fi\n";
 
-fn bzip2(nthreads: usize) -> TestGroup {
+fn bzip2(nthreads: Vec<usize>) -> TestGroup {
     let location = "../bzip2";
 
     let mut scripts = vec![];
@@ -64,22 +64,23 @@ fn bzip2(nthreads: usize) -> TestGroup {
             )
             .unwrap();
 
-        writer.write_all(format!("./target/release/bzip2 {0} {1} compress workload/inputs/{0}/avi_video.avi > \"logs/{0}_compress_avi_video_iter${{iteration}}.log\" 2>&1\n\
-./target/release/bzip2 {0} {1} compress workload/inputs/{0}/iso_file.iso > \"logs/{0}_compress_iso_file_iter${{iteration}}.log\" 2>&1 \n\
-./target/release/bzip2 {0} {1} compress workload/inputs/{0}/wiki_data > \"logs/{0}_compress_iter${{iteration}}.log_wiki_data\" 2>&1 \n\
-./target/release/bzip2 {0} {1} compress workload/inputs/{0}/jdk-17.0.12_linux-x64_bin.tar.gz > \"logs/{0}_compress_jdk_iter${{iteration}}.log\" 2>&1 \n\
+        for nthread in &nthreads {
+            writer.write_all(format!("./target/release/bzip2 {0} {1} compress workload/inputs/{0}/avi_video.avi > \"logs/{0}_compress_avi_video_nthread{1}_iter${{iteration}}.log\" 2>&1\n\
+./target/release/bzip2 {0} {1} compress workload/inputs/{0}/iso_file.iso > \"logs/{0}_compress_iso_file_nthread{1}_iter${{iteration}}.log\" 2>&1 \n\
+./target/release/bzip2 {0} {1} compress workload/inputs/{0}/wiki_data > \"logs/{0}_compress_nthread{1}_iter${{iteration}}.log_wiki_data\" 2>&1 \n\
+./target/release/bzip2 {0} {1} compress workload/inputs/{0}/jdk-17.0.12_linux-x64_bin.tar.gz > \"logs/{0}_compress_jdk_nthread{1}_iter${{iteration}}.log\" 2>&1 \n\
 \n\
-./target/release/bzip2 {0} {1} decompress workload/inputs/{0}/avi_video.avi.bz2 > \"logs/{0}_decompress_avi_video_iter${{iteration}}.log\" 2>&1\n\
-./target/release/bzip2 {0} {1} decompress workload/inputs/{0}/iso_file.iso.bz2 > \"logs/{0}_decompress_iso_file_iter${{iteration}}.log\" 2>&1 \n\
-./target/release/bzip2 {0} {1} decompress workload/inputs/{0}/wiki_data.bz2 > \"logs/{0}_decompress_iter${{iteration}}.log_wiki_data\" 2>&1 \n\
-./target/release/bzip2 {0} {1} decompress workload/inputs/{0}/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > \"logs/{0}_decompress_jdk_iter${{iteration}}.log\" 2>&1\n", frame, nthreads).as_bytes()).unwrap();
-
+./target/release/bzip2 {0} {1} decompress workload/inputs/{0}/avi_video.avi.bz2 > \"logs/{0}_decompress_avi_video_nthread{1}_iter${{iteration}}.log\" 2>&1\n\
+./target/release/bzip2 {0} {1} decompress workload/inputs/{0}/iso_file.iso.bz2 > \"logs/{0}_decompress_iso_file_nthread{1}_iter${{iteration}}.log\" 2>&1 \n\
+./target/release/bzip2 {0} {1} decompress workload/inputs/{0}/wiki_data.bz2 > \"logs/{0}_decompress_nthread{1}_iter${{iteration}}.log_wiki_data\" 2>&1 \n\
+./target/release/bzip2 {0} {1} decompress workload/inputs/{0}/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > \"logs/{0}_decompress_jdk_nthread{1}_iter${{iteration}}.log\" 2>&1\n", frame, nthread).as_bytes()).unwrap();
+        }
         scripts.push(PathBuf::from(pth));
     }
     TestGroup::new(PathBuf::from(location), scripts)
 }
 
-fn eye_detector(nthreads: usize) -> TestGroup {
+fn eye_detector(nthreads: Vec<usize>) -> TestGroup {
     let location = "../eye-detector";
 
     let mut scripts = vec![];
@@ -101,17 +102,19 @@ fn eye_detector(nthreads: usize) -> TestGroup {
             )
             .unwrap();
 
-        writer.write_all(format!("\
-    ./target/release/eye-detector {0} {1} ./inputs/mixed_15s.mp4 > logs/{0}_mixed_iter${{iteration}}.log 2>&1\n\
-    ./target/release/eye-detector {0} {1} ./inputs/one_face_15s.mp4 > logs/{0}_one_face_iter${{iteration}}.log 2>&1\n\
-    ./target/release/eye-detector {0} {1} ./inputs/several_faces_15s.mp4 > logs/{0}_several_faces_iter${{iteration}}.log 2>&1\n", frame, nthreads).as_bytes()).unwrap();
+        for nthread in &nthreads {
+            writer.write_all(format!("\
+    ./target/release/eye-detector {0} {1} ./inputs/mixed_15s.mp4 > logs/{0}_mixed_nthread{1}_iter${{iteration}}.log 2>&1\n\
+    ./target/release/eye-detector {0} {1} ./inputs/one_face_15s.mp4 > logs/{0}_one_face_nthread{1}_iter${{iteration}}.log 2>&1\n\
+    ./target/release/eye-detector {0} {1} ./inputs/several_faces_15s.mp4 > logs/{0}_several_faces_nthread{1}_iter${{iteration}}.log 2>&1\n", frame, nthread).as_bytes()).unwrap();
+        }
 
         scripts.push(PathBuf::from(pth));
     }
     TestGroup::new(PathBuf::from(location), scripts)
 }
 
-fn image_processing(nthreads: usize) -> TestGroup {
+fn image_processing(nthreads: Vec<usize>) -> TestGroup {
     let location = "../image-processing";
 
     let mut scripts = vec![];
@@ -126,17 +129,19 @@ fn image_processing(nthreads: usize) -> TestGroup {
             .write_all(format!("rm logs/{0}_*_iter${{iteration}}*.log\n", frame).as_bytes())
             .unwrap();
 
-        writer.write_all(format!("\
-    ./target/release/image-processing {0} {1} input_big > logs/{0}_big_iter${{iteration}}.log 2>&1\n\
-    ./target/release/image-processing {0} {1} input_mixed > logs/{0}_mixed_iter${{iteration}}.log 2>&1\n\
-    ./target/release/image-processing {0} {1} input_small > logs/{0}_small_iter${{iteration}}.log 2>&1\n", frame, nthreads).as_bytes()).unwrap();
+        for nthread in &nthreads {
+            writer.write_all(format!("\
+    ./target/release/image-processing {0} {1} input_big > logs/{0}_big_nthread{1}_iter${{iteration}}.log 2>&1\n\
+    ./target/release/image-processing {0} {1} input_mixed > logs/{0}_mixed_nthread{1}_iter${{iteration}}.log 2>&1\n\
+    ./target/release/image-processing {0} {1} input_small > logs/{0}_small_nthread{1}_iter${{iteration}}.log 2>&1\n", frame, nthread).as_bytes()).unwrap();
+        }
 
         scripts.push(PathBuf::from(pth));
     }
     TestGroup::new(PathBuf::from(location), scripts)
 }
 
-fn micro_bench(nthreads: usize) -> TestGroup {
+fn micro_bench(nthreads: Vec<usize>) -> TestGroup {
     let location = "../micro-bench";
 
     let mut scripts = vec![];
@@ -151,7 +156,9 @@ fn micro_bench(nthreads: usize) -> TestGroup {
             .write_all(format!("rm logs/{0}_*_iter${{iteration}}*.log\n", frame).as_bytes())
             .unwrap();
 
-        writer.write_all(format!("./target/release/micro-bench {0} 2048 {1} 3000 2000 > logs/{0}_iter${{iteration}}.log 2>&1\n", frame, nthreads).as_bytes()).unwrap();
+        for nthread in &nthreads {
+            writer.write_all(format!("./target/release/micro-bench {0} 2048 {1} 3000 2000 > logs/{0}_nthread{1}_iter${{iteration}}.log 2>&1\n", frame, nthread).as_bytes()).unwrap();
+        }
 
         scripts.push(PathBuf::from(pth));
     }
@@ -189,19 +196,19 @@ fn minist() -> TestGroup {
     TestGroup::new(PathBuf::from(location), scripts)
 }
 
-pub fn generate_test_script(nthreads: usize) -> Vec<TestGroup> {
+pub fn generate_test_script(nthreads: Vec<usize>) -> Vec<TestGroup> {
     let mut res = vec![];
 
-    // log::info!("Generating scripts for bzip2...");
-    // res.push(bzip2(nthreads));
-    // log::info!("Generating scripts for eye-detector...");
-    // res.push(eye_detector(nthreads));
-    // log::info!("Generating scripts for image-processing...");
-    // res.push(image_processing(nthreads));
-    // log::info!("Generating scripts for micro-bench...");
-    // res.push(micro_bench(nthreads));
-    log::info!("Generating scripts for minist...");
-    res.push(minist());
+    log::info!("Generating scripts for bzip2...");
+    res.push(bzip2(nthreads.clone()));
+    log::info!("Generating scripts for eye-detector...");
+    res.push(eye_detector(nthreads.clone()));
+    log::info!("Generating scripts for image-processing...");
+    res.push(image_processing(nthreads.clone()));
+    log::info!("Generating scripts for micro-bench...");
+    res.push(micro_bench(nthreads.clone()));
+    // log::info!("Generating scripts for minist...");
+    // res.push(minist());
 
     res
 }
