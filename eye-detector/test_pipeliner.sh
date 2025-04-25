@@ -25,15 +25,21 @@ exit 1
 fi
 rm logs/pipeliner_*_iter${iteration}*.log
 rm output_pipeliner.avi
-./target/release/eye-detector pipeliner 4 ./inputs/mixed_15s.mp4 > logs/pipeliner_mixed_nthread4_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 4 ./inputs/one_face_15s.mp4 > logs/pipeliner_one_face_nthread4_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 4 ./inputs/several_faces_15s.mp4 > logs/pipeliner_several_faces_nthread4_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 8 ./inputs/mixed_15s.mp4 > logs/pipeliner_mixed_nthread8_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 8 ./inputs/one_face_15s.mp4 > logs/pipeliner_one_face_nthread8_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 8 ./inputs/several_faces_15s.mp4 > logs/pipeliner_several_faces_nthread8_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 16 ./inputs/mixed_15s.mp4 > logs/pipeliner_mixed_nthread16_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 16 ./inputs/one_face_15s.mp4 > logs/pipeliner_one_face_nthread16_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 16 ./inputs/several_faces_15s.mp4 > logs/pipeliner_several_faces_nthread16_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 32 ./inputs/mixed_15s.mp4 > logs/pipeliner_mixed_nthread32_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 32 ./inputs/one_face_15s.mp4 > logs/pipeliner_one_face_nthread32_iter${iteration}.log 2>&1
-./target/release/eye-detector pipeliner 32 ./inputs/several_faces_15s.mp4 > logs/pipeliner_several_faces_nthread32_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 1 ./inputs/mixed_15s.mp4 > logs/pipeliner_mixed_nthread1_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 1 ./inputs/one_face_15s.mp4 > logs/pipeliner_one_face_nthread1_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 1 ./inputs/several_faces_15s.mp4 > logs/pipeliner_several_faces_nthread1_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 5 ./inputs/mixed_15s.mp4 > logs/pipeliner_mixed_nthread5_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 5 ./inputs/one_face_15s.mp4 > logs/pipeliner_one_face_nthread5_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 5 ./inputs/several_faces_15s.mp4 > logs/pipeliner_several_faces_nthread5_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 10 ./inputs/mixed_15s.mp4 > logs/pipeliner_mixed_nthread10_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 10 ./inputs/one_face_15s.mp4 > logs/pipeliner_one_face_nthread10_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 10 ./inputs/several_faces_15s.mp4 > logs/pipeliner_several_faces_nthread10_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 15 ./inputs/mixed_15s.mp4 > logs/pipeliner_mixed_nthread15_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 15 ./inputs/one_face_15s.mp4 > logs/pipeliner_one_face_nthread15_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 15 ./inputs/several_faces_15s.mp4 > logs/pipeliner_several_faces_nthread15_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 25 ./inputs/mixed_15s.mp4 > logs/pipeliner_mixed_nthread25_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 25 ./inputs/one_face_15s.mp4 > logs/pipeliner_one_face_nthread25_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 25 ./inputs/several_faces_15s.mp4 > logs/pipeliner_several_faces_nthread25_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 30 ./inputs/mixed_15s.mp4 > logs/pipeliner_mixed_nthread30_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 30 ./inputs/one_face_15s.mp4 > logs/pipeliner_one_face_nthread30_iter${iteration}.log 2>&1
+./target/release/eye-detector pipeliner 30 ./inputs/several_faces_15s.mp4 > logs/pipeliner_several_faces_nthread30_iter${iteration}.log 2>&1

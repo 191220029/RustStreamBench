@@ -1,1081 +1,2341 @@
-Framework,Workload,NThread,Iteration,ExecutionTime(s)
-DAGRS,Compress Avi Video,4,0,25.886680
-DAGRS,Compress Avi Video,4,1,30.937607
-DAGRS,Compress Avi Video,4,2,36.347990
-DAGRS,Compress Avi Video,4,3,33.554271
-DAGRS,Compress Avi Video,4,4,28.561425
-DAGRS,Compress Avi Video,4,5,27.840940
-DAGRS,Compress Avi Video,4,6,30.176275
-DAGRS,Compress Avi Video,4,7,28.260116
-DAGRS,Compress Avi Video,4,8,31.421623
-DAGRS,Compress Avi Video,4,9,31.960643
-DAGRS,Compress Avi Video,8,0,14.219616
-DAGRS,Compress Avi Video,8,1,13.527780
-DAGRS,Compress Avi Video,8,2,13.265013
-DAGRS,Compress Avi Video,8,3,13.994986
-DAGRS,Compress Avi Video,8,4,13.594959
-DAGRS,Compress Avi Video,8,5,13.505867
-DAGRS,Compress Avi Video,8,6,14.399337
-DAGRS,Compress Avi Video,8,7,12.820684
-DAGRS,Compress Avi Video,8,8,13.686979
-DAGRS,Compress Avi Video,8,9,13.174152
-DAGRS,Compress Avi Video,16,0,12.262436
-DAGRS,Compress Avi Video,16,1,10.527595
-DAGRS,Compress Avi Video,16,2,10.022132
-DAGRS,Compress Avi Video,16,3,9.673705
-DAGRS,Compress Avi Video,16,4,10.276373
-DAGRS,Compress Avi Video,16,5,9.466246
-DAGRS,Compress Avi Video,16,6,9.828107
-DAGRS,Compress Avi Video,16,7,10.435050
-DAGRS,Compress Avi Video,16,8,14.141450
-DAGRS,Compress Avi Video,16,9,9.291816
-DAGRS,Compress Avi Video,32,0,11.982618
-DAGRS,Compress Avi Video,32,1,5.696360
-DAGRS,Compress Avi Video,32,2,7.099956
-DAGRS,Compress Avi Video,32,3,10.524582
-DAGRS,Compress Avi Video,32,4,7.458752
-DAGRS,Compress Avi Video,32,5,7.436226
-DAGRS,Compress Avi Video,32,6,6.424476
-DAGRS,Compress Avi Video,32,7,7.341263
-DAGRS,Compress Avi Video,32,8,4.525392
-DAGRS,Compress Avi Video,32,9,6.773902
-DAGRS,Compress Iso File,4,0,28.190058
-DAGRS,Compress Iso File,4,1,31.030841
-DAGRS,Compress Iso File,4,2,30.698732
-DAGRS,Compress Iso File,4,3,31.440664
-DAGRS,Compress Iso File,4,4,30.182386
-DAGRS,Compress Iso File,4,5,29.511460
-DAGRS,Compress Iso File,4,6,30.854012
-DAGRS,Compress Iso File,4,7,30.662721
-DAGRS,Compress Iso File,4,8,32.213672
-DAGRS,Compress Iso File,4,9,33.825013
-DAGRS,Compress Iso File,8,0,16.278227
-DAGRS,Compress Iso File,8,1,19.305942
-DAGRS,Compress Iso File,8,2,18.797535
-DAGRS,Compress Iso File,8,3,16.435796
-DAGRS,Compress Iso File,8,4,17.963202
-DAGRS,Compress Iso File,8,5,17.015657
-DAGRS,Compress Iso File,8,6,21.277300
-DAGRS,Compress Iso File,8,7,16.084873
-DAGRS,Compress Iso File,8,8,16.487393
-DAGRS,Compress Iso File,8,9,17.234704
-DAGRS,Compress Iso File,16,0,14.938882
-DAGRS,Compress Iso File,16,1,11.427294
-DAGRS,Compress Iso File,16,2,11.244881
-DAGRS,Compress Iso File,16,3,13.003538
-DAGRS,Compress Iso File,16,4,11.094848
-DAGRS,Compress Iso File,16,5,12.460896
-DAGRS,Compress Iso File,16,6,11.040084
-DAGRS,Compress Iso File,16,7,11.639598
-DAGRS,Compress Iso File,16,8,17.818228
-DAGRS,Compress Iso File,16,9,13.178166
-DAGRS,Compress Iso File,32,0,8.551928
-DAGRS,Compress Iso File,32,1,6.001206
-DAGRS,Compress Iso File,32,2,6.407755
-DAGRS,Compress Iso File,32,3,9.379315
-DAGRS,Compress Iso File,32,4,6.884660
-DAGRS,Compress Iso File,32,5,7.887085
-DAGRS,Compress Iso File,32,6,6.409780
-DAGRS,Compress Iso File,32,7,6.629499
-DAGRS,Compress Iso File,32,8,5.485558
-DAGRS,Compress Iso File,32,9,5.759670
-DAGRS,Compress Jdk,4,0,6.335966
-DAGRS,Compress Jdk,4,1,7.540372
-DAGRS,Compress Jdk,4,2,7.336521
-DAGRS,Compress Jdk,4,3,6.545482
-DAGRS,Compress Jdk,4,4,6.450203
-DAGRS,Compress Jdk,4,5,6.448020
-DAGRS,Compress Jdk,4,6,6.853662
-DAGRS,Compress Jdk,4,7,6.383597
-DAGRS,Compress Jdk,4,8,6.317185
-DAGRS,Compress Jdk,4,9,6.394651
-DAGRS,Compress Jdk,8,0,3.906534
-DAGRS,Compress Jdk,8,1,3.720385
-DAGRS,Compress Jdk,8,2,3.520781
-DAGRS,Compress Jdk,8,3,3.608132
-DAGRS,Compress Jdk,8,4,4.063581
-DAGRS,Compress Jdk,8,5,3.599867
-DAGRS,Compress Jdk,8,6,3.854210
-DAGRS,Compress Jdk,8,7,3.614043
-DAGRS,Compress Jdk,8,8,4.684601
-DAGRS,Compress Jdk,8,9,4.177529
-DAGRS,Compress Jdk,16,0,5.430645
-DAGRS,Compress Jdk,16,1,3.933600
-DAGRS,Compress Jdk,16,2,3.173624
-DAGRS,Compress Jdk,16,3,5.166854
-DAGRS,Compress Jdk,16,4,2.861948
-DAGRS,Compress Jdk,16,5,2.586380
-DAGRS,Compress Jdk,16,6,3.285368
-DAGRS,Compress Jdk,16,7,2.661457
-DAGRS,Compress Jdk,16,8,3.638617
-DAGRS,Compress Jdk,16,9,5.992523
-DAGRS,Compress Jdk,32,0,1.805249
-DAGRS,Compress Jdk,32,1,1.334763
-DAGRS,Compress Jdk,32,2,1.349382
-DAGRS,Compress Jdk,32,3,2.485520
-DAGRS,Compress Jdk,32,4,1.399730
-DAGRS,Compress Jdk,32,5,1.785726
-DAGRS,Compress Jdk,32,6,1.581654
-DAGRS,Compress Jdk,32,7,1.413270
-DAGRS,Compress Jdk,32,8,1.889848
-DAGRS,Compress Jdk,32,9,2.391966
-DAGRS,Decompress Avi Video,4,0,15.439142
-DAGRS,Decompress Avi Video,4,1,15.387572
-DAGRS,Decompress Avi Video,4,2,14.384062
-DAGRS,Decompress Avi Video,4,3,15.220990
-DAGRS,Decompress Avi Video,4,4,14.732603
-DAGRS,Decompress Avi Video,4,5,14.464524
-DAGRS,Decompress Avi Video,4,6,14.568839
-DAGRS,Decompress Avi Video,4,7,14.958301
-DAGRS,Decompress Avi Video,4,8,14.653375
-DAGRS,Decompress Avi Video,4,9,14.644257
-DAGRS,Decompress Avi Video,8,0,9.323467
-DAGRS,Decompress Avi Video,8,1,8.658297
-DAGRS,Decompress Avi Video,8,2,9.211216
-DAGRS,Decompress Avi Video,8,3,8.545720
-DAGRS,Decompress Avi Video,8,4,8.908066
-DAGRS,Decompress Avi Video,8,5,8.861029
-DAGRS,Decompress Avi Video,8,6,8.912769
-DAGRS,Decompress Avi Video,8,7,8.908653
-DAGRS,Decompress Avi Video,8,8,14.250903
-DAGRS,Decompress Avi Video,8,9,10.450468
-DAGRS,Decompress Avi Video,16,0,16.554830
-DAGRS,Decompress Avi Video,16,1,10.492929
-DAGRS,Decompress Avi Video,16,2,9.670755
-DAGRS,Decompress Avi Video,16,3,14.542824
-DAGRS,Decompress Avi Video,16,4,9.276734
-DAGRS,Decompress Avi Video,16,5,8.345245
-DAGRS,Decompress Avi Video,16,6,10.242926
-DAGRS,Decompress Avi Video,16,7,9.489562
-DAGRS,Decompress Avi Video,16,8,6.241723
-DAGRS,Decompress Avi Video,16,9,11.504562
-DAGRS,Decompress Avi Video,32,0,4.237661
-DAGRS,Decompress Avi Video,32,1,4.206177
-DAGRS,Decompress Avi Video,32,2,3.878626
-DAGRS,Decompress Avi Video,32,3,6.489259
-DAGRS,Decompress Avi Video,32,4,3.845567
-DAGRS,Decompress Avi Video,32,5,4.147598
-DAGRS,Decompress Avi Video,32,6,4.188990
-DAGRS,Decompress Avi Video,32,7,4.091262
-DAGRS,Decompress Avi Video,32,8,6.342051
-DAGRS,Decompress Avi Video,32,9,6.288069
-DAGRS,Decompress Iso File,4,0,14.471144
-DAGRS,Decompress Iso File,4,1,15.157733
-DAGRS,Decompress Iso File,4,2,14.847862
-DAGRS,Decompress Iso File,4,3,14.845117
-DAGRS,Decompress Iso File,4,4,14.761810
-DAGRS,Decompress Iso File,4,5,14.973688
-DAGRS,Decompress Iso File,4,6,14.319284
-DAGRS,Decompress Iso File,4,7,14.732530
-DAGRS,Decompress Iso File,4,8,14.420730
-DAGRS,Decompress Iso File,4,9,15.366074
-DAGRS,Decompress Iso File,8,0,10.603874
-DAGRS,Decompress Iso File,8,1,11.506740
-DAGRS,Decompress Iso File,8,2,10.169229
-DAGRS,Decompress Iso File,8,3,9.579031
-DAGRS,Decompress Iso File,8,4,11.107477
-DAGRS,Decompress Iso File,8,5,9.763632
-DAGRS,Decompress Iso File,8,6,12.075601
-DAGRS,Decompress Iso File,8,7,9.870730
-DAGRS,Decompress Iso File,8,8,18.251268
-DAGRS,Decompress Iso File,8,9,11.719495
-DAGRS,Decompress Iso File,16,0,13.245580
-DAGRS,Decompress Iso File,16,1,10.153338
-DAGRS,Decompress Iso File,16,2,10.458314
-DAGRS,Decompress Iso File,16,3,12.316046
-DAGRS,Decompress Iso File,16,4,10.712521
-DAGRS,Decompress Iso File,16,5,9.845058
-DAGRS,Decompress Iso File,16,6,9.169576
-DAGRS,Decompress Iso File,16,7,10.983457
-DAGRS,Decompress Iso File,16,8,5.949472
-DAGRS,Decompress Iso File,16,9,8.455785
-DAGRS,Decompress Iso File,32,0,3.816694
-DAGRS,Decompress Iso File,32,1,4.351955
-DAGRS,Decompress Iso File,32,2,3.892391
-DAGRS,Decompress Iso File,32,3,4.458563
-DAGRS,Decompress Iso File,32,4,4.276109
-DAGRS,Decompress Iso File,32,5,4.122592
-DAGRS,Decompress Iso File,32,6,5.888404
-DAGRS,Decompress Iso File,32,7,4.129872
-DAGRS,Decompress Iso File,32,8,6.289717
-DAGRS,Decompress Iso File,32,9,6.683741
-DAGRS,Decompress Jdk,4,0,4.681604
-DAGRS,Decompress Jdk,4,1,4.284833
-DAGRS,Decompress Jdk,4,2,4.066326
-DAGRS,Decompress Jdk,4,3,4.285971
-DAGRS,Decompress Jdk,4,4,3.956264
-DAGRS,Decompress Jdk,4,5,4.209973
-DAGRS,Decompress Jdk,4,6,4.110786
-DAGRS,Decompress Jdk,4,7,3.896268
-DAGRS,Decompress Jdk,4,8,4.925285
-DAGRS,Decompress Jdk,4,9,4.145102
-DAGRS,Decompress Jdk,8,0,3.680122
-DAGRS,Decompress Jdk,8,1,3.106283
-DAGRS,Decompress Jdk,8,2,3.364359
-DAGRS,Decompress Jdk,8,3,3.218544
-DAGRS,Decompress Jdk,8,4,3.241993
-DAGRS,Decompress Jdk,8,5,3.230953
-DAGRS,Decompress Jdk,8,6,3.217513
-DAGRS,Decompress Jdk,8,7,3.082470
-DAGRS,Decompress Jdk,8,8,6.513357
-DAGRS,Decompress Jdk,8,9,2.979666
-DAGRS,Decompress Jdk,16,0,2.264243
-DAGRS,Decompress Jdk,16,1,2.095784
-DAGRS,Decompress Jdk,16,2,2.065394
-DAGRS,Decompress Jdk,16,3,2.532998
-DAGRS,Decompress Jdk,16,4,2.105914
-DAGRS,Decompress Jdk,16,5,1.943817
-DAGRS,Decompress Jdk,16,6,2.332138
-DAGRS,Decompress Jdk,16,7,1.848839
-DAGRS,Decompress Jdk,16,8,1.495129
-DAGRS,Decompress Jdk,16,9,2.931132
-DAGRS,Decompress Jdk,32,0,1.228763
-DAGRS,Decompress Jdk,32,1,2.384868
-DAGRS,Decompress Jdk,32,2,1.341081
-DAGRS,Decompress Jdk,32,3,1.226202
-DAGRS,Decompress Jdk,32,4,1.101666
-DAGRS,Decompress Jdk,32,5,1.189688
-DAGRS,Decompress Jdk,32,6,1.813933
-DAGRS,Decompress Jdk,32,7,1.145694
-DAGRS,Decompress Jdk,32,8,1.206018
-DAGRS,Decompress Jdk,32,9,1.187118
-PIPELINER,Decompress Avi Video,4,0,14.352916
-PIPELINER,Decompress Avi Video,4,1,14.299924
-PIPELINER,Decompress Avi Video,4,2,14.311399
-PIPELINER,Decompress Avi Video,4,3,14.159614
-PIPELINER,Decompress Avi Video,4,4,14.217563
-PIPELINER,Decompress Avi Video,4,5,14.094773
-PIPELINER,Decompress Avi Video,4,6,14.097165
-PIPELINER,Decompress Avi Video,4,7,14.270504
-PIPELINER,Decompress Avi Video,4,8,14.173350
-PIPELINER,Decompress Avi Video,4,9,14.288493
-PIPELINER,Decompress Avi Video,8,0,8.007065
-PIPELINER,Decompress Avi Video,8,1,8.478213
-PIPELINER,Decompress Avi Video,8,2,8.374834
-PIPELINER,Decompress Avi Video,8,3,8.294360
-PIPELINER,Decompress Avi Video,8,4,8.432353
-PIPELINER,Decompress Avi Video,8,5,8.323549
-PIPELINER,Decompress Avi Video,8,6,8.565359
-PIPELINER,Decompress Avi Video,8,7,8.539306
-PIPELINER,Decompress Avi Video,8,8,8.076456
-PIPELINER,Decompress Avi Video,8,9,8.389488
-PIPELINER,Decompress Avi Video,16,0,6.025763
-PIPELINER,Decompress Avi Video,16,1,5.727173
-PIPELINER,Decompress Avi Video,16,2,5.879703
-PIPELINER,Decompress Avi Video,16,3,5.957053
-PIPELINER,Decompress Avi Video,16,4,6.691823
-PIPELINER,Decompress Avi Video,16,5,6.114324
-PIPELINER,Decompress Avi Video,16,6,5.983841
-PIPELINER,Decompress Avi Video,16,7,5.435178
-PIPELINER,Decompress Avi Video,16,8,5.760871
-PIPELINER,Decompress Avi Video,16,9,5.919065
-PIPELINER,Decompress Avi Video,32,0,6.328250
-PIPELINER,Decompress Avi Video,32,1,4.755744
-PIPELINER,Decompress Avi Video,32,2,4.959116
-PIPELINER,Decompress Avi Video,32,3,5.758882
-PIPELINER,Decompress Avi Video,32,4,4.355774
-PIPELINER,Decompress Avi Video,32,5,5.195749
-PIPELINER,Decompress Avi Video,32,6,4.793593
-PIPELINER,Decompress Avi Video,32,7,5.275890
-PIPELINER,Decompress Avi Video,32,8,5.190617
-PIPELINER,Decompress Avi Video,32,9,5.318289
-PIPELINER,Decompress Iso File,4,0,14.114999
-PIPELINER,Decompress Iso File,4,1,13.929539
-PIPELINER,Decompress Iso File,4,2,14.265318
-PIPELINER,Decompress Iso File,4,3,13.983483
-PIPELINER,Decompress Iso File,4,4,13.892065
-PIPELINER,Decompress Iso File,4,5,14.151749
-PIPELINER,Decompress Iso File,4,6,14.013956
-PIPELINER,Decompress Iso File,4,7,14.357412
-PIPELINER,Decompress Iso File,4,8,14.056333
-PIPELINER,Decompress Iso File,4,9,14.117647
-PIPELINER,Decompress Iso File,8,0,8.030553
-PIPELINER,Decompress Iso File,8,1,8.101959
-PIPELINER,Decompress Iso File,8,2,8.179725
-PIPELINER,Decompress Iso File,8,3,8.312569
-PIPELINER,Decompress Iso File,8,4,8.239862
-PIPELINER,Decompress Iso File,8,5,8.500613
-PIPELINER,Decompress Iso File,8,6,8.201110
-PIPELINER,Decompress Iso File,8,7,8.155306
-PIPELINER,Decompress Iso File,8,8,8.241214
-PIPELINER,Decompress Iso File,8,9,8.318007
-PIPELINER,Decompress Iso File,16,0,7.513640
-PIPELINER,Decompress Iso File,16,1,5.957099
-PIPELINER,Decompress Iso File,16,2,5.690839
-PIPELINER,Decompress Iso File,16,3,5.831619
-PIPELINER,Decompress Iso File,16,4,5.690350
-PIPELINER,Decompress Iso File,16,5,6.181920
-PIPELINER,Decompress Iso File,16,6,5.748184
-PIPELINER,Decompress Iso File,16,7,5.685982
-PIPELINER,Decompress Iso File,16,8,5.768875
-PIPELINER,Decompress Iso File,16,9,6.093156
-PIPELINER,Decompress Iso File,32,0,6.027814
-PIPELINER,Decompress Iso File,32,1,4.271459
-PIPELINER,Decompress Iso File,32,2,4.786694
-PIPELINER,Decompress Iso File,32,3,4.216072
-PIPELINER,Decompress Iso File,32,4,5.018716
-PIPELINER,Decompress Iso File,32,5,5.196831
-PIPELINER,Decompress Iso File,32,6,4.576156
-PIPELINER,Decompress Iso File,32,7,4.473380
-PIPELINER,Decompress Iso File,32,8,4.568849
-PIPELINER,Decompress Iso File,32,9,4.857664
-PIPELINER,Decompress Jdk,4,0,3.891124
-PIPELINER,Decompress Jdk,4,1,4.007443
-PIPELINER,Decompress Jdk,4,2,3.973921
-PIPELINER,Decompress Jdk,4,3,3.915563
-PIPELINER,Decompress Jdk,4,4,3.848170
-PIPELINER,Decompress Jdk,4,5,4.000179
-PIPELINER,Decompress Jdk,4,6,3.873271
-PIPELINER,Decompress Jdk,4,7,3.870323
-PIPELINER,Decompress Jdk,4,8,3.915341
-PIPELINER,Decompress Jdk,4,9,3.963436
-PIPELINER,Decompress Jdk,8,0,2.293173
-PIPELINER,Decompress Jdk,8,1,2.685518
-PIPELINER,Decompress Jdk,8,2,2.240528
-PIPELINER,Decompress Jdk,8,3,2.454814
-PIPELINER,Decompress Jdk,8,4,2.316816
-PIPELINER,Decompress Jdk,8,5,2.219624
-PIPELINER,Decompress Jdk,8,6,2.410541
-PIPELINER,Decompress Jdk,8,7,2.457657
-PIPELINER,Decompress Jdk,8,8,2.339347
-PIPELINER,Decompress Jdk,8,9,2.252079
-PIPELINER,Decompress Jdk,16,0,1.732156
-PIPELINER,Decompress Jdk,16,1,2.173589
-PIPELINER,Decompress Jdk,16,2,1.768403
-PIPELINER,Decompress Jdk,16,3,2.208500
-PIPELINER,Decompress Jdk,16,4,1.801903
-PIPELINER,Decompress Jdk,16,5,1.691521
-PIPELINER,Decompress Jdk,16,6,2.079916
-PIPELINER,Decompress Jdk,16,7,1.884707
-PIPELINER,Decompress Jdk,16,8,1.935719
-PIPELINER,Decompress Jdk,16,9,1.857132
-PIPELINER,Decompress Jdk,32,0,1.253837
-PIPELINER,Decompress Jdk,32,1,1.118394
-PIPELINER,Decompress Jdk,32,2,1.354390
-PIPELINER,Decompress Jdk,32,3,1.070520
-PIPELINER,Decompress Jdk,32,4,1.197083
-PIPELINER,Decompress Jdk,32,5,1.543830
-PIPELINER,Decompress Jdk,32,6,1.165657
-PIPELINER,Decompress Jdk,32,7,1.137023
-PIPELINER,Decompress Jdk,32,8,1.120545
-PIPELINER,Decompress Jdk,32,9,1.068439
-RAYON,Compress Avi Video,4,0,23.111082
-RAYON,Compress Avi Video,4,1,30.125629
-RAYON,Compress Avi Video,4,2,35.364667
-RAYON,Compress Avi Video,4,3,32.235798
-RAYON,Compress Avi Video,4,4,29.722267
-RAYON,Compress Avi Video,4,5,26.912521
-RAYON,Compress Avi Video,4,6,29.491399
-RAYON,Compress Avi Video,4,7,26.354846
-RAYON,Compress Avi Video,4,8,29.778137
-RAYON,Compress Avi Video,4,9,31.202275
-RAYON,Compress Avi Video,8,0,11.771731
-RAYON,Compress Avi Video,8,1,11.708574
-RAYON,Compress Avi Video,8,2,11.582725
-RAYON,Compress Avi Video,8,3,11.894266
-RAYON,Compress Avi Video,8,4,12.176382
-RAYON,Compress Avi Video,8,5,11.657261
-RAYON,Compress Avi Video,8,6,11.906580
-RAYON,Compress Avi Video,8,7,11.894161
-RAYON,Compress Avi Video,8,8,11.889171
-RAYON,Compress Avi Video,8,9,11.811742
-RAYON,Compress Avi Video,16,0,8.104372
-RAYON,Compress Avi Video,16,1,7.988767
-RAYON,Compress Avi Video,16,2,8.406875
-RAYON,Compress Avi Video,16,3,8.207251
-RAYON,Compress Avi Video,16,4,7.922546
-RAYON,Compress Avi Video,16,5,7.789900
-RAYON,Compress Avi Video,16,6,8.084091
-RAYON,Compress Avi Video,16,7,7.831781
-RAYON,Compress Avi Video,16,8,8.111959
-RAYON,Compress Avi Video,16,9,7.845268
-RAYON,Compress Avi Video,32,0,7.021769
-RAYON,Compress Avi Video,32,1,6.015046
-RAYON,Compress Avi Video,32,2,6.625334
-RAYON,Compress Avi Video,32,3,6.050450
-RAYON,Compress Avi Video,32,4,6.415666
-RAYON,Compress Avi Video,32,5,6.500668
-RAYON,Compress Avi Video,32,6,6.967037
-RAYON,Compress Avi Video,32,7,6.786186
-RAYON,Compress Avi Video,32,8,6.134408
-RAYON,Compress Avi Video,32,9,6.861826
-RAYON,Compress Iso File,4,0,27.355799
-RAYON,Compress Iso File,4,1,27.786068
-RAYON,Compress Iso File,4,2,27.283155
-RAYON,Compress Iso File,4,3,27.210634
-RAYON,Compress Iso File,4,4,29.601774
-RAYON,Compress Iso File,4,5,27.490993
-RAYON,Compress Iso File,4,6,28.765725
-RAYON,Compress Iso File,4,7,27.423149
-RAYON,Compress Iso File,4,8,27.667270
-RAYON,Compress Iso File,4,9,27.591592
-RAYON,Compress Iso File,8,0,14.788854
-RAYON,Compress Iso File,8,1,15.081033
-RAYON,Compress Iso File,8,2,14.774542
-RAYON,Compress Iso File,8,3,14.576618
-RAYON,Compress Iso File,8,4,14.975293
-RAYON,Compress Iso File,8,5,14.753782
-RAYON,Compress Iso File,8,6,14.858462
-RAYON,Compress Iso File,8,7,15.018829
-RAYON,Compress Iso File,8,8,14.753638
-RAYON,Compress Iso File,8,9,14.877882
-RAYON,Compress Iso File,16,0,10.393088
-RAYON,Compress Iso File,16,1,10.265128
-RAYON,Compress Iso File,16,2,10.622983
-RAYON,Compress Iso File,16,3,10.493664
-RAYON,Compress Iso File,16,4,10.858170
-RAYON,Compress Iso File,16,5,10.538438
-RAYON,Compress Iso File,16,6,10.063798
-RAYON,Compress Iso File,16,7,10.812272
-RAYON,Compress Iso File,16,8,10.719031
-RAYON,Compress Iso File,16,9,10.816601
-RAYON,Compress Iso File,32,0,8.879807
-RAYON,Compress Iso File,32,1,8.323332
-RAYON,Compress Iso File,32,2,8.579982
-RAYON,Compress Iso File,32,3,7.905612
-RAYON,Compress Iso File,32,4,8.274724
-RAYON,Compress Iso File,32,5,8.313702
-RAYON,Compress Iso File,32,6,8.622636
-RAYON,Compress Iso File,32,7,7.878329
-RAYON,Compress Iso File,32,8,9.425233
-RAYON,Compress Iso File,32,9,8.488586
-RAYON,Compress Jdk,4,0,6.346384
-RAYON,Compress Jdk,4,1,6.327294
-RAYON,Compress Jdk,4,2,6.358972
-RAYON,Compress Jdk,4,3,6.291438
-RAYON,Compress Jdk,4,4,6.362737
-RAYON,Compress Jdk,4,5,6.316124
-RAYON,Compress Jdk,4,6,6.677678
-RAYON,Compress Jdk,4,7,6.288495
-RAYON,Compress Jdk,4,8,6.320711
-RAYON,Compress Jdk,4,9,6.350804
-RAYON,Compress Jdk,8,0,3.557985
-RAYON,Compress Jdk,8,1,3.475959
-RAYON,Compress Jdk,8,2,3.474434
-RAYON,Compress Jdk,8,3,3.513102
-RAYON,Compress Jdk,8,4,3.422004
-RAYON,Compress Jdk,8,5,3.586677
-RAYON,Compress Jdk,8,6,3.583437
-RAYON,Compress Jdk,8,7,3.484769
-RAYON,Compress Jdk,8,8,3.860470
-RAYON,Compress Jdk,8,9,3.533383
-RAYON,Compress Jdk,16,0,2.106974
-RAYON,Compress Jdk,16,1,2.231033
-RAYON,Compress Jdk,16,2,2.729242
-RAYON,Compress Jdk,16,3,2.709438
-RAYON,Compress Jdk,16,4,2.529617
-RAYON,Compress Jdk,16,5,2.659203
-RAYON,Compress Jdk,16,6,2.323528
-RAYON,Compress Jdk,16,7,2.683148
-RAYON,Compress Jdk,16,8,2.773687
-RAYON,Compress Jdk,16,9,2.692702
-RAYON,Compress Jdk,32,0,1.846615
-RAYON,Compress Jdk,32,1,2.265846
-RAYON,Compress Jdk,32,2,1.922085
-RAYON,Compress Jdk,32,3,1.818208
-RAYON,Compress Jdk,32,4,1.470520
-RAYON,Compress Jdk,32,5,2.196793
-RAYON,Compress Jdk,32,6,1.538988
-RAYON,Compress Jdk,32,7,2.567253
-RAYON,Compress Jdk,32,8,1.702256
-RAYON,Compress Jdk,32,9,2.062747
-RAYON,Decompress Avi Video,4,0,14.152971
-RAYON,Decompress Avi Video,4,1,14.154032
-RAYON,Decompress Avi Video,4,2,14.290371
-RAYON,Decompress Avi Video,4,3,14.259498
-RAYON,Decompress Avi Video,4,4,14.099232
-RAYON,Decompress Avi Video,4,5,14.382713
-RAYON,Decompress Avi Video,4,6,14.067431
-RAYON,Decompress Avi Video,4,7,14.174848
-RAYON,Decompress Avi Video,4,8,14.191218
-RAYON,Decompress Avi Video,4,9,14.179120
-RAYON,Decompress Avi Video,8,0,8.557647
-RAYON,Decompress Avi Video,8,1,8.478552
-RAYON,Decompress Avi Video,8,2,8.521727
-RAYON,Decompress Avi Video,8,3,8.220381
-RAYON,Decompress Avi Video,8,4,8.421829
-RAYON,Decompress Avi Video,8,5,8.514509
-RAYON,Decompress Avi Video,8,6,8.280889
-RAYON,Decompress Avi Video,8,7,8.545314
-RAYON,Decompress Avi Video,8,8,8.382862
-RAYON,Decompress Avi Video,8,9,8.433853
-RAYON,Decompress Avi Video,16,0,6.927482
-RAYON,Decompress Avi Video,16,1,5.642877
-RAYON,Decompress Avi Video,16,2,5.993681
-RAYON,Decompress Avi Video,16,3,6.327021
-RAYON,Decompress Avi Video,16,4,5.641663
-RAYON,Decompress Avi Video,16,5,6.355820
-RAYON,Decompress Avi Video,16,6,5.911222
-RAYON,Decompress Avi Video,16,7,6.123531
-RAYON,Decompress Avi Video,16,8,6.448220
-RAYON,Decompress Avi Video,16,9,6.034483
-RAYON,Decompress Avi Video,32,0,5.748141
-RAYON,Decompress Avi Video,32,1,5.179339
-RAYON,Decompress Avi Video,32,2,4.141208
-RAYON,Decompress Avi Video,32,3,5.026518
-RAYON,Decompress Avi Video,32,4,5.505019
-RAYON,Decompress Avi Video,32,5,5.135861
-RAYON,Decompress Avi Video,32,6,5.099001
-RAYON,Decompress Avi Video,32,7,4.759672
-RAYON,Decompress Avi Video,32,8,5.086028
-RAYON,Decompress Avi Video,32,9,4.936830
-RAYON,Decompress Iso File,4,0,14.269651
-RAYON,Decompress Iso File,4,1,14.029549
-RAYON,Decompress Iso File,4,2,14.256993
-RAYON,Decompress Iso File,4,3,14.049169
-RAYON,Decompress Iso File,4,4,14.309511
-RAYON,Decompress Iso File,4,5,14.288932
-RAYON,Decompress Iso File,4,6,14.118416
-RAYON,Decompress Iso File,4,7,14.063211
-RAYON,Decompress Iso File,4,8,14.183492
-RAYON,Decompress Iso File,4,9,14.191028
-RAYON,Decompress Iso File,8,0,8.388698
-RAYON,Decompress Iso File,8,1,8.361232
-RAYON,Decompress Iso File,8,2,8.471376
-RAYON,Decompress Iso File,8,3,8.123923
-RAYON,Decompress Iso File,8,4,8.194780
-RAYON,Decompress Iso File,8,5,8.325998
-RAYON,Decompress Iso File,8,6,8.277936
-RAYON,Decompress Iso File,8,7,8.382052
-RAYON,Decompress Iso File,8,8,8.507666
-RAYON,Decompress Iso File,8,9,8.355553
-RAYON,Decompress Iso File,16,0,6.048511
-RAYON,Decompress Iso File,16,1,6.062146
-RAYON,Decompress Iso File,16,2,6.041458
-RAYON,Decompress Iso File,16,3,5.582736
-RAYON,Decompress Iso File,16,4,5.736663
-RAYON,Decompress Iso File,16,5,5.709776
-RAYON,Decompress Iso File,16,6,6.320840
-RAYON,Decompress Iso File,16,7,5.797283
-RAYON,Decompress Iso File,16,8,5.680740
-RAYON,Decompress Iso File,16,9,6.083855
-RAYON,Decompress Iso File,32,0,5.872720
-RAYON,Decompress Iso File,32,1,4.929742
-RAYON,Decompress Iso File,32,2,5.283749
-RAYON,Decompress Iso File,32,3,5.863656
-RAYON,Decompress Iso File,32,4,4.481069
-RAYON,Decompress Iso File,32,5,5.271907
-RAYON,Decompress Iso File,32,6,4.484331
-RAYON,Decompress Iso File,32,7,5.141919
-RAYON,Decompress Iso File,32,8,4.902614
-RAYON,Decompress Iso File,32,9,4.857138
-RAYON,Decompress Jdk,4,0,3.800489
-RAYON,Decompress Jdk,4,1,3.877529
-RAYON,Decompress Jdk,4,2,3.906101
-RAYON,Decompress Jdk,4,3,3.889813
-RAYON,Decompress Jdk,4,4,3.952357
-RAYON,Decompress Jdk,4,5,3.956634
-RAYON,Decompress Jdk,4,6,3.875241
-RAYON,Decompress Jdk,4,7,3.848182
-RAYON,Decompress Jdk,4,8,3.881674
-RAYON,Decompress Jdk,4,9,3.951266
-RAYON,Decompress Jdk,8,0,2.291853
-RAYON,Decompress Jdk,8,1,2.350484
-RAYON,Decompress Jdk,8,2,2.266614
-RAYON,Decompress Jdk,8,3,2.243816
-RAYON,Decompress Jdk,8,4,2.984222
-RAYON,Decompress Jdk,8,5,2.229189
-RAYON,Decompress Jdk,8,6,2.256044
-RAYON,Decompress Jdk,8,7,2.345623
-RAYON,Decompress Jdk,8,8,2.277840
-RAYON,Decompress Jdk,8,9,2.286407
-RAYON,Decompress Jdk,16,0,1.704851
-RAYON,Decompress Jdk,16,1,1.645674
-RAYON,Decompress Jdk,16,2,1.794858
-RAYON,Decompress Jdk,16,3,1.472594
-RAYON,Decompress Jdk,16,4,1.953786
-RAYON,Decompress Jdk,16,5,1.612021
-RAYON,Decompress Jdk,16,6,2.037334
-RAYON,Decompress Jdk,16,7,1.794335
-RAYON,Decompress Jdk,16,8,1.551641
-RAYON,Decompress Jdk,16,9,1.537081
-RAYON,Decompress Jdk,32,0,1.273057
-RAYON,Decompress Jdk,32,1,1.005207
-RAYON,Decompress Jdk,32,2,1.158494
-RAYON,Decompress Jdk,32,3,1.341573
-RAYON,Decompress Jdk,32,4,1.139690
-RAYON,Decompress Jdk,32,5,1.422919
-RAYON,Decompress Jdk,32,6,1.425647
-RAYON,Decompress Jdk,32,7,1.174127
-RAYON,Decompress Jdk,32,8,1.272187
-RAYON,Decompress Jdk,32,9,1.287158
-SEQUENTIAL,Compress Avi Video,4,0,81.808176
-SEQUENTIAL,Compress Avi Video,4,1,82.811443
-SEQUENTIAL,Compress Avi Video,4,2,81.878872
-SEQUENTIAL,Compress Avi Video,4,3,81.880812
-SEQUENTIAL,Compress Avi Video,4,4,81.659967
-SEQUENTIAL,Compress Avi Video,4,5,81.776049
-SEQUENTIAL,Compress Avi Video,4,6,81.986468
-SEQUENTIAL,Compress Avi Video,4,7,81.737242
-SEQUENTIAL,Compress Avi Video,4,8,81.740067
-SEQUENTIAL,Compress Avi Video,4,9,81.755963
-SEQUENTIAL,Compress Avi Video,8,0,80.906420
-SEQUENTIAL,Compress Avi Video,8,1,80.542796
-SEQUENTIAL,Compress Avi Video,8,2,80.397865
-SEQUENTIAL,Compress Avi Video,8,3,80.083335
-SEQUENTIAL,Compress Avi Video,8,4,80.702991
-SEQUENTIAL,Compress Avi Video,8,5,80.439606
-SEQUENTIAL,Compress Avi Video,8,6,80.959152
-SEQUENTIAL,Compress Avi Video,8,7,80.891931
-SEQUENTIAL,Compress Avi Video,8,8,80.929870
-SEQUENTIAL,Compress Avi Video,8,9,80.749323
-SEQUENTIAL,Compress Avi Video,16,0,80.699032
-SEQUENTIAL,Compress Avi Video,16,1,80.740915
-SEQUENTIAL,Compress Avi Video,16,2,80.585716
-SEQUENTIAL,Compress Avi Video,16,3,80.252009
-SEQUENTIAL,Compress Avi Video,16,4,80.898222
-SEQUENTIAL,Compress Avi Video,16,5,80.538719
-SEQUENTIAL,Compress Avi Video,16,6,80.304765
-SEQUENTIAL,Compress Avi Video,16,7,80.003192
-SEQUENTIAL,Compress Avi Video,16,8,80.687057
-SEQUENTIAL,Compress Avi Video,16,9,80.897562
-SEQUENTIAL,Compress Avi Video,32,0,80.729158
-SEQUENTIAL,Compress Avi Video,32,1,80.028768
-SEQUENTIAL,Compress Avi Video,32,2,79.933513
-SEQUENTIAL,Compress Avi Video,32,3,80.623638
-SEQUENTIAL,Compress Avi Video,32,4,80.482348
-SEQUENTIAL,Compress Avi Video,32,5,81.205886
-SEQUENTIAL,Compress Avi Video,32,6,80.628417
-SEQUENTIAL,Compress Avi Video,32,7,81.053790
-SEQUENTIAL,Compress Avi Video,32,8,80.374080
-SEQUENTIAL,Compress Avi Video,32,9,81.618668
-SEQUENTIAL,Compress Iso File,4,0,112.931067
-SEQUENTIAL,Compress Iso File,4,1,107.245465
-SEQUENTIAL,Compress Iso File,4,2,106.218002
-SEQUENTIAL,Compress Iso File,4,3,106.033690
-SEQUENTIAL,Compress Iso File,4,4,104.802874
-SEQUENTIAL,Compress Iso File,4,5,105.991817
-SEQUENTIAL,Compress Iso File,4,6,106.674600
-SEQUENTIAL,Compress Iso File,4,7,108.977850
-SEQUENTIAL,Compress Iso File,4,8,111.485395
-SEQUENTIAL,Compress Iso File,4,9,108.635467
-SEQUENTIAL,Compress Iso File,8,0,110.146594
-SEQUENTIAL,Compress Iso File,8,1,103.752853
-SEQUENTIAL,Compress Iso File,8,2,102.504966
-SEQUENTIAL,Compress Iso File,8,3,102.621553
-SEQUENTIAL,Compress Iso File,8,4,103.635265
-SEQUENTIAL,Compress Iso File,8,5,103.011752
-SEQUENTIAL,Compress Iso File,8,6,103.030057
-SEQUENTIAL,Compress Iso File,8,7,103.030978
-SEQUENTIAL,Compress Iso File,8,8,103.293623
-SEQUENTIAL,Compress Iso File,8,9,103.125278
-SEQUENTIAL,Compress Iso File,16,0,103.155452
-SEQUENTIAL,Compress Iso File,16,1,103.877344
-SEQUENTIAL,Compress Iso File,16,2,102.040951
-SEQUENTIAL,Compress Iso File,16,3,102.805330
-SEQUENTIAL,Compress Iso File,16,4,103.000034
-SEQUENTIAL,Compress Iso File,16,5,102.164788
-SEQUENTIAL,Compress Iso File,16,6,103.054499
-SEQUENTIAL,Compress Iso File,16,7,102.861430
-SEQUENTIAL,Compress Iso File,16,8,103.924715
-SEQUENTIAL,Compress Iso File,16,9,105.694649
-SEQUENTIAL,Compress Iso File,32,0,103.105230
-SEQUENTIAL,Compress Iso File,32,1,103.751645
-SEQUENTIAL,Compress Iso File,32,2,102.614171
-SEQUENTIAL,Compress Iso File,32,3,102.768222
-SEQUENTIAL,Compress Iso File,32,4,103.080825
-SEQUENTIAL,Compress Iso File,32,5,102.295583
-SEQUENTIAL,Compress Iso File,32,6,103.099703
-SEQUENTIAL,Compress Iso File,32,7,103.347031
-SEQUENTIAL,Compress Iso File,32,8,103.160280
-SEQUENTIAL,Compress Iso File,32,9,104.186299
-SEQUENTIAL,Compress Jdk,4,0,24.516551
-SEQUENTIAL,Compress Jdk,4,1,24.200860
-SEQUENTIAL,Compress Jdk,4,2,23.936867
-SEQUENTIAL,Compress Jdk,4,3,24.580049
-SEQUENTIAL,Compress Jdk,4,4,24.530827
-SEQUENTIAL,Compress Jdk,4,5,23.815449
-SEQUENTIAL,Compress Jdk,4,6,24.086978
-SEQUENTIAL,Compress Jdk,4,7,23.869560
-SEQUENTIAL,Compress Jdk,4,8,24.512378
-SEQUENTIAL,Compress Jdk,4,9,24.518359
-SEQUENTIAL,Compress Jdk,8,0,23.963725
-SEQUENTIAL,Compress Jdk,8,1,23.146981
-SEQUENTIAL,Compress Jdk,8,2,23.330719
-SEQUENTIAL,Compress Jdk,8,3,23.226433
-SEQUENTIAL,Compress Jdk,8,4,23.389046
-SEQUENTIAL,Compress Jdk,8,5,23.204573
-SEQUENTIAL,Compress Jdk,8,6,23.256911
-SEQUENTIAL,Compress Jdk,8,7,23.328146
-SEQUENTIAL,Compress Jdk,8,8,23.301412
-SEQUENTIAL,Compress Jdk,8,9,23.492241
-SEQUENTIAL,Compress Jdk,16,0,23.289634
-SEQUENTIAL,Compress Jdk,16,1,23.129130
-SEQUENTIAL,Compress Jdk,16,2,23.239782
-SEQUENTIAL,Compress Jdk,16,3,23.276232
-SEQUENTIAL,Compress Jdk,16,4,23.246678
-SEQUENTIAL,Compress Jdk,16,5,23.255554
-SEQUENTIAL,Compress Jdk,16,6,23.275392
-SEQUENTIAL,Compress Jdk,16,7,23.492292
-SEQUENTIAL,Compress Jdk,16,8,23.187378
-SEQUENTIAL,Compress Jdk,16,9,23.470951
-SEQUENTIAL,Compress Jdk,32,0,23.358085
-SEQUENTIAL,Compress Jdk,32,1,23.426096
-SEQUENTIAL,Compress Jdk,32,2,23.216347
-SEQUENTIAL,Compress Jdk,32,3,23.403730
-SEQUENTIAL,Compress Jdk,32,4,23.311145
-SEQUENTIAL,Compress Jdk,32,5,23.093244
-SEQUENTIAL,Compress Jdk,32,6,23.257108
-SEQUENTIAL,Compress Jdk,32,7,23.578742
-SEQUENTIAL,Compress Jdk,32,8,23.394265
-SEQUENTIAL,Compress Jdk,32,9,23.389428
-SEQUENTIAL,Decompress Avi Video,4,0,49.527599
-SEQUENTIAL,Decompress Avi Video,4,1,49.834469
-SEQUENTIAL,Decompress Avi Video,4,2,49.851115
-SEQUENTIAL,Decompress Avi Video,4,3,49.280778
-SEQUENTIAL,Decompress Avi Video,4,4,50.168534
-SEQUENTIAL,Decompress Avi Video,4,5,49.083371
-SEQUENTIAL,Decompress Avi Video,4,6,49.371904
-SEQUENTIAL,Decompress Avi Video,4,7,49.429587
-SEQUENTIAL,Decompress Avi Video,4,8,48.603713
-SEQUENTIAL,Decompress Avi Video,4,9,49.041764
-SEQUENTIAL,Decompress Avi Video,8,0,49.705872
-SEQUENTIAL,Decompress Avi Video,8,1,49.011245
-SEQUENTIAL,Decompress Avi Video,8,2,49.243061
-SEQUENTIAL,Decompress Avi Video,8,3,48.354061
-SEQUENTIAL,Decompress Avi Video,8,4,49.494954
-SEQUENTIAL,Decompress Avi Video,8,5,49.116437
-SEQUENTIAL,Decompress Avi Video,8,6,49.488966
-SEQUENTIAL,Decompress Avi Video,8,7,49.508130
-SEQUENTIAL,Decompress Avi Video,8,8,48.474987
-SEQUENTIAL,Decompress Avi Video,8,9,49.625021
-SEQUENTIAL,Decompress Avi Video,16,0,48.475723
-SEQUENTIAL,Decompress Avi Video,16,1,48.589497
-SEQUENTIAL,Decompress Avi Video,16,2,50.358987
-SEQUENTIAL,Decompress Avi Video,16,3,49.957874
-SEQUENTIAL,Decompress Avi Video,16,4,49.087974
-SEQUENTIAL,Decompress Avi Video,16,5,49.944818
-SEQUENTIAL,Decompress Avi Video,16,6,49.161477
-SEQUENTIAL,Decompress Avi Video,16,7,48.965885
-SEQUENTIAL,Decompress Avi Video,16,8,49.724097
-SEQUENTIAL,Decompress Avi Video,16,9,49.308611
-SEQUENTIAL,Decompress Avi Video,32,0,50.664790
-SEQUENTIAL,Decompress Avi Video,32,1,49.221063
-SEQUENTIAL,Decompress Avi Video,32,2,49.481936
-SEQUENTIAL,Decompress Avi Video,32,3,48.468628
-SEQUENTIAL,Decompress Avi Video,32,4,48.740346
-SEQUENTIAL,Decompress Avi Video,32,5,48.643430
-SEQUENTIAL,Decompress Avi Video,32,6,49.022935
-SEQUENTIAL,Decompress Avi Video,32,7,48.760494
-SEQUENTIAL,Decompress Avi Video,32,8,49.758983
-SEQUENTIAL,Decompress Avi Video,32,9,49.284907
-SEQUENTIAL,Decompress Iso File,4,0,49.181771
-SEQUENTIAL,Decompress Iso File,4,1,48.559719
-SEQUENTIAL,Decompress Iso File,4,2,48.769604
-SEQUENTIAL,Decompress Iso File,4,3,47.910413
-SEQUENTIAL,Decompress Iso File,4,4,48.904511
-SEQUENTIAL,Decompress Iso File,4,5,48.142661
-SEQUENTIAL,Decompress Iso File,4,6,49.122459
-SEQUENTIAL,Decompress Iso File,4,7,48.028022
-SEQUENTIAL,Decompress Iso File,4,8,48.623278
-SEQUENTIAL,Decompress Iso File,4,9,48.973389
-SEQUENTIAL,Decompress Iso File,8,0,48.594301
-SEQUENTIAL,Decompress Iso File,8,1,48.251588
-SEQUENTIAL,Decompress Iso File,8,2,49.105357
-SEQUENTIAL,Decompress Iso File,8,3,48.719204
-SEQUENTIAL,Decompress Iso File,8,4,48.605209
-SEQUENTIAL,Decompress Iso File,8,5,48.115050
-SEQUENTIAL,Decompress Iso File,8,6,48.487769
-SEQUENTIAL,Decompress Iso File,8,7,48.382075
-SEQUENTIAL,Decompress Iso File,8,8,48.999223
-SEQUENTIAL,Decompress Iso File,8,9,49.036572
-SEQUENTIAL,Decompress Iso File,16,0,47.753167
-SEQUENTIAL,Decompress Iso File,16,1,49.205437
-SEQUENTIAL,Decompress Iso File,16,2,47.984653
-SEQUENTIAL,Decompress Iso File,16,3,48.439355
-SEQUENTIAL,Decompress Iso File,16,4,48.342154
-SEQUENTIAL,Decompress Iso File,16,5,49.805465
-SEQUENTIAL,Decompress Iso File,16,6,48.646437
-SEQUENTIAL,Decompress Iso File,16,7,48.361238
-SEQUENTIAL,Decompress Iso File,16,8,49.253185
-SEQUENTIAL,Decompress Iso File,16,9,49.619444
-SEQUENTIAL,Decompress Iso File,32,0,48.711404
-SEQUENTIAL,Decompress Iso File,32,1,50.394651
-SEQUENTIAL,Decompress Iso File,32,2,48.678138
-SEQUENTIAL,Decompress Iso File,32,3,47.834019
-SEQUENTIAL,Decompress Iso File,32,4,48.174335
-SEQUENTIAL,Decompress Iso File,32,5,49.069016
-SEQUENTIAL,Decompress Iso File,32,6,49.349915
-SEQUENTIAL,Decompress Iso File,32,7,48.229590
-SEQUENTIAL,Decompress Iso File,32,8,49.099316
-SEQUENTIAL,Decompress Iso File,32,9,49.209383
-SEQUENTIAL,Decompress Jdk,4,0,15.438257
-SEQUENTIAL,Decompress Jdk,4,1,13.394793
-SEQUENTIAL,Decompress Jdk,4,2,13.350609
-SEQUENTIAL,Decompress Jdk,4,3,13.283680
-SEQUENTIAL,Decompress Jdk,4,4,13.312295
-SEQUENTIAL,Decompress Jdk,4,5,13.318425
-SEQUENTIAL,Decompress Jdk,4,6,13.339568
-SEQUENTIAL,Decompress Jdk,4,7,13.145532
-SEQUENTIAL,Decompress Jdk,4,8,14.247915
-SEQUENTIAL,Decompress Jdk,4,9,13.150311
-SEQUENTIAL,Decompress Jdk,8,0,13.564082
-SEQUENTIAL,Decompress Jdk,8,1,13.037054
-SEQUENTIAL,Decompress Jdk,8,2,13.277654
-SEQUENTIAL,Decompress Jdk,8,3,13.278522
-SEQUENTIAL,Decompress Jdk,8,4,13.507085
-SEQUENTIAL,Decompress Jdk,8,5,13.170633
-SEQUENTIAL,Decompress Jdk,8,6,13.274023
-SEQUENTIAL,Decompress Jdk,8,7,13.186497
-SEQUENTIAL,Decompress Jdk,8,8,13.180935
-SEQUENTIAL,Decompress Jdk,8,9,13.423915
-SEQUENTIAL,Decompress Jdk,16,0,13.493826
-SEQUENTIAL,Decompress Jdk,16,1,13.344838
-SEQUENTIAL,Decompress Jdk,16,2,13.197199
-SEQUENTIAL,Decompress Jdk,16,3,13.099443
-SEQUENTIAL,Decompress Jdk,16,4,13.368844
-SEQUENTIAL,Decompress Jdk,16,5,13.402033
-SEQUENTIAL,Decompress Jdk,16,6,13.229557
-SEQUENTIAL,Decompress Jdk,16,7,13.129797
-SEQUENTIAL,Decompress Jdk,16,8,13.402948
-SEQUENTIAL,Decompress Jdk,16,9,13.394622
-SEQUENTIAL,Decompress Jdk,32,0,13.310079
-SEQUENTIAL,Decompress Jdk,32,1,13.862800
-SEQUENTIAL,Decompress Jdk,32,2,13.479216
-SEQUENTIAL,Decompress Jdk,32,3,13.007326
-SEQUENTIAL,Decompress Jdk,32,4,13.371055
-SEQUENTIAL,Decompress Jdk,32,5,13.339395
-SEQUENTIAL,Decompress Jdk,32,6,13.410479
-SEQUENTIAL,Decompress Jdk,32,7,13.138969
-SEQUENTIAL,Decompress Jdk,32,8,13.143828
-SEQUENTIAL,Decompress Jdk,32,9,13.341953
-TOKIO,Compress Avi Video,4,0,23.615653
-TOKIO,Compress Avi Video,4,1,30.879194
-TOKIO,Compress Avi Video,4,2,36.888627
-TOKIO,Compress Avi Video,4,3,33.215934
-TOKIO,Compress Avi Video,4,4,28.996078
-TOKIO,Compress Avi Video,4,5,28.413510
-TOKIO,Compress Avi Video,4,6,29.874224
-TOKIO,Compress Avi Video,4,7,26.743495
-TOKIO,Compress Avi Video,4,8,31.087175
-TOKIO,Compress Avi Video,4,9,31.612209
-TOKIO,Compress Avi Video,8,0,12.578318
-TOKIO,Compress Avi Video,8,1,12.437634
-TOKIO,Compress Avi Video,8,2,12.359674
-TOKIO,Compress Avi Video,8,3,12.145023
-TOKIO,Compress Avi Video,8,4,12.280254
-TOKIO,Compress Avi Video,8,5,12.776089
-TOKIO,Compress Avi Video,8,6,12.244368
-TOKIO,Compress Avi Video,8,7,12.381430
-TOKIO,Compress Avi Video,8,8,12.394015
-TOKIO,Compress Avi Video,8,9,12.346572
-TOKIO,Compress Avi Video,16,0,8.902710
-TOKIO,Compress Avi Video,16,1,9.060896
-TOKIO,Compress Avi Video,16,2,8.203892
-TOKIO,Compress Avi Video,16,3,8.469268
-TOKIO,Compress Avi Video,16,4,8.487613
-TOKIO,Compress Avi Video,16,5,8.859110
-TOKIO,Compress Avi Video,16,6,9.110117
-TOKIO,Compress Avi Video,16,7,8.477330
-TOKIO,Compress Avi Video,16,8,8.547106
-TOKIO,Compress Avi Video,16,9,8.527172
-TOKIO,Compress Avi Video,32,0,7.689456
-TOKIO,Compress Avi Video,32,1,7.309799
-TOKIO,Compress Avi Video,32,2,8.267491
-TOKIO,Compress Avi Video,32,3,7.016197
-TOKIO,Compress Avi Video,32,4,7.730223
-TOKIO,Compress Avi Video,32,5,7.161061
-TOKIO,Compress Avi Video,32,6,6.338804
-TOKIO,Compress Avi Video,32,7,8.141340
-TOKIO,Compress Avi Video,32,8,8.515541
-TOKIO,Compress Avi Video,32,9,8.329826
-TOKIO,Compress Iso File,4,0,27.767357
-TOKIO,Compress Iso File,4,1,30.357466
-TOKIO,Compress Iso File,4,2,27.760495
-TOKIO,Compress Iso File,4,3,28.905973
-TOKIO,Compress Iso File,4,4,29.012444
-TOKIO,Compress Iso File,4,5,29.284145
-TOKIO,Compress Iso File,4,6,29.958146
-TOKIO,Compress Iso File,4,7,28.177612
-TOKIO,Compress Iso File,4,8,29.718052
-TOKIO,Compress Iso File,4,9,28.845066
-TOKIO,Compress Iso File,8,0,15.943868
-TOKIO,Compress Iso File,8,1,15.506700
-TOKIO,Compress Iso File,8,2,15.772913
-TOKIO,Compress Iso File,8,3,15.574195
-TOKIO,Compress Iso File,8,4,15.689871
-TOKIO,Compress Iso File,8,5,15.765243
-TOKIO,Compress Iso File,8,6,15.568715
-TOKIO,Compress Iso File,8,7,16.100598
-TOKIO,Compress Iso File,8,8,16.015667
-TOKIO,Compress Iso File,8,9,15.920675
-TOKIO,Compress Iso File,16,0,11.378621
-TOKIO,Compress Iso File,16,1,11.085114
-TOKIO,Compress Iso File,16,2,10.862696
-TOKIO,Compress Iso File,16,3,10.749455
-TOKIO,Compress Iso File,16,4,11.117252
-TOKIO,Compress Iso File,16,5,10.868521
-TOKIO,Compress Iso File,16,6,10.531415
-TOKIO,Compress Iso File,16,7,10.724346
-TOKIO,Compress Iso File,16,8,10.495573
-TOKIO,Compress Iso File,16,9,10.906730
-TOKIO,Compress Iso File,32,0,8.634788
-TOKIO,Compress Iso File,32,1,7.983774
-TOKIO,Compress Iso File,32,2,8.330957
-TOKIO,Compress Iso File,32,3,7.918073
-TOKIO,Compress Iso File,32,4,8.379948
-TOKIO,Compress Iso File,32,5,8.102385
-TOKIO,Compress Iso File,32,6,7.446765
-TOKIO,Compress Iso File,32,7,8.046459
-TOKIO,Compress Iso File,32,8,8.175799
-TOKIO,Compress Iso File,32,9,8.551700
-TOKIO,Compress Jdk,4,0,6.327239
-TOKIO,Compress Jdk,4,1,6.464361
-TOKIO,Compress Jdk,4,2,6.410486
-TOKIO,Compress Jdk,4,3,6.492399
-TOKIO,Compress Jdk,4,4,6.560815
-TOKIO,Compress Jdk,4,5,6.339667
-TOKIO,Compress Jdk,4,6,6.542558
-TOKIO,Compress Jdk,4,7,6.411576
-TOKIO,Compress Jdk,4,8,6.403390
-TOKIO,Compress Jdk,4,9,6.418071
-TOKIO,Compress Jdk,8,0,3.782676
-TOKIO,Compress Jdk,8,1,3.629251
-TOKIO,Compress Jdk,8,2,3.827560
-TOKIO,Compress Jdk,8,3,3.610708
-TOKIO,Compress Jdk,8,4,3.563510
-TOKIO,Compress Jdk,8,5,3.713033
-TOKIO,Compress Jdk,8,6,4.389699
-TOKIO,Compress Jdk,8,7,3.652477
-TOKIO,Compress Jdk,8,8,3.674733
-TOKIO,Compress Jdk,8,9,3.611087
-TOKIO,Compress Jdk,16,0,2.815715
-TOKIO,Compress Jdk,16,1,2.691484
-TOKIO,Compress Jdk,16,2,2.609167
-TOKIO,Compress Jdk,16,3,2.693778
-TOKIO,Compress Jdk,16,4,2.629731
-TOKIO,Compress Jdk,16,5,2.168950
-TOKIO,Compress Jdk,16,6,2.769302
-TOKIO,Compress Jdk,16,7,2.500745
-TOKIO,Compress Jdk,16,8,2.326654
-TOKIO,Compress Jdk,16,9,2.583379
-TOKIO,Compress Jdk,32,0,1.459958
-TOKIO,Compress Jdk,32,1,1.871118
-TOKIO,Compress Jdk,32,2,2.025815
-TOKIO,Compress Jdk,32,3,1.478981
-TOKIO,Compress Jdk,32,4,1.786048
-TOKIO,Compress Jdk,32,5,1.968619
-TOKIO,Compress Jdk,32,6,1.733838
-TOKIO,Compress Jdk,32,7,2.012053
-TOKIO,Compress Jdk,32,8,1.605734
-TOKIO,Compress Jdk,32,9,1.910305
-TOKIO,Decompress Avi Video,4,0,14.407238
-TOKIO,Decompress Avi Video,4,1,14.430222
-TOKIO,Decompress Avi Video,4,2,14.048982
-TOKIO,Decompress Avi Video,4,3,14.333434
-TOKIO,Decompress Avi Video,4,4,14.286727
-TOKIO,Decompress Avi Video,4,5,14.382063
-TOKIO,Decompress Avi Video,4,6,14.557191
-TOKIO,Decompress Avi Video,4,7,14.135156
-TOKIO,Decompress Avi Video,4,8,14.217597
-TOKIO,Decompress Avi Video,4,9,14.319258
-TOKIO,Decompress Avi Video,8,0,8.677153
-TOKIO,Decompress Avi Video,8,1,8.491096
-TOKIO,Decompress Avi Video,8,2,8.695122
-TOKIO,Decompress Avi Video,8,3,8.377779
-TOKIO,Decompress Avi Video,8,4,8.809157
-TOKIO,Decompress Avi Video,8,5,8.622406
-TOKIO,Decompress Avi Video,8,6,8.610144
-TOKIO,Decompress Avi Video,8,7,8.443204
-TOKIO,Decompress Avi Video,8,8,8.492110
-TOKIO,Decompress Avi Video,8,9,8.767459
-TOKIO,Decompress Avi Video,16,0,6.293372
-TOKIO,Decompress Avi Video,16,1,6.067471
-TOKIO,Decompress Avi Video,16,2,5.881392
-TOKIO,Decompress Avi Video,16,3,7.747588
-TOKIO,Decompress Avi Video,16,4,5.857562
-TOKIO,Decompress Avi Video,16,5,6.069806
-TOKIO,Decompress Avi Video,16,6,6.039582
-TOKIO,Decompress Avi Video,16,7,5.851747
-TOKIO,Decompress Avi Video,16,8,5.674568
-TOKIO,Decompress Avi Video,16,9,6.332784
-TOKIO,Decompress Avi Video,32,0,3.920541
-TOKIO,Decompress Avi Video,32,1,4.400971
-TOKIO,Decompress Avi Video,32,2,4.394310
-TOKIO,Decompress Avi Video,32,3,4.138176
-TOKIO,Decompress Avi Video,32,4,4.818085
-TOKIO,Decompress Avi Video,32,5,4.373971
-TOKIO,Decompress Avi Video,32,6,4.590072
-TOKIO,Decompress Avi Video,32,7,4.332673
-TOKIO,Decompress Avi Video,32,8,5.246343
-TOKIO,Decompress Avi Video,32,9,4.589257
-TOKIO,Decompress Iso File,4,0,14.263801
-TOKIO,Decompress Iso File,4,1,14.498830
-TOKIO,Decompress Iso File,4,2,14.355650
-TOKIO,Decompress Iso File,4,3,13.978224
-TOKIO,Decompress Iso File,4,4,14.305899
-TOKIO,Decompress Iso File,4,5,14.230988
-TOKIO,Decompress Iso File,4,6,14.057176
-TOKIO,Decompress Iso File,4,7,14.352038
-TOKIO,Decompress Iso File,4,8,14.208823
-TOKIO,Decompress Iso File,4,9,14.281381
-TOKIO,Decompress Iso File,8,0,8.650068
-TOKIO,Decompress Iso File,8,1,8.343554
-TOKIO,Decompress Iso File,8,2,8.591594
-TOKIO,Decompress Iso File,8,3,8.480494
-TOKIO,Decompress Iso File,8,4,8.479646
-TOKIO,Decompress Iso File,8,5,8.576159
-TOKIO,Decompress Iso File,8,6,8.358576
-TOKIO,Decompress Iso File,8,7,8.364839
-TOKIO,Decompress Iso File,8,8,8.301227
-TOKIO,Decompress Iso File,8,9,8.509337
-TOKIO,Decompress Iso File,16,0,6.316833
-TOKIO,Decompress Iso File,16,1,7.258750
-TOKIO,Decompress Iso File,16,2,6.543170
-TOKIO,Decompress Iso File,16,3,7.139725
-TOKIO,Decompress Iso File,16,4,6.272259
-TOKIO,Decompress Iso File,16,5,7.882396
-TOKIO,Decompress Iso File,16,6,9.088585
-TOKIO,Decompress Iso File,16,7,6.368626
-TOKIO,Decompress Iso File,16,8,6.038259
-TOKIO,Decompress Iso File,16,9,6.190909
-TOKIO,Decompress Iso File,32,0,3.487298
-TOKIO,Decompress Iso File,32,1,3.627450
-TOKIO,Decompress Iso File,32,2,4.149532
-TOKIO,Decompress Iso File,32,3,3.577063
-TOKIO,Decompress Iso File,32,4,3.957865
-TOKIO,Decompress Iso File,32,5,3.940429
-TOKIO,Decompress Iso File,32,6,3.789858
-TOKIO,Decompress Iso File,32,7,3.875716
-TOKIO,Decompress Iso File,32,8,4.149405
-TOKIO,Decompress Iso File,32,9,5.027681
-TOKIO,Decompress Jdk,4,0,3.889437
-TOKIO,Decompress Jdk,4,1,4.092506
-TOKIO,Decompress Jdk,4,2,3.959611
-TOKIO,Decompress Jdk,4,3,4.040780
-TOKIO,Decompress Jdk,4,4,3.887445
-TOKIO,Decompress Jdk,4,5,3.939699
-TOKIO,Decompress Jdk,4,6,3.993889
-TOKIO,Decompress Jdk,4,7,3.985646
-TOKIO,Decompress Jdk,4,8,4.003463
-TOKIO,Decompress Jdk,4,9,4.095834
-TOKIO,Decompress Jdk,8,0,3.047637
-TOKIO,Decompress Jdk,8,1,2.894592
-TOKIO,Decompress Jdk,8,2,3.001509
-TOKIO,Decompress Jdk,8,3,3.129975
-TOKIO,Decompress Jdk,8,4,2.911760
-TOKIO,Decompress Jdk,8,5,2.873492
-TOKIO,Decompress Jdk,8,6,2.617496
-TOKIO,Decompress Jdk,8,7,2.777498
-TOKIO,Decompress Jdk,8,8,2.858804
-TOKIO,Decompress Jdk,8,9,3.008382
-TOKIO,Decompress Jdk,16,0,2.463245
-TOKIO,Decompress Jdk,16,1,2.548953
-TOKIO,Decompress Jdk,16,2,2.134205
-TOKIO,Decompress Jdk,16,3,2.719730
-TOKIO,Decompress Jdk,16,4,2.928211
-TOKIO,Decompress Jdk,16,5,3.652095
-TOKIO,Decompress Jdk,16,6,3.265300
-TOKIO,Decompress Jdk,16,7,1.921889
-TOKIO,Decompress Jdk,16,8,2.273271
-TOKIO,Decompress Jdk,16,9,1.792865
-TOKIO,Decompress Jdk,32,0,1.752613
-TOKIO,Decompress Jdk,32,1,1.059524
-TOKIO,Decompress Jdk,32,2,1.122422
-TOKIO,Decompress Jdk,32,3,2.354423
-TOKIO,Decompress Jdk,32,4,1.085542
-TOKIO,Decompress Jdk,32,5,0.969365
-TOKIO,Decompress Jdk,32,6,0.988412
-TOKIO,Decompress Jdk,32,7,1.081912
-TOKIO,Decompress Jdk,32,8,1.001468
-TOKIO,Decompress Jdk,32,9,1.034724
+Framework,Workload,Iteration,ExecutionTime(s)
+dagrs,Compress Avi Video Nthread1,0,90.522124
+dagrs,Compress Avi Video Nthread1,1,119.075436
+dagrs,Compress Avi Video Nthread1,2,85.875326
+dagrs,Compress Avi Video Nthread1,3,89.939281
+dagrs,Compress Avi Video Nthread1,4,90.969848
+dagrs,Compress Avi Video Nthread1,5,86.209297
+dagrs,Compress Avi Video Nthread1,6,92.080621
+dagrs,Compress Avi Video Nthread1,7,92.526072
+dagrs,Compress Avi Video Nthread1,8,87.250144
+dagrs,Compress Avi Video Nthread1,9,91.834491
+dagrs,Compress Avi Video Nthread10,0,14.289189
+dagrs,Compress Avi Video Nthread10,1,16.525091
+dagrs,Compress Avi Video Nthread10,2,16.369580
+dagrs,Compress Avi Video Nthread10,3,12.712232
+dagrs,Compress Avi Video Nthread10,4,18.982804
+dagrs,Compress Avi Video Nthread10,5,15.470535
+dagrs,Compress Avi Video Nthread10,6,17.157770
+dagrs,Compress Avi Video Nthread10,7,10.328277
+dagrs,Compress Avi Video Nthread10,8,10.577543
+dagrs,Compress Avi Video Nthread10,9,10.590800
+dagrs,Compress Avi Video Nthread15,0,15.118264
+dagrs,Compress Avi Video Nthread15,1,11.183274
+dagrs,Compress Avi Video Nthread15,2,16.802284
+dagrs,Compress Avi Video Nthread15,3,10.103416
+dagrs,Compress Avi Video Nthread15,4,24.650756
+dagrs,Compress Avi Video Nthread15,5,13.652399
+dagrs,Compress Avi Video Nthread15,6,15.169563
+dagrs,Compress Avi Video Nthread15,7,11.471703
+dagrs,Compress Avi Video Nthread15,8,11.896039
+dagrs,Compress Avi Video Nthread15,9,9.277649
+dagrs,Compress Avi Video Nthread25,0,7.448102
+dagrs,Compress Avi Video Nthread25,1,8.074087
+dagrs,Compress Avi Video Nthread25,2,10.584250
+dagrs,Compress Avi Video Nthread25,3,11.205247
+dagrs,Compress Avi Video Nthread25,4,10.389244
+dagrs,Compress Avi Video Nthread25,5,8.969864
+dagrs,Compress Avi Video Nthread25,6,7.937101
+dagrs,Compress Avi Video Nthread25,7,10.073050
+dagrs,Compress Avi Video Nthread25,8,11.565218
+dagrs,Compress Avi Video Nthread25,9,8.148993
+dagrs,Compress Avi Video Nthread30,0,5.025303
+dagrs,Compress Avi Video Nthread30,1,6.049045
+dagrs,Compress Avi Video Nthread30,2,4.786404
+dagrs,Compress Avi Video Nthread30,3,5.153558
+dagrs,Compress Avi Video Nthread30,4,5.022586
+dagrs,Compress Avi Video Nthread30,5,4.847039
+dagrs,Compress Avi Video Nthread30,6,4.892753
+dagrs,Compress Avi Video Nthread30,7,5.096124
+dagrs,Compress Avi Video Nthread30,8,4.820344
+dagrs,Compress Avi Video Nthread30,9,5.055488
+dagrs,Compress Avi Video Nthread5,0,18.507335
+dagrs,Compress Avi Video Nthread5,1,18.648812
+dagrs,Compress Avi Video Nthread5,2,18.907563
+dagrs,Compress Avi Video Nthread5,3,18.855782
+dagrs,Compress Avi Video Nthread5,4,18.733398
+dagrs,Compress Avi Video Nthread5,5,18.239131
+dagrs,Compress Avi Video Nthread5,6,18.388567
+dagrs,Compress Avi Video Nthread5,7,18.028394
+dagrs,Compress Avi Video Nthread5,8,17.885587
+dagrs,Compress Avi Video Nthread5,9,21.050580
+dagrs,Compress Iso File Nthread1,0,104.619175
+dagrs,Compress Iso File Nthread1,1,120.827363
+dagrs,Compress Iso File Nthread1,2,105.741868
+dagrs,Compress Iso File Nthread1,3,102.579308
+dagrs,Compress Iso File Nthread1,4,113.983318
+dagrs,Compress Iso File Nthread1,5,106.302712
+dagrs,Compress Iso File Nthread1,6,103.246908
+dagrs,Compress Iso File Nthread1,7,104.181528
+dagrs,Compress Iso File Nthread1,8,103.829040
+dagrs,Compress Iso File Nthread1,9,105.444045
+dagrs,Compress Iso File Nthread10,0,14.124331
+dagrs,Compress Iso File Nthread10,1,19.850397
+dagrs,Compress Iso File Nthread10,2,18.535593
+dagrs,Compress Iso File Nthread10,3,15.140636
+dagrs,Compress Iso File Nthread10,4,24.616200
+dagrs,Compress Iso File Nthread10,5,17.654431
+dagrs,Compress Iso File Nthread10,6,16.861859
+dagrs,Compress Iso File Nthread10,7,13.298543
+dagrs,Compress Iso File Nthread10,8,13.076446
+dagrs,Compress Iso File Nthread10,9,13.115585
+dagrs,Compress Iso File Nthread15,0,17.173089
+dagrs,Compress Iso File Nthread15,1,18.800945
+dagrs,Compress Iso File Nthread15,2,17.850572
+dagrs,Compress Iso File Nthread15,3,15.358280
+dagrs,Compress Iso File Nthread15,4,20.147827
+dagrs,Compress Iso File Nthread15,5,15.905405
+dagrs,Compress Iso File Nthread15,6,17.794653
+dagrs,Compress Iso File Nthread15,7,14.908842
+dagrs,Compress Iso File Nthread15,8,16.560052
+dagrs,Compress Iso File Nthread15,9,16.698972
+dagrs,Compress Iso File Nthread25,0,7.533486
+dagrs,Compress Iso File Nthread25,1,9.099385
+dagrs,Compress Iso File Nthread25,2,10.953403
+dagrs,Compress Iso File Nthread25,3,13.033568
+dagrs,Compress Iso File Nthread25,4,11.176861
+dagrs,Compress Iso File Nthread25,5,9.426615
+dagrs,Compress Iso File Nthread25,6,8.965338
+dagrs,Compress Iso File Nthread25,7,9.551738
+dagrs,Compress Iso File Nthread25,8,10.780349
+dagrs,Compress Iso File Nthread25,9,11.445386
+dagrs,Compress Iso File Nthread30,0,6.215592
+dagrs,Compress Iso File Nthread30,1,6.014010
+dagrs,Compress Iso File Nthread30,2,6.676433
+dagrs,Compress Iso File Nthread30,3,6.189176
+dagrs,Compress Iso File Nthread30,4,6.580702
+dagrs,Compress Iso File Nthread30,5,6.779201
+dagrs,Compress Iso File Nthread30,6,6.044372
+dagrs,Compress Iso File Nthread30,7,6.785690
+dagrs,Compress Iso File Nthread30,8,5.921205
+dagrs,Compress Iso File Nthread30,9,7.216349
+dagrs,Compress Iso File Nthread5,0,27.182109
+dagrs,Compress Iso File Nthread5,1,24.344092
+dagrs,Compress Iso File Nthread5,2,23.217781
+dagrs,Compress Iso File Nthread5,3,23.394140
+dagrs,Compress Iso File Nthread5,4,23.317655
+dagrs,Compress Iso File Nthread5,5,24.465636
+dagrs,Compress Iso File Nthread5,6,24.294924
+dagrs,Compress Iso File Nthread5,7,23.168633
+dagrs,Compress Iso File Nthread5,8,23.889640
+dagrs,Compress Iso File Nthread5,9,23.337713
+dagrs,Compress Jdk Nthread1,0,24.021514
+dagrs,Compress Jdk Nthread1,1,23.782133
+dagrs,Compress Jdk Nthread1,2,23.491611
+dagrs,Compress Jdk Nthread1,3,23.453935
+dagrs,Compress Jdk Nthread1,4,23.782879
+dagrs,Compress Jdk Nthread1,5,23.878953
+dagrs,Compress Jdk Nthread1,6,23.357682
+dagrs,Compress Jdk Nthread1,7,23.369360
+dagrs,Compress Jdk Nthread1,8,23.789619
+dagrs,Compress Jdk Nthread1,9,23.305301
+dagrs,Compress Jdk Nthread10,0,4.532175
+dagrs,Compress Jdk Nthread10,1,4.909867
+dagrs,Compress Jdk Nthread10,2,3.742033
+dagrs,Compress Jdk Nthread10,3,3.745401
+dagrs,Compress Jdk Nthread10,4,8.724004
+dagrs,Compress Jdk Nthread10,5,4.772602
+dagrs,Compress Jdk Nthread10,6,5.127751
+dagrs,Compress Jdk Nthread10,7,3.855226
+dagrs,Compress Jdk Nthread10,8,3.389276
+dagrs,Compress Jdk Nthread10,9,4.358468
+dagrs,Compress Jdk Nthread15,0,3.451820
+dagrs,Compress Jdk Nthread15,1,8.008427
+dagrs,Compress Jdk Nthread15,2,4.863611
+dagrs,Compress Jdk Nthread15,3,5.264943
+dagrs,Compress Jdk Nthread15,4,6.279962
+dagrs,Compress Jdk Nthread15,5,3.185279
+dagrs,Compress Jdk Nthread15,6,4.062798
+dagrs,Compress Jdk Nthread15,7,3.981541
+dagrs,Compress Jdk Nthread15,8,4.148202
+dagrs,Compress Jdk Nthread15,9,4.004657
+dagrs,Compress Jdk Nthread25,0,2.220220
+dagrs,Compress Jdk Nthread25,1,2.010392
+dagrs,Compress Jdk Nthread25,2,2.228697
+dagrs,Compress Jdk Nthread25,3,3.052510
+dagrs,Compress Jdk Nthread25,4,3.011984
+dagrs,Compress Jdk Nthread25,5,2.120437
+dagrs,Compress Jdk Nthread25,6,1.750107
+dagrs,Compress Jdk Nthread25,7,3.701930
+dagrs,Compress Jdk Nthread25,8,2.395766
+dagrs,Compress Jdk Nthread25,9,2.274313
+dagrs,Compress Jdk Nthread30,0,1.532732
+dagrs,Compress Jdk Nthread30,1,1.516375
+dagrs,Compress Jdk Nthread30,2,1.656372
+dagrs,Compress Jdk Nthread30,3,1.684478
+dagrs,Compress Jdk Nthread30,4,1.332384
+dagrs,Compress Jdk Nthread30,5,1.639437
+dagrs,Compress Jdk Nthread30,6,1.723362
+dagrs,Compress Jdk Nthread30,7,1.408974
+dagrs,Compress Jdk Nthread30,8,1.475659
+dagrs,Compress Jdk Nthread30,9,1.434581
+dagrs,Compress Jdk Nthread5,0,5.318781
+dagrs,Compress Jdk Nthread5,1,5.506678
+dagrs,Compress Jdk Nthread5,2,5.630450
+dagrs,Compress Jdk Nthread5,3,5.333481
+dagrs,Compress Jdk Nthread5,4,5.464893
+dagrs,Compress Jdk Nthread5,5,5.309481
+dagrs,Compress Jdk Nthread5,6,5.346643
+dagrs,Compress Jdk Nthread5,7,5.365567
+dagrs,Compress Jdk Nthread5,8,5.405345
+dagrs,Compress Jdk Nthread5,9,5.237533
+dagrs,Decompress Avi Video Nthread1,0,50.717114
+dagrs,Decompress Avi Video Nthread1,1,53.389163
+dagrs,Decompress Avi Video Nthread1,2,50.737012
+dagrs,Decompress Avi Video Nthread1,3,50.336658
+dagrs,Decompress Avi Video Nthread1,4,50.262298
+dagrs,Decompress Avi Video Nthread1,5,50.012259
+dagrs,Decompress Avi Video Nthread1,6,50.965249
+dagrs,Decompress Avi Video Nthread1,7,49.814416
+dagrs,Decompress Avi Video Nthread1,8,51.787455
+dagrs,Decompress Avi Video Nthread1,9,51.114154
+dagrs,Decompress Avi Video Nthread10,0,10.249480
+dagrs,Decompress Avi Video Nthread10,1,12.025111
+dagrs,Decompress Avi Video Nthread10,2,10.924541
+dagrs,Decompress Avi Video Nthread10,3,7.716351
+dagrs,Decompress Avi Video Nthread10,4,25.459770
+dagrs,Decompress Avi Video Nthread10,5,11.072019
+dagrs,Decompress Avi Video Nthread10,6,10.730067
+dagrs,Decompress Avi Video Nthread10,7,9.600094
+dagrs,Decompress Avi Video Nthread10,8,8.063415
+dagrs,Decompress Avi Video Nthread10,9,8.599798
+dagrs,Decompress Avi Video Nthread15,0,11.374772
+dagrs,Decompress Avi Video Nthread15,1,13.282372
+dagrs,Decompress Avi Video Nthread15,2,14.153557
+dagrs,Decompress Avi Video Nthread15,3,11.036666
+dagrs,Decompress Avi Video Nthread15,4,14.059393
+dagrs,Decompress Avi Video Nthread15,5,9.334054
+dagrs,Decompress Avi Video Nthread15,6,15.118850
+dagrs,Decompress Avi Video Nthread15,7,9.656246
+dagrs,Decompress Avi Video Nthread15,8,10.461202
+dagrs,Decompress Avi Video Nthread15,9,9.643924
+dagrs,Decompress Avi Video Nthread25,0,6.270734
+dagrs,Decompress Avi Video Nthread25,1,4.302182
+dagrs,Decompress Avi Video Nthread25,2,4.934109
+dagrs,Decompress Avi Video Nthread25,3,7.466922
+dagrs,Decompress Avi Video Nthread25,4,6.378366
+dagrs,Decompress Avi Video Nthread25,5,5.111996
+dagrs,Decompress Avi Video Nthread25,6,4.833518
+dagrs,Decompress Avi Video Nthread25,7,8.296626
+dagrs,Decompress Avi Video Nthread25,8,6.552259
+dagrs,Decompress Avi Video Nthread25,9,7.552403
+dagrs,Decompress Avi Video Nthread30,0,4.136005
+dagrs,Decompress Avi Video Nthread30,1,4.637065
+dagrs,Decompress Avi Video Nthread30,2,4.223258
+dagrs,Decompress Avi Video Nthread30,3,4.818984
+dagrs,Decompress Avi Video Nthread30,4,4.146416
+dagrs,Decompress Avi Video Nthread30,5,4.434204
+dagrs,Decompress Avi Video Nthread30,6,3.882170
+dagrs,Decompress Avi Video Nthread30,7,3.907488
+dagrs,Decompress Avi Video Nthread30,8,4.579447
+dagrs,Decompress Avi Video Nthread30,9,5.515831
+dagrs,Decompress Avi Video Nthread5,0,12.198670
+dagrs,Decompress Avi Video Nthread5,1,14.295749
+dagrs,Decompress Avi Video Nthread5,2,16.346655
+dagrs,Decompress Avi Video Nthread5,3,13.236081
+dagrs,Decompress Avi Video Nthread5,4,12.432894
+dagrs,Decompress Avi Video Nthread5,5,12.257757
+dagrs,Decompress Avi Video Nthread5,6,12.395365
+dagrs,Decompress Avi Video Nthread5,7,12.323761
+dagrs,Decompress Avi Video Nthread5,8,11.965033
+dagrs,Decompress Avi Video Nthread5,9,14.900023
+dagrs,Decompress Iso File Nthread1,0,49.997144
+dagrs,Decompress Iso File Nthread1,1,54.604740
+dagrs,Decompress Iso File Nthread1,2,50.789105
+dagrs,Decompress Iso File Nthread1,3,50.115227
+dagrs,Decompress Iso File Nthread1,4,49.926370
+dagrs,Decompress Iso File Nthread1,5,50.367733
+dagrs,Decompress Iso File Nthread1,6,51.834595
+dagrs,Decompress Iso File Nthread1,7,52.196516
+dagrs,Decompress Iso File Nthread1,8,49.722915
+dagrs,Decompress Iso File Nthread1,9,51.432400
+dagrs,Decompress Iso File Nthread10,0,13.333122
+dagrs,Decompress Iso File Nthread10,1,11.232122
+dagrs,Decompress Iso File Nthread10,2,8.852526
+dagrs,Decompress Iso File Nthread10,3,9.893084
+dagrs,Decompress Iso File Nthread10,4,19.936532
+dagrs,Decompress Iso File Nthread10,5,13.515662
+dagrs,Decompress Iso File Nthread10,6,9.253215
+dagrs,Decompress Iso File Nthread10,7,12.292106
+dagrs,Decompress Iso File Nthread10,8,12.138231
+dagrs,Decompress Iso File Nthread10,9,9.173244
+dagrs,Decompress Iso File Nthread15,0,8.527822
+dagrs,Decompress Iso File Nthread15,1,12.251465
+dagrs,Decompress Iso File Nthread15,2,13.721608
+dagrs,Decompress Iso File Nthread15,3,13.592141
+dagrs,Decompress Iso File Nthread15,4,10.188856
+dagrs,Decompress Iso File Nthread15,5,9.335194
+dagrs,Decompress Iso File Nthread15,6,10.039909
+dagrs,Decompress Iso File Nthread15,7,11.352601
+dagrs,Decompress Iso File Nthread15,8,11.124321
+dagrs,Decompress Iso File Nthread15,9,12.714554
+dagrs,Decompress Iso File Nthread25,0,6.086224
+dagrs,Decompress Iso File Nthread25,1,4.359777
+dagrs,Decompress Iso File Nthread25,2,4.379441
+dagrs,Decompress Iso File Nthread25,3,7.043641
+dagrs,Decompress Iso File Nthread25,4,4.489306
+dagrs,Decompress Iso File Nthread25,5,5.136541
+dagrs,Decompress Iso File Nthread25,6,4.377118
+dagrs,Decompress Iso File Nthread25,7,7.193103
+dagrs,Decompress Iso File Nthread25,8,6.958134
+dagrs,Decompress Iso File Nthread25,9,4.612666
+dagrs,Decompress Iso File Nthread30,0,4.151335
+dagrs,Decompress Iso File Nthread30,1,4.453713
+dagrs,Decompress Iso File Nthread30,2,4.343219
+dagrs,Decompress Iso File Nthread30,3,4.246599
+dagrs,Decompress Iso File Nthread30,4,3.975932
+dagrs,Decompress Iso File Nthread30,5,4.319621
+dagrs,Decompress Iso File Nthread30,6,4.045639
+dagrs,Decompress Iso File Nthread30,7,3.997733
+dagrs,Decompress Iso File Nthread30,8,4.108468
+dagrs,Decompress Iso File Nthread30,9,4.025547
+dagrs,Decompress Iso File Nthread5,0,13.791593
+dagrs,Decompress Iso File Nthread5,1,17.379290
+dagrs,Decompress Iso File Nthread5,2,16.937803
+dagrs,Decompress Iso File Nthread5,3,12.025199
+dagrs,Decompress Iso File Nthread5,4,13.570024
+dagrs,Decompress Iso File Nthread5,5,15.691028
+dagrs,Decompress Iso File Nthread5,6,13.222555
+dagrs,Decompress Iso File Nthread5,7,12.136550
+dagrs,Decompress Iso File Nthread5,8,12.011398
+dagrs,Decompress Iso File Nthread5,9,14.712020
+dagrs,Decompress Jdk Nthread1,0,13.999302
+dagrs,Decompress Jdk Nthread1,1,14.730436
+dagrs,Decompress Jdk Nthread1,2,13.870478
+dagrs,Decompress Jdk Nthread1,3,13.821326
+dagrs,Decompress Jdk Nthread1,4,14.272134
+dagrs,Decompress Jdk Nthread1,5,14.596177
+dagrs,Decompress Jdk Nthread1,6,14.362588
+dagrs,Decompress Jdk Nthread1,7,14.339448
+dagrs,Decompress Jdk Nthread1,8,14.024102
+dagrs,Decompress Jdk Nthread1,9,14.321735
+dagrs,Decompress Jdk Nthread10,0,4.274730
+dagrs,Decompress Jdk Nthread10,1,2.772658
+dagrs,Decompress Jdk Nthread10,2,2.430585
+dagrs,Decompress Jdk Nthread10,3,2.644766
+dagrs,Decompress Jdk Nthread10,4,7.509111
+dagrs,Decompress Jdk Nthread10,5,3.587248
+dagrs,Decompress Jdk Nthread10,6,4.155690
+dagrs,Decompress Jdk Nthread10,7,2.861282
+dagrs,Decompress Jdk Nthread10,8,4.178033
+dagrs,Decompress Jdk Nthread10,9,2.045674
+dagrs,Decompress Jdk Nthread15,0,2.065572
+dagrs,Decompress Jdk Nthread15,1,3.026473
+dagrs,Decompress Jdk Nthread15,2,3.251417
+dagrs,Decompress Jdk Nthread15,3,4.191262
+dagrs,Decompress Jdk Nthread15,4,2.973473
+dagrs,Decompress Jdk Nthread15,5,3.169258
+dagrs,Decompress Jdk Nthread15,6,2.431850
+dagrs,Decompress Jdk Nthread15,7,3.634325
+dagrs,Decompress Jdk Nthread15,8,3.692864
+dagrs,Decompress Jdk Nthread15,9,2.439656
+dagrs,Decompress Jdk Nthread25,0,1.225213
+dagrs,Decompress Jdk Nthread25,1,1.234628
+dagrs,Decompress Jdk Nthread25,2,1.278286
+dagrs,Decompress Jdk Nthread25,3,1.235383
+dagrs,Decompress Jdk Nthread25,4,1.244537
+dagrs,Decompress Jdk Nthread25,5,1.264228
+dagrs,Decompress Jdk Nthread25,6,1.237581
+dagrs,Decompress Jdk Nthread25,7,1.376564
+dagrs,Decompress Jdk Nthread25,8,1.271543
+dagrs,Decompress Jdk Nthread25,9,1.228864
+dagrs,Decompress Jdk Nthread30,0,1.144160
+dagrs,Decompress Jdk Nthread30,1,1.221555
+dagrs,Decompress Jdk Nthread30,2,1.184204
+dagrs,Decompress Jdk Nthread30,3,1.137815
+dagrs,Decompress Jdk Nthread30,4,1.183488
+dagrs,Decompress Jdk Nthread30,5,1.266824
+dagrs,Decompress Jdk Nthread30,6,1.168648
+dagrs,Decompress Jdk Nthread30,7,1.117299
+dagrs,Decompress Jdk Nthread30,8,1.142983
+dagrs,Decompress Jdk Nthread30,9,1.153469
+dagrs,Decompress Jdk Nthread5,0,3.850411
+dagrs,Decompress Jdk Nthread5,1,4.979723
+dagrs,Decompress Jdk Nthread5,2,4.746694
+dagrs,Decompress Jdk Nthread5,3,3.675957
+dagrs,Decompress Jdk Nthread5,4,3.560592
+dagrs,Decompress Jdk Nthread5,5,5.209397
+dagrs,Decompress Jdk Nthread5,6,3.450626
+dagrs,Decompress Jdk Nthread5,7,3.438025
+dagrs,Decompress Jdk Nthread5,8,3.374751
+dagrs,Decompress Jdk Nthread5,9,3.595166
+pipeliner,Decompress Avi Video Nthread1,0,50.474909
+pipeliner,Decompress Avi Video Nthread1,1,52.463150
+pipeliner,Decompress Avi Video Nthread1,2,51.022070
+pipeliner,Decompress Avi Video Nthread1,3,51.133118
+pipeliner,Decompress Avi Video Nthread1,4,50.762767
+pipeliner,Decompress Avi Video Nthread1,5,51.532246
+pipeliner,Decompress Avi Video Nthread1,6,49.747811
+pipeliner,Decompress Avi Video Nthread1,7,50.527643
+pipeliner,Decompress Avi Video Nthread1,8,50.745516
+pipeliner,Decompress Avi Video Nthread1,9,50.037912
+pipeliner,Decompress Avi Video Nthread10,0,7.185271
+pipeliner,Decompress Avi Video Nthread10,1,7.264092
+pipeliner,Decompress Avi Video Nthread10,2,7.227464
+pipeliner,Decompress Avi Video Nthread10,3,7.327039
+pipeliner,Decompress Avi Video Nthread10,4,13.407370
+pipeliner,Decompress Avi Video Nthread10,5,7.264319
+pipeliner,Decompress Avi Video Nthread10,6,6.998989
+pipeliner,Decompress Avi Video Nthread10,7,6.971861
+pipeliner,Decompress Avi Video Nthread10,8,7.247217
+pipeliner,Decompress Avi Video Nthread10,9,6.970619
+pipeliner,Decompress Avi Video Nthread15,0,5.945926
+pipeliner,Decompress Avi Video Nthread15,1,6.006475
+pipeliner,Decompress Avi Video Nthread15,2,6.621848
+pipeliner,Decompress Avi Video Nthread15,3,5.844559
+pipeliner,Decompress Avi Video Nthread15,4,10.863392
+pipeliner,Decompress Avi Video Nthread15,5,5.819847
+pipeliner,Decompress Avi Video Nthread15,6,5.641713
+pipeliner,Decompress Avi Video Nthread15,7,5.825798
+pipeliner,Decompress Avi Video Nthread15,8,5.735148
+pipeliner,Decompress Avi Video Nthread15,9,5.534660
+pipeliner,Decompress Avi Video Nthread25,0,5.118070
+pipeliner,Decompress Avi Video Nthread25,1,5.731464
+pipeliner,Decompress Avi Video Nthread25,2,5.186732
+pipeliner,Decompress Avi Video Nthread25,3,4.845289
+pipeliner,Decompress Avi Video Nthread25,4,7.428631
+pipeliner,Decompress Avi Video Nthread25,5,5.460774
+pipeliner,Decompress Avi Video Nthread25,6,5.812847
+pipeliner,Decompress Avi Video Nthread25,7,4.902873
+pipeliner,Decompress Avi Video Nthread25,8,4.643761
+pipeliner,Decompress Avi Video Nthread25,9,4.345576
+pipeliner,Decompress Avi Video Nthread30,0,4.582563
+pipeliner,Decompress Avi Video Nthread30,1,6.157218
+pipeliner,Decompress Avi Video Nthread30,2,4.224371
+pipeliner,Decompress Avi Video Nthread30,3,3.954778
+pipeliner,Decompress Avi Video Nthread30,4,4.088599
+pipeliner,Decompress Avi Video Nthread30,5,4.242456
+pipeliner,Decompress Avi Video Nthread30,6,3.972934
+pipeliner,Decompress Avi Video Nthread30,7,5.007256
+pipeliner,Decompress Avi Video Nthread30,8,3.868664
+pipeliner,Decompress Avi Video Nthread30,9,4.163758
+pipeliner,Decompress Avi Video Nthread5,0,11.756061
+pipeliner,Decompress Avi Video Nthread5,1,11.884246
+pipeliner,Decompress Avi Video Nthread5,2,11.967458
+pipeliner,Decompress Avi Video Nthread5,3,11.810462
+pipeliner,Decompress Avi Video Nthread5,4,12.040523
+pipeliner,Decompress Avi Video Nthread5,5,11.910088
+pipeliner,Decompress Avi Video Nthread5,6,11.827097
+pipeliner,Decompress Avi Video Nthread5,7,11.862101
+pipeliner,Decompress Avi Video Nthread5,8,11.752321
+pipeliner,Decompress Avi Video Nthread5,9,11.813637
+pipeliner,Decompress Iso File Nthread1,0,49.532545
+pipeliner,Decompress Iso File Nthread1,1,51.946187
+pipeliner,Decompress Iso File Nthread1,2,49.814594
+pipeliner,Decompress Iso File Nthread1,3,50.449930
+pipeliner,Decompress Iso File Nthread1,4,50.492916
+pipeliner,Decompress Iso File Nthread1,5,50.804519
+pipeliner,Decompress Iso File Nthread1,6,49.208393
+pipeliner,Decompress Iso File Nthread1,7,50.476347
+pipeliner,Decompress Iso File Nthread1,8,49.583087
+pipeliner,Decompress Iso File Nthread1,9,49.549188
+pipeliner,Decompress Iso File Nthread10,0,7.180709
+pipeliner,Decompress Iso File Nthread10,1,7.469440
+pipeliner,Decompress Iso File Nthread10,2,7.715926
+pipeliner,Decompress Iso File Nthread10,3,7.231570
+pipeliner,Decompress Iso File Nthread10,4,11.103633
+pipeliner,Decompress Iso File Nthread10,5,7.440878
+pipeliner,Decompress Iso File Nthread10,6,7.144063
+pipeliner,Decompress Iso File Nthread10,7,7.153948
+pipeliner,Decompress Iso File Nthread10,8,6.961778
+pipeliner,Decompress Iso File Nthread10,9,7.339685
+pipeliner,Decompress Iso File Nthread15,0,6.241479
+pipeliner,Decompress Iso File Nthread15,1,7.259878
+pipeliner,Decompress Iso File Nthread15,2,5.759449
+pipeliner,Decompress Iso File Nthread15,3,5.783638
+pipeliner,Decompress Iso File Nthread15,4,10.931508
+pipeliner,Decompress Iso File Nthread15,5,6.014699
+pipeliner,Decompress Iso File Nthread15,6,5.746417
+pipeliner,Decompress Iso File Nthread15,7,5.922805
+pipeliner,Decompress Iso File Nthread15,8,5.540373
+pipeliner,Decompress Iso File Nthread15,9,5.787816
+pipeliner,Decompress Iso File Nthread25,0,5.409693
+pipeliner,Decompress Iso File Nthread25,1,5.405357
+pipeliner,Decompress Iso File Nthread25,2,4.694682
+pipeliner,Decompress Iso File Nthread25,3,5.100750
+pipeliner,Decompress Iso File Nthread25,4,7.277536
+pipeliner,Decompress Iso File Nthread25,5,6.800582
+pipeliner,Decompress Iso File Nthread25,6,4.717757
+pipeliner,Decompress Iso File Nthread25,7,4.184511
+pipeliner,Decompress Iso File Nthread25,8,4.678352
+pipeliner,Decompress Iso File Nthread25,9,4.195182
+pipeliner,Decompress Iso File Nthread30,0,4.969337
+pipeliner,Decompress Iso File Nthread30,1,5.896107
+pipeliner,Decompress Iso File Nthread30,2,5.604378
+pipeliner,Decompress Iso File Nthread30,3,4.463024
+pipeliner,Decompress Iso File Nthread30,4,4.100094
+pipeliner,Decompress Iso File Nthread30,5,4.340953
+pipeliner,Decompress Iso File Nthread30,6,5.062270
+pipeliner,Decompress Iso File Nthread30,7,4.374730
+pipeliner,Decompress Iso File Nthread30,8,4.274024
+pipeliner,Decompress Iso File Nthread30,9,4.009074
+pipeliner,Decompress Iso File Nthread5,0,11.711063
+pipeliner,Decompress Iso File Nthread5,1,12.041546
+pipeliner,Decompress Iso File Nthread5,2,11.855207
+pipeliner,Decompress Iso File Nthread5,3,11.673402
+pipeliner,Decompress Iso File Nthread5,4,11.721728
+pipeliner,Decompress Iso File Nthread5,5,11.897366
+pipeliner,Decompress Iso File Nthread5,6,11.942010
+pipeliner,Decompress Iso File Nthread5,7,11.624417
+pipeliner,Decompress Iso File Nthread5,8,11.827954
+pipeliner,Decompress Iso File Nthread5,9,11.788851
+pipeliner,Decompress Jdk Nthread1,0,13.788100
+pipeliner,Decompress Jdk Nthread1,1,14.001587
+pipeliner,Decompress Jdk Nthread1,2,13.765416
+pipeliner,Decompress Jdk Nthread1,3,13.793183
+pipeliner,Decompress Jdk Nthread1,4,13.754431
+pipeliner,Decompress Jdk Nthread1,5,14.937116
+pipeliner,Decompress Jdk Nthread1,6,13.627918
+pipeliner,Decompress Jdk Nthread1,7,13.569263
+pipeliner,Decompress Jdk Nthread1,8,13.756386
+pipeliner,Decompress Jdk Nthread1,9,13.721012
+pipeliner,Decompress Jdk Nthread10,0,2.057932
+pipeliner,Decompress Jdk Nthread10,1,2.284513
+pipeliner,Decompress Jdk Nthread10,2,1.956574
+pipeliner,Decompress Jdk Nthread10,3,2.317794
+pipeliner,Decompress Jdk Nthread10,4,3.273829
+pipeliner,Decompress Jdk Nthread10,5,2.187830
+pipeliner,Decompress Jdk Nthread10,6,1.947204
+pipeliner,Decompress Jdk Nthread10,7,1.949322
+pipeliner,Decompress Jdk Nthread10,8,2.102237
+pipeliner,Decompress Jdk Nthread10,9,2.181708
+pipeliner,Decompress Jdk Nthread15,0,1.786632
+pipeliner,Decompress Jdk Nthread15,1,2.158917
+pipeliner,Decompress Jdk Nthread15,2,1.792393
+pipeliner,Decompress Jdk Nthread15,3,2.337167
+pipeliner,Decompress Jdk Nthread15,4,2.977330
+pipeliner,Decompress Jdk Nthread15,5,2.212875
+pipeliner,Decompress Jdk Nthread15,6,1.602971
+pipeliner,Decompress Jdk Nthread15,7,1.824658
+pipeliner,Decompress Jdk Nthread15,8,2.421570
+pipeliner,Decompress Jdk Nthread15,9,1.488341
+pipeliner,Decompress Jdk Nthread25,0,1.558600
+pipeliner,Decompress Jdk Nthread25,1,1.414676
+pipeliner,Decompress Jdk Nthread25,2,1.440498
+pipeliner,Decompress Jdk Nthread25,3,1.901127
+pipeliner,Decompress Jdk Nthread25,4,2.532263
+pipeliner,Decompress Jdk Nthread25,5,1.688587
+pipeliner,Decompress Jdk Nthread25,6,1.449080
+pipeliner,Decompress Jdk Nthread25,7,1.239073
+pipeliner,Decompress Jdk Nthread25,8,1.709271
+pipeliner,Decompress Jdk Nthread25,9,1.493175
+pipeliner,Decompress Jdk Nthread30,0,1.215616
+pipeliner,Decompress Jdk Nthread30,1,1.534531
+pipeliner,Decompress Jdk Nthread30,2,1.317443
+pipeliner,Decompress Jdk Nthread30,3,1.009324
+pipeliner,Decompress Jdk Nthread30,4,1.148264
+pipeliner,Decompress Jdk Nthread30,5,1.117835
+pipeliner,Decompress Jdk Nthread30,6,1.183466
+pipeliner,Decompress Jdk Nthread30,7,1.551592
+pipeliner,Decompress Jdk Nthread30,8,1.113302
+pipeliner,Decompress Jdk Nthread30,9,1.068638
+pipeliner,Decompress Jdk Nthread5,0,3.276908
+pipeliner,Decompress Jdk Nthread5,1,3.308347
+pipeliner,Decompress Jdk Nthread5,2,3.311292
+pipeliner,Decompress Jdk Nthread5,3,3.310560
+pipeliner,Decompress Jdk Nthread5,4,3.241558
+pipeliner,Decompress Jdk Nthread5,5,3.339158
+pipeliner,Decompress Jdk Nthread5,6,3.797218
+pipeliner,Decompress Jdk Nthread5,7,3.255204
+pipeliner,Decompress Jdk Nthread5,8,3.249829
+pipeliner,Decompress Jdk Nthread5,9,3.275806
+rayon,Compress Avi Video Nthread1,0,83.575158
+rayon,Compress Avi Video Nthread1,1,102.014844
+rayon,Compress Avi Video Nthread1,2,81.051512
+rayon,Compress Avi Video Nthread1,3,83.180520
+rayon,Compress Avi Video Nthread1,4,81.182604
+rayon,Compress Avi Video Nthread1,5,80.849771
+rayon,Compress Avi Video Nthread1,6,85.510840
+rayon,Compress Avi Video Nthread1,7,85.707443
+rayon,Compress Avi Video Nthread1,8,84.102862
+rayon,Compress Avi Video Nthread1,9,86.524469
+rayon,Compress Avi Video Nthread10,0,10.331303
+rayon,Compress Avi Video Nthread10,1,9.743545
+rayon,Compress Avi Video Nthread10,2,9.543445
+rayon,Compress Avi Video Nthread10,3,10.391139
+rayon,Compress Avi Video Nthread10,4,10.560952
+rayon,Compress Avi Video Nthread10,5,9.798858
+rayon,Compress Avi Video Nthread10,6,9.680152
+rayon,Compress Avi Video Nthread10,7,9.688902
+rayon,Compress Avi Video Nthread10,8,9.743301
+rayon,Compress Avi Video Nthread10,9,9.717599
+rayon,Compress Avi Video Nthread15,0,8.238448
+rayon,Compress Avi Video Nthread15,1,7.680640
+rayon,Compress Avi Video Nthread15,2,7.637489
+rayon,Compress Avi Video Nthread15,3,8.436592
+rayon,Compress Avi Video Nthread15,4,14.584759
+rayon,Compress Avi Video Nthread15,5,8.205671
+rayon,Compress Avi Video Nthread15,6,7.624358
+rayon,Compress Avi Video Nthread15,7,7.232856
+rayon,Compress Avi Video Nthread15,8,7.774203
+rayon,Compress Avi Video Nthread15,9,8.027624
+rayon,Compress Avi Video Nthread25,0,7.012139
+rayon,Compress Avi Video Nthread25,1,6.534469
+rayon,Compress Avi Video Nthread25,2,6.240323
+rayon,Compress Avi Video Nthread25,3,7.437167
+rayon,Compress Avi Video Nthread25,4,10.766024
+rayon,Compress Avi Video Nthread25,5,6.374165
+rayon,Compress Avi Video Nthread25,6,5.857039
+rayon,Compress Avi Video Nthread25,7,6.851353
+rayon,Compress Avi Video Nthread25,8,5.854331
+rayon,Compress Avi Video Nthread25,9,7.249800
+rayon,Compress Avi Video Nthread30,0,7.022234
+rayon,Compress Avi Video Nthread30,1,6.432538
+rayon,Compress Avi Video Nthread30,2,5.584736
+rayon,Compress Avi Video Nthread30,3,6.633923
+rayon,Compress Avi Video Nthread30,4,7.284396
+rayon,Compress Avi Video Nthread30,5,6.573981
+rayon,Compress Avi Video Nthread30,6,6.503984
+rayon,Compress Avi Video Nthread30,7,6.251597
+rayon,Compress Avi Video Nthread30,8,5.545272
+rayon,Compress Avi Video Nthread30,9,6.467510
+rayon,Compress Avi Video Nthread5,0,17.467218
+rayon,Compress Avi Video Nthread5,1,17.775843
+rayon,Compress Avi Video Nthread5,2,17.697156
+rayon,Compress Avi Video Nthread5,3,17.650133
+rayon,Compress Avi Video Nthread5,4,17.634534
+rayon,Compress Avi Video Nthread5,5,17.662719
+rayon,Compress Avi Video Nthread5,6,17.549648
+rayon,Compress Avi Video Nthread5,7,17.863621
+rayon,Compress Avi Video Nthread5,8,17.306495
+rayon,Compress Avi Video Nthread5,9,17.475578
+rayon,Compress Iso File Nthread1,0,103.961027
+rayon,Compress Iso File Nthread1,1,109.756387
+rayon,Compress Iso File Nthread1,2,103.786599
+rayon,Compress Iso File Nthread1,3,103.720347
+rayon,Compress Iso File Nthread1,4,111.005441
+rayon,Compress Iso File Nthread1,5,103.224643
+rayon,Compress Iso File Nthread1,6,104.388182
+rayon,Compress Iso File Nthread1,7,103.581446
+rayon,Compress Iso File Nthread1,8,103.344295
+rayon,Compress Iso File Nthread1,9,103.130088
+rayon,Compress Iso File Nthread10,0,12.614000
+rayon,Compress Iso File Nthread10,1,13.055132
+rayon,Compress Iso File Nthread10,2,12.290696
+rayon,Compress Iso File Nthread10,3,12.788647
+rayon,Compress Iso File Nthread10,4,13.272663
+rayon,Compress Iso File Nthread10,5,12.873499
+rayon,Compress Iso File Nthread10,6,11.986388
+rayon,Compress Iso File Nthread10,7,12.043629
+rayon,Compress Iso File Nthread10,8,11.922744
+rayon,Compress Iso File Nthread10,9,12.041031
+rayon,Compress Iso File Nthread15,0,9.796666
+rayon,Compress Iso File Nthread15,1,11.838969
+rayon,Compress Iso File Nthread15,2,10.539478
+rayon,Compress Iso File Nthread15,3,10.684786
+rayon,Compress Iso File Nthread15,4,18.738096
+rayon,Compress Iso File Nthread15,5,10.420888
+rayon,Compress Iso File Nthread15,6,9.599838
+rayon,Compress Iso File Nthread15,7,9.854069
+rayon,Compress Iso File Nthread15,8,9.096258
+rayon,Compress Iso File Nthread15,9,10.421714
+rayon,Compress Iso File Nthread25,0,7.937994
+rayon,Compress Iso File Nthread25,1,7.402835
+rayon,Compress Iso File Nthread25,2,8.043410
+rayon,Compress Iso File Nthread25,3,7.866297
+rayon,Compress Iso File Nthread25,4,10.184836
+rayon,Compress Iso File Nthread25,5,8.376328
+rayon,Compress Iso File Nthread25,6,7.874613
+rayon,Compress Iso File Nthread25,7,8.342297
+rayon,Compress Iso File Nthread25,8,7.713796
+rayon,Compress Iso File Nthread25,9,8.338498
+rayon,Compress Iso File Nthread30,0,8.443308
+rayon,Compress Iso File Nthread30,1,8.071434
+rayon,Compress Iso File Nthread30,2,6.795237
+rayon,Compress Iso File Nthread30,3,9.058456
+rayon,Compress Iso File Nthread30,4,7.904818
+rayon,Compress Iso File Nthread30,5,8.451973
+rayon,Compress Iso File Nthread30,6,8.755771
+rayon,Compress Iso File Nthread30,7,8.154606
+rayon,Compress Iso File Nthread30,8,7.076102
+rayon,Compress Iso File Nthread30,9,7.429131
+rayon,Compress Iso File Nthread5,0,22.119764
+rayon,Compress Iso File Nthread5,1,22.536148
+rayon,Compress Iso File Nthread5,2,22.095406
+rayon,Compress Iso File Nthread5,3,22.795880
+rayon,Compress Iso File Nthread5,4,22.595503
+rayon,Compress Iso File Nthread5,5,22.606141
+rayon,Compress Iso File Nthread5,6,22.087186
+rayon,Compress Iso File Nthread5,7,22.228453
+rayon,Compress Iso File Nthread5,8,22.162807
+rayon,Compress Iso File Nthread5,9,22.042617
+rayon,Compress Jdk Nthread1,0,23.485739
+rayon,Compress Jdk Nthread1,1,23.631582
+rayon,Compress Jdk Nthread1,2,23.653295
+rayon,Compress Jdk Nthread1,3,23.447063
+rayon,Compress Jdk Nthread1,4,23.525447
+rayon,Compress Jdk Nthread1,5,23.516203
+rayon,Compress Jdk Nthread1,6,23.369249
+rayon,Compress Jdk Nthread1,7,23.750886
+rayon,Compress Jdk Nthread1,8,23.523699
+rayon,Compress Jdk Nthread1,9,23.377593
+rayon,Compress Jdk Nthread10,0,2.914167
+rayon,Compress Jdk Nthread10,1,3.718827
+rayon,Compress Jdk Nthread10,2,3.295454
+rayon,Compress Jdk Nthread10,3,3.414088
+rayon,Compress Jdk Nthread10,4,5.280826
+rayon,Compress Jdk Nthread10,5,3.009089
+rayon,Compress Jdk Nthread10,6,3.404630
+rayon,Compress Jdk Nthread10,7,2.962827
+rayon,Compress Jdk Nthread10,8,2.816052
+rayon,Compress Jdk Nthread10,9,2.848111
+rayon,Compress Jdk Nthread15,0,2.677294
+rayon,Compress Jdk Nthread15,1,2.947266
+rayon,Compress Jdk Nthread15,2,2.865822
+rayon,Compress Jdk Nthread15,3,2.251424
+rayon,Compress Jdk Nthread15,4,3.903629
+rayon,Compress Jdk Nthread15,5,2.783133
+rayon,Compress Jdk Nthread15,6,2.330203
+rayon,Compress Jdk Nthread15,7,2.652669
+rayon,Compress Jdk Nthread15,8,2.389389
+rayon,Compress Jdk Nthread15,9,3.316217
+rayon,Compress Jdk Nthread25,0,3.607525
+rayon,Compress Jdk Nthread25,1,1.972228
+rayon,Compress Jdk Nthread25,2,2.226392
+rayon,Compress Jdk Nthread25,3,2.666959
+rayon,Compress Jdk Nthread25,4,2.390901
+rayon,Compress Jdk Nthread25,5,2.224765
+rayon,Compress Jdk Nthread25,6,1.669631
+rayon,Compress Jdk Nthread25,7,2.169959
+rayon,Compress Jdk Nthread25,8,1.791112
+rayon,Compress Jdk Nthread25,9,1.983219
+rayon,Compress Jdk Nthread30,0,1.884838
+rayon,Compress Jdk Nthread30,1,3.140335
+rayon,Compress Jdk Nthread30,2,2.190499
+rayon,Compress Jdk Nthread30,3,3.017309
+rayon,Compress Jdk Nthread30,4,2.280154
+rayon,Compress Jdk Nthread30,5,2.181502
+rayon,Compress Jdk Nthread30,6,1.680085
+rayon,Compress Jdk Nthread30,7,1.998760
+rayon,Compress Jdk Nthread30,8,1.535417
+rayon,Compress Jdk Nthread30,9,1.591478
+rayon,Compress Jdk Nthread5,0,5.168706
+rayon,Compress Jdk Nthread5,1,5.123603
+rayon,Compress Jdk Nthread5,2,5.088576
+rayon,Compress Jdk Nthread5,3,5.089406
+rayon,Compress Jdk Nthread5,4,5.243245
+rayon,Compress Jdk Nthread5,5,5.340464
+rayon,Compress Jdk Nthread5,6,5.096452
+rayon,Compress Jdk Nthread5,7,5.227443
+rayon,Compress Jdk Nthread5,8,5.158897
+rayon,Compress Jdk Nthread5,9,5.132883
+rayon,Decompress Avi Video Nthread1,0,50.981489
+rayon,Decompress Avi Video Nthread1,1,50.752652
+rayon,Decompress Avi Video Nthread1,2,51.209667
+rayon,Decompress Avi Video Nthread1,3,50.766826
+rayon,Decompress Avi Video Nthread1,4,51.321695
+rayon,Decompress Avi Video Nthread1,5,51.077808
+rayon,Decompress Avi Video Nthread1,6,50.299777
+rayon,Decompress Avi Video Nthread1,7,49.743885
+rayon,Decompress Avi Video Nthread1,8,51.110088
+rayon,Decompress Avi Video Nthread1,9,49.710039
+rayon,Decompress Avi Video Nthread10,0,7.192647
+rayon,Decompress Avi Video Nthread10,1,7.543036
+rayon,Decompress Avi Video Nthread10,2,7.449105
+rayon,Decompress Avi Video Nthread10,3,7.215401
+rayon,Decompress Avi Video Nthread10,4,13.427673
+rayon,Decompress Avi Video Nthread10,5,7.485845
+rayon,Decompress Avi Video Nthread10,6,6.882764
+rayon,Decompress Avi Video Nthread10,7,7.388299
+rayon,Decompress Avi Video Nthread10,8,7.196276
+rayon,Decompress Avi Video Nthread10,9,7.023695
+rayon,Decompress Avi Video Nthread15,0,5.740400
+rayon,Decompress Avi Video Nthread15,1,6.231268
+rayon,Decompress Avi Video Nthread15,2,6.022205
+rayon,Decompress Avi Video Nthread15,3,6.239810
+rayon,Decompress Avi Video Nthread15,4,10.307798
+rayon,Decompress Avi Video Nthread15,5,6.485761
+rayon,Decompress Avi Video Nthread15,6,5.460130
+rayon,Decompress Avi Video Nthread15,7,6.243886
+rayon,Decompress Avi Video Nthread15,8,5.535558
+rayon,Decompress Avi Video Nthread15,9,5.986535
+rayon,Decompress Avi Video Nthread25,0,4.756403
+rayon,Decompress Avi Video Nthread25,1,5.743684
+rayon,Decompress Avi Video Nthread25,2,5.755514
+rayon,Decompress Avi Video Nthread25,3,5.316242
+rayon,Decompress Avi Video Nthread25,4,4.578889
+rayon,Decompress Avi Video Nthread25,5,6.983174
+rayon,Decompress Avi Video Nthread25,6,4.286042
+rayon,Decompress Avi Video Nthread25,7,5.352311
+rayon,Decompress Avi Video Nthread25,8,4.426491
+rayon,Decompress Avi Video Nthread25,9,4.675777
+rayon,Decompress Avi Video Nthread30,0,5.048560
+rayon,Decompress Avi Video Nthread30,1,7.057443
+rayon,Decompress Avi Video Nthread30,2,5.669119
+rayon,Decompress Avi Video Nthread30,3,4.681266
+rayon,Decompress Avi Video Nthread30,4,4.671780
+rayon,Decompress Avi Video Nthread30,5,5.324951
+rayon,Decompress Avi Video Nthread30,6,4.456327
+rayon,Decompress Avi Video Nthread30,7,4.940667
+rayon,Decompress Avi Video Nthread30,8,3.841384
+rayon,Decompress Avi Video Nthread30,9,4.933363
+rayon,Decompress Avi Video Nthread5,0,11.736338
+rayon,Decompress Avi Video Nthread5,1,11.891878
+rayon,Decompress Avi Video Nthread5,2,11.691891
+rayon,Decompress Avi Video Nthread5,3,11.726125
+rayon,Decompress Avi Video Nthread5,4,11.772845
+rayon,Decompress Avi Video Nthread5,5,12.034330
+rayon,Decompress Avi Video Nthread5,6,11.884204
+rayon,Decompress Avi Video Nthread5,7,11.794671
+rayon,Decompress Avi Video Nthread5,8,11.831984
+rayon,Decompress Avi Video Nthread5,9,11.827395
+rayon,Decompress Iso File Nthread1,0,49.987370
+rayon,Decompress Iso File Nthread1,1,50.488840
+rayon,Decompress Iso File Nthread1,2,49.533042
+rayon,Decompress Iso File Nthread1,3,50.634212
+rayon,Decompress Iso File Nthread1,4,50.321306
+rayon,Decompress Iso File Nthread1,5,50.889304
+rayon,Decompress Iso File Nthread1,6,50.218977
+rayon,Decompress Iso File Nthread1,7,50.762651
+rayon,Decompress Iso File Nthread1,8,50.646863
+rayon,Decompress Iso File Nthread1,9,49.547303
+rayon,Decompress Iso File Nthread10,0,7.029367
+rayon,Decompress Iso File Nthread10,1,7.027852
+rayon,Decompress Iso File Nthread10,2,7.239816
+rayon,Decompress Iso File Nthread10,3,7.339242
+rayon,Decompress Iso File Nthread10,4,11.247109
+rayon,Decompress Iso File Nthread10,5,7.005127
+rayon,Decompress Iso File Nthread10,6,6.904821
+rayon,Decompress Iso File Nthread10,7,7.014401
+rayon,Decompress Iso File Nthread10,8,6.876905
+rayon,Decompress Iso File Nthread10,9,6.874911
+rayon,Decompress Iso File Nthread15,0,5.690292
+rayon,Decompress Iso File Nthread15,1,5.897203
+rayon,Decompress Iso File Nthread15,2,5.698637
+rayon,Decompress Iso File Nthread15,3,6.415427
+rayon,Decompress Iso File Nthread15,4,11.181894
+rayon,Decompress Iso File Nthread15,5,5.571334
+rayon,Decompress Iso File Nthread15,6,5.651954
+rayon,Decompress Iso File Nthread15,7,5.695935
+rayon,Decompress Iso File Nthread15,8,6.244106
+rayon,Decompress Iso File Nthread15,9,5.941400
+rayon,Decompress Iso File Nthread25,0,5.049807
+rayon,Decompress Iso File Nthread25,1,5.132074
+rayon,Decompress Iso File Nthread25,2,4.548010
+rayon,Decompress Iso File Nthread25,3,4.188305
+rayon,Decompress Iso File Nthread25,4,6.204000
+rayon,Decompress Iso File Nthread25,5,5.138313
+rayon,Decompress Iso File Nthread25,6,5.498520
+rayon,Decompress Iso File Nthread25,7,4.468771
+rayon,Decompress Iso File Nthread25,8,4.977764
+rayon,Decompress Iso File Nthread25,9,4.776003
+rayon,Decompress Iso File Nthread30,0,4.708311
+rayon,Decompress Iso File Nthread30,1,9.674571
+rayon,Decompress Iso File Nthread30,2,4.862915
+rayon,Decompress Iso File Nthread30,3,4.541757
+rayon,Decompress Iso File Nthread30,4,4.224021
+rayon,Decompress Iso File Nthread30,5,4.707208
+rayon,Decompress Iso File Nthread30,6,3.982507
+rayon,Decompress Iso File Nthread30,7,4.277992
+rayon,Decompress Iso File Nthread30,8,4.235400
+rayon,Decompress Iso File Nthread30,9,4.268137
+rayon,Decompress Iso File Nthread5,0,11.890274
+rayon,Decompress Iso File Nthread5,1,11.673925
+rayon,Decompress Iso File Nthread5,2,11.725373
+rayon,Decompress Iso File Nthread5,3,11.760002
+rayon,Decompress Iso File Nthread5,4,11.749707
+rayon,Decompress Iso File Nthread5,5,11.904460
+rayon,Decompress Iso File Nthread5,6,11.849401
+rayon,Decompress Iso File Nthread5,7,11.622405
+rayon,Decompress Iso File Nthread5,8,11.928936
+rayon,Decompress Iso File Nthread5,9,11.523379
+rayon,Decompress Jdk Nthread1,0,13.994386
+rayon,Decompress Jdk Nthread1,1,14.011362
+rayon,Decompress Jdk Nthread1,2,13.511340
+rayon,Decompress Jdk Nthread1,3,13.971612
+rayon,Decompress Jdk Nthread1,4,13.716899
+rayon,Decompress Jdk Nthread1,5,14.710011
+rayon,Decompress Jdk Nthread1,6,13.688397
+rayon,Decompress Jdk Nthread1,7,13.597470
+rayon,Decompress Jdk Nthread1,8,13.686743
+rayon,Decompress Jdk Nthread1,9,13.972989
+rayon,Decompress Jdk Nthread10,0,2.251722
+rayon,Decompress Jdk Nthread10,1,2.201438
+rayon,Decompress Jdk Nthread10,2,2.071429
+rayon,Decompress Jdk Nthread10,3,2.084238
+rayon,Decompress Jdk Nthread10,4,3.789723
+rayon,Decompress Jdk Nthread10,5,2.038740
+rayon,Decompress Jdk Nthread10,6,1.942064
+rayon,Decompress Jdk Nthread10,7,2.070346
+rayon,Decompress Jdk Nthread10,8,1.896688
+rayon,Decompress Jdk Nthread10,9,1.969331
+rayon,Decompress Jdk Nthread15,0,1.942374
+rayon,Decompress Jdk Nthread15,1,1.692173
+rayon,Decompress Jdk Nthread15,2,1.707534
+rayon,Decompress Jdk Nthread15,3,2.080530
+rayon,Decompress Jdk Nthread15,4,3.132179
+rayon,Decompress Jdk Nthread15,5,1.674300
+rayon,Decompress Jdk Nthread15,6,1.935960
+rayon,Decompress Jdk Nthread15,7,1.477605
+rayon,Decompress Jdk Nthread15,8,1.826648
+rayon,Decompress Jdk Nthread15,9,1.685775
+rayon,Decompress Jdk Nthread25,0,1.879969
+rayon,Decompress Jdk Nthread25,1,1.373122
+rayon,Decompress Jdk Nthread25,2,1.288323
+rayon,Decompress Jdk Nthread25,3,1.485305
+rayon,Decompress Jdk Nthread25,4,2.235803
+rayon,Decompress Jdk Nthread25,5,1.495823
+rayon,Decompress Jdk Nthread25,6,1.249808
+rayon,Decompress Jdk Nthread25,7,1.327328
+rayon,Decompress Jdk Nthread25,8,1.417700
+rayon,Decompress Jdk Nthread25,9,1.456639
+rayon,Decompress Jdk Nthread30,0,1.071652
+rayon,Decompress Jdk Nthread30,1,2.397040
+rayon,Decompress Jdk Nthread30,2,1.703883
+rayon,Decompress Jdk Nthread30,3,1.198598
+rayon,Decompress Jdk Nthread30,4,1.497210
+rayon,Decompress Jdk Nthread30,5,1.752477
+rayon,Decompress Jdk Nthread30,6,1.045812
+rayon,Decompress Jdk Nthread30,7,1.201083
+rayon,Decompress Jdk Nthread30,8,1.030996
+rayon,Decompress Jdk Nthread30,9,1.079954
+rayon,Decompress Jdk Nthread5,0,3.195979
+rayon,Decompress Jdk Nthread5,1,3.195782
+rayon,Decompress Jdk Nthread5,2,3.233533
+rayon,Decompress Jdk Nthread5,3,3.357427
+rayon,Decompress Jdk Nthread5,4,3.295597
+rayon,Decompress Jdk Nthread5,5,3.247842
+rayon,Decompress Jdk Nthread5,6,3.283400
+rayon,Decompress Jdk Nthread5,7,3.210541
+rayon,Decompress Jdk Nthread5,8,3.245260
+rayon,Decompress Jdk Nthread5,9,3.212663
+rust-ssp,Compress Avi Video Nthread1,0,81.475283
+rust-ssp,Compress Avi Video Nthread1,1,104.484131
+rust-ssp,Compress Avi Video Nthread1,2,83.261468
+rust-ssp,Compress Avi Video Nthread1,3,84.722984
+rust-ssp,Compress Avi Video Nthread1,4,82.713376
+rust-ssp,Compress Avi Video Nthread1,5,80.625361
+rust-ssp,Compress Avi Video Nthread1,6,81.661338
+rust-ssp,Compress Avi Video Nthread1,7,87.149032
+rust-ssp,Compress Avi Video Nthread1,8,81.572838
+rust-ssp,Compress Avi Video Nthread1,9,84.330167
+rust-ssp,Compress Avi Video Nthread10,0,10.055609
+rust-ssp,Compress Avi Video Nthread10,1,10.102028
+rust-ssp,Compress Avi Video Nthread10,2,9.905461
+rust-ssp,Compress Avi Video Nthread10,3,10.321034
+rust-ssp,Compress Avi Video Nthread10,4,10.535371
+rust-ssp,Compress Avi Video Nthread10,5,9.845811
+rust-ssp,Compress Avi Video Nthread10,6,9.931939
+rust-ssp,Compress Avi Video Nthread10,7,10.068958
+rust-ssp,Compress Avi Video Nthread10,8,9.849163
+rust-ssp,Compress Avi Video Nthread10,9,9.979501
+rust-ssp,Compress Avi Video Nthread15,0,7.865510
+rust-ssp,Compress Avi Video Nthread15,1,8.700854
+rust-ssp,Compress Avi Video Nthread15,2,8.005162
+rust-ssp,Compress Avi Video Nthread15,3,8.339323
+rust-ssp,Compress Avi Video Nthread15,4,13.633570
+rust-ssp,Compress Avi Video Nthread15,5,7.885215
+rust-ssp,Compress Avi Video Nthread15,6,7.395687
+rust-ssp,Compress Avi Video Nthread15,7,7.600496
+rust-ssp,Compress Avi Video Nthread15,8,7.203025
+rust-ssp,Compress Avi Video Nthread15,9,8.199244
+rust-ssp,Compress Avi Video Nthread25,0,5.657203
+rust-ssp,Compress Avi Video Nthread25,1,6.458980
+rust-ssp,Compress Avi Video Nthread25,2,6.635464
+rust-ssp,Compress Avi Video Nthread25,3,6.415515
+rust-ssp,Compress Avi Video Nthread25,4,11.114716
+rust-ssp,Compress Avi Video Nthread25,5,5.665374
+rust-ssp,Compress Avi Video Nthread25,6,5.975789
+rust-ssp,Compress Avi Video Nthread25,7,6.463720
+rust-ssp,Compress Avi Video Nthread25,8,5.908782
+rust-ssp,Compress Avi Video Nthread25,9,5.738707
+rust-ssp,Compress Avi Video Nthread30,0,6.075382
+rust-ssp,Compress Avi Video Nthread30,1,6.685417
+rust-ssp,Compress Avi Video Nthread30,2,5.852217
+rust-ssp,Compress Avi Video Nthread30,3,6.165207
+rust-ssp,Compress Avi Video Nthread30,4,6.941210
+rust-ssp,Compress Avi Video Nthread30,5,5.629671
+rust-ssp,Compress Avi Video Nthread30,6,6.360240
+rust-ssp,Compress Avi Video Nthread30,7,6.259760
+rust-ssp,Compress Avi Video Nthread30,8,5.325879
+rust-ssp,Compress Avi Video Nthread30,9,5.806823
+rust-ssp,Compress Avi Video Nthread5,0,17.817430
+rust-ssp,Compress Avi Video Nthread5,1,18.008044
+rust-ssp,Compress Avi Video Nthread5,2,17.704450
+rust-ssp,Compress Avi Video Nthread5,3,18.060590
+rust-ssp,Compress Avi Video Nthread5,4,17.868267
+rust-ssp,Compress Avi Video Nthread5,5,18.286797
+rust-ssp,Compress Avi Video Nthread5,6,17.891427
+rust-ssp,Compress Avi Video Nthread5,7,17.852828
+rust-ssp,Compress Avi Video Nthread5,8,17.834300
+rust-ssp,Compress Avi Video Nthread5,9,17.803757
+rust-ssp,Compress Iso File Nthread1,0,105.264160
+rust-ssp,Compress Iso File Nthread1,1,115.388997
+rust-ssp,Compress Iso File Nthread1,2,103.875020
+rust-ssp,Compress Iso File Nthread1,3,103.252416
+rust-ssp,Compress Iso File Nthread1,4,109.465005
+rust-ssp,Compress Iso File Nthread1,5,104.430441
+rust-ssp,Compress Iso File Nthread1,6,105.064542
+rust-ssp,Compress Iso File Nthread1,7,105.500202
+rust-ssp,Compress Iso File Nthread1,8,104.449833
+rust-ssp,Compress Iso File Nthread1,9,103.719255
+rust-ssp,Compress Iso File Nthread10,0,12.858360
+rust-ssp,Compress Iso File Nthread10,1,13.356442
+rust-ssp,Compress Iso File Nthread10,2,12.752768
+rust-ssp,Compress Iso File Nthread10,3,12.853982
+rust-ssp,Compress Iso File Nthread10,4,13.111389
+rust-ssp,Compress Iso File Nthread10,5,12.768625
+rust-ssp,Compress Iso File Nthread10,6,12.326150
+rust-ssp,Compress Iso File Nthread10,7,12.453042
+rust-ssp,Compress Iso File Nthread10,8,12.106067
+rust-ssp,Compress Iso File Nthread10,9,12.465617
+rust-ssp,Compress Iso File Nthread15,0,9.999162
+rust-ssp,Compress Iso File Nthread15,1,10.469144
+rust-ssp,Compress Iso File Nthread15,2,10.645894
+rust-ssp,Compress Iso File Nthread15,3,10.000454
+rust-ssp,Compress Iso File Nthread15,4,16.119546
+rust-ssp,Compress Iso File Nthread15,5,10.542828
+rust-ssp,Compress Iso File Nthread15,6,9.311268
+rust-ssp,Compress Iso File Nthread15,7,9.671523
+rust-ssp,Compress Iso File Nthread15,8,9.741913
+rust-ssp,Compress Iso File Nthread15,9,9.371846
+rust-ssp,Compress Iso File Nthread25,0,7.916649
+rust-ssp,Compress Iso File Nthread25,1,8.359084
+rust-ssp,Compress Iso File Nthread25,2,7.547410
+rust-ssp,Compress Iso File Nthread25,3,8.610840
+rust-ssp,Compress Iso File Nthread25,4,12.344984
+rust-ssp,Compress Iso File Nthread25,5,7.590795
+rust-ssp,Compress Iso File Nthread25,6,7.863335
+rust-ssp,Compress Iso File Nthread25,7,8.285267
+rust-ssp,Compress Iso File Nthread25,8,6.644522
+rust-ssp,Compress Iso File Nthread25,9,8.715230
+rust-ssp,Compress Iso File Nthread30,0,7.707604
+rust-ssp,Compress Iso File Nthread30,1,7.556747
+rust-ssp,Compress Iso File Nthread30,2,6.978985
+rust-ssp,Compress Iso File Nthread30,3,8.548368
+rust-ssp,Compress Iso File Nthread30,4,7.700270
+rust-ssp,Compress Iso File Nthread30,5,7.886177
+rust-ssp,Compress Iso File Nthread30,6,8.180205
+rust-ssp,Compress Iso File Nthread30,7,7.847328
+rust-ssp,Compress Iso File Nthread30,8,6.450623
+rust-ssp,Compress Iso File Nthread30,9,7.983321
+rust-ssp,Compress Iso File Nthread5,0,22.428482
+rust-ssp,Compress Iso File Nthread5,1,22.879418
+rust-ssp,Compress Iso File Nthread5,2,22.570907
+rust-ssp,Compress Iso File Nthread5,3,22.405852
+rust-ssp,Compress Iso File Nthread5,4,22.741808
+rust-ssp,Compress Iso File Nthread5,5,23.000200
+rust-ssp,Compress Iso File Nthread5,6,22.638726
+rust-ssp,Compress Iso File Nthread5,7,22.515360
+rust-ssp,Compress Iso File Nthread5,8,22.277198
+rust-ssp,Compress Iso File Nthread5,9,22.333605
+rust-ssp,Compress Jdk Nthread1,0,23.529504
+rust-ssp,Compress Jdk Nthread1,1,23.568376
+rust-ssp,Compress Jdk Nthread1,2,23.699182
+rust-ssp,Compress Jdk Nthread1,3,23.688663
+rust-ssp,Compress Jdk Nthread1,4,23.633695
+rust-ssp,Compress Jdk Nthread1,5,23.688093
+rust-ssp,Compress Jdk Nthread1,6,23.290610
+rust-ssp,Compress Jdk Nthread1,7,23.701571
+rust-ssp,Compress Jdk Nthread1,8,23.480144
+rust-ssp,Compress Jdk Nthread1,9,23.569053
+rust-ssp,Compress Jdk Nthread10,0,3.361469
+rust-ssp,Compress Jdk Nthread10,1,3.044089
+rust-ssp,Compress Jdk Nthread10,2,3.384320
+rust-ssp,Compress Jdk Nthread10,3,3.551592
+rust-ssp,Compress Jdk Nthread10,4,5.263320
+rust-ssp,Compress Jdk Nthread10,5,3.197199
+rust-ssp,Compress Jdk Nthread10,6,4.044689
+rust-ssp,Compress Jdk Nthread10,7,2.861564
+rust-ssp,Compress Jdk Nthread10,8,2.977292
+rust-ssp,Compress Jdk Nthread10,9,3.092350
+rust-ssp,Compress Jdk Nthread15,0,2.890025
+rust-ssp,Compress Jdk Nthread15,1,2.026067
+rust-ssp,Compress Jdk Nthread15,2,2.331496
+rust-ssp,Compress Jdk Nthread15,3,2.755115
+rust-ssp,Compress Jdk Nthread15,4,4.037190
+rust-ssp,Compress Jdk Nthread15,5,2.818256
+rust-ssp,Compress Jdk Nthread15,6,3.040173
+rust-ssp,Compress Jdk Nthread15,7,2.095650
+rust-ssp,Compress Jdk Nthread15,8,2.073626
+rust-ssp,Compress Jdk Nthread15,9,2.679048
+rust-ssp,Compress Jdk Nthread25,0,1.868428
+rust-ssp,Compress Jdk Nthread25,1,2.509560
+rust-ssp,Compress Jdk Nthread25,2,1.914312
+rust-ssp,Compress Jdk Nthread25,3,2.082957
+rust-ssp,Compress Jdk Nthread25,4,2.558029
+rust-ssp,Compress Jdk Nthread25,5,1.993810
+rust-ssp,Compress Jdk Nthread25,6,2.346547
+rust-ssp,Compress Jdk Nthread25,7,1.858503
+rust-ssp,Compress Jdk Nthread25,8,1.856542
+rust-ssp,Compress Jdk Nthread25,9,1.840446
+rust-ssp,Compress Jdk Nthread30,0,1.968788
+rust-ssp,Compress Jdk Nthread30,1,2.734626
+rust-ssp,Compress Jdk Nthread30,2,2.354952
+rust-ssp,Compress Jdk Nthread30,3,1.746582
+rust-ssp,Compress Jdk Nthread30,4,2.151815
+rust-ssp,Compress Jdk Nthread30,5,1.845263
+rust-ssp,Compress Jdk Nthread30,6,2.033766
+rust-ssp,Compress Jdk Nthread30,7,1.844570
+rust-ssp,Compress Jdk Nthread30,8,1.830789
+rust-ssp,Compress Jdk Nthread30,9,2.076291
+rust-ssp,Compress Jdk Nthread5,0,5.169646
+rust-ssp,Compress Jdk Nthread5,1,5.303491
+rust-ssp,Compress Jdk Nthread5,2,5.104872
+rust-ssp,Compress Jdk Nthread5,3,5.128076
+rust-ssp,Compress Jdk Nthread5,4,5.207577
+rust-ssp,Compress Jdk Nthread5,5,5.379231
+rust-ssp,Compress Jdk Nthread5,6,5.235552
+rust-ssp,Compress Jdk Nthread5,7,5.172077
+rust-ssp,Compress Jdk Nthread5,8,5.112991
+rust-ssp,Compress Jdk Nthread5,9,5.098445
+rust-ssp,Decompress Avi Video Nthread1,0,49.797879
+rust-ssp,Decompress Avi Video Nthread1,1,50.192726
+rust-ssp,Decompress Avi Video Nthread1,2,50.296565
+rust-ssp,Decompress Avi Video Nthread1,3,50.411204
+rust-ssp,Decompress Avi Video Nthread1,4,50.493141
+rust-ssp,Decompress Avi Video Nthread1,5,50.106235
+rust-ssp,Decompress Avi Video Nthread1,6,49.272430
+rust-ssp,Decompress Avi Video Nthread1,7,49.630137
+rust-ssp,Decompress Avi Video Nthread1,8,49.529839
+rust-ssp,Decompress Avi Video Nthread1,9,49.779015
+rust-ssp,Decompress Avi Video Nthread10,0,7.027044
+rust-ssp,Decompress Avi Video Nthread10,1,7.269273
+rust-ssp,Decompress Avi Video Nthread10,2,7.530716
+rust-ssp,Decompress Avi Video Nthread10,3,8.053565
+rust-ssp,Decompress Avi Video Nthread10,4,10.865040
+rust-ssp,Decompress Avi Video Nthread10,5,7.892193
+rust-ssp,Decompress Avi Video Nthread10,6,7.442547
+rust-ssp,Decompress Avi Video Nthread10,7,7.060482
+rust-ssp,Decompress Avi Video Nthread10,8,7.095034
+rust-ssp,Decompress Avi Video Nthread10,9,7.135453
+rust-ssp,Decompress Avi Video Nthread15,0,6.023796
+rust-ssp,Decompress Avi Video Nthread15,1,6.452261
+rust-ssp,Decompress Avi Video Nthread15,2,6.223228
+rust-ssp,Decompress Avi Video Nthread15,3,6.525676
+rust-ssp,Decompress Avi Video Nthread15,4,11.203156
+rust-ssp,Decompress Avi Video Nthread15,5,6.190030
+rust-ssp,Decompress Avi Video Nthread15,6,5.926733
+rust-ssp,Decompress Avi Video Nthread15,7,6.204456
+rust-ssp,Decompress Avi Video Nthread15,8,5.732853
+rust-ssp,Decompress Avi Video Nthread15,9,5.926702
+rust-ssp,Decompress Avi Video Nthread25,0,5.954271
+rust-ssp,Decompress Avi Video Nthread25,1,5.039768
+rust-ssp,Decompress Avi Video Nthread25,2,5.209374
+rust-ssp,Decompress Avi Video Nthread25,3,5.426921
+rust-ssp,Decompress Avi Video Nthread25,4,5.958442
+rust-ssp,Decompress Avi Video Nthread25,5,6.005206
+rust-ssp,Decompress Avi Video Nthread25,6,4.609766
+rust-ssp,Decompress Avi Video Nthread25,7,4.621608
+rust-ssp,Decompress Avi Video Nthread25,8,5.227216
+rust-ssp,Decompress Avi Video Nthread25,9,5.466861
+rust-ssp,Decompress Avi Video Nthread30,0,5.082141
+rust-ssp,Decompress Avi Video Nthread30,1,8.140268
+rust-ssp,Decompress Avi Video Nthread30,2,4.685046
+rust-ssp,Decompress Avi Video Nthread30,3,5.902407
+rust-ssp,Decompress Avi Video Nthread30,4,5.076531
+rust-ssp,Decompress Avi Video Nthread30,5,6.099594
+rust-ssp,Decompress Avi Video Nthread30,6,4.350722
+rust-ssp,Decompress Avi Video Nthread30,7,5.082391
+rust-ssp,Decompress Avi Video Nthread30,8,5.325565
+rust-ssp,Decompress Avi Video Nthread30,9,4.380555
+rust-ssp,Decompress Avi Video Nthread5,0,11.915292
+rust-ssp,Decompress Avi Video Nthread5,1,11.991250
+rust-ssp,Decompress Avi Video Nthread5,2,11.963501
+rust-ssp,Decompress Avi Video Nthread5,3,11.906844
+rust-ssp,Decompress Avi Video Nthread5,4,11.932033
+rust-ssp,Decompress Avi Video Nthread5,5,11.907393
+rust-ssp,Decompress Avi Video Nthread5,6,11.891213
+rust-ssp,Decompress Avi Video Nthread5,7,11.760681
+rust-ssp,Decompress Avi Video Nthread5,8,11.782817
+rust-ssp,Decompress Avi Video Nthread5,9,11.988339
+rust-ssp,Decompress Iso File Nthread1,0,49.132441
+rust-ssp,Decompress Iso File Nthread1,1,49.192450
+rust-ssp,Decompress Iso File Nthread1,2,49.229476
+rust-ssp,Decompress Iso File Nthread1,3,49.861951
+rust-ssp,Decompress Iso File Nthread1,4,49.139752
+rust-ssp,Decompress Iso File Nthread1,5,48.892408
+rust-ssp,Decompress Iso File Nthread1,6,49.883484
+rust-ssp,Decompress Iso File Nthread1,7,50.095253
+rust-ssp,Decompress Iso File Nthread1,8,48.481775
+rust-ssp,Decompress Iso File Nthread1,9,48.848534
+rust-ssp,Decompress Iso File Nthread10,0,7.891060
+rust-ssp,Decompress Iso File Nthread10,1,7.440942
+rust-ssp,Decompress Iso File Nthread10,2,7.612227
+rust-ssp,Decompress Iso File Nthread10,3,7.083446
+rust-ssp,Decompress Iso File Nthread10,4,11.485579
+rust-ssp,Decompress Iso File Nthread10,5,7.656453
+rust-ssp,Decompress Iso File Nthread10,6,7.037906
+rust-ssp,Decompress Iso File Nthread10,7,7.449512
+rust-ssp,Decompress Iso File Nthread10,8,6.974763
+rust-ssp,Decompress Iso File Nthread10,9,7.445522
+rust-ssp,Decompress Iso File Nthread15,0,5.764633
+rust-ssp,Decompress Iso File Nthread15,1,6.369225
+rust-ssp,Decompress Iso File Nthread15,2,5.986322
+rust-ssp,Decompress Iso File Nthread15,3,6.539687
+rust-ssp,Decompress Iso File Nthread15,4,9.565543
+rust-ssp,Decompress Iso File Nthread15,5,6.458911
+rust-ssp,Decompress Iso File Nthread15,6,5.410022
+rust-ssp,Decompress Iso File Nthread15,7,6.740801
+rust-ssp,Decompress Iso File Nthread15,8,5.570613
+rust-ssp,Decompress Iso File Nthread15,9,5.599594
+rust-ssp,Decompress Iso File Nthread25,0,4.781089
+rust-ssp,Decompress Iso File Nthread25,1,6.472870
+rust-ssp,Decompress Iso File Nthread25,2,5.438359
+rust-ssp,Decompress Iso File Nthread25,3,5.047232
+rust-ssp,Decompress Iso File Nthread25,4,5.240581
+rust-ssp,Decompress Iso File Nthread25,5,5.309733
+rust-ssp,Decompress Iso File Nthread25,6,5.330736
+rust-ssp,Decompress Iso File Nthread25,7,4.478127
+rust-ssp,Decompress Iso File Nthread25,8,4.715904
+rust-ssp,Decompress Iso File Nthread25,9,4.805390
+rust-ssp,Decompress Iso File Nthread30,0,5.353699
+rust-ssp,Decompress Iso File Nthread30,1,8.550405
+rust-ssp,Decompress Iso File Nthread30,2,3.928032
+rust-ssp,Decompress Iso File Nthread30,3,4.665696
+rust-ssp,Decompress Iso File Nthread30,4,5.080238
+rust-ssp,Decompress Iso File Nthread30,5,4.994062
+rust-ssp,Decompress Iso File Nthread30,6,4.314407
+rust-ssp,Decompress Iso File Nthread30,7,4.758317
+rust-ssp,Decompress Iso File Nthread30,8,5.614429
+rust-ssp,Decompress Iso File Nthread30,9,4.215729
+rust-ssp,Decompress Iso File Nthread5,0,11.906607
+rust-ssp,Decompress Iso File Nthread5,1,11.884773
+rust-ssp,Decompress Iso File Nthread5,2,11.640510
+rust-ssp,Decompress Iso File Nthread5,3,11.706771
+rust-ssp,Decompress Iso File Nthread5,4,11.670498
+rust-ssp,Decompress Iso File Nthread5,5,11.714087
+rust-ssp,Decompress Iso File Nthread5,6,11.808202
+rust-ssp,Decompress Iso File Nthread5,7,11.911291
+rust-ssp,Decompress Iso File Nthread5,8,11.686292
+rust-ssp,Decompress Iso File Nthread5,9,11.808952
+rust-ssp,Decompress Jdk Nthread1,0,13.340882
+rust-ssp,Decompress Jdk Nthread1,1,14.006541
+rust-ssp,Decompress Jdk Nthread1,2,13.535398
+rust-ssp,Decompress Jdk Nthread1,3,13.325610
+rust-ssp,Decompress Jdk Nthread1,4,13.361954
+rust-ssp,Decompress Jdk Nthread1,5,14.025309
+rust-ssp,Decompress Jdk Nthread1,6,13.444956
+rust-ssp,Decompress Jdk Nthread1,7,13.528181
+rust-ssp,Decompress Jdk Nthread1,8,13.541605
+rust-ssp,Decompress Jdk Nthread1,9,13.647088
+rust-ssp,Decompress Jdk Nthread10,0,2.008694
+rust-ssp,Decompress Jdk Nthread10,1,2.133588
+rust-ssp,Decompress Jdk Nthread10,2,1.950536
+rust-ssp,Decompress Jdk Nthread10,3,1.972578
+rust-ssp,Decompress Jdk Nthread10,4,3.365197
+rust-ssp,Decompress Jdk Nthread10,5,2.002598
+rust-ssp,Decompress Jdk Nthread10,6,1.919724
+rust-ssp,Decompress Jdk Nthread10,7,2.006738
+rust-ssp,Decompress Jdk Nthread10,8,1.944803
+rust-ssp,Decompress Jdk Nthread10,9,1.959800
+rust-ssp,Decompress Jdk Nthread15,0,1.676625
+rust-ssp,Decompress Jdk Nthread15,1,2.066002
+rust-ssp,Decompress Jdk Nthread15,2,1.903289
+rust-ssp,Decompress Jdk Nthread15,3,1.597722
+rust-ssp,Decompress Jdk Nthread15,4,3.749008
+rust-ssp,Decompress Jdk Nthread15,5,1.721220
+rust-ssp,Decompress Jdk Nthread15,6,1.673919
+rust-ssp,Decompress Jdk Nthread15,7,1.867972
+rust-ssp,Decompress Jdk Nthread15,8,1.422198
+rust-ssp,Decompress Jdk Nthread15,9,1.594879
+rust-ssp,Decompress Jdk Nthread25,0,1.413810
+rust-ssp,Decompress Jdk Nthread25,1,1.688729
+rust-ssp,Decompress Jdk Nthread25,2,1.399712
+rust-ssp,Decompress Jdk Nthread25,3,1.137594
+rust-ssp,Decompress Jdk Nthread25,4,3.780558
+rust-ssp,Decompress Jdk Nthread25,5,1.505910
+rust-ssp,Decompress Jdk Nthread25,6,1.348646
+rust-ssp,Decompress Jdk Nthread25,7,1.225774
+rust-ssp,Decompress Jdk Nthread25,8,1.467191
+rust-ssp,Decompress Jdk Nthread25,9,1.653289
+rust-ssp,Decompress Jdk Nthread30,0,1.382892
+rust-ssp,Decompress Jdk Nthread30,1,1.787286
+rust-ssp,Decompress Jdk Nthread30,2,1.589736
+rust-ssp,Decompress Jdk Nthread30,3,1.141640
+rust-ssp,Decompress Jdk Nthread30,4,1.051427
+rust-ssp,Decompress Jdk Nthread30,5,1.404872
+rust-ssp,Decompress Jdk Nthread30,6,1.054471
+rust-ssp,Decompress Jdk Nthread30,7,1.075430
+rust-ssp,Decompress Jdk Nthread30,8,1.166961
+rust-ssp,Decompress Jdk Nthread30,9,1.281049
+rust-ssp,Decompress Jdk Nthread5,0,3.169962
+rust-ssp,Decompress Jdk Nthread5,1,3.466554
+rust-ssp,Decompress Jdk Nthread5,2,3.234025
+rust-ssp,Decompress Jdk Nthread5,3,3.125872
+rust-ssp,Decompress Jdk Nthread5,4,3.214406
+rust-ssp,Decompress Jdk Nthread5,5,3.197157
+rust-ssp,Decompress Jdk Nthread5,6,3.151008
+rust-ssp,Decompress Jdk Nthread5,7,3.190289
+rust-ssp,Decompress Jdk Nthread5,8,3.146681
+rust-ssp,Decompress Jdk Nthread5,9,3.244935
+sequential,Compress Avi Video Nthread1,0,88.374499
+sequential,Compress Avi Video Nthread1,1,105.880067
+sequential,Compress Avi Video Nthread1,2,80.757263
+sequential,Compress Avi Video Nthread1,3,80.530155
+sequential,Compress Avi Video Nthread1,4,80.856088
+sequential,Compress Avi Video Nthread1,5,85.201603
+sequential,Compress Avi Video Nthread1,6,81.955629
+sequential,Compress Avi Video Nthread1,7,83.605301
+sequential,Compress Avi Video Nthread1,8,83.674681
+sequential,Compress Avi Video Nthread1,9,80.788140
+sequential,Compress Avi Video Nthread10,0,80.873114
+sequential,Compress Avi Video Nthread10,1,80.301792
+sequential,Compress Avi Video Nthread10,2,80.828776
+sequential,Compress Avi Video Nthread10,3,80.652005
+sequential,Compress Avi Video Nthread10,4,80.929391
+sequential,Compress Avi Video Nthread10,5,80.947777
+sequential,Compress Avi Video Nthread10,6,80.515856
+sequential,Compress Avi Video Nthread10,7,80.760667
+sequential,Compress Avi Video Nthread10,8,80.575384
+sequential,Compress Avi Video Nthread10,9,80.594742
+sequential,Compress Avi Video Nthread15,0,80.174499
+sequential,Compress Avi Video Nthread15,1,80.760835
+sequential,Compress Avi Video Nthread15,2,80.342475
+sequential,Compress Avi Video Nthread15,3,80.909177
+sequential,Compress Avi Video Nthread15,4,80.990775
+sequential,Compress Avi Video Nthread15,5,80.925029
+sequential,Compress Avi Video Nthread15,6,80.351240
+sequential,Compress Avi Video Nthread15,7,83.095853
+sequential,Compress Avi Video Nthread15,8,81.249883
+sequential,Compress Avi Video Nthread15,9,80.368409
+sequential,Compress Avi Video Nthread25,0,80.743725
+sequential,Compress Avi Video Nthread25,1,81.020270
+sequential,Compress Avi Video Nthread25,2,80.469340
+sequential,Compress Avi Video Nthread25,3,80.466675
+sequential,Compress Avi Video Nthread25,4,80.793414
+sequential,Compress Avi Video Nthread25,5,81.047518
+sequential,Compress Avi Video Nthread25,6,80.288379
+sequential,Compress Avi Video Nthread25,7,80.391757
+sequential,Compress Avi Video Nthread25,8,81.888692
+sequential,Compress Avi Video Nthread25,9,80.818946
+sequential,Compress Avi Video Nthread30,0,86.928250
+sequential,Compress Avi Video Nthread30,1,81.233587
+sequential,Compress Avi Video Nthread30,2,80.248847
+sequential,Compress Avi Video Nthread30,3,80.933082
+sequential,Compress Avi Video Nthread30,4,80.382421
+sequential,Compress Avi Video Nthread30,5,82.774604
+sequential,Compress Avi Video Nthread30,6,80.404399
+sequential,Compress Avi Video Nthread30,7,81.183135
+sequential,Compress Avi Video Nthread30,8,81.246227
+sequential,Compress Avi Video Nthread30,9,80.821606
+sequential,Compress Avi Video Nthread5,0,81.394241
+sequential,Compress Avi Video Nthread5,1,84.723162
+sequential,Compress Avi Video Nthread5,2,81.880034
+sequential,Compress Avi Video Nthread5,3,81.822453
+sequential,Compress Avi Video Nthread5,4,82.194969
+sequential,Compress Avi Video Nthread5,5,82.464187
+sequential,Compress Avi Video Nthread5,6,81.676029
+sequential,Compress Avi Video Nthread5,7,82.505130
+sequential,Compress Avi Video Nthread5,8,81.579850
+sequential,Compress Avi Video Nthread5,9,81.214895
+sequential,Compress Iso File Nthread1,0,103.469603
+sequential,Compress Iso File Nthread1,1,111.249772
+sequential,Compress Iso File Nthread1,2,103.818077
+sequential,Compress Iso File Nthread1,3,103.278676
+sequential,Compress Iso File Nthread1,4,108.719840
+sequential,Compress Iso File Nthread1,5,102.825258
+sequential,Compress Iso File Nthread1,6,104.030178
+sequential,Compress Iso File Nthread1,7,103.819870
+sequential,Compress Iso File Nthread1,8,103.987602
+sequential,Compress Iso File Nthread1,9,103.872817
+sequential,Compress Iso File Nthread10,0,103.267233
+sequential,Compress Iso File Nthread10,1,103.516388
+sequential,Compress Iso File Nthread10,2,103.543523
+sequential,Compress Iso File Nthread10,3,103.557083
+sequential,Compress Iso File Nthread10,4,103.677419
+sequential,Compress Iso File Nthread10,5,103.226805
+sequential,Compress Iso File Nthread10,6,103.010382
+sequential,Compress Iso File Nthread10,7,107.761880
+sequential,Compress Iso File Nthread10,8,103.466403
+sequential,Compress Iso File Nthread10,9,103.263576
+sequential,Compress Iso File Nthread15,0,102.353306
+sequential,Compress Iso File Nthread15,1,103.221484
+sequential,Compress Iso File Nthread15,2,102.934091
+sequential,Compress Iso File Nthread15,3,103.073789
+sequential,Compress Iso File Nthread15,4,106.744463
+sequential,Compress Iso File Nthread15,5,103.094865
+sequential,Compress Iso File Nthread15,6,103.627113
+sequential,Compress Iso File Nthread15,7,103.146499
+sequential,Compress Iso File Nthread15,8,105.199588
+sequential,Compress Iso File Nthread15,9,103.547465
+sequential,Compress Iso File Nthread25,0,103.846249
+sequential,Compress Iso File Nthread25,1,103.349335
+sequential,Compress Iso File Nthread25,2,102.984329
+sequential,Compress Iso File Nthread25,3,102.790769
+sequential,Compress Iso File Nthread25,4,103.537760
+sequential,Compress Iso File Nthread25,5,103.667639
+sequential,Compress Iso File Nthread25,6,103.432117
+sequential,Compress Iso File Nthread25,7,104.240566
+sequential,Compress Iso File Nthread25,8,103.771272
+sequential,Compress Iso File Nthread25,9,103.499154
+sequential,Compress Iso File Nthread30,0,111.086944
+sequential,Compress Iso File Nthread30,1,103.504643
+sequential,Compress Iso File Nthread30,2,102.803928
+sequential,Compress Iso File Nthread30,3,102.869293
+sequential,Compress Iso File Nthread30,4,102.877374
+sequential,Compress Iso File Nthread30,5,103.163168
+sequential,Compress Iso File Nthread30,6,103.430078
+sequential,Compress Iso File Nthread30,7,103.240565
+sequential,Compress Iso File Nthread30,8,105.188149
+sequential,Compress Iso File Nthread30,9,102.490870
+sequential,Compress Iso File Nthread5,0,115.414129
+sequential,Compress Iso File Nthread5,1,113.839797
+sequential,Compress Iso File Nthread5,2,109.997434
+sequential,Compress Iso File Nthread5,3,115.570838
+sequential,Compress Iso File Nthread5,4,166.877059
+sequential,Compress Iso File Nthread5,5,114.698573
+sequential,Compress Iso File Nthread5,6,106.686776
+sequential,Compress Iso File Nthread5,7,108.967767
+sequential,Compress Iso File Nthread5,8,107.609447
+sequential,Compress Iso File Nthread5,9,107.205957
+sequential,Compress Jdk Nthread1,0,23.242467
+sequential,Compress Jdk Nthread1,1,23.921084
+sequential,Compress Jdk Nthread1,2,23.561162
+sequential,Compress Jdk Nthread1,3,23.635957
+sequential,Compress Jdk Nthread1,4,23.579072
+sequential,Compress Jdk Nthread1,5,23.581918
+sequential,Compress Jdk Nthread1,6,23.170592
+sequential,Compress Jdk Nthread1,7,23.423238
+sequential,Compress Jdk Nthread1,8,23.378029
+sequential,Compress Jdk Nthread1,9,23.424331
+sequential,Compress Jdk Nthread10,0,23.334492
+sequential,Compress Jdk Nthread10,1,23.733249
+sequential,Compress Jdk Nthread10,2,23.309563
+sequential,Compress Jdk Nthread10,3,23.189128
+sequential,Compress Jdk Nthread10,4,23.111603
+sequential,Compress Jdk Nthread10,5,23.244459
+sequential,Compress Jdk Nthread10,6,23.274126
+sequential,Compress Jdk Nthread10,7,23.291988
+sequential,Compress Jdk Nthread10,8,23.307371
+sequential,Compress Jdk Nthread10,9,23.217353
+sequential,Compress Jdk Nthread15,0,23.388487
+sequential,Compress Jdk Nthread15,1,23.373776
+sequential,Compress Jdk Nthread15,2,23.352940
+sequential,Compress Jdk Nthread15,3,23.303948
+sequential,Compress Jdk Nthread15,4,23.284247
+sequential,Compress Jdk Nthread15,5,23.265067
+sequential,Compress Jdk Nthread15,6,23.371492
+sequential,Compress Jdk Nthread15,7,23.680419
+sequential,Compress Jdk Nthread15,8,23.392702
+sequential,Compress Jdk Nthread15,9,23.400871
+sequential,Compress Jdk Nthread25,0,23.340255
+sequential,Compress Jdk Nthread25,1,23.349064
+sequential,Compress Jdk Nthread25,2,23.387868
+sequential,Compress Jdk Nthread25,3,23.291211
+sequential,Compress Jdk Nthread25,4,23.591638
+sequential,Compress Jdk Nthread25,5,26.657601
+sequential,Compress Jdk Nthread25,6,23.304460
+sequential,Compress Jdk Nthread25,7,23.472278
+sequential,Compress Jdk Nthread25,8,23.188130
+sequential,Compress Jdk Nthread25,9,23.175905
+sequential,Compress Jdk Nthread30,0,24.069480
+sequential,Compress Jdk Nthread30,1,23.298883
+sequential,Compress Jdk Nthread30,2,23.263166
+sequential,Compress Jdk Nthread30,3,23.335334
+sequential,Compress Jdk Nthread30,4,23.407287
+sequential,Compress Jdk Nthread30,5,23.274939
+sequential,Compress Jdk Nthread30,6,23.404918
+sequential,Compress Jdk Nthread30,7,23.286033
+sequential,Compress Jdk Nthread30,8,23.633738
+sequential,Compress Jdk Nthread30,9,23.168472
+sequential,Compress Jdk Nthread5,0,23.465519
+sequential,Compress Jdk Nthread5,1,29.090680
+sequential,Compress Jdk Nthread5,2,23.735306
+sequential,Compress Jdk Nthread5,3,23.549872
+sequential,Compress Jdk Nthread5,4,23.403464
+sequential,Compress Jdk Nthread5,5,23.608216
+sequential,Compress Jdk Nthread5,6,23.418583
+sequential,Compress Jdk Nthread5,7,23.383259
+sequential,Compress Jdk Nthread5,8,23.620517
+sequential,Compress Jdk Nthread5,9,23.332767
+sequential,Decompress Avi Video Nthread1,0,49.789315
+sequential,Decompress Avi Video Nthread1,1,52.752351
+sequential,Decompress Avi Video Nthread1,2,49.900140
+sequential,Decompress Avi Video Nthread1,3,48.779005
+sequential,Decompress Avi Video Nthread1,4,49.551083
+sequential,Decompress Avi Video Nthread1,5,50.273149
+sequential,Decompress Avi Video Nthread1,6,48.401760
+sequential,Decompress Avi Video Nthread1,7,49.284135
+sequential,Decompress Avi Video Nthread1,8,48.598991
+sequential,Decompress Avi Video Nthread1,9,49.188934
+sequential,Decompress Avi Video Nthread10,0,49.372743
+sequential,Decompress Avi Video Nthread10,1,48.772233
+sequential,Decompress Avi Video Nthread10,2,49.637458
+sequential,Decompress Avi Video Nthread10,3,49.301654
+sequential,Decompress Avi Video Nthread10,4,50.039282
+sequential,Decompress Avi Video Nthread10,5,49.102869
+sequential,Decompress Avi Video Nthread10,6,49.714802
+sequential,Decompress Avi Video Nthread10,7,48.947135
+sequential,Decompress Avi Video Nthread10,8,48.640671
+sequential,Decompress Avi Video Nthread10,9,48.716407
+sequential,Decompress Avi Video Nthread15,0,49.542251
+sequential,Decompress Avi Video Nthread15,1,49.665080
+sequential,Decompress Avi Video Nthread15,2,48.544761
+sequential,Decompress Avi Video Nthread15,3,49.056782
+sequential,Decompress Avi Video Nthread15,4,49.401054
+sequential,Decompress Avi Video Nthread15,5,49.345314
+sequential,Decompress Avi Video Nthread15,6,49.696182
+sequential,Decompress Avi Video Nthread15,7,49.475509
+sequential,Decompress Avi Video Nthread15,8,48.623978
+sequential,Decompress Avi Video Nthread15,9,48.747066
+sequential,Decompress Avi Video Nthread25,0,49.256776
+sequential,Decompress Avi Video Nthread25,1,49.631393
+sequential,Decompress Avi Video Nthread25,2,49.595852
+sequential,Decompress Avi Video Nthread25,3,49.203777
+sequential,Decompress Avi Video Nthread25,4,50.024204
+sequential,Decompress Avi Video Nthread25,5,68.414432
+sequential,Decompress Avi Video Nthread25,6,49.147499
+sequential,Decompress Avi Video Nthread25,7,49.219759
+sequential,Decompress Avi Video Nthread25,8,53.232484
+sequential,Decompress Avi Video Nthread25,9,49.183807
+sequential,Decompress Avi Video Nthread30,0,51.410806
+sequential,Decompress Avi Video Nthread30,1,48.982932
+sequential,Decompress Avi Video Nthread30,2,49.797528
+sequential,Decompress Avi Video Nthread30,3,49.518168
+sequential,Decompress Avi Video Nthread30,4,49.538912
+sequential,Decompress Avi Video Nthread30,5,49.152454
+sequential,Decompress Avi Video Nthread30,6,49.036775
+sequential,Decompress Avi Video Nthread30,7,49.085940
+sequential,Decompress Avi Video Nthread30,8,49.668651
+sequential,Decompress Avi Video Nthread30,9,49.413815
+sequential,Decompress Avi Video Nthread5,0,49.291965
+sequential,Decompress Avi Video Nthread5,1,50.131249
+sequential,Decompress Avi Video Nthread5,2,49.931670
+sequential,Decompress Avi Video Nthread5,3,49.174249
+sequential,Decompress Avi Video Nthread5,4,51.211118
+sequential,Decompress Avi Video Nthread5,5,49.623207
+sequential,Decompress Avi Video Nthread5,6,49.381350
+sequential,Decompress Avi Video Nthread5,7,49.130901
+sequential,Decompress Avi Video Nthread5,8,50.377871
+sequential,Decompress Avi Video Nthread5,9,49.385235
+sequential,Decompress Iso File Nthread1,0,48.607261
+sequential,Decompress Iso File Nthread1,1,49.867902
+sequential,Decompress Iso File Nthread1,2,50.199096
+sequential,Decompress Iso File Nthread1,3,50.178435
+sequential,Decompress Iso File Nthread1,4,48.695590
+sequential,Decompress Iso File Nthread1,5,49.474331
+sequential,Decompress Iso File Nthread1,6,48.447447
+sequential,Decompress Iso File Nthread1,7,48.568318
+sequential,Decompress Iso File Nthread1,8,48.871426
+sequential,Decompress Iso File Nthread1,9,49.337668
+sequential,Decompress Iso File Nthread10,0,49.261083
+sequential,Decompress Iso File Nthread10,1,48.765910
+sequential,Decompress Iso File Nthread10,2,48.411272
+sequential,Decompress Iso File Nthread10,3,48.561909
+sequential,Decompress Iso File Nthread10,4,48.765654
+sequential,Decompress Iso File Nthread10,5,63.411164
+sequential,Decompress Iso File Nthread10,6,49.457248
+sequential,Decompress Iso File Nthread10,7,49.651962
+sequential,Decompress Iso File Nthread10,8,49.120567
+sequential,Decompress Iso File Nthread10,9,48.777556
+sequential,Decompress Iso File Nthread15,0,50.007092
+sequential,Decompress Iso File Nthread15,1,49.149438
+sequential,Decompress Iso File Nthread15,2,47.920266
+sequential,Decompress Iso File Nthread15,3,49.928904
+sequential,Decompress Iso File Nthread15,4,48.611213
+sequential,Decompress Iso File Nthread15,5,48.344019
+sequential,Decompress Iso File Nthread15,6,49.569702
+sequential,Decompress Iso File Nthread15,7,48.672504
+sequential,Decompress Iso File Nthread15,8,48.721497
+sequential,Decompress Iso File Nthread15,9,49.001758
+sequential,Decompress Iso File Nthread25,0,48.364514
+sequential,Decompress Iso File Nthread25,1,49.828149
+sequential,Decompress Iso File Nthread25,2,50.090588
+sequential,Decompress Iso File Nthread25,3,48.820340
+sequential,Decompress Iso File Nthread25,4,49.128114
+sequential,Decompress Iso File Nthread25,5,71.674047
+sequential,Decompress Iso File Nthread25,6,48.743292
+sequential,Decompress Iso File Nthread25,7,48.968725
+sequential,Decompress Iso File Nthread25,8,49.373276
+sequential,Decompress Iso File Nthread25,9,49.011345
+sequential,Decompress Iso File Nthread30,0,51.794796
+sequential,Decompress Iso File Nthread30,1,49.019283
+sequential,Decompress Iso File Nthread30,2,49.810609
+sequential,Decompress Iso File Nthread30,3,49.722951
+sequential,Decompress Iso File Nthread30,4,48.780255
+sequential,Decompress Iso File Nthread30,5,48.232996
+sequential,Decompress Iso File Nthread30,6,48.862778
+sequential,Decompress Iso File Nthread30,7,48.760092
+sequential,Decompress Iso File Nthread30,8,49.098275
+sequential,Decompress Iso File Nthread30,9,49.253321
+sequential,Decompress Iso File Nthread5,0,49.216490
+sequential,Decompress Iso File Nthread5,1,48.961309
+sequential,Decompress Iso File Nthread5,2,48.486717
+sequential,Decompress Iso File Nthread5,3,49.350554
+sequential,Decompress Iso File Nthread5,4,48.943501
+sequential,Decompress Iso File Nthread5,5,48.580509
+sequential,Decompress Iso File Nthread5,6,48.867428
+sequential,Decompress Iso File Nthread5,7,48.974249
+sequential,Decompress Iso File Nthread5,8,49.205753
+sequential,Decompress Iso File Nthread5,9,48.445780
+sequential,Decompress Jdk Nthread1,0,13.189700
+sequential,Decompress Jdk Nthread1,1,14.144526
+sequential,Decompress Jdk Nthread1,2,13.328582
+sequential,Decompress Jdk Nthread1,3,13.307580
+sequential,Decompress Jdk Nthread1,4,13.385467
+sequential,Decompress Jdk Nthread1,5,14.289671
+sequential,Decompress Jdk Nthread1,6,13.156077
+sequential,Decompress Jdk Nthread1,7,13.290427
+sequential,Decompress Jdk Nthread1,8,13.090298
+sequential,Decompress Jdk Nthread1,9,13.746177
+sequential,Decompress Jdk Nthread10,0,13.346996
+sequential,Decompress Jdk Nthread10,1,13.454239
+sequential,Decompress Jdk Nthread10,2,13.331692
+sequential,Decompress Jdk Nthread10,3,13.318633
+sequential,Decompress Jdk Nthread10,4,13.338228
+sequential,Decompress Jdk Nthread10,5,13.342886
+sequential,Decompress Jdk Nthread10,6,13.325438
+sequential,Decompress Jdk Nthread10,7,13.417260
+sequential,Decompress Jdk Nthread10,8,13.424959
+sequential,Decompress Jdk Nthread10,9,13.396587
+sequential,Decompress Jdk Nthread15,0,14.918773
+sequential,Decompress Jdk Nthread15,1,13.585637
+sequential,Decompress Jdk Nthread15,2,13.273310
+sequential,Decompress Jdk Nthread15,3,13.365660
+sequential,Decompress Jdk Nthread15,4,14.546309
+sequential,Decompress Jdk Nthread15,5,14.365465
+sequential,Decompress Jdk Nthread15,6,13.381478
+sequential,Decompress Jdk Nthread15,7,13.191488
+sequential,Decompress Jdk Nthread15,8,13.370554
+sequential,Decompress Jdk Nthread15,9,13.200138
+sequential,Decompress Jdk Nthread25,0,13.245537
+sequential,Decompress Jdk Nthread25,1,13.207888
+sequential,Decompress Jdk Nthread25,2,13.405231
+sequential,Decompress Jdk Nthread25,3,13.299730
+sequential,Decompress Jdk Nthread25,4,13.335412
+sequential,Decompress Jdk Nthread25,5,13.370967
+sequential,Decompress Jdk Nthread25,6,13.340887
+sequential,Decompress Jdk Nthread25,7,13.276992
+sequential,Decompress Jdk Nthread25,8,13.193962
+sequential,Decompress Jdk Nthread25,9,13.212167
+sequential,Decompress Jdk Nthread30,0,14.825958
+sequential,Decompress Jdk Nthread30,1,13.250004
+sequential,Decompress Jdk Nthread30,2,13.345421
+sequential,Decompress Jdk Nthread30,3,13.398729
+sequential,Decompress Jdk Nthread30,4,13.170628
+sequential,Decompress Jdk Nthread30,5,14.328080
+sequential,Decompress Jdk Nthread30,6,13.363821
+sequential,Decompress Jdk Nthread30,7,13.289428
+sequential,Decompress Jdk Nthread30,8,13.389017
+sequential,Decompress Jdk Nthread30,9,13.348197
+sequential,Decompress Jdk Nthread5,0,13.270313
+sequential,Decompress Jdk Nthread5,1,13.378794
+sequential,Decompress Jdk Nthread5,2,13.155564
+sequential,Decompress Jdk Nthread5,3,13.348495
+sequential,Decompress Jdk Nthread5,4,13.195963
+sequential,Decompress Jdk Nthread5,5,13.352517
+sequential,Decompress Jdk Nthread5,6,13.357568
+sequential,Decompress Jdk Nthread5,7,13.186899
+sequential,Decompress Jdk Nthread5,8,13.253963
+sequential,Decompress Jdk Nthread5,9,13.185954
+std-threads,Compress Avi Video Nthread1,0,88.644391
+std-threads,Compress Avi Video Nthread1,1,101.430795
+std-threads,Compress Avi Video Nthread1,2,83.350711
+std-threads,Compress Avi Video Nthread1,3,85.822891
+std-threads,Compress Avi Video Nthread1,4,83.066113
+std-threads,Compress Avi Video Nthread1,5,85.638590
+std-threads,Compress Avi Video Nthread1,6,86.792271
+std-threads,Compress Avi Video Nthread1,7,87.224266
+std-threads,Compress Avi Video Nthread1,8,81.516555
+std-threads,Compress Avi Video Nthread1,9,81.266803
+std-threads,Compress Avi Video Nthread10,0,9.994775
+std-threads,Compress Avi Video Nthread10,1,9.976142
+std-threads,Compress Avi Video Nthread10,2,10.175750
+std-threads,Compress Avi Video Nthread10,3,10.350211
+std-threads,Compress Avi Video Nthread10,4,10.392312
+std-threads,Compress Avi Video Nthread10,5,9.815469
+std-threads,Compress Avi Video Nthread10,6,9.877103
+std-threads,Compress Avi Video Nthread10,7,9.844614
+std-threads,Compress Avi Video Nthread10,8,9.832178
+std-threads,Compress Avi Video Nthread10,9,9.964247
+std-threads,Compress Avi Video Nthread15,0,8.071515
+std-threads,Compress Avi Video Nthread15,1,8.173241
+std-threads,Compress Avi Video Nthread15,2,8.737892
+std-threads,Compress Avi Video Nthread15,3,7.838187
+std-threads,Compress Avi Video Nthread15,4,12.375773
+std-threads,Compress Avi Video Nthread15,5,8.078658
+std-threads,Compress Avi Video Nthread15,6,7.741997
+std-threads,Compress Avi Video Nthread15,7,7.455427
+std-threads,Compress Avi Video Nthread15,8,7.586667
+std-threads,Compress Avi Video Nthread15,9,7.398778
+std-threads,Compress Avi Video Nthread25,0,6.604872
+std-threads,Compress Avi Video Nthread25,1,5.955791
+std-threads,Compress Avi Video Nthread25,2,8.430188
+std-threads,Compress Avi Video Nthread25,3,6.002826
+std-threads,Compress Avi Video Nthread25,4,9.873713
+std-threads,Compress Avi Video Nthread25,5,6.182711
+std-threads,Compress Avi Video Nthread25,6,5.926554
+std-threads,Compress Avi Video Nthread25,7,5.930883
+std-threads,Compress Avi Video Nthread25,8,5.599899
+std-threads,Compress Avi Video Nthread25,9,5.289874
+std-threads,Compress Avi Video Nthread30,0,6.844739
+std-threads,Compress Avi Video Nthread30,1,6.039073
+std-threads,Compress Avi Video Nthread30,2,6.329782
+std-threads,Compress Avi Video Nthread30,3,5.214597
+std-threads,Compress Avi Video Nthread30,4,9.775006
+std-threads,Compress Avi Video Nthread30,5,6.781715
+std-threads,Compress Avi Video Nthread30,6,5.329470
+std-threads,Compress Avi Video Nthread30,7,5.512669
+std-threads,Compress Avi Video Nthread30,8,5.234490
+std-threads,Compress Avi Video Nthread30,9,5.061025
+std-threads,Compress Avi Video Nthread5,0,17.634055
+std-threads,Compress Avi Video Nthread5,1,18.019160
+std-threads,Compress Avi Video Nthread5,2,17.821522
+std-threads,Compress Avi Video Nthread5,3,17.751237
+std-threads,Compress Avi Video Nthread5,4,17.878002
+std-threads,Compress Avi Video Nthread5,5,17.821515
+std-threads,Compress Avi Video Nthread5,6,17.815200
+std-threads,Compress Avi Video Nthread5,7,17.724418
+std-threads,Compress Avi Video Nthread5,8,17.664719
+std-threads,Compress Avi Video Nthread5,9,17.694656
+std-threads,Compress Iso File Nthread1,0,103.981581
+std-threads,Compress Iso File Nthread1,1,111.502513
+std-threads,Compress Iso File Nthread1,2,107.098134
+std-threads,Compress Iso File Nthread1,3,103.786154
+std-threads,Compress Iso File Nthread1,4,109.333457
+std-threads,Compress Iso File Nthread1,5,104.488308
+std-threads,Compress Iso File Nthread1,6,104.280615
+std-threads,Compress Iso File Nthread1,7,104.271563
+std-threads,Compress Iso File Nthread1,8,103.308904
+std-threads,Compress Iso File Nthread1,9,103.218515
+std-threads,Compress Iso File Nthread10,0,12.688624
+std-threads,Compress Iso File Nthread10,1,12.299606
+std-threads,Compress Iso File Nthread10,2,12.546272
+std-threads,Compress Iso File Nthread10,3,12.701539
+std-threads,Compress Iso File Nthread10,4,12.545972
+std-threads,Compress Iso File Nthread10,5,12.585802
+std-threads,Compress Iso File Nthread10,6,12.085071
+std-threads,Compress Iso File Nthread10,7,12.154882
+std-threads,Compress Iso File Nthread10,8,11.947953
+std-threads,Compress Iso File Nthread10,9,12.501990
+std-threads,Compress Iso File Nthread15,0,10.639768
+std-threads,Compress Iso File Nthread15,1,9.437303
+std-threads,Compress Iso File Nthread15,2,10.646377
+std-threads,Compress Iso File Nthread15,3,10.522822
+std-threads,Compress Iso File Nthread15,4,15.311003
+std-threads,Compress Iso File Nthread15,5,10.542919
+std-threads,Compress Iso File Nthread15,6,9.400224
+std-threads,Compress Iso File Nthread15,7,9.374932
+std-threads,Compress Iso File Nthread15,8,9.049311
+std-threads,Compress Iso File Nthread15,9,9.529899
+std-threads,Compress Iso File Nthread25,0,8.002276
+std-threads,Compress Iso File Nthread25,1,7.665454
+std-threads,Compress Iso File Nthread25,2,7.802756
+std-threads,Compress Iso File Nthread25,3,8.089449
+std-threads,Compress Iso File Nthread25,4,14.502814
+std-threads,Compress Iso File Nthread25,5,8.482072
+std-threads,Compress Iso File Nthread25,6,7.805001
+std-threads,Compress Iso File Nthread25,7,8.751097
+std-threads,Compress Iso File Nthread25,8,6.959510
+std-threads,Compress Iso File Nthread25,9,8.373819
+std-threads,Compress Iso File Nthread30,0,7.885345
+std-threads,Compress Iso File Nthread30,1,7.286970
+std-threads,Compress Iso File Nthread30,2,7.693438
+std-threads,Compress Iso File Nthread30,3,7.262915
+std-threads,Compress Iso File Nthread30,4,7.990269
+std-threads,Compress Iso File Nthread30,5,7.979092
+std-threads,Compress Iso File Nthread30,6,6.927025
+std-threads,Compress Iso File Nthread30,7,7.575210
+std-threads,Compress Iso File Nthread30,8,6.167138
+std-threads,Compress Iso File Nthread30,9,6.775253
+std-threads,Compress Iso File Nthread5,0,22.288950
+std-threads,Compress Iso File Nthread5,1,22.614735
+std-threads,Compress Iso File Nthread5,2,22.213716
+std-threads,Compress Iso File Nthread5,3,22.894850
+std-threads,Compress Iso File Nthread5,4,22.381304
+std-threads,Compress Iso File Nthread5,5,22.849892
+std-threads,Compress Iso File Nthread5,6,22.613070
+std-threads,Compress Iso File Nthread5,7,22.546107
+std-threads,Compress Iso File Nthread5,8,22.052838
+std-threads,Compress Iso File Nthread5,9,22.321096
+std-threads,Compress Jdk Nthread1,0,23.587181
+std-threads,Compress Jdk Nthread1,1,23.546668
+std-threads,Compress Jdk Nthread1,2,23.523061
+std-threads,Compress Jdk Nthread1,3,23.481520
+std-threads,Compress Jdk Nthread1,4,23.696258
+std-threads,Compress Jdk Nthread1,5,23.837629
+std-threads,Compress Jdk Nthread1,6,23.452762
+std-threads,Compress Jdk Nthread1,7,23.697221
+std-threads,Compress Jdk Nthread1,8,23.391624
+std-threads,Compress Jdk Nthread1,9,23.435418
+std-threads,Compress Jdk Nthread10,0,2.947390
+std-threads,Compress Jdk Nthread10,1,3.060717
+std-threads,Compress Jdk Nthread10,2,2.868499
+std-threads,Compress Jdk Nthread10,3,3.719345
+std-threads,Compress Jdk Nthread10,4,4.658790
+std-threads,Compress Jdk Nthread10,5,3.276927
+std-threads,Compress Jdk Nthread10,6,3.457709
+std-threads,Compress Jdk Nthread10,7,2.896707
+std-threads,Compress Jdk Nthread10,8,2.909632
+std-threads,Compress Jdk Nthread10,9,2.843178
+std-threads,Compress Jdk Nthread15,0,2.590220
+std-threads,Compress Jdk Nthread15,1,2.773699
+std-threads,Compress Jdk Nthread15,2,2.166762
+std-threads,Compress Jdk Nthread15,3,2.523155
+std-threads,Compress Jdk Nthread15,4,3.864056
+std-threads,Compress Jdk Nthread15,5,2.654987
+std-threads,Compress Jdk Nthread15,6,2.092136
+std-threads,Compress Jdk Nthread15,7,2.717087
+std-threads,Compress Jdk Nthread15,8,2.110747
+std-threads,Compress Jdk Nthread15,9,2.181403
+std-threads,Compress Jdk Nthread25,0,1.803933
+std-threads,Compress Jdk Nthread25,1,2.323473
+std-threads,Compress Jdk Nthread25,2,1.869080
+std-threads,Compress Jdk Nthread25,3,2.062089
+std-threads,Compress Jdk Nthread25,4,4.337734
+std-threads,Compress Jdk Nthread25,5,2.065939
+std-threads,Compress Jdk Nthread25,6,2.220084
+std-threads,Compress Jdk Nthread25,7,1.892880
+std-threads,Compress Jdk Nthread25,8,1.770106
+std-threads,Compress Jdk Nthread25,9,2.203295
+std-threads,Compress Jdk Nthread30,0,1.667999
+std-threads,Compress Jdk Nthread30,1,1.747317
+std-threads,Compress Jdk Nthread30,2,1.464411
+std-threads,Compress Jdk Nthread30,3,2.062020
+std-threads,Compress Jdk Nthread30,4,1.736470
+std-threads,Compress Jdk Nthread30,5,1.702107
+std-threads,Compress Jdk Nthread30,6,1.264307
+std-threads,Compress Jdk Nthread30,7,1.808675
+std-threads,Compress Jdk Nthread30,8,2.235543
+std-threads,Compress Jdk Nthread30,9,2.647159
+std-threads,Compress Jdk Nthread5,0,5.252282
+std-threads,Compress Jdk Nthread5,1,5.232340
+std-threads,Compress Jdk Nthread5,2,5.131250
+std-threads,Compress Jdk Nthread5,3,5.162470
+std-threads,Compress Jdk Nthread5,4,5.164262
+std-threads,Compress Jdk Nthread5,5,5.479386
+std-threads,Compress Jdk Nthread5,6,5.176898
+std-threads,Compress Jdk Nthread5,7,5.136365
+std-threads,Compress Jdk Nthread5,8,5.238130
+std-threads,Compress Jdk Nthread5,9,5.134427
+std-threads,Decompress Avi Video Nthread1,0,49.987773
+std-threads,Decompress Avi Video Nthread1,1,49.475976
+std-threads,Decompress Avi Video Nthread1,2,49.787738
+std-threads,Decompress Avi Video Nthread1,3,49.590960
+std-threads,Decompress Avi Video Nthread1,4,50.514187
+std-threads,Decompress Avi Video Nthread1,5,49.723661
+std-threads,Decompress Avi Video Nthread1,6,50.151406
+std-threads,Decompress Avi Video Nthread1,7,49.681384
+std-threads,Decompress Avi Video Nthread1,8,49.861233
+std-threads,Decompress Avi Video Nthread1,9,50.513970
+std-threads,Decompress Avi Video Nthread10,0,7.238447
+std-threads,Decompress Avi Video Nthread10,1,7.372068
+std-threads,Decompress Avi Video Nthread10,2,7.537464
+std-threads,Decompress Avi Video Nthread10,3,7.074627
+std-threads,Decompress Avi Video Nthread10,4,11.749566
+std-threads,Decompress Avi Video Nthread10,5,7.885370
+std-threads,Decompress Avi Video Nthread10,6,6.938357
+std-threads,Decompress Avi Video Nthread10,7,7.348460
+std-threads,Decompress Avi Video Nthread10,8,7.020092
+std-threads,Decompress Avi Video Nthread10,9,7.106672
+std-threads,Decompress Avi Video Nthread15,0,6.381032
+std-threads,Decompress Avi Video Nthread15,1,7.162169
+std-threads,Decompress Avi Video Nthread15,2,5.701244
+std-threads,Decompress Avi Video Nthread15,3,5.939561
+std-threads,Decompress Avi Video Nthread15,4,10.562908
+std-threads,Decompress Avi Video Nthread15,5,6.072812
+std-threads,Decompress Avi Video Nthread15,6,5.879873
+std-threads,Decompress Avi Video Nthread15,7,5.607338
+std-threads,Decompress Avi Video Nthread15,8,5.832499
+std-threads,Decompress Avi Video Nthread15,9,6.775503
+std-threads,Decompress Avi Video Nthread25,0,5.113402
+std-threads,Decompress Avi Video Nthread25,1,5.239236
+std-threads,Decompress Avi Video Nthread25,2,5.254556
+std-threads,Decompress Avi Video Nthread25,3,4.784263
+std-threads,Decompress Avi Video Nthread25,4,6.541586
+std-threads,Decompress Avi Video Nthread25,5,5.224256
+std-threads,Decompress Avi Video Nthread25,6,4.597454
+std-threads,Decompress Avi Video Nthread25,7,4.439684
+std-threads,Decompress Avi Video Nthread25,8,5.064996
+std-threads,Decompress Avi Video Nthread25,9,4.648799
+std-threads,Decompress Avi Video Nthread30,0,4.769180
+std-threads,Decompress Avi Video Nthread30,1,5.797646
+std-threads,Decompress Avi Video Nthread30,2,4.638583
+std-threads,Decompress Avi Video Nthread30,3,6.224117
+std-threads,Decompress Avi Video Nthread30,4,5.343880
+std-threads,Decompress Avi Video Nthread30,5,5.343225
+std-threads,Decompress Avi Video Nthread30,6,5.348969
+std-threads,Decompress Avi Video Nthread30,7,5.009209
+std-threads,Decompress Avi Video Nthread30,8,5.307489
+std-threads,Decompress Avi Video Nthread30,9,5.224826
+std-threads,Decompress Avi Video Nthread5,0,11.841645
+std-threads,Decompress Avi Video Nthread5,1,11.961940
+std-threads,Decompress Avi Video Nthread5,2,11.868689
+std-threads,Decompress Avi Video Nthread5,3,11.810099
+std-threads,Decompress Avi Video Nthread5,4,11.878785
+std-threads,Decompress Avi Video Nthread5,5,11.928115
+std-threads,Decompress Avi Video Nthread5,6,11.772274
+std-threads,Decompress Avi Video Nthread5,7,11.876051
+std-threads,Decompress Avi Video Nthread5,8,11.921929
+std-threads,Decompress Avi Video Nthread5,9,11.821646
+std-threads,Decompress Iso File Nthread1,0,48.335108
+std-threads,Decompress Iso File Nthread1,1,50.025376
+std-threads,Decompress Iso File Nthread1,2,54.271338
+std-threads,Decompress Iso File Nthread1,3,49.460482
+std-threads,Decompress Iso File Nthread1,4,48.945473
+std-threads,Decompress Iso File Nthread1,5,49.281183
+std-threads,Decompress Iso File Nthread1,6,49.917508
+std-threads,Decompress Iso File Nthread1,7,50.934964
+std-threads,Decompress Iso File Nthread1,8,52.017997
+std-threads,Decompress Iso File Nthread1,9,49.156820
+std-threads,Decompress Iso File Nthread10,0,7.365700
+std-threads,Decompress Iso File Nthread10,1,7.086635
+std-threads,Decompress Iso File Nthread10,2,7.248689
+std-threads,Decompress Iso File Nthread10,3,6.900610
+std-threads,Decompress Iso File Nthread10,4,10.981444
+std-threads,Decompress Iso File Nthread10,5,7.403859
+std-threads,Decompress Iso File Nthread10,6,6.834507
+std-threads,Decompress Iso File Nthread10,7,7.091927
+std-threads,Decompress Iso File Nthread10,8,6.986090
+std-threads,Decompress Iso File Nthread10,9,7.126941
+std-threads,Decompress Iso File Nthread15,0,5.639767
+std-threads,Decompress Iso File Nthread15,1,6.353481
+std-threads,Decompress Iso File Nthread15,2,6.781853
+std-threads,Decompress Iso File Nthread15,3,5.890446
+std-threads,Decompress Iso File Nthread15,4,10.802367
+std-threads,Decompress Iso File Nthread15,5,6.160111
+std-threads,Decompress Iso File Nthread15,6,5.651967
+std-threads,Decompress Iso File Nthread15,7,5.381281
+std-threads,Decompress Iso File Nthread15,8,5.339311
+std-threads,Decompress Iso File Nthread15,9,5.444712
+std-threads,Decompress Iso File Nthread25,0,5.328790
+std-threads,Decompress Iso File Nthread25,1,5.609142
+std-threads,Decompress Iso File Nthread25,2,5.418817
+std-threads,Decompress Iso File Nthread25,3,5.082479
+std-threads,Decompress Iso File Nthread25,4,6.285372
+std-threads,Decompress Iso File Nthread25,5,5.034304
+std-threads,Decompress Iso File Nthread25,6,4.283558
+std-threads,Decompress Iso File Nthread25,7,4.344296
+std-threads,Decompress Iso File Nthread25,8,4.749878
+std-threads,Decompress Iso File Nthread25,9,5.052749
+std-threads,Decompress Iso File Nthread30,0,5.084558
+std-threads,Decompress Iso File Nthread30,1,9.601301
+std-threads,Decompress Iso File Nthread30,2,3.808355
+std-threads,Decompress Iso File Nthread30,3,6.033349
+std-threads,Decompress Iso File Nthread30,4,4.484275
+std-threads,Decompress Iso File Nthread30,5,4.634180
+std-threads,Decompress Iso File Nthread30,6,4.544526
+std-threads,Decompress Iso File Nthread30,7,4.699721
+std-threads,Decompress Iso File Nthread30,8,4.603950
+std-threads,Decompress Iso File Nthread30,9,5.211300
+std-threads,Decompress Iso File Nthread5,0,11.686980
+std-threads,Decompress Iso File Nthread5,1,11.950149
+std-threads,Decompress Iso File Nthread5,2,11.691206
+std-threads,Decompress Iso File Nthread5,3,11.707927
+std-threads,Decompress Iso File Nthread5,4,11.749555
+std-threads,Decompress Iso File Nthread5,5,11.945883
+std-threads,Decompress Iso File Nthread5,6,11.626871
+std-threads,Decompress Iso File Nthread5,7,11.798601
+std-threads,Decompress Iso File Nthread5,8,11.575497
+std-threads,Decompress Iso File Nthread5,9,11.661333
+std-threads,Decompress Jdk Nthread1,0,13.550110
+std-threads,Decompress Jdk Nthread1,1,13.733605
+std-threads,Decompress Jdk Nthread1,2,13.769723
+std-threads,Decompress Jdk Nthread1,3,13.666539
+std-threads,Decompress Jdk Nthread1,4,13.533434
+std-threads,Decompress Jdk Nthread1,5,14.643488
+std-threads,Decompress Jdk Nthread1,6,13.602345
+std-threads,Decompress Jdk Nthread1,7,13.238149
+std-threads,Decompress Jdk Nthread1,8,13.291172
+std-threads,Decompress Jdk Nthread1,9,13.390206
+std-threads,Decompress Jdk Nthread10,0,2.074241
+std-threads,Decompress Jdk Nthread10,1,1.985530
+std-threads,Decompress Jdk Nthread10,2,2.247099
+std-threads,Decompress Jdk Nthread10,3,1.914230
+std-threads,Decompress Jdk Nthread10,4,3.042975
+std-threads,Decompress Jdk Nthread10,5,2.048261
+std-threads,Decompress Jdk Nthread10,6,1.930598
+std-threads,Decompress Jdk Nthread10,7,2.101264
+std-threads,Decompress Jdk Nthread10,8,1.900271
+std-threads,Decompress Jdk Nthread10,9,1.971894
+std-threads,Decompress Jdk Nthread15,0,2.067465
+std-threads,Decompress Jdk Nthread15,1,1.746235
+std-threads,Decompress Jdk Nthread15,2,2.102007
+std-threads,Decompress Jdk Nthread15,3,1.451850
+std-threads,Decompress Jdk Nthread15,4,2.443422
+std-threads,Decompress Jdk Nthread15,5,1.862131
+std-threads,Decompress Jdk Nthread15,6,1.446503
+std-threads,Decompress Jdk Nthread15,7,2.281881
+std-threads,Decompress Jdk Nthread15,8,1.664199
+std-threads,Decompress Jdk Nthread15,9,1.732772
+std-threads,Decompress Jdk Nthread25,0,1.492243
+std-threads,Decompress Jdk Nthread25,1,1.691108
+std-threads,Decompress Jdk Nthread25,2,1.469330
+std-threads,Decompress Jdk Nthread25,3,1.620507
+std-threads,Decompress Jdk Nthread25,4,1.457599
+std-threads,Decompress Jdk Nthread25,5,1.491800
+std-threads,Decompress Jdk Nthread25,6,1.605408
+std-threads,Decompress Jdk Nthread25,7,1.705367
+std-threads,Decompress Jdk Nthread25,8,1.361946
+std-threads,Decompress Jdk Nthread25,9,1.290287
+std-threads,Decompress Jdk Nthread30,0,1.085244
+std-threads,Decompress Jdk Nthread30,1,3.073980
+std-threads,Decompress Jdk Nthread30,2,1.070775
+std-threads,Decompress Jdk Nthread30,3,1.272459
+std-threads,Decompress Jdk Nthread30,4,1.403415
+std-threads,Decompress Jdk Nthread30,5,1.167318
+std-threads,Decompress Jdk Nthread30,6,1.081021
+std-threads,Decompress Jdk Nthread30,7,1.095122
+std-threads,Decompress Jdk Nthread30,8,1.305008
+std-threads,Decompress Jdk Nthread30,9,1.223180
+std-threads,Decompress Jdk Nthread5,0,3.161235
+std-threads,Decompress Jdk Nthread5,1,3.237702
+std-threads,Decompress Jdk Nthread5,2,3.226818
+std-threads,Decompress Jdk Nthread5,3,3.213021
+std-threads,Decompress Jdk Nthread5,4,3.234321
+std-threads,Decompress Jdk Nthread5,5,3.225711
+std-threads,Decompress Jdk Nthread5,6,3.176364
+std-threads,Decompress Jdk Nthread5,7,3.385074
+std-threads,Decompress Jdk Nthread5,8,3.228289
+std-threads,Decompress Jdk Nthread5,9,3.185577
+tokio,Compress Avi Video Nthread1,0,90.395107
+tokio,Compress Avi Video Nthread1,1,101.859036
+tokio,Compress Avi Video Nthread1,2,83.464379
+tokio,Compress Avi Video Nthread1,3,80.845359
+tokio,Compress Avi Video Nthread1,4,83.447570
+tokio,Compress Avi Video Nthread1,5,81.039765
+tokio,Compress Avi Video Nthread1,6,86.906645
+tokio,Compress Avi Video Nthread1,7,84.370370
+tokio,Compress Avi Video Nthread1,8,84.059859
+tokio,Compress Avi Video Nthread1,9,81.215807
+tokio,Compress Avi Video Nthread10,0,10.995173
+tokio,Compress Avi Video Nthread10,1,11.214261
+tokio,Compress Avi Video Nthread10,2,10.366502
+tokio,Compress Avi Video Nthread10,3,11.018627
+tokio,Compress Avi Video Nthread10,4,11.513858
+tokio,Compress Avi Video Nthread10,5,10.456479
+tokio,Compress Avi Video Nthread10,6,9.968970
+tokio,Compress Avi Video Nthread10,7,9.994017
+tokio,Compress Avi Video Nthread10,8,9.920494
+tokio,Compress Avi Video Nthread10,9,9.917451
+tokio,Compress Avi Video Nthread15,0,8.508967
+tokio,Compress Avi Video Nthread15,1,9.354534
+tokio,Compress Avi Video Nthread15,2,9.047148
+tokio,Compress Avi Video Nthread15,3,10.082328
+tokio,Compress Avi Video Nthread15,4,16.493716
+tokio,Compress Avi Video Nthread15,5,9.293296
+tokio,Compress Avi Video Nthread15,6,7.731448
+tokio,Compress Avi Video Nthread15,7,8.245266
+tokio,Compress Avi Video Nthread15,8,8.012382
+tokio,Compress Avi Video Nthread15,9,8.806378
+tokio,Compress Avi Video Nthread25,0,7.130331
+tokio,Compress Avi Video Nthread25,1,7.454235
+tokio,Compress Avi Video Nthread25,2,7.231113
+tokio,Compress Avi Video Nthread25,3,7.233996
+tokio,Compress Avi Video Nthread25,4,5.441542
+tokio,Compress Avi Video Nthread25,5,7.029894
+tokio,Compress Avi Video Nthread25,6,7.228987
+tokio,Compress Avi Video Nthread25,7,6.428872
+tokio,Compress Avi Video Nthread25,8,6.409495
+tokio,Compress Avi Video Nthread25,9,7.681432
+tokio,Compress Avi Video Nthread30,0,6.236971
+tokio,Compress Avi Video Nthread30,1,9.373017
+tokio,Compress Avi Video Nthread30,2,7.206649
+tokio,Compress Avi Video Nthread30,3,7.950773
+tokio,Compress Avi Video Nthread30,4,5.101311
+tokio,Compress Avi Video Nthread30,5,7.146507
+tokio,Compress Avi Video Nthread30,6,6.376850
+tokio,Compress Avi Video Nthread30,7,6.631843
+tokio,Compress Avi Video Nthread30,8,6.090161
+tokio,Compress Avi Video Nthread30,9,6.535227
+tokio,Compress Avi Video Nthread5,0,17.860887
+tokio,Compress Avi Video Nthread5,1,18.148163
+tokio,Compress Avi Video Nthread5,2,17.694942
+tokio,Compress Avi Video Nthread5,3,17.948073
+tokio,Compress Avi Video Nthread5,4,18.157111
+tokio,Compress Avi Video Nthread5,5,17.691404
+tokio,Compress Avi Video Nthread5,6,17.726930
+tokio,Compress Avi Video Nthread5,7,17.953035
+tokio,Compress Avi Video Nthread5,8,17.812296
+tokio,Compress Avi Video Nthread5,9,17.902133
+tokio,Compress Iso File Nthread1,0,104.927863
+tokio,Compress Iso File Nthread1,1,113.595936
+tokio,Compress Iso File Nthread1,2,103.582413
+tokio,Compress Iso File Nthread1,3,104.153693
+tokio,Compress Iso File Nthread1,4,111.004320
+tokio,Compress Iso File Nthread1,5,104.076423
+tokio,Compress Iso File Nthread1,6,104.378201
+tokio,Compress Iso File Nthread1,7,104.414841
+tokio,Compress Iso File Nthread1,8,103.297310
+tokio,Compress Iso File Nthread1,9,103.533332
+tokio,Compress Iso File Nthread10,0,13.413698
+tokio,Compress Iso File Nthread10,1,13.895355
+tokio,Compress Iso File Nthread10,2,13.272916
+tokio,Compress Iso File Nthread10,3,14.226280
+tokio,Compress Iso File Nthread10,4,19.309744
+tokio,Compress Iso File Nthread10,5,13.284899
+tokio,Compress Iso File Nthread10,6,12.341874
+tokio,Compress Iso File Nthread10,7,12.574182
+tokio,Compress Iso File Nthread10,8,12.655753
+tokio,Compress Iso File Nthread10,9,12.523783
+tokio,Compress Iso File Nthread15,0,10.352474
+tokio,Compress Iso File Nthread15,1,12.034643
+tokio,Compress Iso File Nthread15,2,11.068477
+tokio,Compress Iso File Nthread15,3,10.901267
+tokio,Compress Iso File Nthread15,4,17.409454
+tokio,Compress Iso File Nthread15,5,11.067298
+tokio,Compress Iso File Nthread15,6,9.719750
+tokio,Compress Iso File Nthread15,7,10.012704
+tokio,Compress Iso File Nthread15,8,9.425014
+tokio,Compress Iso File Nthread15,9,10.641229
+tokio,Compress Iso File Nthread25,0,7.686217
+tokio,Compress Iso File Nthread25,1,8.295089
+tokio,Compress Iso File Nthread25,2,8.130467
+tokio,Compress Iso File Nthread25,3,7.976743
+tokio,Compress Iso File Nthread25,4,10.355417
+tokio,Compress Iso File Nthread25,5,8.581040
+tokio,Compress Iso File Nthread25,6,7.785741
+tokio,Compress Iso File Nthread25,7,8.886636
+tokio,Compress Iso File Nthread25,8,8.151361
+tokio,Compress Iso File Nthread25,9,8.513650
+tokio,Compress Iso File Nthread30,0,7.219308
+tokio,Compress Iso File Nthread30,1,11.693600
+tokio,Compress Iso File Nthread30,2,6.806629
+tokio,Compress Iso File Nthread30,3,8.524299
+tokio,Compress Iso File Nthread30,4,5.954168
+tokio,Compress Iso File Nthread30,5,7.627818
+tokio,Compress Iso File Nthread30,6,7.168744
+tokio,Compress Iso File Nthread30,7,7.617004
+tokio,Compress Iso File Nthread30,8,7.310209
+tokio,Compress Iso File Nthread30,9,8.456280
+tokio,Compress Iso File Nthread5,0,22.597895
+tokio,Compress Iso File Nthread5,1,22.711590
+tokio,Compress Iso File Nthread5,2,22.513234
+tokio,Compress Iso File Nthread5,3,22.482847
+tokio,Compress Iso File Nthread5,4,22.903207
+tokio,Compress Iso File Nthread5,5,23.453358
+tokio,Compress Iso File Nthread5,6,22.416303
+tokio,Compress Iso File Nthread5,7,22.638939
+tokio,Compress Iso File Nthread5,8,22.294819
+tokio,Compress Iso File Nthread5,9,22.184820
+tokio,Compress Jdk Nthread1,0,23.936065
+tokio,Compress Jdk Nthread1,1,24.030480
+tokio,Compress Jdk Nthread1,2,23.593477
+tokio,Compress Jdk Nthread1,3,23.929274
+tokio,Compress Jdk Nthread1,4,23.508347
+tokio,Compress Jdk Nthread1,5,23.913261
+tokio,Compress Jdk Nthread1,6,23.580363
+tokio,Compress Jdk Nthread1,7,23.694007
+tokio,Compress Jdk Nthread1,8,24.165371
+tokio,Compress Jdk Nthread1,9,23.432453
+tokio,Compress Jdk Nthread10,0,3.263745
+tokio,Compress Jdk Nthread10,1,2.971778
+tokio,Compress Jdk Nthread10,2,2.857023
+tokio,Compress Jdk Nthread10,3,3.897844
+tokio,Compress Jdk Nthread10,4,5.790001
+tokio,Compress Jdk Nthread10,5,3.080513
+tokio,Compress Jdk Nthread10,6,3.155218
+tokio,Compress Jdk Nthread10,7,2.881506
+tokio,Compress Jdk Nthread10,8,3.013999
+tokio,Compress Jdk Nthread10,9,2.956455
+tokio,Compress Jdk Nthread15,0,2.612227
+tokio,Compress Jdk Nthread15,1,2.653977
+tokio,Compress Jdk Nthread15,2,2.650760
+tokio,Compress Jdk Nthread15,3,2.459670
+tokio,Compress Jdk Nthread15,4,8.219782
+tokio,Compress Jdk Nthread15,5,2.850564
+tokio,Compress Jdk Nthread15,6,2.113928
+tokio,Compress Jdk Nthread15,7,2.697690
+tokio,Compress Jdk Nthread15,8,2.318114
+tokio,Compress Jdk Nthread15,9,2.700607
+tokio,Compress Jdk Nthread25,0,2.017593
+tokio,Compress Jdk Nthread25,1,2.536236
+tokio,Compress Jdk Nthread25,2,1.757851
+tokio,Compress Jdk Nthread25,3,1.658219
+tokio,Compress Jdk Nthread25,4,2.343948
+tokio,Compress Jdk Nthread25,5,1.973227
+tokio,Compress Jdk Nthread25,6,2.107369
+tokio,Compress Jdk Nthread25,7,1.925659
+tokio,Compress Jdk Nthread25,8,1.644196
+tokio,Compress Jdk Nthread25,9,1.767478
+tokio,Compress Jdk Nthread30,0,1.461546
+tokio,Compress Jdk Nthread30,1,2.205985
+tokio,Compress Jdk Nthread30,2,1.477098
+tokio,Compress Jdk Nthread30,3,1.640887
+tokio,Compress Jdk Nthread30,4,1.491137
+tokio,Compress Jdk Nthread30,5,1.310583
+tokio,Compress Jdk Nthread30,6,1.298851
+tokio,Compress Jdk Nthread30,7,2.116569
+tokio,Compress Jdk Nthread30,8,1.428912
+tokio,Compress Jdk Nthread30,9,1.467880
+tokio,Compress Jdk Nthread5,0,5.187714
+tokio,Compress Jdk Nthread5,1,5.381672
+tokio,Compress Jdk Nthread5,2,5.145376
+tokio,Compress Jdk Nthread5,3,5.245467
+tokio,Compress Jdk Nthread5,4,5.216671
+tokio,Compress Jdk Nthread5,5,5.327816
+tokio,Compress Jdk Nthread5,6,5.204529
+tokio,Compress Jdk Nthread5,7,5.187942
+tokio,Compress Jdk Nthread5,8,5.154592
+tokio,Compress Jdk Nthread5,9,5.130081
+tokio,Decompress Avi Video Nthread1,0,50.774274
+tokio,Decompress Avi Video Nthread1,1,51.102208
+tokio,Decompress Avi Video Nthread1,2,51.868184
+tokio,Decompress Avi Video Nthread1,3,50.708042
+tokio,Decompress Avi Video Nthread1,4,51.198140
+tokio,Decompress Avi Video Nthread1,5,51.650688
+tokio,Decompress Avi Video Nthread1,6,49.795109
+tokio,Decompress Avi Video Nthread1,7,51.196843
+tokio,Decompress Avi Video Nthread1,8,51.244952
+tokio,Decompress Avi Video Nthread1,9,50.799481
+tokio,Decompress Avi Video Nthread10,0,7.531247
+tokio,Decompress Avi Video Nthread10,1,7.200924
+tokio,Decompress Avi Video Nthread10,2,7.734062
+tokio,Decompress Avi Video Nthread10,3,7.448115
+tokio,Decompress Avi Video Nthread10,4,13.728791
+tokio,Decompress Avi Video Nthread10,5,7.568573
+tokio,Decompress Avi Video Nthread10,6,7.261376
+tokio,Decompress Avi Video Nthread10,7,7.287077
+tokio,Decompress Avi Video Nthread10,8,7.741824
+tokio,Decompress Avi Video Nthread10,9,7.364983
+tokio,Decompress Avi Video Nthread15,0,6.876843
+tokio,Decompress Avi Video Nthread15,1,6.187056
+tokio,Decompress Avi Video Nthread15,2,5.915109
+tokio,Decompress Avi Video Nthread15,3,6.309349
+tokio,Decompress Avi Video Nthread15,4,10.285543
+tokio,Decompress Avi Video Nthread15,5,6.458781
+tokio,Decompress Avi Video Nthread15,6,6.113731
+tokio,Decompress Avi Video Nthread15,7,5.900078
+tokio,Decompress Avi Video Nthread15,8,5.589601
+tokio,Decompress Avi Video Nthread15,9,5.987720
+tokio,Decompress Avi Video Nthread25,0,7.035572
+tokio,Decompress Avi Video Nthread25,1,6.724516
+tokio,Decompress Avi Video Nthread25,2,5.826741
+tokio,Decompress Avi Video Nthread25,3,4.530496
+tokio,Decompress Avi Video Nthread25,4,6.829576
+tokio,Decompress Avi Video Nthread25,5,7.093833
+tokio,Decompress Avi Video Nthread25,6,5.044135
+tokio,Decompress Avi Video Nthread25,7,4.444730
+tokio,Decompress Avi Video Nthread25,8,5.257651
+tokio,Decompress Avi Video Nthread25,9,4.877109
+tokio,Decompress Avi Video Nthread30,0,3.738799
+tokio,Decompress Avi Video Nthread30,1,6.480611
+tokio,Decompress Avi Video Nthread30,2,3.951774
+tokio,Decompress Avi Video Nthread30,3,4.677942
+tokio,Decompress Avi Video Nthread30,4,3.763123
+tokio,Decompress Avi Video Nthread30,5,4.405801
+tokio,Decompress Avi Video Nthread30,6,3.839610
+tokio,Decompress Avi Video Nthread30,7,3.993033
+tokio,Decompress Avi Video Nthread30,8,4.163050
+tokio,Decompress Avi Video Nthread30,9,4.269859
+tokio,Decompress Avi Video Nthread5,0,11.916887
+tokio,Decompress Avi Video Nthread5,1,12.256862
+tokio,Decompress Avi Video Nthread5,2,12.009460
+tokio,Decompress Avi Video Nthread5,3,11.947927
+tokio,Decompress Avi Video Nthread5,4,12.025278
+tokio,Decompress Avi Video Nthread5,5,12.363325
+tokio,Decompress Avi Video Nthread5,6,12.088447
+tokio,Decompress Avi Video Nthread5,7,12.033492
+tokio,Decompress Avi Video Nthread5,8,12.035718
+tokio,Decompress Avi Video Nthread5,9,12.322259
+tokio,Decompress Iso File Nthread1,0,50.180482
+tokio,Decompress Iso File Nthread1,1,52.016599
+tokio,Decompress Iso File Nthread1,2,50.469445
+tokio,Decompress Iso File Nthread1,3,50.566439
+tokio,Decompress Iso File Nthread1,4,50.117927
+tokio,Decompress Iso File Nthread1,5,50.563607
+tokio,Decompress Iso File Nthread1,6,49.653896
+tokio,Decompress Iso File Nthread1,7,50.144146
+tokio,Decompress Iso File Nthread1,8,50.555296
+tokio,Decompress Iso File Nthread1,9,50.304364
+tokio,Decompress Iso File Nthread10,0,8.564780
+tokio,Decompress Iso File Nthread10,1,8.383638
+tokio,Decompress Iso File Nthread10,2,7.579666
+tokio,Decompress Iso File Nthread10,3,7.226243
+tokio,Decompress Iso File Nthread10,4,19.750597
+tokio,Decompress Iso File Nthread10,5,7.811749
+tokio,Decompress Iso File Nthread10,6,6.992596
+tokio,Decompress Iso File Nthread10,7,7.216737
+tokio,Decompress Iso File Nthread10,8,7.413632
+tokio,Decompress Iso File Nthread10,9,7.349827
+tokio,Decompress Iso File Nthread15,0,6.643072
+tokio,Decompress Iso File Nthread15,1,7.458144
+tokio,Decompress Iso File Nthread15,2,7.766808
+tokio,Decompress Iso File Nthread15,3,6.952072
+tokio,Decompress Iso File Nthread15,4,8.739038
+tokio,Decompress Iso File Nthread15,5,6.972154
+tokio,Decompress Iso File Nthread15,6,6.067918
+tokio,Decompress Iso File Nthread15,7,5.505416
+tokio,Decompress Iso File Nthread15,8,6.062511
+tokio,Decompress Iso File Nthread15,9,6.032577
+tokio,Decompress Iso File Nthread25,0,7.414163
+tokio,Decompress Iso File Nthread25,1,7.027513
+tokio,Decompress Iso File Nthread25,2,5.182670
+tokio,Decompress Iso File Nthread25,3,5.155131
+tokio,Decompress Iso File Nthread25,4,5.427873
+tokio,Decompress Iso File Nthread25,5,6.304864
+tokio,Decompress Iso File Nthread25,6,6.256313
+tokio,Decompress Iso File Nthread25,7,4.438360
+tokio,Decompress Iso File Nthread25,8,5.940958
+tokio,Decompress Iso File Nthread25,9,4.833394
+tokio,Decompress Iso File Nthread30,0,3.839158
+tokio,Decompress Iso File Nthread30,1,5.902529
+tokio,Decompress Iso File Nthread30,2,3.845206
+tokio,Decompress Iso File Nthread30,3,4.259657
+tokio,Decompress Iso File Nthread30,4,4.063529
+tokio,Decompress Iso File Nthread30,5,3.737361
+tokio,Decompress Iso File Nthread30,6,3.708761
+tokio,Decompress Iso File Nthread30,7,4.424398
+tokio,Decompress Iso File Nthread30,8,4.252126
+tokio,Decompress Iso File Nthread30,9,4.394473
+tokio,Decompress Iso File Nthread5,0,11.880204
+tokio,Decompress Iso File Nthread5,1,12.128699
+tokio,Decompress Iso File Nthread5,2,11.860933
+tokio,Decompress Iso File Nthread5,3,11.969142
+tokio,Decompress Iso File Nthread5,4,12.128635
+tokio,Decompress Iso File Nthread5,5,11.979611
+tokio,Decompress Iso File Nthread5,6,13.105334
+tokio,Decompress Iso File Nthread5,7,11.947352
+tokio,Decompress Iso File Nthread5,8,11.920048
+tokio,Decompress Iso File Nthread5,9,11.996986
+tokio,Decompress Jdk Nthread1,0,13.786869
+tokio,Decompress Jdk Nthread1,1,14.636572
+tokio,Decompress Jdk Nthread1,2,13.859692
+tokio,Decompress Jdk Nthread1,3,13.829859
+tokio,Decompress Jdk Nthread1,4,14.029224
+tokio,Decompress Jdk Nthread1,5,14.864490
+tokio,Decompress Jdk Nthread1,6,13.854234
+tokio,Decompress Jdk Nthread1,7,13.973464
+tokio,Decompress Jdk Nthread1,8,13.890984
+tokio,Decompress Jdk Nthread1,9,13.658975
+tokio,Decompress Jdk Nthread10,0,2.513010
+tokio,Decompress Jdk Nthread10,1,2.196519
+tokio,Decompress Jdk Nthread10,2,2.290862
+tokio,Decompress Jdk Nthread10,3,3.048434
+tokio,Decompress Jdk Nthread10,4,6.603193
+tokio,Decompress Jdk Nthread10,5,2.309961
+tokio,Decompress Jdk Nthread10,6,2.067424
+tokio,Decompress Jdk Nthread10,7,2.220030
+tokio,Decompress Jdk Nthread10,8,2.684213
+tokio,Decompress Jdk Nthread10,9,2.028691
+tokio,Decompress Jdk Nthread15,0,1.581954
+tokio,Decompress Jdk Nthread15,1,2.161586
+tokio,Decompress Jdk Nthread15,2,2.141782
+tokio,Decompress Jdk Nthread15,3,2.269091
+tokio,Decompress Jdk Nthread15,4,1.909998
+tokio,Decompress Jdk Nthread15,5,2.771100
+tokio,Decompress Jdk Nthread15,6,2.200772
+tokio,Decompress Jdk Nthread15,7,2.305643
+tokio,Decompress Jdk Nthread15,8,2.372525
+tokio,Decompress Jdk Nthread15,9,1.805320
+tokio,Decompress Jdk Nthread25,0,1.841747
+tokio,Decompress Jdk Nthread25,1,2.674826
+tokio,Decompress Jdk Nthread25,2,1.541407
+tokio,Decompress Jdk Nthread25,3,2.503820
+tokio,Decompress Jdk Nthread25,4,1.449926
+tokio,Decompress Jdk Nthread25,5,1.478674
+tokio,Decompress Jdk Nthread25,6,1.622204
+tokio,Decompress Jdk Nthread25,7,2.138591
+tokio,Decompress Jdk Nthread25,8,2.048962
+tokio,Decompress Jdk Nthread25,9,1.515527
+tokio,Decompress Jdk Nthread30,0,1.110575
+tokio,Decompress Jdk Nthread30,1,1.369677
+tokio,Decompress Jdk Nthread30,2,1.066581
+tokio,Decompress Jdk Nthread30,3,1.342103
+tokio,Decompress Jdk Nthread30,4,1.067036
+tokio,Decompress Jdk Nthread30,5,1.091472
+tokio,Decompress Jdk Nthread30,6,1.039645
+tokio,Decompress Jdk Nthread30,7,0.995008
+tokio,Decompress Jdk Nthread30,8,1.228461
+tokio,Decompress Jdk Nthread30,9,1.075089
+tokio,Decompress Jdk Nthread5,0,4.750154
+tokio,Decompress Jdk Nthread5,1,3.492955
+tokio,Decompress Jdk Nthread5,2,3.456885
+tokio,Decompress Jdk Nthread5,3,3.334680
+tokio,Decompress Jdk Nthread5,4,3.687737
+tokio,Decompress Jdk Nthread5,5,3.417181
+tokio,Decompress Jdk Nthread5,6,3.225852
+tokio,Decompress Jdk Nthread5,7,3.354180
+tokio,Decompress Jdk Nthread5,8,3.300258
+tokio,Decompress Jdk Nthread5,9,3.241691

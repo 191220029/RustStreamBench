@@ -25,15 +25,21 @@ exit 1
 fi
 rm logs/sequential_*_iter${iteration}*.log
 rm output_sequential.avi
-./target/release/eye-detector sequential 4 ./inputs/mixed_15s.mp4 > logs/sequential_mixed_nthread4_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 4 ./inputs/one_face_15s.mp4 > logs/sequential_one_face_nthread4_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 4 ./inputs/several_faces_15s.mp4 > logs/sequential_several_faces_nthread4_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 8 ./inputs/mixed_15s.mp4 > logs/sequential_mixed_nthread8_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 8 ./inputs/one_face_15s.mp4 > logs/sequential_one_face_nthread8_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 8 ./inputs/several_faces_15s.mp4 > logs/sequential_several_faces_nthread8_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 16 ./inputs/mixed_15s.mp4 > logs/sequential_mixed_nthread16_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 16 ./inputs/one_face_15s.mp4 > logs/sequential_one_face_nthread16_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 16 ./inputs/several_faces_15s.mp4 > logs/sequential_several_faces_nthread16_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 32 ./inputs/mixed_15s.mp4 > logs/sequential_mixed_nthread32_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 32 ./inputs/one_face_15s.mp4 > logs/sequential_one_face_nthread32_iter${iteration}.log 2>&1
-./target/release/eye-detector sequential 32 ./inputs/several_faces_15s.mp4 > logs/sequential_several_faces_nthread32_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 1 ./inputs/mixed_15s.mp4 > logs/sequential_mixed_nthread1_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 1 ./inputs/one_face_15s.mp4 > logs/sequential_one_face_nthread1_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 1 ./inputs/several_faces_15s.mp4 > logs/sequential_several_faces_nthread1_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 5 ./inputs/mixed_15s.mp4 > logs/sequential_mixed_nthread5_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 5 ./inputs/one_face_15s.mp4 > logs/sequential_one_face_nthread5_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 5 ./inputs/several_faces_15s.mp4 > logs/sequential_several_faces_nthread5_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 10 ./inputs/mixed_15s.mp4 > logs/sequential_mixed_nthread10_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 10 ./inputs/one_face_15s.mp4 > logs/sequential_one_face_nthread10_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 10 ./inputs/several_faces_15s.mp4 > logs/sequential_several_faces_nthread10_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 15 ./inputs/mixed_15s.mp4 > logs/sequential_mixed_nthread15_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 15 ./inputs/one_face_15s.mp4 > logs/sequential_one_face_nthread15_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 15 ./inputs/several_faces_15s.mp4 > logs/sequential_several_faces_nthread15_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 25 ./inputs/mixed_15s.mp4 > logs/sequential_mixed_nthread25_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 25 ./inputs/one_face_15s.mp4 > logs/sequential_one_face_nthread25_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 25 ./inputs/several_faces_15s.mp4 > logs/sequential_several_faces_nthread25_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 30 ./inputs/mixed_15s.mp4 > logs/sequential_mixed_nthread30_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 30 ./inputs/one_face_15s.mp4 > logs/sequential_one_face_nthread30_iter${iteration}.log 2>&1
+./target/release/eye-detector sequential 30 ./inputs/several_faces_15s.mp4 > logs/sequential_several_faces_nthread30_iter${iteration}.log 2>&1

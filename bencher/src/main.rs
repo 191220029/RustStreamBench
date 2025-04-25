@@ -8,7 +8,7 @@ mod test_group;
 
 const ITERATION: usize = 10;
 const CSV_NAME: &str = "data.csv";
-const NTHREADS: [usize; 4] = [4, 8, 16, 32];
+const NTHREADS: [usize; 6] = [1, 5, 10, 15, 25, 30];
 
 fn main() {
     unsafe {

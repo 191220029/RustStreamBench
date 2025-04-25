@@ -26,39 +26,57 @@ fi
 rm -r workload/inputs/rayon
 cp -r workload/backup workload/inputs/rayon
 rm logs/rayon_*_iter${iteration}*.log
-./target/release/bzip2 rayon 4 compress workload/inputs/rayon/avi_video.avi > "logs/rayon_compress_avi_video_nthread4_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 4 compress workload/inputs/rayon/iso_file.iso > "logs/rayon_compress_iso_file_nthread4_iter${iteration}.log" 2>&1 
-./target/release/bzip2 rayon 4 compress workload/inputs/rayon/wiki_data > "logs/rayon_compress_nthread4_iter${iteration}.log_wiki_data" 2>&1 
-./target/release/bzip2 rayon 4 compress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/rayon_compress_jdk_nthread4_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 1 compress workload/inputs/rayon/avi_video.avi > "logs/rayon_compress_avi_video_nthread1_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 1 compress workload/inputs/rayon/iso_file.iso > "logs/rayon_compress_iso_file_nthread1_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 1 compress workload/inputs/rayon/wiki_data > "logs/rayon_compress_nthread1_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 1 compress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/rayon_compress_jdk_nthread1_iter${iteration}.log" 2>&1 
 
-./target/release/bzip2 rayon 4 decompress workload/inputs/rayon/avi_video.avi.bz2 > "logs/rayon_decompress_avi_video_nthread4_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 4 decompress workload/inputs/rayon/iso_file.iso.bz2 > "logs/rayon_decompress_iso_file_nthread4_iter${iteration}.log" 2>&1 
-./target/release/bzip2 rayon 4 decompress workload/inputs/rayon/wiki_data.bz2 > "logs/rayon_decompress_nthread4_iter${iteration}.log_wiki_data" 2>&1 
-./target/release/bzip2 rayon 4 decompress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/rayon_decompress_jdk_nthread4_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 8 compress workload/inputs/rayon/avi_video.avi > "logs/rayon_compress_avi_video_nthread8_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 8 compress workload/inputs/rayon/iso_file.iso > "logs/rayon_compress_iso_file_nthread8_iter${iteration}.log" 2>&1 
-./target/release/bzip2 rayon 8 compress workload/inputs/rayon/wiki_data > "logs/rayon_compress_nthread8_iter${iteration}.log_wiki_data" 2>&1 
-./target/release/bzip2 rayon 8 compress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/rayon_compress_jdk_nthread8_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 1 decompress workload/inputs/rayon/avi_video.avi.bz2 > "logs/rayon_decompress_avi_video_nthread1_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 1 decompress workload/inputs/rayon/iso_file.iso.bz2 > "logs/rayon_decompress_iso_file_nthread1_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 1 decompress workload/inputs/rayon/wiki_data.bz2 > "logs/rayon_decompress_nthread1_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 1 decompress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/rayon_decompress_jdk_nthread1_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 5 compress workload/inputs/rayon/avi_video.avi > "logs/rayon_compress_avi_video_nthread5_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 5 compress workload/inputs/rayon/iso_file.iso > "logs/rayon_compress_iso_file_nthread5_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 5 compress workload/inputs/rayon/wiki_data > "logs/rayon_compress_nthread5_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 5 compress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/rayon_compress_jdk_nthread5_iter${iteration}.log" 2>&1 
 
-./target/release/bzip2 rayon 8 decompress workload/inputs/rayon/avi_video.avi.bz2 > "logs/rayon_decompress_avi_video_nthread8_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 8 decompress workload/inputs/rayon/iso_file.iso.bz2 > "logs/rayon_decompress_iso_file_nthread8_iter${iteration}.log" 2>&1 
-./target/release/bzip2 rayon 8 decompress workload/inputs/rayon/wiki_data.bz2 > "logs/rayon_decompress_nthread8_iter${iteration}.log_wiki_data" 2>&1 
-./target/release/bzip2 rayon 8 decompress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/rayon_decompress_jdk_nthread8_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 16 compress workload/inputs/rayon/avi_video.avi > "logs/rayon_compress_avi_video_nthread16_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 16 compress workload/inputs/rayon/iso_file.iso > "logs/rayon_compress_iso_file_nthread16_iter${iteration}.log" 2>&1 
-./target/release/bzip2 rayon 16 compress workload/inputs/rayon/wiki_data > "logs/rayon_compress_nthread16_iter${iteration}.log_wiki_data" 2>&1 
-./target/release/bzip2 rayon 16 compress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/rayon_compress_jdk_nthread16_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 5 decompress workload/inputs/rayon/avi_video.avi.bz2 > "logs/rayon_decompress_avi_video_nthread5_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 5 decompress workload/inputs/rayon/iso_file.iso.bz2 > "logs/rayon_decompress_iso_file_nthread5_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 5 decompress workload/inputs/rayon/wiki_data.bz2 > "logs/rayon_decompress_nthread5_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 5 decompress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/rayon_decompress_jdk_nthread5_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 10 compress workload/inputs/rayon/avi_video.avi > "logs/rayon_compress_avi_video_nthread10_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 10 compress workload/inputs/rayon/iso_file.iso > "logs/rayon_compress_iso_file_nthread10_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 10 compress workload/inputs/rayon/wiki_data > "logs/rayon_compress_nthread10_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 10 compress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/rayon_compress_jdk_nthread10_iter${iteration}.log" 2>&1 
 
-./target/release/bzip2 rayon 16 decompress workload/inputs/rayon/avi_video.avi.bz2 > "logs/rayon_decompress_avi_video_nthread16_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 16 decompress workload/inputs/rayon/iso_file.iso.bz2 > "logs/rayon_decompress_iso_file_nthread16_iter${iteration}.log" 2>&1 
-./target/release/bzip2 rayon 16 decompress workload/inputs/rayon/wiki_data.bz2 > "logs/rayon_decompress_nthread16_iter${iteration}.log_wiki_data" 2>&1 
-./target/release/bzip2 rayon 16 decompress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/rayon_decompress_jdk_nthread16_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 32 compress workload/inputs/rayon/avi_video.avi > "logs/rayon_compress_avi_video_nthread32_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 32 compress workload/inputs/rayon/iso_file.iso > "logs/rayon_compress_iso_file_nthread32_iter${iteration}.log" 2>&1 
-./target/release/bzip2 rayon 32 compress workload/inputs/rayon/wiki_data > "logs/rayon_compress_nthread32_iter${iteration}.log_wiki_data" 2>&1 
-./target/release/bzip2 rayon 32 compress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/rayon_compress_jdk_nthread32_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 10 decompress workload/inputs/rayon/avi_video.avi.bz2 > "logs/rayon_decompress_avi_video_nthread10_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 10 decompress workload/inputs/rayon/iso_file.iso.bz2 > "logs/rayon_decompress_iso_file_nthread10_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 10 decompress workload/inputs/rayon/wiki_data.bz2 > "logs/rayon_decompress_nthread10_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 10 decompress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/rayon_decompress_jdk_nthread10_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 15 compress workload/inputs/rayon/avi_video.avi > "logs/rayon_compress_avi_video_nthread15_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 15 compress workload/inputs/rayon/iso_file.iso > "logs/rayon_compress_iso_file_nthread15_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 15 compress workload/inputs/rayon/wiki_data > "logs/rayon_compress_nthread15_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 15 compress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/rayon_compress_jdk_nthread15_iter${iteration}.log" 2>&1 
 
-./target/release/bzip2 rayon 32 decompress workload/inputs/rayon/avi_video.avi.bz2 > "logs/rayon_decompress_avi_video_nthread32_iter${iteration}.log" 2>&1
-./target/release/bzip2 rayon 32 decompress workload/inputs/rayon/iso_file.iso.bz2 > "logs/rayon_decompress_iso_file_nthread32_iter${iteration}.log" 2>&1 
-./target/release/bzip2 rayon 32 decompress workload/inputs/rayon/wiki_data.bz2 > "logs/rayon_decompress_nthread32_iter${iteration}.log_wiki_data" 2>&1 
-./target/release/bzip2 rayon 32 decompress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/rayon_decompress_jdk_nthread32_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 15 decompress workload/inputs/rayon/avi_video.avi.bz2 > "logs/rayon_decompress_avi_video_nthread15_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 15 decompress workload/inputs/rayon/iso_file.iso.bz2 > "logs/rayon_decompress_iso_file_nthread15_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 15 decompress workload/inputs/rayon/wiki_data.bz2 > "logs/rayon_decompress_nthread15_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 15 decompress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/rayon_decompress_jdk_nthread15_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 25 compress workload/inputs/rayon/avi_video.avi > "logs/rayon_compress_avi_video_nthread25_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 25 compress workload/inputs/rayon/iso_file.iso > "logs/rayon_compress_iso_file_nthread25_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 25 compress workload/inputs/rayon/wiki_data > "logs/rayon_compress_nthread25_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 25 compress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/rayon_compress_jdk_nthread25_iter${iteration}.log" 2>&1 
+
+./target/release/bzip2 rayon 25 decompress workload/inputs/rayon/avi_video.avi.bz2 > "logs/rayon_decompress_avi_video_nthread25_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 25 decompress workload/inputs/rayon/iso_file.iso.bz2 > "logs/rayon_decompress_iso_file_nthread25_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 25 decompress workload/inputs/rayon/wiki_data.bz2 > "logs/rayon_decompress_nthread25_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 25 decompress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/rayon_decompress_jdk_nthread25_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 30 compress workload/inputs/rayon/avi_video.avi > "logs/rayon_compress_avi_video_nthread30_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 30 compress workload/inputs/rayon/iso_file.iso > "logs/rayon_compress_iso_file_nthread30_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 30 compress workload/inputs/rayon/wiki_data > "logs/rayon_compress_nthread30_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 30 compress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz > "logs/rayon_compress_jdk_nthread30_iter${iteration}.log" 2>&1 
+
+./target/release/bzip2 rayon 30 decompress workload/inputs/rayon/avi_video.avi.bz2 > "logs/rayon_decompress_avi_video_nthread30_iter${iteration}.log" 2>&1
+./target/release/bzip2 rayon 30 decompress workload/inputs/rayon/iso_file.iso.bz2 > "logs/rayon_decompress_iso_file_nthread30_iter${iteration}.log" 2>&1 
+./target/release/bzip2 rayon 30 decompress workload/inputs/rayon/wiki_data.bz2 > "logs/rayon_decompress_nthread30_iter${iteration}.log_wiki_data" 2>&1 
+./target/release/bzip2 rayon 30 decompress workload/inputs/rayon/jdk-17.0.12_linux-x64_bin.tar.gz.bz2 > "logs/rayon_decompress_jdk_nthread30_iter${iteration}.log" 2>&1

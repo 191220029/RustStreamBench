@@ -24,7 +24,9 @@ echo "Error: --iteration must be a positive integer."
 exit 1
 fi
 rm logs/dagrs_*_iter${iteration}*.log
-./target/release/micro-bench dagrs 2048 4 3000 2000 > logs/dagrs_nthread4_iter${iteration}.log 2>&1
-./target/release/micro-bench dagrs 2048 8 3000 2000 > logs/dagrs_nthread8_iter${iteration}.log 2>&1
-./target/release/micro-bench dagrs 2048 16 3000 2000 > logs/dagrs_nthread16_iter${iteration}.log 2>&1
-./target/release/micro-bench dagrs 2048 32 3000 2000 > logs/dagrs_nthread32_iter${iteration}.log 2>&1
+./target/release/micro-bench dagrs 2048 1 3000 2000 > logs/dagrs_nthread1_iter${iteration}.log 2>&1
+./target/release/micro-bench dagrs 2048 5 3000 2000 > logs/dagrs_nthread5_iter${iteration}.log 2>&1
+./target/release/micro-bench dagrs 2048 10 3000 2000 > logs/dagrs_nthread10_iter${iteration}.log 2>&1
+./target/release/micro-bench dagrs 2048 15 3000 2000 > logs/dagrs_nthread15_iter${iteration}.log 2>&1
+./target/release/micro-bench dagrs 2048 25 3000 2000 > logs/dagrs_nthread25_iter${iteration}.log 2>&1
+./target/release/micro-bench dagrs 2048 30 3000 2000 > logs/dagrs_nthread30_iter${iteration}.log 2>&1

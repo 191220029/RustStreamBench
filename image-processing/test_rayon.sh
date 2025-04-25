@@ -24,15 +24,21 @@ echo "Error: --iteration must be a positive integer."
 exit 1
 fi
 rm logs/rayon_*_iter${iteration}*.log
-./target/release/image-processing rayon 4 input_big > logs/rayon_big_nthread4_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 4 input_mixed > logs/rayon_mixed_nthread4_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 4 input_small > logs/rayon_small_nthread4_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 8 input_big > logs/rayon_big_nthread8_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 8 input_mixed > logs/rayon_mixed_nthread8_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 8 input_small > logs/rayon_small_nthread8_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 16 input_big > logs/rayon_big_nthread16_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 16 input_mixed > logs/rayon_mixed_nthread16_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 16 input_small > logs/rayon_small_nthread16_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 32 input_big > logs/rayon_big_nthread32_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 32 input_mixed > logs/rayon_mixed_nthread32_iter${iteration}.log 2>&1
-./target/release/image-processing rayon 32 input_small > logs/rayon_small_nthread32_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 1 input_big > logs/rayon_big_nthread1_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 1 input_mixed > logs/rayon_mixed_nthread1_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 1 input_small > logs/rayon_small_nthread1_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 5 input_big > logs/rayon_big_nthread5_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 5 input_mixed > logs/rayon_mixed_nthread5_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 5 input_small > logs/rayon_small_nthread5_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 10 input_big > logs/rayon_big_nthread10_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 10 input_mixed > logs/rayon_mixed_nthread10_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 10 input_small > logs/rayon_small_nthread10_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 15 input_big > logs/rayon_big_nthread15_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 15 input_mixed > logs/rayon_mixed_nthread15_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 15 input_small > logs/rayon_small_nthread15_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 25 input_big > logs/rayon_big_nthread25_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 25 input_mixed > logs/rayon_mixed_nthread25_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 25 input_small > logs/rayon_small_nthread25_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 30 input_big > logs/rayon_big_nthread30_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 30 input_mixed > logs/rayon_mixed_nthread30_iter${iteration}.log 2>&1
+./target/release/image-processing rayon 30 input_small > logs/rayon_small_nthread30_iter${iteration}.log 2>&1

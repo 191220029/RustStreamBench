@@ -24,15 +24,21 @@ echo "Error: --iteration must be a positive integer."
 exit 1
 fi
 rm logs/dagrs_*_iter${iteration}*.log
-./target/release/image-processing dagrs 4 input_big > logs/dagrs_big_nthread4_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 4 input_mixed > logs/dagrs_mixed_nthread4_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 4 input_small > logs/dagrs_small_nthread4_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 8 input_big > logs/dagrs_big_nthread8_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 8 input_mixed > logs/dagrs_mixed_nthread8_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 8 input_small > logs/dagrs_small_nthread8_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 16 input_big > logs/dagrs_big_nthread16_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 16 input_mixed > logs/dagrs_mixed_nthread16_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 16 input_small > logs/dagrs_small_nthread16_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 32 input_big > logs/dagrs_big_nthread32_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 32 input_mixed > logs/dagrs_mixed_nthread32_iter${iteration}.log 2>&1
-./target/release/image-processing dagrs 32 input_small > logs/dagrs_small_nthread32_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 1 input_big > logs/dagrs_big_nthread1_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 1 input_mixed > logs/dagrs_mixed_nthread1_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 1 input_small > logs/dagrs_small_nthread1_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 5 input_big > logs/dagrs_big_nthread5_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 5 input_mixed > logs/dagrs_mixed_nthread5_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 5 input_small > logs/dagrs_small_nthread5_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 10 input_big > logs/dagrs_big_nthread10_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 10 input_mixed > logs/dagrs_mixed_nthread10_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 10 input_small > logs/dagrs_small_nthread10_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 15 input_big > logs/dagrs_big_nthread15_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 15 input_mixed > logs/dagrs_mixed_nthread15_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 15 input_small > logs/dagrs_small_nthread15_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 25 input_big > logs/dagrs_big_nthread25_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 25 input_mixed > logs/dagrs_mixed_nthread25_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 25 input_small > logs/dagrs_small_nthread25_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 30 input_big > logs/dagrs_big_nthread30_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 30 input_mixed > logs/dagrs_mixed_nthread30_iter${iteration}.log 2>&1
+./target/release/image-processing dagrs 30 input_small > logs/dagrs_small_nthread30_iter${iteration}.log 2>&1

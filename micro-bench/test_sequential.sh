@@ -24,7 +24,9 @@ echo "Error: --iteration must be a positive integer."
 exit 1
 fi
 rm logs/sequential_*_iter${iteration}*.log
-./target/release/micro-bench sequential 2048 4 3000 2000 > logs/sequential_nthread4_iter${iteration}.log 2>&1
-./target/release/micro-bench sequential 2048 8 3000 2000 > logs/sequential_nthread8_iter${iteration}.log 2>&1
-./target/release/micro-bench sequential 2048 16 3000 2000 > logs/sequential_nthread16_iter${iteration}.log 2>&1
-./target/release/micro-bench sequential 2048 32 3000 2000 > logs/sequential_nthread32_iter${iteration}.log 2>&1
+./target/release/micro-bench sequential 2048 1 3000 2000 > logs/sequential_nthread1_iter${iteration}.log 2>&1
+./target/release/micro-bench sequential 2048 5 3000 2000 > logs/sequential_nthread5_iter${iteration}.log 2>&1
+./target/release/micro-bench sequential 2048 10 3000 2000 > logs/sequential_nthread10_iter${iteration}.log 2>&1
+./target/release/micro-bench sequential 2048 15 3000 2000 > logs/sequential_nthread15_iter${iteration}.log 2>&1
+./target/release/micro-bench sequential 2048 25 3000 2000 > logs/sequential_nthread25_iter${iteration}.log 2>&1
+./target/release/micro-bench sequential 2048 30 3000 2000 > logs/sequential_nthread30_iter${iteration}.log 2>&1
