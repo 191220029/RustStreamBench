@@ -2,7 +2,7 @@ use std::env;
 
 mod dagrs;
 mod go;
-mod liugi;
+mod luigi;
 mod python;
 
 fn main() -> std::io::Result<()> {
@@ -19,9 +19,9 @@ fn main() -> std::io::Result<()> {
     match run_mode.as_str() {
         "go" => go::run_go(),
         "dagrs" => dagrs::run_dagrs(),
-        "liugi" => liugi::run_liugi(),  
+        "luigi" => luigi::run_luigi(),  
         "joblib" => python::run_python(),
-        _ => println!("Invalid run_mode, use: dagrs, go, liugi, joblib"),
+        _ => println!("Invalid run_mode, use: dagrs, go, luigi, joblib"),
     }
 
     Ok(())

@@ -40,7 +40,7 @@ if data is not None:
         sns.barplot(data=data, x='Workload', y='ExecutionTime(s)', hue='Framework', width=0.6)
         
         # 设置子图标题和标签
-        plt.title(directory)
+        plt.title('mnist')
         plt.xlabel('Workload')
         plt.ylabel('Execution Time (s)')
         
@@ -54,7 +54,7 @@ if data is not None:
 plt.tight_layout()
 
 # 保存图表
-output_file = 'mnist_performance_comparison.png'
+output_file = 'plots/mnist_performance_comparison.png'
 plt.savefig(output_file, dpi=300, bbox_inches='tight')
 print(f"\n图表已保存为 {output_file}")
 plt.close()
