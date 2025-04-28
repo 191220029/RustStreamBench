@@ -69,9 +69,12 @@ for idx, workload in enumerate(workloads):
         framework_data = framework_data.sort_values('NThread')
         # 计算每个线程数的平均执行时间
         avg_times = framework_data.groupby('NThread')['ExecutionTime(s)'].mean()
-        color = colors.get(framework, None)  # 获取框架对应的颜色
-        ax.plot(avg_times.index, avg_times.values, marker='o', label=framework, 
-                linewidth=2, color=color)
+        # 过滤掉执行时间小于0的数据点
+        valid_data = avg_times[avg_times > 0.1]
+        if not valid_data.empty:  # 只有当有有效数据时才绘制
+            color = colors.get(framework, None)  # 获取框架对应的颜色
+            ax.plot(valid_data.index, valid_data.values, marker='o', label=framework, 
+                    linewidth=2, color=color)
     
     # 设置子图属性
     ax.set_title(f'{benchmark} - {workload}', fontsize=12)
